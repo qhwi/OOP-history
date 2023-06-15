@@ -43,7 +43,7 @@ public class DynastyCrawler {
       // GET DYNASTY's INFO FROM URLs
       for (int i = 0; i < dynasty.size() - 1; i++) {
          int result = 0;
-         String[] obj = new String[8];
+         String[] obj = new String[6];
          document = Jsoup.connect(dynasty.get(i)).get();
          String name = document.selectFirst("span.mw-page-title-main").text();
          Elements texts = document.select("table.infobox > tbody > tr > td");
@@ -83,8 +83,8 @@ public class DynastyCrawler {
 	                   }
 	               }
                } catch (java.lang.NumberFormatException e) {
-            	   obj[1] = "Error";
-            	   obj[2] = "Error";
+            	   obj[1] = "Không rõ";
+            	   obj[2] = "Không rõ";
                }             
                result += 3;
             }
