@@ -1,0 +1,32 @@
+# Dynasty name in Figure.json
+
+## Thay = link (sửa)
+Trịnh - Nguyễn -> Chúa Trịnh, Chúa Nguyễn
+Nhà Tiền Lê -> Nhà Lê sơ
+Pháp đô hộ -> Nhà Nguyễn
+Nhà Nguyễn độc lập -> Nhà Nguyễn
+Nhà Tiền Lý, Triệu -> Nhà Tiền Lý
+Bắc thuộc lần 2 -> Thời kỳ Bắc thuộc lần thứ hai
+Nam - Bắc Triều -> Nhà Mạc
+Bắc thuộc lần 1 -> Thời kỳ Bắc thuộc lần thứ nhất
+Thuộc Minh -> Nhà Hậu Trần
+Hậu Trần -> Nhà Hậu Trần
+Triều Lê Sơ -> Nhà Lê sơ
+Bắc thuộc lần lần 3 -> Thời kỳ Bắc thuộc lần thứ ba
+
+## Thay = link (y nguyên)
+Nhà Lý
+Nhà Đinh
+Nhà Hồ
+Nhà Trần
+Nhà Tây Sơn
+Nhà Ngô
+
+## Để nguyên text
+Xây nền tự chủ
+Nhà Thục
+Dựng nước
+Trưng Nữ Vương
+
+## Xoá
+Nước Việt Nam mới -> Không có

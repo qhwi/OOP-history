@@ -29,10 +29,11 @@ public class DynastyCrawler {
 			if (tmp != null)
 				for (Element t : tmp) {
 					String dynastyURL = t.absUrl("href");
-					Element font = rows.get(i).selectFirst("font");
-					if (!dynasty.contains(dynastyURL))
-						if (!t.text().contains("–") && font != null)
+					if (!dynasty.contains(dynastyURL)) {
+						if (!t.text().contains("–") && true) {
 							dynasty.add(dynastyURL);
+						}
+					}
 				}
 		}
 		OutputStream out = new FileOutputStream("src\\main\\json\\Dynasty.json");
