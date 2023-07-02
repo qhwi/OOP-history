@@ -7,9 +7,8 @@ public class Festival {
 	private String name;
 	private String location;
 	private String time;
-	private List<String> activities = new ArrayList<>();
 	private String desc;
-	private List<Figure> figures = new ArrayList<>();
+	private List<Figure> figure = new ArrayList<>();
 	
 	public String getName() {
 		return name;
@@ -29,12 +28,6 @@ public class Festival {
 	public void setTime(String time) {
 		this.time = time;
 	}
-	public List<String> getActivities() {
-		return activities;
-	}
-	public void setActivities(List<String> activities) {
-		this.activities = activities;
-	}
 	public String getDesc() {
 		return desc;
 	}
@@ -42,18 +35,10 @@ public class Festival {
 		this.desc = desc;
 	}
 	public List<Figure> getFigures() {
-		return figures;
+		return figure;
 	}
-	public void setFigures(List<Figure> figures) {
-		this.figures = figures;
-	}
-	
-	public void addActivity(String activity) {
-		this.activities.add(activity);
-	}
-	
 	public void addFigure(Figure figure) {
-		this.figures.add(figure);
+		this.figure.add(figure);
 	}
 	
 	public void print() {
@@ -61,8 +46,8 @@ public class Festival {
 		System.out.println("Địa điểm: " + this.getLocation());
 		System.out.println("Thời gian: " + this.getTime());
 		System.out.println("Mô tả: " + this.getDesc());
-		System.out.println("Đối tượng suy tôn: ");
-		for (Figure figure : figures) {
+		System.out.println("Nhân vật liên quan: ");
+		for (Figure figure : figure) {
 			System.out.println("- " + figure.getName());
 		}
 	}

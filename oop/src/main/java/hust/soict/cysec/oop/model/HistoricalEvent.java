@@ -4,11 +4,11 @@ import java.util.List;
 
 public class HistoricalEvent {
 	private String name;
-	private String startTime;
-	private String endTime;
-	private List<String> timelineOfEvent;
+	private String startYear;
+	private String endYear;
 	private String desc;
-	private Dynasty dynasty;
+	private List<Relic> locations;
+	private List<Figure> figures;
 	public String getName() {
 		return name;
 	}
@@ -16,16 +16,16 @@ public class HistoricalEvent {
 		this.name = name;
 	}
 	public String getStartTime() {
-		return startTime;
+		return startYear;
 	}
 	public void setStartTime(String startTime) {
-		this.startTime = startTime;
+		this.startYear = startTime;
 	}
 	public String getEndTime() {
-		return endTime;
+		return endYear;
 	}
 	public void setEndTime(String endTime) {
-		this.endTime = endTime;
+		this.endYear = endTime;
 	}
 	public String getDesc() {
 		return desc;
@@ -33,21 +33,17 @@ public class HistoricalEvent {
 	public void setDesc(String desc) {
 		this.desc = desc;
 	}
-	public Dynasty getDynasty() {
-		return dynasty;
+	public List<Relic> getLocation() {
+		return locations;
 	}
-	public void setDynasty(Dynasty dynasty) {
-		this.dynasty = dynasty;
+	public void addLocation(Relic location) {
+		this.locations.add(location);
 	}
-	public List<String> getTimelineOfEvent() {
-		return timelineOfEvent;
+	public List<Figure> getFigure() {
+		return figures;
 	}
-	public void setTimelineOfEvent(List<String> timeline) {
-		this.timelineOfEvent = timeline;
-	}
-	
-	public void addTimeline(String point) {
-		this.timelineOfEvent.add(point);
+	public void addFigure(Figure figure) {
+		this.figures.add(figure);
 	}
 	
 	
