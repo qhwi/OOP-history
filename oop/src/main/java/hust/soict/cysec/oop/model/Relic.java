@@ -50,10 +50,6 @@ public class Relic {
 	public List<Dynasty> getDynasties() {
 		return dynasties;
 	}
-	public void setDynasties(List<Dynasty> dynasties) {
-		this.dynasties = dynasties;
-	}
-	
 	public void addFigure(Figure figure) {
 		relatedFigures.add(figure);
 	}

@@ -7,7 +7,7 @@ public class HistoricalEvent {
 	private String startYear;
 	private String endYear;
 	private String desc;
-	private List<Relic> locations;
+	private List<String> locations;
 	private List<Figure> figures;
 	public String getName() {
 		return name;
@@ -33,10 +33,10 @@ public class HistoricalEvent {
 	public void setDesc(String desc) {
 		this.desc = desc;
 	}
-	public List<Relic> getLocation() {
+	public List<String> getLocation() {
 		return locations;
 	}
-	public void addLocation(Relic location) {
+	public void addLocation(String location) {
 		this.locations.add(location);
 	}
 	public List<Figure> getFigure() {
