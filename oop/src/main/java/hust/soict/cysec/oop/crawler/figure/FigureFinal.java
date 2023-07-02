@@ -12,7 +12,7 @@ import com.google.gson.GsonBuilder;
 import hust.soict.cysec.oop.model.HistoricalFigure;
 
 public class FigureFinal {
-	public static final String JSON_FIGURE_PATH = "src\\main\\json\\Figures.json";
+	public static final String JSON_FIGURE_PATH = "src\\main\\json\\Figure.json";
 
 	private List<HistoricalFigure> figures;
 	
@@ -28,20 +28,12 @@ public class FigureFinal {
 	public void combine() {
 		try {
 			figures.addAll(FigureDoanhnghiepvnVn.crawlAll());
-			
 			figures.addAll(FigureGiaoducNet.crawlAll());
-			
 			figures.addAll(FigureModacaocapCom.crawlAll());
-			
 			figures.addAll(FigureVansuVn.crawlAll());
-			
 			figures.addAll(KingWiki.crawlAll());
-			
-			figures.addAll(FigureHochiminhticyGov.crawlAll());
-			
 			writeToJson();
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 	}
