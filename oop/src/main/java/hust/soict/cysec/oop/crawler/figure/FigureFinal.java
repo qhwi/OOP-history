@@ -37,7 +37,7 @@ public class FigureFinal {
 			
 			figures.addAll(KingWiki.crawlAll());
 			
-			figures.addAll(FigureHochiminhticyGox.crawlAll());
+			figures.addAll(FigureHochiminhticyGov.crawlAll());
 			
 			writeToJson();
 		} catch (IOException e) {

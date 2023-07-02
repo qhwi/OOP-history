@@ -11,7 +11,7 @@ import org.jsoup.select.Elements;
 
 import hust.soict.cysec.oop.model.Figure;
 
-public class FigureHochiminhticyGox {
+public class FigureHochiminhticyGov {
 	public static List<Figure> crawlAll() throws IOException{
 		List<Figure> figures = new LinkedList<>();
 		
