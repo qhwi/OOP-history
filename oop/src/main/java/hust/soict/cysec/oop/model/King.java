@@ -61,6 +61,7 @@ public class King extends HistoricalFigure {
 	
 	public void print() {
 		System.out.println("----- " + this.getName() + " ------");
+		System.out.println("Năm sinh: " + this.getBirth() + " - " + this.getDeath());
 		System.out.println("Miến hiệu: " + this.getTemplateName());
 		System.out.println("Thụy hiệu: " + this.getPosthumousName());
 		System.out.println("Niên hiệu: " + this.getEraName());
