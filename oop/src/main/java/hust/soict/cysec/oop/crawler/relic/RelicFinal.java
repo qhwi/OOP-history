@@ -12,7 +12,7 @@ import com.google.gson.GsonBuilder;
 import hust.soict.cysec.oop.model.Relic;
 
 public class RelicFinal {
-	public static final String JSON_RELIC_PATH = "C:\\Users\\triet\\eclipse-workspace\\TestCrawler\\src\\crawler\\json\\relics.json";
+	public static final String JSON_RELIC_PATH = "src\\main\\json\\Relic.json";
 
 	private LinkedList<Relic> relics;
 	
