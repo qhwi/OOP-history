@@ -1,4 +1,4 @@
-package hust.soict.cysec.oop.crawler;
+package hust.soict.cysec.oop.crawler.event;
 
 import java.io.FileOutputStream;
 import java.io.IOException;
@@ -39,7 +39,7 @@ public class EventCrawler {
 		writer.setIndent("  ");
 		writer.beginArray();
 		for (String string : urls) {
-			System.out.println(string);
+			System.out.println("[CRAWL EVENT] " + string);
 			writer.beginObject();
 			try {
 				doc = Jsoup.connect(string).get();
@@ -59,7 +59,7 @@ public class EventCrawler {
 
 			// Event Locations
 			Elements relatedLoc = doc.select("h3.card-title");
-			writer.name("location");
+			writer.name("locations");
 			writer.beginArray();
 			for (Element e1 : relatedLoc)
 				writer.value(e1.text());
@@ -67,7 +67,7 @@ public class EventCrawler {
 
 			// Event Related Figures
 			Elements relatedFigure = doc.select("h4.card-title");
-			writer.name("figure");
+			writer.name("figures");
 			writer.beginArray();
 			for (Element e2 : relatedFigure)
 				writer.value(e2.text());

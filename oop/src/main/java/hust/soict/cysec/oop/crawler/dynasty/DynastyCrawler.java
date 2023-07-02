@@ -1,4 +1,4 @@
-package hust.soict.cysec.oop.crawler;
+package hust.soict.cysec.oop.crawler.dynasty;
 
 import java.io.FileOutputStream;
 import java.io.IOException;
@@ -43,7 +43,7 @@ public class DynastyCrawler {
 		for (int i = 0; i < dynasty.size() - 1; i++) {
 			int result = 0;
 			String[] obj = new String[4];
-			System.out.println(dynasty.get(i));
+			System.out.println("[CRAWL DYNASTY] " + dynasty.get(i));
 			document = Jsoup.connect(dynasty.get(i)).get();
 			String name = document.selectFirst("span.mw-page-title-main").text();
 			Elements texts = document.select("table.infobox > tbody > tr > td");
@@ -124,7 +124,7 @@ public class DynastyCrawler {
 				writer.name("startYear").value(obj[1]);
 				writer.name("endYear").value(obj[2]);
 				writer.name("capital").value(obj[3]);
-				writer.name("king");
+				writer.name("kings");
 				writer.beginArray();
 				for (String king : kings)
 					writer.value(king);

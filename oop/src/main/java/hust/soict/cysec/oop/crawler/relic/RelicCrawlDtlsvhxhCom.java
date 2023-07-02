@@ -12,7 +12,7 @@ import org.jsoup.select.Elements;
 import hust.soict.cysec.oop.model.Relic;
 
 public class RelicCrawlDtlsvhxhCom {
-	public static final String JSON_RELIC_PATH_DTLSVHXH = "C:\\Users\\triet\\eclipse-workspace\\TestCrawler\\src\\crawler\\json\\relics_dtlsvhxh.json";
+	public static final String JSON_RELIC_PATH_DTLSVHXH = "src\\main\\json\\relic_dtlsvhxh.json";
 	
 	public static List<Relic> crawlAll() throws IOException{
 		List<Relic> relics = new ArrayList<Relic>();
@@ -34,7 +34,7 @@ public class RelicCrawlDtlsvhxhCom {
 	}
 	
 	private static List<String> crawlUrlFromPage(String url) throws IOException {
-		System.out.println("Crawl: " + url);
+		System.out.println("[CRAWL RELIC] " + url);
 		List<String> continueReadingLinks = new ArrayList<String>();
 		Document doc = Jsoup.connect(url).get();
 		Elements links = doc.select("div#post-wrapper > div > article > div.read-more > a");

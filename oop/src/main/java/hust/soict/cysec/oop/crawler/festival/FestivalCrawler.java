@@ -1,4 +1,4 @@
-package hust.soict.cysec.oop.crawler;
+package hust.soict.cysec.oop.crawler.festival;
 
 import java.io.OutputStream;
 import java.io.FileOutputStream;
@@ -46,7 +46,7 @@ public class FestivalCrawler {
 			writer.name("date").value((date.isBlank()) ? "Không rõ" : date);
 			writer.name("location").value((place.contains("Nhiều")) ? "Cả nước" : place);
 			writer.name("description").value(description);
-			writer.name("figure");
+			writer.name("figures");
 			writer.beginArray();
 			for (String f : figures)
 				writer.value(f);
@@ -60,7 +60,7 @@ public class FestivalCrawler {
 	
 	public static String parseDescription(String url) {
 		try {
-			System.out.println(url);
+			System.out.println("[CRAWL FESTIVAL] " + url);
 			Document document = Jsoup.connect(url).get();
 			Elements checkEmpty = document.select("#ca-edit > a");
 			if (checkEmpty.text().contains("Tạo mã nguồn")) {

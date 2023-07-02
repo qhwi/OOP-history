@@ -15,7 +15,7 @@ import hust.soict.cysec.oop.model.Relic;
  * Crawl 4300 relics
  */
 public class RelicCrawlDiTichVn {	
-	public static final String JSON_RELIC_PATH_DITICHVN = "C:\\Users\\triet\\eclipse-workspace\\TestCrawler\\src\\crawler\\json\\relics_ditichvn.json";
+	public static final String JSON_RELIC_PATH_DITICHVN = "src\\main\\json\\relic_ditichvn.json";
 	
 	public static String LOCATION_IDENTIFIER = "Vị trí: ";
 	public static String TYPE_IDENTIFIER = "Loại hình di tích: ";
@@ -38,7 +38,7 @@ public class RelicCrawlDiTichVn {
 	
 	private static Relic crawlOnePage(String url) throws IOException {
 		Relic relic = new Relic();
-		System.out.println("[RELIC CRAWLER] url: " + url);
+		System.out.println("[CRAWL RELIC] " + url);
 		Document doc = Jsoup.connect(url).get();
 
 		StringBuilder worshiped = new StringBuilder();
