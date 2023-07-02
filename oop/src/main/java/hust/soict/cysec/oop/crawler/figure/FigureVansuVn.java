@@ -15,9 +15,7 @@ import hust.soict.cysec.oop.model.Figure;
 /*
  * Crawl 2391 figures
  */
-public class FigureVansuVn {
-	public static final String JSON_FIGURE_PATH_VANSUVN = "C:\\Users\\triet\\eclipse-workspace\\TestCrawler\\src\\crawler\\json\\figures_vansuvn.json";
-	
+public class FigureVansuVn {	
 	public static String ALIAS_IDENTIFIER = "Tên khác";
 	public static String DOB_IDENTIFIER = "Năm sinh";
 	public static String HOMETOWN_IDENTIFIER = "Tỉnh thành";
@@ -34,7 +32,7 @@ public class FigureVansuVn {
 		List<Figure> figures = new ArrayList<Figure>();
 		String url = "https://vansu.vn/viet-nam/viet-nam-nhan-vat/";
 		// figure: from 1 to 2391
-		for(int i = 1; i <= 100; i++) {
+		for(int i = 1; i <= 2391; i++) {
 			figures.add(crawlOnePage(url + i));
 		}
 		
