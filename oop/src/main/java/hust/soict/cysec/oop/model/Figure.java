@@ -1,6 +1,7 @@
 package hust.soict.cysec.oop.model;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class Figure extends HistoricalFigure {
 	private String alias;
@@ -31,6 +32,14 @@ public class Figure extends HistoricalFigure {
 
 	public void setNote(String note) {
 		this.note = note;
+	}
+	
+	public void setDynasties(List<Dynasty> dynasties) {
+		this.dynasties.addAll(dynasties);
+	}
+	
+	public List<Dynasty> getDynasties(){
+		return this.dynasties;
 	}
 
 	public void addDynasty(Dynasty dynasty) {

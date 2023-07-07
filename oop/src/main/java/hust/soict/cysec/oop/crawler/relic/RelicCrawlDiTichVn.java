@@ -30,7 +30,10 @@ public class RelicCrawlDiTichVn {
 		
 		// i from 1865 -> 6193
 		for(int i = 1865; i <= 6193; i++) {
-			relics.add(crawlOnePage(url + i));
+			Relic relic = crawlOnePage(url + i);
+			if(relic != null) {
+				relics.add(relic);
+			}
 		}
 		
 		return relics;
@@ -46,6 +49,10 @@ public class RelicCrawlDiTichVn {
 		StringBuilder type = new StringBuilder();
 		
 		String name = doc.select("#block-harvard-content > article > div > section > div > div.hl__library-info__features > section > h2").text();
+		if(name.isEmpty()) {
+			System.out.println("EMPTYYYYYYYYYYYYYYYYYYYYYYYYYYY");
+			return null;
+		}
 		String location = doc.select("#block-harvard-content > article > div > section > div > div.hl__library-info__sidebar > div:nth-child(1) > section > div > div > div.hl__contact-info__address > span").text();
 		Elements info = doc.select("#block-harvard-content > article > div > section > div > div.hl__library-info__features > section > div div.hl__illustrated-list__list-item");
 		

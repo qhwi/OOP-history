@@ -27,8 +27,9 @@ public class FigureGiaoducNet {
 		for (Element p : figureParagraph) {
 			Figure figure = new Figure();
 			
-			String name = p.select("strong").first().text().concat(" (");
+			String name = p.select("strong").first().text();
 			figure.setName(name);
+			name = name.concat(" (");
 			
 			Element foundParagraph = findElement(name, paragraphs);
 			if (foundParagraph != null) {

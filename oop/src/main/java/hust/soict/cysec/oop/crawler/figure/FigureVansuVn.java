@@ -36,8 +36,7 @@ public class FigureVansuVn {
 			figures.add(crawlOnePage(url + i));
 		}
 		
-		return figures;
-		
+		return figures;	
 	}
 	
 	public static Figure crawlOnePage(String url) throws IOException {
