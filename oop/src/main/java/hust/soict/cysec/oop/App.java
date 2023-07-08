@@ -4,7 +4,7 @@ import java.io.IOException;
 import hust.soict.cysec.oop.crawler.dynasty.DynastyCrawler;
 import hust.soict.cysec.oop.crawler.event.EventCrawler;
 import hust.soict.cysec.oop.crawler.festival.FestivalCrawler;
-import hust.soict.cysec.oop.crawler.figure.FigureFinal;
+import hust.soict.cysec.oop.crawler.historicalfigure.HistoricalFigureFinal;
 import hust.soict.cysec.oop.crawler.relic.RelicFinal;
 
 public class App {
@@ -18,7 +18,7 @@ public class App {
 		System.out.println("\n>>\n>> Crawling Relics...\n>>\n");
 		RelicFinal.main(args);
 		System.out.println("\n>>\n>> Crawling Figures...\n>>\n");
-		FigureFinal.main(args);
+		HistoricalFigureFinal.main(args);
         System.out.println("\n>>DONE!");
     }
 }

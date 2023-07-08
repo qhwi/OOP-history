@@ -1,0 +1,1460 @@
+[
+  {
+    "templateName": "không có",
+    "posthumousName": "Kinh Dương Vương",
+    "eraName": "không có",
+    "courtesyName": "Lộc Tục",
+    "successionOrder": "Khai sáng triều đại, con thứ Đế Minh, em Đế Nghi",
+    "reignYear": "2879 TCN - 2794 TCN",
+    "name": "Kinh Dương Vương"
+  },
+  {
+    "templateName": "không có",
+    "posthumousName": "Lạc Long Quân",
+    "eraName": "không có",
+    "courtesyName": "Sùng Lãm",
+    "successionOrder": "Con Kinh Dương Vương",
+    "reignYear": "2525 TCN - 2253 TCN",
+    "name": "Lạc Long Quân"
+  },
+  {
+    "templateName": "không có",
+    "posthumousName": "Hùng Quốc Vương",
+    "eraName": "không có",
+    "courtesyName": "không rõ",
+    "successionOrder": "Con trưởng Lạc Long Quân",
+    "reignYear": "?",
+    "name": "Hùng Vương thứ nhất"
+  },
+  {
+    "templateName": "không có",
+    "posthumousName": "Hùng Hiền Vương",
+    "eraName": "không có",
+    "courtesyName": "không rõ",
+    "successionOrder": "",
+    "reignYear": "? - ?",
+    "name": "Hùng Vương thứ hai"
+  },
+  {
+    "templateName": "không có",
+    "posthumousName": "Hùng Lân Vương",
+    "eraName": "không có",
+    "courtesyName": "không rõ",
+    "successionOrder": "",
+    "reignYear": "? - ?",
+    "name": "Hùng Vương thứ ba"
+  },
+  {
+    "templateName": "không có",
+    "posthumousName": "Hùng Diệp Vương",
+    "eraName": "không có",
+    "courtesyName": "không rõ",
+    "successionOrder": "",
+    "reignYear": "? - ?",
+    "name": "Hùng Vương thứ tư"
+  },
+  {
+    "templateName": "không có",
+    "posthumousName": "Hùng Hy Vương",
+    "eraName": "không có",
+    "courtesyName": "không rõ",
+    "successionOrder": "",
+    "reignYear": "? - ?",
+    "name": "Hùng Vương thứ năm"
+  },
+  {
+    "templateName": "không có",
+    "posthumousName": "Hùng Huy Vương",
+    "eraName": "không có",
+    "courtesyName": "không rõ",
+    "successionOrder": "",
+    "reignYear": "? - ?",
+    "name": "Hùng Vương thứ sáu"
+  },
+  {
+    "templateName": "không có",
+    "posthumousName": "Hùng Chiêu Vương",
+    "eraName": "không có",
+    "courtesyName": "Lang Liêu",
+    "successionOrder": "",
+    "reignYear": "? - ?",
+    "name": "Hùng Vương thứ bảy"
+  },
+  {
+    "templateName": "không có",
+    "posthumousName": "Hùng Vĩ Vương",
+    "eraName": "không có",
+    "courtesyName": "Thừa Vân Lang",
+    "successionOrder": "",
+    "reignYear": "? - ?",
+    "name": "Hùng Vương thứ tám"
+  },
+  {
+    "templateName": "không có",
+    "posthumousName": "Hùng Định Vương",
+    "eraName": "không có",
+    "courtesyName": "Quân Lang",
+    "successionOrder": "",
+    "reignYear": "? - ?",
+    "name": "Hùng Vương thứ chín"
+  },
+  {
+    "templateName": "không có",
+    "posthumousName": "Hùng Uy Vương",
+    "eraName": "không có",
+    "courtesyName": "Hùng Hải Lang",
+    "successionOrder": "",
+    "reignYear": "? - ?",
+    "name": "Hùng Vương thứ mười"
+  },
+  {
+    "templateName": "không có",
+    "posthumousName": "Hùng Trinh Vương",
+    "eraName": "không có",
+    "courtesyName": "Hưng Đức Lang",
+    "successionOrder": "",
+    "reignYear": "? - ?",
+    "name": "Hùng Vương thứ 11"
+  },
+  {
+    "templateName": "không có",
+    "posthumousName": "Hùng Vũ Vương",
+    "eraName": "không có",
+    "courtesyName": "không rõ",
+    "successionOrder": "",
+    "reignYear": "? - ?",
+    "name": "Hùng Vương thứ 12"
+  },
+  {
+    "templateName": "không có",
+    "posthumousName": "Hùng Việt Vương",
+    "eraName": "không có",
+    "courtesyName": "Tuấn Lang",
+    "successionOrder": "",
+    "reignYear": "? - ?",
+    "name": "Hùng Vương thứ 13"
+  },
+  {
+    "templateName": "không có",
+    "posthumousName": "Hùng Anh Vương",
+    "eraName": "không có",
+    "courtesyName": "Chân Nhân Lang",
+    "successionOrder": "",
+    "reignYear": "? - ?",
+    "name": "Hùng Vương thứ 14"
+  },
+  {
+    "templateName": "không có",
+    "posthumousName": "Hùng Triêu Vương",
+    "eraName": "không có",
+    "courtesyName": "Cảnh Chiêu Lang",
+    "successionOrder": "",
+    "reignYear": "? - ?",
+    "name": "Hùng Vương thứ 15"
+  },
+  {
+    "templateName": "không có",
+    "posthumousName": "Hùng Tạo Vương",
+    "eraName": "không có",
+    "courtesyName": "Đức Quân Lang",
+    "successionOrder": "",
+    "reignYear": "? - ?",
+    "name": "Hùng Vương thứ 16"
+  },
+  {
+    "templateName": "không có",
+    "posthumousName": "Hùng Nghị Vương",
+    "eraName": "không có",
+    "courtesyName": "không rõ",
+    "successionOrder": "",
+    "reignYear": "? - ?",
+    "name": "Hùng Vương thứ 17"
+  },
+  {
+    "templateName": "không có",
+    "posthumousName": "Hùng Duệ Vương Hùng Tuyền Vương",
+    "eraName": "không có",
+    "courtesyName": "không rõ",
+    "successionOrder": "",
+    "reignYear": "? - 258 TCN",
+    "name": "Hùng Vương thứ 18"
+  },
+  {
+    "templateName": "không có",
+    "posthumousName": "Hùng Kính Vương",
+    "eraName": "không có",
+    "courtesyName": "Huệ Lang",
+    "successionOrder": "",
+    "reignYear": "? - 6 năm",
+    "name": "Hùng Vương thứ 19"
+  },
+  {
+    "templateName": "không có",
+    "posthumousName": "Vũ Vương Vũ Đế",
+    "eraName": "không có",
+    "courtesyName": "Triệu Đà",
+    "successionOrder": "Dòng dõi nước Triệu thời Chiến Quốc, khai sáng triều đại.",
+    "reignYear": "204 - 137TCN",
+    "name": "Triệu Vũ Vương"
+  },
+  {
+    "templateName": "không có",
+    "posthumousName": "Văn Vương Văn Đế",
+    "eraName": "không có",
+    "courtesyName": "Triệu Hồ Triệu Muội",
+    "successionOrder": "Cháu nội Triệu Đà, con Triệu Trọng Thủy.",
+    "reignYear": "137 - 125TCN",
+    "name": "Triệu Văn Vương"
+  },
+  {
+    "templateName": "không có",
+    "posthumousName": "Minh Vương",
+    "eraName": "không có",
+    "courtesyName": "Triệu Anh Tề",
+    "successionOrder": "Con Triệu Hồ",
+    "reignYear": "125 - 113TCN",
+    "name": "Triệu Minh Vương"
+  },
+  {
+    "templateName": "không có",
+    "posthumousName": "Ai Vương",
+    "eraName": "không có",
+    "courtesyName": "Triệu Hưng",
+    "successionOrder": "Con thứ Triệu Anh Tề",
+    "reignYear": "113 - 112TCN",
+    "name": "Triệu Ai Vương"
+  },
+  {
+    "templateName": "không có",
+    "posthumousName": "Dương Vương Thuật Dương Vương Vệ Dương vương Vệ Dương hầu",
+    "eraName": "không có",
+    "courtesyName": "Triệu Kiến Đức",
+    "successionOrder": "Con trưởng Triệu Anh Tề, anh Triệu Hưng.",
+    "reignYear": "112 - 111TCN",
+    "name": "Triệu Dương Vương"
+  },
+  {
+    "templateName": "không có",
+    "posthumousName": "Trinh Linh Chi Phu Nhân",
+    "eraName": "không có",
+    "courtesyName": "Trưng Trắc (徵側) Lạc Trắc",
+    "successionOrder": "Vợ Thi Sách, sáng lập triều đại",
+    "reignYear": "40 - 43",
+    "name": "Trưng Vương"
+  },
+  {
+    "templateName": "không có",
+    "posthumousName": "Nam Đế, Nam Việt Đế",
+    "eraName": "Thiên Đức (544–548)",
+    "courtesyName": "Lý Bí Lý Bôn (李賁)",
+    "successionOrder": "Nổi dậy tự lập, khai sáng triều đại",
+    "reignYear": "544 - 548",
+    "name": "Lý Nam Đế"
+  },
+  {
+    "templateName": "không có",
+    "posthumousName": "Nam Việt Quốc Vương, Dạ Trạch Vương Thần Vũ Hoàng Đế",
+    "eraName": "không có",
+    "courtesyName": "Triệu Quang Phục (趙光復)",
+    "successionOrder": "Con Thái phó Triệu Túc, được Lý Nam Đế giao toàn bộ quyền hành.",
+    "reignYear": "548 - 571",
+    "name": "Triệu Việt Vương"
+  },
+  {
+    "templateName": "không có",
+    "posthumousName": "không có",
+    "eraName": "không có",
+    "courtesyName": "Lý Thiên Bảo",
+    "successionOrder": "Anh trai Lý Nam Đế",
+    "reignYear": "549 - 555",
+    "name": "Đào Lang Vương"
+  },
+  {
+    "templateName": "không có",
+    "posthumousName": "Nam Đế Anh Liệt Nhân Hiếu Khâm Minh Thánh Vũ Hoàng Đế",
+    "eraName": "không có",
+    "courtesyName": "Lý Phật Tử (李佛子)",
+    "successionOrder": "Người trong họ Lý Nam Đế",
+    "reignYear": "555 - 602",
+    "name": "Hậu Lý Nam Đế"
+  },
+  {
+    "templateName": "không có",
+    "posthumousName": "không có",
+    "eraName": "không có",
+    "courtesyName": "Lý Sư Lợi",
+    "successionOrder": "con Hậu Lý Nam Đế",
+    "reignYear": "602 - 603",
+    "name": "Lý Sư Lợi"
+  },
+  {
+    "templateName": "không có",
+    "posthumousName": "Đại Đế, Hắc Đế",
+    "eraName": "không có",
+    "courtesyName": "Mai Thúc Loan, (梅叔鸞) Mai Huyền Thành, Mai Lập Thành, Mai Thúc Yên, Mai Phượng.",
+    "successionOrder": "Con Mai Hoàn, sáng lập triều đại.",
+    "reignYear": "713 - 722",
+    "name": "Mai Hắc Đế"
+  },
+  {
+    "templateName": "không có",
+    "posthumousName": "không có",
+    "eraName": "không có",
+    "courtesyName": "Mai Thúc Huy, Mai Bảo Sơn",
+    "successionOrder": "Con út Mai Hắc Đế, em song sinh với Bạch Đầu Đế.",
+    "reignYear": "722 - 723",
+    "name": "Mai Thiếu Đế"
+  },
+  {
+    "templateName": "không có",
+    "posthumousName": "không có",
+    "eraName": "không có",
+    "courtesyName": "Mai Kỳ Sơn",
+    "successionOrder": "Con thứ hai Mai Hắc Đế, anh song sinh với Mai Thiếu Đế.",
+    "reignYear": "723 - 723",
+    "name": "Bạch Đầu Đế"
+  },
+  {
+    "templateName": "không có",
+    "posthumousName": "Bố Cái Đại Vương",
+    "eraName": "không có",
+    "courtesyName": "Phùng Hưng (馮興), Phùng Cự Lão",
+    "successionOrder": "con Phùng Hạp Khanh, thế tập Biên Khố Di Tù Trưởng",
+    "reignYear": "766 - 791",
+    "name": "Phùng Hưng"
+  },
+  {
+    "templateName": "không có",
+    "posthumousName": "không có",
+    "eraName": "không có",
+    "courtesyName": "Phùng An",
+    "successionOrder": "con Phùng Hưng",
+    "reignYear": "791 - 791",
+    "name": "Phùng An"
+  },
+  {
+    "templateName": "Tiên Chủ",
+    "posthumousName": "Tiên Vương",
+    "eraName": "không có",
+    "courtesyName": "Khúc Thừa Dụ (曲承裕)",
+    "successionOrder": "Mở màn nền tự chủ",
+    "reignYear": "905 - 907",
+    "name": "Khúc Tiên Chủ"
+  },
+  {
+    "templateName": "Trung Chủ",
+    "posthumousName": "Trung Vương",
+    "eraName": "không có",
+    "courtesyName": "Khúc Hạo, (曲顥) Khúc Thừa Hạo",
+    "successionOrder": "Con Khúc Thừa Dụ",
+    "reignYear": "907 - 917",
+    "name": "Khúc Trung Chủ"
+  },
+  {
+    "templateName": "Hậu Chủ",
+    "posthumousName": "Hậu Vương",
+    "eraName": "không có",
+    "courtesyName": "Khúc Thừa Mỹ (曲承美) Khúc Toàn Mỹ",
+    "successionOrder": "Con Khúc Hạo",
+    "reignYear": "917 - 923",
+    "name": "Khúc Hậu Chủ"
+  },
+  {
+    "templateName": "không có",
+    "posthumousName": "không có",
+    "eraName": "không có",
+    "courtesyName": "Dương Đình Nghệ, (楊廷藝) Dương Diên Nghệ (楊筵藝)",
+    "successionOrder": "Khôi phục nền tự chủ; nha tướng của Khúc Hạo",
+    "reignYear": "931 - 937",
+    "name": "Dương Chính Công"
+  },
+  {
+    "templateName": "không có",
+    "posthumousName": "không có",
+    "eraName": "không có",
+    "courtesyName": "Kiều Công Tiễn, (矯公羨) Kiểu Công Tiễn, Kiểu Công Hạo,",
+    "successionOrder": "Con nuôi và nha tướng của Dương Đình Nghệ",
+    "reignYear": "937 - 938",
+    "name": "Kiều Công Tiễn"
+  },
+  {
+    "templateName": "Tiên Chủ",
+    "posthumousName": "không có",
+    "eraName": "không có",
+    "courtesyName": "Ngô Quyền",
+    "successionOrder": "Sáng lập triều đại; con rể Dương Đình Nghệ",
+    "reignYear": "939 - 944",
+    "name": "Tiền Ngô Vương"
+  },
+  {
+    "templateName": "không có",
+    "posthumousName": "Trương Dương Công",
+    "eraName": "không có",
+    "courtesyName": "Dương Tam Kha, Dương Chủ Tướng, Dương Thiệu Hồng",
+    "successionOrder": "Con trai Dương Đình Nghệ",
+    "reignYear": "944 - 950",
+    "name": "Dương Bình Vương"
+  },
+  {
+    "templateName": "không có",
+    "posthumousName": "không có",
+    "eraName": "không có",
+    "courtesyName": "Ngô Xương Ngập",
+    "successionOrder": "Con trưởng Ngô Quyền",
+    "reignYear": "951 - 954",
+    "name": "Thiên Sách Vương"
+  },
+  {
+    "templateName": "không có",
+    "posthumousName": "không có",
+    "eraName": "không có",
+    "courtesyName": "Ngô Xương Tấn, Ngô Xương Văn",
+    "successionOrder": "Con thứ Ngô Quyền",
+    "reignYear": "950 - 965",
+    "name": "Nam Tấn Vương"
+  },
+  {
+    "templateName": "không có",
+    "posthumousName": "không có",
+    "eraName": "không có",
+    "courtesyName": "Ngô Xương Xí",
+    "successionOrder": "Con Ngô Xương Ngập",
+    "reignYear": "965 - 966",
+    "name": "Ngô Sứ Quân"
+  },
+  {
+    "templateName": "không có",
+    "posthumousName": "Tiên Hoàng Đế Đại Thắng Minh Hoàng Đế",
+    "eraName": "Thái Bình (970-979)",
+    "courtesyName": "Đinh Bộ Lĩnh, Đinh Hoàn",
+    "successionOrder": "Sáng lập triều đại; con nuôi Sứ quân Trần Minh Công",
+    "reignYear": "968 - 979",
+    "name": "Đinh Tiên Hoàng"
+  },
+  {
+    "templateName": "không có",
+    "posthumousName": "Phế Đế Thiếu Đế",
+    "eraName": "Thái Bình (979-980)",
+    "courtesyName": "Đinh Toàn, Đinh Tuệ",
+    "successionOrder": "Con trai thứ 2 Đinh Tiên Hoàng",
+    "reignYear": "979 - 980",
+    "name": "Đinh Phế Đế"
+  },
+  {
+    "templateName": "không có",
+    "posthumousName": "Đại Hành Hoàng Đế Minh Càn Ứng Vận Thần Vũ Thăng Bình Chí Nhân Quảng Hiếu Hoàng đế",
+    "eraName": "Thiên Phúc (980–988) Hưng Thống (989–993) Ứng Thiên (994–1005)",
+    "courtesyName": "Lê Hoàn",
+    "successionOrder": "Sáng lập triều đại, Phó vương nhiếp chính thời Đinh Phế Đế",
+    "reignYear": "980 - 1005",
+    "name": "Lê Đại Hành"
+  },
+  {
+    "templateName": "Trung Tông",
+    "posthumousName": "không có",
+    "eraName": "Ứng Thiên (1005–1005)",
+    "courtesyName": "Lê Long Việt",
+    "successionOrder": "Con thứ Lê Đại Hành",
+    "reignYear": "1005 - 1005",
+    "name": "Lê Trung Tông"
+  },
+  {
+    "templateName": "không có",
+    "posthumousName": "Khai Thiên Ứng Vận Thánh Văn Thần Vũ Tắc Thiên Sùng Đạo Đại Thắng Minh Quang Hiếu Hoàng Đế Ngọa Triều Hoàng Đế",
+    "eraName": "Ứng Thiên (1005–1007) Cảnh Thụy (1008–1009)",
+    "courtesyName": "Lê Long Đĩnh,",
+    "successionOrder": "Con thứ năm Lê Đại Hành",
+    "reignYear": "1005 - 1009",
+    "name": "Lê Ngọa Triều"
+  },
+  {
+    "templateName": "Thái Tổ",
+    "posthumousName": "Thần Vũ Hoàng Đế",
+    "eraName": "Thuận Thiên (1010–1028)",
+    "courtesyName": "Lý Công Uẩn",
+    "successionOrder": "Sáng lập triều đại. Nguyên là Điện tiền Chỉ huy sứ và là Phò mã trưởng Lê Đại Hành",
+    "reignYear": "1009 - 1028",
+    "name": "Lý Thái Tổ"
+  },
+  {
+    "templateName": "Thái Tông",
+    "posthumousName": "Từ Hiếu Hoàng đế",
+    "eraName": "Thiên Thành (1028–1033), Thông Thụy (1034–1038), Càn Phù Hữu Đạo (1039–1041), Minh Đạo (1042–1043), Thiên Cảm Thánh Vũ (1044–1048), Sùng Hưng Đại Bảo (1049–1054).",
+    "courtesyName": "Lý Phật Mã, Lý Đức Chính",
+    "successionOrder": "Con trưởng Lý Thái Tổ",
+    "reignYear": "1028 - 1054",
+    "name": "Lý Thái Tông"
+  },
+  {
+    "templateName": "Thánh Tông",
+    "posthumousName": "Thánh Thần Hoàng đế",
+    "eraName": "Long Thụy Thái Bình (1054–1058), Chương Thánh Gia Khánh (1059–1065), Long Chương Thiên Tự (1066–1068), Thiên Huống Bảo Tượng (1068–1069), Thần Vũ (1069–1072).",
+    "courtesyName": "Lý Nhật Tôn",
+    "successionOrder": "Con trưởng Lý Thái Tông",
+    "reignYear": "1054 - 1072",
+    "name": "Lý Thánh Tông"
+  },
+  {
+    "templateName": "Nhân Tông",
+    "posthumousName": "Hiếu Từ Thánh Thần Văn Vũ Hoàng Đế",
+    "eraName": "Thái Ninh (1072–1076), Anh Vũ Chiêu Thắng (1076–1084), Quảng Hựu (1085–1092), Hội Phong (1092–1100), Long Phù (1101–1109), Hội Tường Đại Khánh (1110–1119), Thiên Phù Duệ Vũ (1120–1126), Thiên Phù Khánh Thọ (1127).",
+    "courtesyName": "Lý Càn Đức",
+    "successionOrder": "Con trưởng Lý Thánh Tông",
+    "reignYear": "1072 - 1127",
+    "name": "Lý Nhân Tông"
+  },
+  {
+    "templateName": "Thần Tông",
+    "posthumousName": "Quảng Văn Sùng Hiếu Khâm Minh Văn Vũ Hoàng Đế",
+    "eraName": "Thiên Thuận (1128–1132), Thiên Chương Bảo Tự (1133–1138)",
+    "courtesyName": "Lý Dương Hoán",
+    "successionOrder": "con Sùng Hiền Hầu, cháu nội Lý Thánh Tông",
+    "reignYear": "1127 - 1138",
+    "name": "Lý Thần Tông"
+  },
+  {
+    "templateName": "Anh Tông",
+    "posthumousName": "Chí Hiếu Hoàng Đế",
+    "eraName": "Thiệu Minh (1138–1139), Đại Định (1140–1162), Chính Long Bảo Ứng (1163–1173), Thiên Cảm Chí Bảo (1174–1175)",
+    "courtesyName": "Lý Thiên Tộ",
+    "successionOrder": "Con thứ Lý Thần Tông",
+    "reignYear": "1138 - 1175",
+    "name": "Lý Anh Tông"
+  },
+  {
+    "templateName": "Cao Tông",
+    "posthumousName": "Quang Hiếu Hoàng Đế",
+    "eraName": "Trinh Phù (1176–1185), Thiên Tư Gia Thụy (1186–1201), Thiên Gia Bảo Hựu (1202–1204), Trị Bình Long Ứng (1205–1210)",
+    "courtesyName": "Lý Long Cán Lý Long Trát",
+    "successionOrder": "Con thứ 6 Lý Anh Tông",
+    "reignYear": "1176 - 1204",
+    "name": "Lý Cao Tông"
+  },
+  {
+    "templateName": "không có",
+    "posthumousName": "không có",
+    "eraName": "không có",
+    "courtesyName": "Lý Thẩm",
+    "successionOrder": "Con thứ Lý Cao Tông",
+    "reignYear": "1209 - 1209",
+    "name": "Lý Thẩm"
+  },
+  {
+    "templateName": "Huệ Tông",
+    "posthumousName": "Hoành Hiếu Hoàng đế",
+    "eraName": "Kiến Gia (1211–1224)",
+    "courtesyName": "Lý Sảm, Lý Hạo Sảm",
+    "successionOrder": "Con trưởng Lý Cao Tông",
+    "reignYear": "1211 - 1224",
+    "name": "Lý Huệ Tông"
+  },
+  {
+    "templateName": "không có",
+    "posthumousName": "Nguyên Vương Văn Vương",
+    "eraName": "Càn Ninh (1214–1216)",
+    "courtesyName": "không rõ",
+    "successionOrder": "Con thứ Lý Anh Tông",
+    "reignYear": "1214 - 1216",
+    "name": "Lý Nguyên Vương"
+  },
+  {
+    "templateName": "không có",
+    "posthumousName": "Chiêu Hoàng",
+    "eraName": "Thiên Chương Hữu Đạo (1224–1225)",
+    "courtesyName": "Lý Phật Kim, Lý Thiên Hinh",
+    "successionOrder": "Con gái Lý Huệ Tông, vợ Trần Thái Tông",
+    "reignYear": "1224 - 1225",
+    "name": "Lý Chiêu Hoàng"
+  },
+  {
+    "templateName": "Thái Tông Thiện Hoàng Văn Hoàng",
+    "posthumousName": "Thống Thiên Ngự Cực Long Công Hậu Đức Hiền Công Hựu Thuận Thánh Văn Thần Vũ Hiếu Nguyên Hoàng Đế",
+    "eraName": "Kiến Trung (1225–1232) Thiên Ứng Chính Bình (1232–1351) Nguyên Phong (1251–1258)",
+    "courtesyName": "Trần Cảnh Trần Bồ Trần Quang Bỉnh Trần Nhật Cảnh",
+    "successionOrder": "Sáng lập triều đại, chồng và anh họ Lý Chiêu Hoàng",
+    "reignYear": "1225 - 1258",
+    "name": "Trần Thái Tông"
+  },
+  {
+    "templateName": "Thánh Tông Nhân Hoàng",
+    "posthumousName": "Huyền Công Thịnh Đức Nhân Minh Văn Vũ Tuyên Hiếu Hoàng Đế",
+    "eraName": "Thiệu Long (1258–1272) Bảo Phù (1273–1278)",
+    "courtesyName": "Trần Hoảng Trần Uy Hoảng Trần Quang Bính Trần Nhật Huyên",
+    "successionOrder": "Con thứ hai Trần Thái Tông",
+    "reignYear": "1258 - 1279",
+    "name": "Trần Thánh Tông"
+  },
+  {
+    "templateName": "Nhân Tông Hiếu Hoàng",
+    "posthumousName": "Pháp Thiên Sùng Đạo Ứng Thế Hóa Dân Long Từ Hiển Hiệu Thánh Văn Thần Vũ Nguyên Minh Duệ Hiếu Hoàng Đế",
+    "eraName": "Thiệu Bảo (1278–1285) Trùng Hưng (1285–1293)",
+    "courtesyName": "Trần Khâm Trần Nhật Tuấn",
+    "successionOrder": "Con trưởng Trần Thánh Tông",
+    "reignYear": "1278 - 1293",
+    "name": "Trần Nhân Tông"
+  },
+  {
+    "templateName": "Anh Tông Anh Hoàng",
+    "posthumousName": "Hiển Văn Duệ Vũ Khâm Minh Nhân Hiếu Hoàng Đế",
+    "eraName": "Hưng Long (1293–1314)",
+    "courtesyName": "Trần Thuyên Trần Nhật 㷃 Trần Nhật 𤊞",
+    "successionOrder": "Con trưởng Trần Nhân Tông",
+    "reignYear": "1293 - 1314",
+    "name": "Trần Anh Tông"
+  },
+  {
+    "templateName": "Minh Tông Ninh Hoàng",
+    "posthumousName": "Chương Nghiêu Văn Triết Hoàng Đế",
+    "eraName": "Đại Khánh (1314–1323) Khai Thái (1324–1329)",
+    "courtesyName": "Trần Mạnh Trần Thánh Sinh Trần Nhật Khoáng",
+    "successionOrder": "Con thứ tư Trần Anh Tông",
+    "reignYear": "1314 - 1329",
+    "name": "Trần Minh Tông"
+  },
+  {
+    "templateName": "Hiến Tông Triết Hoàng",
+    "posthumousName": " Thể Nguyên Ngự Cực Duệ Thánh Chí Hiếu Hoàng Đế",
+    "eraName": "Khai Hựu (1329–1341)",
+    "courtesyName": "Trần Vượng Trần Thiên Kiến  Trần Nhật 㷆",
+    "successionOrder": "Con trưởng Trần Minh Tông",
+    "reignYear": "1329 - 1341",
+    "name": "Trần Hiến Tông"
+  },
+  {
+    "templateName": "Dụ Tông Dụ Hoàng",
+    "posthumousName": "Thống Thiên Thể Đạo Nhân Minh Quang Hiếu Hoàng đế",
+    "eraName": "Thiệu Phong (1341–1357) Đại Trị (1358–1369)",
+    "courtesyName": "Trần Hạo Trần Nhật Khuê",
+    "successionOrder": "Con thứ mười Trần Minh Tông, dòng hoàng đích tử",
+    "reignYear": "1341 - 1369",
+    "name": "Trần Dụ Tông"
+  },
+  {
+    "templateName": "không có",
+    "posthumousName": "Hôn Đức Công",
+    "eraName": "Đại Định (1369–1370)",
+    "courtesyName": "Trần Nhật Lễ Dương Nhật Lễ Trần Nhật Kiên",
+    "successionOrder": "Con riêng của chị dâu Trần Dụ Tông",
+    "reignYear": "1369 - 1370",
+    "name": "Đại Định Đế"
+  },
+  {
+    "templateName": "Nghệ Tông Nghệ Hoàng Nghĩa Hoàng",
+    "posthumousName": "Quang Nhiên Anh Triết Hoàng Đế Thể Thiên Kiến Cực Thuần Hiếu Hoàng Đế",
+    "eraName": "Thiệu Khánh (1370–1372)",
+    "courtesyName": "Trần Phủ Trần Thúc Minh",
+    "successionOrder": "Con thứ ba Trần Minh Tông",
+    "reignYear": "1370 - 1372",
+    "name": "Trần Nghệ Tông"
+  },
+  {
+    "templateName": "Duệ Tông Khâm Hoàng",
+    "posthumousName": "Kế Thiên Ứng Vận Nhân Minh Khâm Hiếu Hoàng Đế",
+    "eraName": "Long Khánh (1373–1377)",
+    "courtesyName": "Trần Kính Trần Nhật Đoan",
+    "successionOrder": "Con thứ 11 Trần Minh Tông",
+    "reignYear": "1372 - 1377",
+    "name": "Trần Duệ Tông"
+  },
+  {
+    "templateName": "Giản Hoàng",
+    "posthumousName": "Phế Đế",
+    "eraName": "Xương Phù (1377–1388)",
+    "courtesyName": "Trần Hiện Trần Nhật Vĩ",
+    "successionOrder": "Con thứ Trần Duệ Tông",
+    "reignYear": "1377 - 1388",
+    "name": "Trần Phế Đế"
+  },
+  {
+    "templateName": "Thuận Tông Nguyên Hoàng",
+    "posthumousName": "không có",
+    "eraName": "Quang Thái (1388–1398)",
+    "courtesyName": "Trần Ngung Trần Nhật Hỗn",
+    "successionOrder": "Con thứ của Trần Nghệ Tông",
+    "reignYear": "1388 - 1398",
+    "name": "Trần Thuận Tông"
+  },
+  {
+    "templateName": "không có",
+    "posthumousName": "Thiếu Đế",
+    "eraName": "Kiến Tân (1398–1400)",
+    "courtesyName": "Trần An",
+    "successionOrder": "Con trưởng Trần Thuận Tông, cháu ngoại Hồ Quý Ly",
+    "reignYear": "1398 - 1400",
+    "name": "Trần Thiếu Đế"
+  },
+  {
+    "templateName": "Quốc Tổ",
+    "posthumousName": "Chương Hoàng",
+    "eraName": "Thánh Nguyên (1400)",
+    "courtesyName": "Hồ Quý Ly Hồ Nhất Nguyên Lê Quý Ly Lê Nhất Nguyên",
+    "successionOrder": "Sáng lập triều đại, phò mã Trần Minh Tông, ông ngoại Trần Thiếu Đế",
+    "reignYear": "1400 - 1400",
+    "name": "Hồ Quý Ly"
+  },
+  {
+    "templateName": "không có",
+    "posthumousName": "không có",
+    "eraName": "Thiệu Thành (1401–1402) Khai Đại (1403–1407)",
+    "courtesyName": "Hồ Hán Thương Lê Hán Thương Hồ Hỏa",
+    "successionOrder": "Con thứ Hồ Quý Ly",
+    "reignYear": "1400 - 1407",
+    "name": "Hồ Hán Thương"
+  },
+  {
+    "templateName": "không có",
+    "posthumousName": "không có",
+    "eraName": "không có",
+    "courtesyName": "Trần Nguyệt Hồ",
+    "successionOrder": "không rõ",
+    "reignYear": "1407 - 1407",
+    "name": "Trần Nguyệt Hồ"
+  },
+  {
+    "templateName": "không có",
+    "posthumousName": "không có",
+    "eraName": "Hưng Khánh (1407–1409)",
+    "courtesyName": "Trần Ngỗi, Trần Quỹ",
+    "successionOrder": "Con trai thứ Trần Nghệ Tông",
+    "reignYear": "1407 - 1409",
+    "name": "Giản Định Đế"
+  },
+  {
+    "templateName": "không có",
+    "posthumousName": "không có",
+    "eraName": "Trùng Quang (1409–1414)",
+    "courtesyName": "Trần Quý Khoáng, Trần Quý Khoách",
+    "successionOrder": "Cháu nội Trần Nghệ Tông",
+    "reignYear": "1409 - 1414",
+    "name": "Trùng Quang Đế"
+  },
+  {
+    "templateName": "Thái Tổ Lam Sơn động chủ",
+    "posthumousName": "Thống Thiên Khải Vận Thánh Đức Thần Công Duệ Văn Anh Vũ Khoan Minh Dũng Trí Hoàng Nghĩa Chí Minh Đại Hiếu Cao Hoàng Đế",
+    "eraName": "Thuận Thiên (1428–1433)",
+    "courtesyName": "Lê Lợi",
+    "successionOrder": "Sáng lập triểu đại",
+    "reignYear": "1428 - 1433",
+    "name": "Lê Thái Tổ"
+  },
+  {
+    "templateName": "Thái Tông Quế Lâm động chủ",
+    "posthumousName": "Kế Thiên Thể Đạo Hiển Đức Thánh Công Khâm Minh Văn Tư Anh Duệ Triết Chiêu Hiến Kiến Trung Văn Hoàng Đế",
+    "eraName": "Thiệu Bình (1434–1439) Đại Bảo (1440-1442)",
+    "courtesyName": "Lê Nguyên Long Lê Lân",
+    "successionOrder": "Con thứ hai Lê Thái Tổ",
+    "reignYear": "1433 - 1442",
+    "name": "Lê Thái Tông"
+  },
+  {
+    "templateName": "Nhân Tông",
+    "posthumousName": "Khâm Văn Nhân Hiếu Tuyên Minh Thông Duệ Tuyên Hoàng Đế",
+    "eraName": "Thái Hòa (1443–1453) Diên Ninh (1454–1459)",
+    "courtesyName": "Lê Bang Cơ Lê Cơ Long Lê Tuấn",
+    "successionOrder": "Con thứ ba Lê Thái Tông",
+    "reignYear": "1442 - 1459",
+    "name": "Lê Nhân Tông"
+  },
+  {
+    "templateName": "không có",
+    "posthumousName": "Lệ Đức Hầu",
+    "eraName": "Thiên Hưng (1459–1460)",
+    "courtesyName": "Lê Nghi Dân Lê Tông",
+    "successionOrder": "Con trưởng Lê Thái Tông",
+    "reignYear": "1459 - 1460",
+    "name": "Lạng Sơn Vương"
+  },
+  {
+    "templateName": "Thánh Tông Thiên Nam động chủ",
+    "posthumousName": "Sùng Thiên Quảng Vận Cao Minh Quang Chính Chí Đức Đại Công Thánh Văn Thần Vũ Đạt Hiếu Thuần Hoàng Đế",
+    "eraName": "Quang Thuận (1460–1469) Hồng Đức (1470–1497)",
+    "courtesyName": "Lê Tư Thành Lê Hạo",
+    "successionOrder": "Con thứ tư Lê Thái Tông",
+    "reignYear": "1460 - 1497",
+    "name": "Lê Thánh Tông"
+  },
+  {
+    "templateName": "Hiến Tông Thượng Dương động chủ",
+    "posthumousName": "Thể Thiên Ngưng Đạo Mậu Đức Chí Chiêu Văn Thiệu Vũ Tuyên Triết Khâm Thành Chương Hiếu Duệ Hoàng Đế",
+    "eraName": "Cảnh Thống (1497–1504)",
+    "courtesyName": "Lê Tranh Lê Sanh Lê Huy Lê Tăng",
+    "successionOrder": "Con trưởng Lê Thánh Tông",
+    "reignYear": "1497 - 1504",
+    "name": "Lê Hiến Tông"
+  },
+  {
+    "templateName": "Túc Tông Tự Hoàng",
+    "posthumousName": "Chiêu Nghĩa Hiển Nhân Ôn Cung Uyên Mặc Hiếu Doãn Cung Khâm Hoàng Đế",
+    "eraName": "Thái Trinh (1504)",
+    "courtesyName": "Lê Thuần",
+    "successionOrder": "Con thứ ba Lê Hiến Tông",
+    "reignYear": "1504 - 1504",
+    "name": "Lê Túc Tông"
+  },
+  {
+    "templateName": "Quỳnh Đô động chủ",
+    "posthumousName": "Uy Mục Đế",
+    "eraName": "Đoan Khánh (1505–1509)",
+    "courtesyName": "Lê Tuấn Lê Huyên",
+    "successionOrder": "Con thứ hai Lê Hiến Tông",
+    "reignYear": "1504 - 1509",
+    "name": "Lê Uy Mục"
+  },
+  {
+    "templateName": "Nhân Hải động chủ",
+    "posthumousName": "Tương Dực Đế",
+    "eraName": "Hồng Thuận (1510–1516)",
+    "courtesyName": "Lê Oánh Lê Oanh Lê Dinh Lê Trừu",
+    "successionOrder": "Con Lê Đức Tông, cháu nội Lê Thánh Tông",
+    "reignYear": "1509 - 1516",
+    "name": "Lê Tương Dực"
+  },
+  {
+    "templateName": "không có",
+    "posthumousName": "không có",
+    "eraName": "không có",
+    "courtesyName": "Lê Quang Trị",
+    "successionOrder": "Con Lê Doanh, cháu nội Lê Đức Tông, cháu gọi Lê Tương Dực bằng bác",
+    "reignYear": "1516 - 1516",
+    "name": "Lê Quang Trị"
+  },
+  {
+    "templateName": "Chiêu Tông",
+    "posthumousName": "Thần Hoàng Đế",
+    "eraName": "Quang Thiệu (1516-1525)",
+    "courtesyName": "Lê Y Lê Huệ",
+    "successionOrder": "Anh họ Lê Quang Trị, chắt Lê Thánh Tông",
+    "reignYear": "1516 - 1525",
+    "name": "Lê Chiêu Tông"
+  },
+  {
+    "templateName": "không có",
+    "posthumousName": "không có",
+    "eraName": "Đại Đức (1518–1519)",
+    "courtesyName": "Lê Bảng",
+    "successionOrder": "Con Lê Lộc, Lộc là cháu nội Lê Khắc Xương, Khắc Xương là anh của Lê Thánh Tông",
+    "reignYear": "1518 - 1519",
+    "name": "Lê Bảng"
+  },
+  {
+    "templateName": "không có",
+    "posthumousName": "không có",
+    "eraName": "Thiên Hiến (1519)",
+    "courtesyName": "Lê Do Lê Dữu",
+    "successionOrder": "Em cùng mẹ với Lê Bảng",
+    "reignYear": "1519 - 1519",
+    "name": "Lê Do"
+  },
+  {
+    "templateName": "không có",
+    "posthumousName": "Cung Hoàng Đế",
+    "eraName": "Thống Nguyên (1522–1527)",
+    "courtesyName": "Lê Xuân Lê Lự Lê Khánh",
+    "successionOrder": "Em Lê Chiêu Tông",
+    "reignYear": "1522 - 1527",
+    "name": "Lê Cung Hoàng"
+  },
+  {
+    "templateName": "Thái Tổ",
+    "posthumousName": "Nhân Minh Cao Hoàng Đế",
+    "eraName": "Minh Đức (1527–1530)",
+    "courtesyName": "Mạc Đăng Dung",
+    "successionOrder": "Cháu 7 đời Mạc Đĩnh Chi, sáng lập triều đại",
+    "reignYear": "1527 - 1530",
+    "name": "Mạc Thái Tổ"
+  },
+  {
+    "templateName": "Thái Tông",
+    "posthumousName": "Khâm Triết Văn Hoàng Đế",
+    "eraName": "Đại Chính (1530–1540)",
+    "courtesyName": "Mạc Đăng Doanh Mạc Phương Doanh",
+    "successionOrder": "Con trưởng Mạc Thái Tổ",
+    "reignYear": "1530 - 1540",
+    "name": "Mạc Thái Tông"
+  },
+  {
+    "templateName": "Hiến Tông",
+    "posthumousName": "Hiển Hoàng Đế",
+    "eraName": "Quảng Hòa (1540–1546)",
+    "courtesyName": "Mạc Phúc Hải Mạc Đức Nguyên",
+    "successionOrder": "Con trưởng Mạc Thái Tông",
+    "reignYear": "1540 - 1546",
+    "name": "Mạc Hiến Tông"
+  },
+  {
+    "templateName": "không có",
+    "posthumousName": "không có",
+    "eraName": "không có",
+    "courtesyName": "Mạc Chính Trung",
+    "successionOrder": "Em Mạc Thái Tông",
+    "reignYear": "1546 - 1547",
+    "name": "Mạc Chính Trung"
+  },
+  {
+    "templateName": "Tuyên Tông",
+    "posthumousName": "Anh Nghị Hoàng Đế Duệ Hoàng Đế",
+    "eraName": "Vĩnh Định (1547) Cảnh Lịch (1548–1553) Quang Bảo (1554–1561)",
+    "courtesyName": "Mạc Phúc Nguyên",
+    "successionOrder": "Con Mạc Hiến Tông",
+    "reignYear": "1546 - 1561",
+    "name": "Mạc Tuyên Tông"
+  },
+  {
+    "templateName": "Mục Tông Anh Tổ",
+    "posthumousName": "An Thiên Huy Địa Trang Văn Cẩn Vũ Bình Định Huệ Cương Hiếu Tĩnh Hoàng Đế",
+    "eraName": "Thuần Phúc (1562–1565) Sùng Khang (1566–1577) Diên Thành (1578–1585) Đoan Thái (1586–1587) Hưng Trị (1588–1590) Hồng Ninh (1591–1592)",
+    "courtesyName": "Mạc Mậu Hợp",
+    "successionOrder": "Con trai Mạc Tuyên Tông",
+    "reignYear": "1561 - 1592",
+    "name": "Mạc Mục Tông Mạc Anh Tổ"
+  },
+  {
+    "templateName": "Cảnh Tông",
+    "posthumousName": "Khai Thiên Xung Địa An Văn Đoạt Vũ Thành Hoàng Đế",
+    "eraName": "Vũ An (1592–1592)",
+    "courtesyName": "Mạc Toàn",
+    "successionOrder": "Con thứ Mạc Mậu Hợp",
+    "reignYear": "1592 - 1592",
+    "name": "Mạc Cảnh Tông"
+  },
+  {
+    "templateName": "Mẫn Tông",
+    "posthumousName": "Hoài Nghị Minh Huấn Trinh Hoàng Đế",
+    "eraName": "Bảo Định (1592–1593) Khang Hựu (1593–1593)",
+    "courtesyName": "Mạc Kính Chỉ Mạc Kính Bang",
+    "successionOrder": "Con trưởng Mạc Kính Điển, cháu nội Mạc Thái Tông",
+    "reignYear": "1592 - 1593",
+    "name": "Mạc Mẫn Tông"
+  },
+  {
+    "templateName": "Đại Tông",
+    "posthumousName": "Khởi Thiên Đĩnh Địa Khắc Văn Định Vũ Linh Hoàng Đế",
+    "eraName": "Càn Thống (1593–1625)",
+    "courtesyName": "Mạc Kính Cung",
+    "successionOrder": "Con thứ 7 Mạc Kính Điển",
+    "reignYear": "1592 - 1625",
+    "name": "Mạc Đại Tông"
+  },
+  {
+    "templateName": "Quang Tổ",
+    "posthumousName": "Hoà Thiên Phù Địa Độ Văn Khánh Vũ Huệ Nguyên Hoàng Đế",
+    "eraName": "Long Thái (1623–1638)",
+    "courtesyName": "Mạc Kính Khoan",
+    "successionOrder": "Cháu nội Mạc Kính Điển",
+    "reignYear": "1623 - 1638",
+    "name": "Mạc Quang Tổ"
+  },
+  {
+    "templateName": "Minh Tông",
+    "posthumousName": "Trang Thiên Huệ Địa Cảnh Văn Di Vũ Khai Hoàng Đế",
+    "eraName": "Thuận Đức (1638–1677)",
+    "courtesyName": "Mạc Kính Vũ Mạc Kính Hoàn Mạc Kính Diệu",
+    "successionOrder": "Con Mạc Kính Khoan",
+    "reignYear": "1638 - 1677",
+    "name": "Mạc Minh Tông"
+  },
+  {
+    "templateName": "Quý Tông",
+    "posthumousName": "Hoàn Thiên Thanh Địa Đoạt Văn Dương Vũ Huệ Đại Vương",
+    "eraName": "Vĩnh Xương (1677–1681)",
+    "courtesyName": "Mạc Kính Hẻ Mạc Kính Thụy Mạc Nguyên Thanh",
+    "successionOrder": "Con Mạc Kính Vũ",
+    "reignYear": "1677 - 1681",
+    "name": "Mạc Quý Tông"
+  },
+  {
+    "templateName": "Đức Tông",
+    "posthumousName": "Thiên Địa Đại Bảo Văn Vũ Độ Đại Vương",
+    "eraName": "không có",
+    "courtesyName": "Mạc Kính Quang Mạc Kính Tiêu Mạc Kính Hoảng",
+    "successionOrder": "Con Mạc Kính Vũ, em Mạc Nguyên Thanh",
+    "reignYear": "1681 - 1683",
+    "name": "Mạc Đức Tông"
+  },
+  {
+    "templateName": "Trang Tông",
+    "posthumousName": "Dụ Hoàng Đế",
+    "eraName": "Nguyên Hòa (1533–1548)",
+    "courtesyName": "Lê Ninh Lê Huyến Lê Duy Ninh",
+    "successionOrder": "Được cho là con Lê Chiêu Tông",
+    "reignYear": "1533 - 1548",
+    "name": "Lê Trang Tông"
+  },
+  {
+    "templateName": "Anh Tông",
+    "posthumousName": "Tuấn Hoàng Đế",
+    "eraName": "Thiên Hựu (1556-1557) Chính trị (1558–1571) Hồng Phúc (1572–1573)",
+    "courtesyName": "Lê Duy Bang",
+    "successionOrder": "Cháu 6 đời của Lê Trừ, anh Lê Thái Tổ",
+    "reignYear": "1556 - 1573",
+    "name": "Lê Anh Tông"
+  },
+  {
+    "templateName": "Thế Tông",
+    "posthumousName": "Nghị Hoàng Đế",
+    "eraName": "Gia Thái (1573–1577) Quang Hưng (1578–1599)",
+    "courtesyName": "Lê Đàm Lê Duy Đàm",
+    "successionOrder": "Con thứ năm Lê Anh Tông",
+    "reignYear": "1573 - 1599",
+    "name": "Lê Thế Tông"
+  },
+  {
+    "templateName": "Kính Tông",
+    "posthumousName": "Huệ Hoàng Đế Giản Huy Đế",
+    "eraName": "Thận Đức (1600-1600) Hoằng Định (1601-1619)",
+    "courtesyName": "Lê Duy Tân",
+    "successionOrder": "Con thứ Lê Thế Tông",
+    "reignYear": "1599 - 1619",
+    "name": "Lê Kính Tông"
+  },
+  {
+    "templateName": "Thần Tông",
+    "posthumousName": "Uyên Hoàng Đế",
+    "eraName": "Vĩnh Tộ (1620––1628) Đức Long (1629–1634) Dương Hoà (1635–1643)",
+    "courtesyName": "Lê Duy Kỳ",
+    "successionOrder": "Con trưởng Lê Kính Tông",
+    "reignYear": "1619 - 1643",
+    "name": "Lê Thần Tông"
+  },
+  {
+    "templateName": "Chân Tông",
+    "posthumousName": "Thuận Hoàng Đế",
+    "eraName": "Phúc Thái (1643–1649)",
+    "courtesyName": "Lê Duy Hựu Lê Duy Đề",
+    "successionOrder": "Con trưởng Lê Thần Tông",
+    "reignYear": "1643 - 1649",
+    "name": "Lê Chân Tông"
+  },
+  {
+    "templateName": "Huyền Tông",
+    "posthumousName": "Mục Hoàng Đế",
+    "eraName": "Cảnh Trị (1663–1671)",
+    "courtesyName": "Lê Duy Vũ Lê Duy Hy",
+    "successionOrder": "Con thứ Lê Thần Tông",
+    "reignYear": "1663 - 1671",
+    "name": "Lê Huyền Tông"
+  },
+  {
+    "templateName": "Gia Tông",
+    "posthumousName": "Mỹ Hoàng Đế",
+    "eraName": "Dương Đức (1672––1673) Đức Nguyên (1674-1675)",
+    "courtesyName": "Lê Duy Cối Lê Duy Khoái",
+    "successionOrder": "Con thứ Lê Thần Tông",
+    "reignYear": "1671 - 1675",
+    "name": "Lê Gia Tông"
+  },
+  {
+    "templateName": "Hy Tông",
+    "posthumousName": "Chương Hoàng Đế",
+    "eraName": "Vĩnh Trị (1676-1680) Chính Hòa (1680-1705)",
+    "courtesyName": "Lê Duy Hợp Lê Duy Hiệp Lê Duy Cáp",
+    "successionOrder": "con thứ tư Lê Thần Tông",
+    "reignYear": "1675 - 1705",
+    "name": "Lê Hy Tông"
+  },
+  {
+    "templateName": "Dụ Tông",
+    "posthumousName": "Hòa Hoàng Đế",
+    "eraName": "Vĩnh Thịnh (1706-1719) Bảo Thái (1720-1729)",
+    "courtesyName": "Lê Duy Đường Lê Duy Tạo",
+    "successionOrder": "con trưởng Lê Hy Tông",
+    "reignYear": "1705 - 1729",
+    "name": "Lê Dụ Tông"
+  },
+  {
+    "templateName": "không có",
+    "posthumousName": "Hôn Đức Công",
+    "eraName": "Vĩnh Khánh (1729-1732)",
+    "courtesyName": "Lê Duy Phường",
+    "successionOrder": "con thứ Lê Dụ Tông",
+    "reignYear": "1729 - 1732",
+    "name": "Lê Duy Phường"
+  },
+  {
+    "templateName": "Thuần Tông",
+    "posthumousName": "Giản Hoàng Đế",
+    "eraName": "Long Đức (1732-1735)",
+    "courtesyName": "Lê Duy Tường Lê Duy Hỗ",
+    "successionOrder": "con trưởng Lê Dụ Tông",
+    "reignYear": "1732 - 1735",
+    "name": "Lê Thuần Tông"
+  },
+  {
+    "templateName": "Ý Tông",
+    "posthumousName": "Huy Hoàng Đế",
+    "eraName": "Vĩnh Hựu (1735-1740)",
+    "courtesyName": "Lê Duy Thận Lê Duy Chấn Lê Duy Hỗ",
+    "successionOrder": "con thứ 11 Lê Dụ Tông",
+    "reignYear": "1735 - 1740",
+    "name": "Lê Ý Tông"
+  },
+  {
+    "templateName": "Hiển Tông",
+    "posthumousName": "Vĩnh Hoàng Đế",
+    "eraName": "Cảnh Hưng (1740-1786)",
+    "courtesyName": "Lê Duy Diêu Lê Duy Đào",
+    "successionOrder": "con trưởng Lê Thuần Tông",
+    "reignYear": "1740 - 1786",
+    "name": "Lê Hiển Tông"
+  },
+  {
+    "templateName": "không có",
+    "posthumousName": "Mẫn Hoàng Đế",
+    "eraName": "Chiêu Thống (1786-1789)",
+    "courtesyName": "Lê Duy Kỳ Lê Duy Khiêm Lê Tư Khiêm",
+    "successionOrder": "con Lê Duy Vỹ, cháu đích tôn Lê Hiển Tông",
+    "reignYear": "1786 - 1789",
+    "name": "Lê Chiêu Thống"
+  },
+  {
+    "templateName": "Thế Tổ",
+    "posthumousName": "Minh Khang Thái Vương",
+    "eraName": "không có",
+    "courtesyName": "Trịnh Kiểm",
+    "successionOrder": "con rể Nguyễn Kim",
+    "reignYear": "1545 - 1570",
+    "name": "Trịnh Kiểm"
+  },
+  {
+    "templateName": "không có",
+    "posthumousName": "Tuấn Đức Hầu, Trung Quốc Công",
+    "eraName": "không có",
+    "courtesyName": "Trịnh Cối",
+    "successionOrder": "con cả Trịnh Kiểm",
+    "reignYear": "1570 - 1570",
+    "name": "Trịnh Cối"
+  },
+  {
+    "templateName": "Thành Tổ",
+    "posthumousName": "Triết Vương",
+    "eraName": "không có",
+    "courtesyName": "Trịnh Tùng",
+    "successionOrder": "con thứ Trịnh Kiểm, chúa Trịnh đầu tiên",
+    "reignYear": "1570 - 1623",
+    "name": "Bình An Vương"
+  },
+  {
+    "templateName": "Văn Tổ",
+    "posthumousName": "Nghị Vương",
+    "eraName": "không có",
+    "courtesyName": "Trịnh Tráng",
+    "successionOrder": "con thứ hai Trịnh Tùng",
+    "reignYear": "1623 - 1657",
+    "name": "Thanh Đô Vương"
+  },
+  {
+    "templateName": "Hoằng Tổ",
+    "posthumousName": "Dương Vương",
+    "eraName": "không có",
+    "courtesyName": "Trịnh Tạc",
+    "successionOrder": "con thứ hai Trịnh Tráng",
+    "reignYear": "1657 - 1682",
+    "name": "Tây Định Vương"
+  },
+  {
+    "templateName": "Chiêu Tổ",
+    "posthumousName": "Khang Vương",
+    "eraName": "không có",
+    "courtesyName": "Trịnh Căn",
+    "successionOrder": "con trưởng Trịnh Tạc",
+    "reignYear": "1682 - 1709",
+    "name": "Định Nam Vương"
+  },
+  {
+    "templateName": "Hy Tổ",
+    "posthumousName": "Nhân Vương",
+    "eraName": "không có",
+    "courtesyName": "Trịnh Cương",
+    "successionOrder": "chắt của Trịnh Căn, cháu Trịnh Vịnh, con Trịnh Bính",
+    "reignYear": "1709 - 1729",
+    "name": "An Đô Vương"
+  },
+  {
+    "templateName": "Dụ Tổ",
+    "posthumousName": "Thuận Vương",
+    "eraName": "không có",
+    "courtesyName": "Trịnh Giang Trịnh Khương Trịnh 𣞪",
+    "successionOrder": "con trưởng Trịnh Cương",
+    "reignYear": "1729 - 1740",
+    "name": "Uy Nam Vương"
+  },
+  {
+    "templateName": "Nghị Tổ",
+    "posthumousName": "Ân Vương",
+    "eraName": "không có",
+    "courtesyName": "Trịnh Doanh",
+    "successionOrder": "con thứ Trịnh Cương, em Trịnh Giang",
+    "reignYear": "1740 - 1767",
+    "name": "Minh Đô Vương"
+  },
+  {
+    "templateName": "Thánh Tổ",
+    "posthumousName": "Thịnh Vương",
+    "eraName": "không có",
+    "courtesyName": "Trịnh Sâm",
+    "successionOrder": "con trưởng Trịnh Doanh",
+    "reignYear": "1767 - 1782",
+    "name": "Tĩnh Đô Vương"
+  },
+  {
+    "templateName": "không có",
+    "posthumousName": "Xung Mẫn Vương",
+    "eraName": "không có",
+    "courtesyName": "Trịnh Cán",
+    "successionOrder": "con thứ Trịnh Sâm",
+    "reignYear": "1782 - 1782",
+    "name": "Điện Đô Vương"
+  },
+  {
+    "templateName": "không có",
+    "posthumousName": "Anh Liệt Linh Vương",
+    "eraName": "không có",
+    "courtesyName": "Trịnh Khải Trịnh Tông",
+    "successionOrder": "con trưởng Trịnh Sâm",
+    "reignYear": "1782 - 1786",
+    "name": "Đoan Nam Vương"
+  },
+  {
+    "templateName": "không có",
+    "posthumousName": "Huệ Định Công",
+    "eraName": "không có",
+    "courtesyName": "Trịnh Bồng",
+    "successionOrder": "con Trịnh Giang, anh họ Trịnh Sâm",
+    "reignYear": "1786 - 1787",
+    "name": "Án Đô Vương"
+  },
+  {
+    "templateName": "Liệt Tổ, Thái Tổ",
+    "posthumousName": "Triệu Cơ Tùy Thống Khâm Minh Cung Ý Cần Nghĩa Đạt Lý Hiển Ứng Chiêu Hựu Diệu Linh Gia Dụ Hoàng Đế",
+    "eraName": "không có",
+    "courtesyName": "Nguyễn Hoàng",
+    "successionOrder": "con út Nguyễn Kim",
+    "reignYear": "1558 - 1613",
+    "name": "Tiên Vương"
+  },
+  {
+    "templateName": "Tuyên Tổ, Hy Tông",
+    "posthumousName": "Hiển Mô Quang Liệt Ôn Cung Minh Duệ Dực Thiện Tuy Du Hiếu Văn Hoàng Đế",
+    "eraName": "không có",
+    "courtesyName": "Nguyễn Phúc Nguyên",
+    "successionOrder": "con trai thứ sáu Chúa Tiên",
+    "reignYear": "1613 - 1635",
+    "name": "Sãi Vương Phật Vương"
+  },
+  {
+    "templateName": "Thần Tổ, Thần Tông",
+    "posthumousName": "Thừa Cơ Toàn Thống Quân Minh Hùng Nghị Uy Đoán Anh Vũ Hiếu Chiêu Hoàng Đế",
+    "eraName": "không có",
+    "courtesyName": "Nguyễn Phúc Lan",
+    "successionOrder": "con trai thứ hai Chúa Sãi",
+    "reignYear": "1635 - 1648",
+    "name": "Thượng Vương"
+  },
+  {
+    "templateName": "Nghị Tổ, Thái Tông",
+    "posthumousName": "Tuyên Uy Kiến Vũ Anh Minh Trang Chính Thánh Đức Thần Công Hiếu Triết Hoàng Đế",
+    "eraName": "không có",
+    "courtesyName": "Nguyễn Phúc Tần Nguyễn Phúc Cần",
+    "successionOrder": "con trai thứ hai Chúa Thượng",
+    "reignYear": "1648 - 1687",
+    "name": "Hiền Vương"
+  },
+  {
+    "templateName": "Anh Tông",
+    "posthumousName": "Thiệu Hư Toản Nghiệp Khoan Hồng Bác Hậu Ôn Huệ Từ Tường Hiếu Nghĩa Hoàng Đế",
+    "eraName": "không có",
+    "courtesyName": "Nguyễn Phúc Thái Nguyễn Phúc Trăn Nguyễn Phúc Ngàn",
+    "successionOrder": "con trai thứ hai Chúa Hiền",
+    "reignYear": "1687 - 1691",
+    "name": "Nghĩa Vương"
+  },
+  {
+    "templateName": "Hiển Tông",
+    "posthumousName": "Anh Mô Hùng Lược Thánh Minh Tuyên Đạt Khoan Từ Nhân Thứ Hiếu Minh Hoàng Đế",
+    "eraName": "không có",
+    "courtesyName": "Nguyễn Phúc Chu Nguyễn Phúc Tùng",
+    "successionOrder": "con trưởng Chúa Nghĩa",
+    "reignYear": "1691 - 1725",
+    "name": "Minh Vương Quốc Chúa"
+  },
+  {
+    "templateName": "Túc Tông",
+    "posthumousName": "Tuyên Quang Thiệu Liệt Tuấn Triết Tĩnh Uyên Kinh Văn Vĩ Vũ Hiếu Ninh Hoàng Đế",
+    "eraName": "không có",
+    "courtesyName": "Nguyễn Phúc Chú Nguyễn Phúc Trú Nguyễn Phúc Thụ Nguyễn Phúc Vượng",
+    "successionOrder": "con trưởng Chúa Minh",
+    "reignYear": "1725 - 1738",
+    "name": "Ninh Vương"
+  },
+  {
+    "templateName": "Thế Tông",
+    "posthumousName": "Kiền Cương Uy Đoán Thần Nghị Thánh Du Nhân Từ Duệ Trí Hiếu Vũ Hoàng Đế",
+    "eraName": "không có",
+    "courtesyName": "Nguyễn Phúc Khoát Nguyễn Phúc Hiểu",
+    "successionOrder": "con trưởng Chúa Ninh",
+    "reignYear": "1738 - 1765",
+    "name": "Vũ Vương"
+  },
+  {
+    "templateName": "Duệ Tông",
+    "posthumousName": "Thông Minh Khoan Hậu Anh Mẫn Huệ Hòa Hiếu Định Hoàng Đế",
+    "eraName": "không có",
+    "courtesyName": "Nguyễn Phúc Thuần Nguyễn Phúc Hân",
+    "successionOrder": "con trai thứ 16 Chúa Vũ",
+    "reignYear": "1765 - 1776",
+    "name": "Định Vương"
+  },
+  {
+    "templateName": "không có",
+    "posthumousName": "Cung Mẫn Anh Đoán Huyền Mặc Vĩ Văn Mục Vương",
+    "eraName": "không có",
+    "courtesyName": "Nguyễn Phúc Dương",
+    "successionOrder": "con Nguyễn Phúc Hiệu, cháu nội Chúa Vũ, em con chú với vua Gia Long",
+    "reignYear": "1776 - 1777",
+    "name": "Tân Chính Vương"
+  },
+  {
+    "templateName": "không có",
+    "posthumousName": "Minh Đức Hoàng Đế",
+    "eraName": "Thái Đức (1778-1788)",
+    "courtesyName": "Hồ Nhạc Nguyễn Nhạc Nguyễn Văn Nhạc",
+    "successionOrder": "con trưởng Hồ Phi Phúc, sáng lập triều đại",
+    "reignYear": "1778 - 1788",
+    "name": "Thái Đức"
+  },
+  {
+    "templateName": "Thái Tổ",
+    "posthumousName": "Vũ Hoàng Đế Trung Thuần Vương",
+    "eraName": "Quang Trung (1788-1792)",
+    "courtesyName": "Nguyễn Huệ Nguyễn Quang Bình Nguyễn Văn Huệ Hồ Thơm",
+    "successionOrder": "con thứ Hồ Phi Phúc, em Nguyễn Nhạc, con rể Lê Hiển Tông",
+    "reignYear": "1788 - 1792",
+    "name": "Quang Trung"
+  },
+  {
+    "templateName": "không có",
+    "posthumousName": "không có",
+    "eraName": "Cảnh Thịnh (1792-1801) Bảo Hưng (1801-1802)",
+    "courtesyName": "Nguyễn Quang Toản Nguyễn Trát",
+    "successionOrder": "con thứ Quang Trung, con rể Lê Hiển Tông",
+    "reignYear": "1792 - 1802",
+    "name": "Nguyễn Quang Toản"
+  },
+  {
+    "templateName": "Thế Tổ",
+    "posthumousName": "Khai Thiên Hoằng Đạo Lập Kỷ Thùy Thống Thần Văn Thánh Vũ Tuấn Đức Long Công Chí Nhân Đại Hiếu Cao Hoàng Đế",
+    "eraName": "Gia Long (1802–1820)",
+    "courtesyName": "Nguyễn Phúc Ánh Nguyễn Phúc Chủng Nguyễn Phúc Noãn",
+    "successionOrder": "Sáng lập triều đại. Con thứ ba của Nguyễn Phúc Luân, cháu nội Nguyễn Phúc Khoát, con rể Lê Hiển Tông",
+    "reignYear": "1802 - 1820",
+    "name": "Gia Long"
+  },
+  {
+    "templateName": "Thánh Tổ",
+    "posthumousName": "Thể Thiên Xương Vận Chí Hiếu Thuần Đức Văn Vũ Minh Đoán Sáng Thuật Đại Thành Hậu Trạch Phong Công Nhân Hoàng Đế",
+    "eraName": "Minh Mạng (1820–1841)",
+    "courtesyName": "Nguyễn Phúc Đảm Nguyễn Phúc Kiểu",
+    "successionOrder": "Con thứ tư Gia Long",
+    "reignYear": "1820 - 1841",
+    "name": "Minh Mạng"
+  },
+  {
+    "templateName": "Hiến Tổ",
+    "posthumousName": "Thiệu Thiên Long Vận Chí Thiện Thuần Hiếu Khoan Minh Duệ Đoán Văn Trị Vũ Công Thánh Triết Chương Hoàng Đế",
+    "eraName": "Thiệu Trị (1841–1847)",
+    "courtesyName": "Nguyễn Phúc Miên Tông Nguyễn Phúc Tuyền Nguyễn Phúc Dung",
+    "successionOrder": "Con trưởng Minh Mạng",
+    "reignYear": "1841 - 1847",
+    "name": "Thiệu Trị"
+  },
+  {
+    "templateName": "Dực Tông",
+    "posthumousName": "Thể Thiên Hanh Vận Chí Thành Đạt Hiếu Thể Kiện Đôn Nhân Khiêm Cung Minh Lược Duệ Văn Anh Hoàng Đế",
+    "eraName": "Tự Đức (1847–1883)",
+    "courtesyName": "Nguyễn Phúc Hồng Nhậm Nguyễn Phúc Thì",
+    "successionOrder": "Con thứ Thiệu Trị",
+    "reignYear": "1847 - 1883",
+    "name": "Tự Đức"
+  },
+  {
+    "templateName": "Cung Tông",
+    "posthumousName": "Huệ Hoàng Đế",
+    "eraName": "không có",
+    "courtesyName": "Nguyễn Phúc Ưng Chân Nguyễn Phúc Ưng Ái",
+    "successionOrder": "Con thứ Nguyễn Phúc Hồng Y, cháu nội Thiệu Trị, con nuôi Tự Đức",
+    "reignYear": "1883 - 1883",
+    "name": "Dục Đức"
+  },
+  {
+    "templateName": "không có",
+    "posthumousName": "Phế Đế",
+    "eraName": "Hiệp Hòa (1883)",
+    "courtesyName": "Nguyễn Phúc Hồng Dật Nguyễn Phúc Thăng",
+    "successionOrder": "Con thứ 29 Thiệu Trị",
+    "reignYear": "1883 - 1883",
+    "name": "Hiệp Hòa"
+  },
+  {
+    "templateName": "Giản Tông",
+    "posthumousName": "Thiệu Đức Chí Hiếu Uyên Duệ Nghị Hoàng Đế",
+    "eraName": "Kiến Phúc (1883-1884)",
+    "courtesyName": "Nguyễn Phúc Ưng Đăng",
+    "successionOrder": "Con thứ Nguyễn Phúc Hồng Cai, cháu nội Thiệu Trị",
+    "reignYear": "1883 - 1884",
+    "name": "Kiến Phúc"
+  },
+  {
+    "templateName": "không có",
+    "posthumousName": "Xuất Đế",
+    "eraName": "Hàm Nghi (1884–1885)",
+    "courtesyName": "Nguyễn Phúc Ưng Lịch Nguyễn Phúc Minh",
+    "successionOrder": "Em trai Kiến Phúc",
+    "reignYear": "1884 - 1885",
+    "name": "Hàm Nghi"
+  },
+  {
+    "templateName": "Cảnh Tông",
+    "posthumousName": "Hoằng Liệt Thống Thiết Mẫn Huệ Thuần Hoàng Đế",
+    "eraName": "Đồng Khánh (1885–1889)",
+    "courtesyName": "Nguyễn Phúc Ưng Kỷ Nguyễn Phúc Ưng Đường Nguyễn Phúc Ưng Thị Nguyễn Phúc Biện Chánh Mông",
+    "successionOrder": "Con trưởng Nguyễn Phúc Hồng Cai, anh Kiến Phúc và Hàm Nghi",
+    "reignYear": "1885 - 1889",
+    "name": "Đồng Khánh"
+  },
+  {
+    "templateName": "không có",
+    "posthumousName": "Phế Đế",
+    "eraName": "Thành Thái (1889–1907)",
+    "courtesyName": "Nguyễn Phúc Bửu Lân Nguyễn Phúc Chiêu",
+    "successionOrder": "Con Dục Đức",
+    "reignYear": "1889 - 1907",
+    "name": "Thành Thái"
+  },
+  {
+    "templateName": "không có",
+    "posthumousName": "Phế Đế",
+    "eraName": "Duy Tân (1907–1916)",
+    "courtesyName": "Nguyễn Phúc Vĩnh San Nguyễn Phúc Hoảng",
+    "successionOrder": "Con thứ Thành Thái",
+    "reignYear": "1907 - 1916",
+    "name": "Duy Tân"
+  },
+  {
+    "templateName": "Hoằng Tông",
+    "posthumousName": "Tự Thiên Gia Vận Thánh Minh Thần Trí Nhân Hiếu Thành Kính Di Mô Thừa Liệt Tuyên Hoàng Đế",
+    "eraName": "Khải Định (1916-1925)",
+    "courtesyName": "Nguyễn Phúc Bửu Đảo",
+    "successionOrder": "Con trưởng Đồng Khánh",
+    "reignYear": "1916 - 1925",
+    "name": "Khải Định"
+  },
+  {
+    "templateName": "không có",
+    "posthumousName": "không có",
+    "eraName": "Bảo Đại (1925–1945)",
+    "courtesyName": "Nguyễn Phúc Vĩnh Thụy Nguyễn Phúc Thiển",
+    "successionOrder": "Con Khải Định",
+    "reignYear": "1925 - 1945",
+    "name": "Bảo Đại"
+  }
+]

@@ -14,7 +14,7 @@ import com.google.gson.GsonBuilder;
 import com.google.gson.reflect.TypeToken;
 import com.google.gson.stream.JsonReader;
 
-import hust.soict.cysec.oop.crawler.figure.FigureFinal;
+import hust.soict.cysec.oop.crawler.historicalfigure.HistoricalFigureFinal;
 import hust.soict.cysec.oop.model.Dynasty;
 import hust.soict.cysec.oop.model.Figure;
 
@@ -89,7 +89,7 @@ public class FigureFilter {
 		Gson gson = new GsonBuilder().create();
 		
 		try {
-			JsonReader reader = new JsonReader(new FileReader(FigureFinal.JSON_FIGURE_PATH));
+			JsonReader reader = new JsonReader(new FileReader(HistoricalFigureFinal.JSON_FIGURE_PATH));
 
 			List<Figure> figuresInJson = gson.fromJson(reader, new TypeToken<List<Figure>>() {}.getType());
 
@@ -104,7 +104,7 @@ public class FigureFilter {
 	public void writeToJson() {
 		Gson gson = new GsonBuilder().setPrettyPrinting().create();
 		try {
-			FileWriter writer = new FileWriter(new File(FigureFinal.JSON_FIGURE_PATH));
+			FileWriter writer = new FileWriter(new File(HistoricalFigureFinal.JSON_FIGURE_PATH));
 			gson.toJson(figuresFiltered, writer);
 			writer.close();
 		} catch (IOException e) {
