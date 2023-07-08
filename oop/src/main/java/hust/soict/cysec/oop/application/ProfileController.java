@@ -70,7 +70,7 @@ public class ProfileController {
     private TableView<?> tableData;
     
     private VBox[] items;
-    private VBox[] selectedItem;
+    private VBox selectedItem;
     private ObservableList<Figure> figureList;
     private ObservableList<King> kingList;
     private ObservableList<Relic> relicList;
@@ -111,24 +111,84 @@ public class ProfileController {
     	festivalList = FXCollections.observableArrayList(model.getFestivals());
     	
     	tableData.getColumns().clear();
-    	settingTable();
+    	settingTable(figureTable,figureList,figureTableFieldName,figureTableFieldProperty);
+    	settingTable(kingTable,kingList,kingTableFieldName,kingTableFieldProperty);
+    	settingTable(relicTable, relicList, relicTableFieldName, relicTableFieldProperty);
+		settingTable(eventTable, eventList, eventTableFieldName, eventTableFieldProperty);
+		settingTable(festivalTable, festivalList, festivalTableFieldName, festivalTableFieldProperty);
+		settingTable(dynastyTable, dynastyList, dynastyTableFieldName, dynastyTableFieldProperty);
+
+		copyTable(figureTable, (TableView<Figure>) tableData);
+		
+		items = new VBox[] { figureItem, dynastyItem, eventItem, relicItem, festivalItem };
+		selectedItem = figureItem;
+		for (VBox item : items) {
+			item.setStyle("-fx-cursor: hand");
+		}
+		selectedItem.setStyle("-fx-background-color: #ccc");
+
+		// Pop up
+		setEventClickOnRow((TableView<HistoricalFigure>) tableData);
     }
     
     private <T> void settingTable(TableView<T> table, ObservableList<T> data, List<String> columnName, List<String> columnProperty) {
     	table.setItems(data);
     	for (int i = 0; i < columnName.size(); ++i) {
-    		TableColumn<T, ?> column = new TableColumn<>(columnName.get(i));
+    		TableColumn<T, String> column = new TableColumn<T, String>(columnName.get(i));
     		column.prefWidthProperty().bind(tableData.widthProperty().multiply((1 - 0.1) / (columnName.size() - 1)));
-    		column.setCellValueFactory(new PropertyValueFactory<>(columnProperty.get(i)));
+    		column.setCellValueFactory(new PropertyValueFactory<T, String>(columnProperty.get(i)));
     		table.getColumns().add(column);
     	}
     }
+    private <T> void copyTable(TableView<T> originalTable, TableView<T> newTable) {
+		newTable.setItems((ObservableList<T>) originalTable.getItems());
+		for (TableColumn<T, ?> column : originalTable.getColumns()) {
+			newTable.getColumns().add(column);
+		}
+		setEventClickOnRow((TableView<T>) tableData);
+	}
+    
     
     @FXML
     void handleItemClicked(MouseEvent event) {
+    	VBox clickedItem = (VBox) event.getSource();
+		selectedItem.setStyle("-fx-cursor: hand");
+		selectedItem = clickedItem;
+		selectedItem.setStyle("-fx-background-color: #ccc");
 
+		// change table
+		tableData.getColumns().clear();
+		String labelText = "";
+		for (Node node : selectedItem.getChildren()) {
+			if (node instanceof Label) {
+				Label label = (Label) node;
+				labelText = label.getText();
+			}
+		}
+		switch (labelText) {
+		case "Nhân vật lịch sử":
+			copyTable(figureTable, (TableView<Figure>) tableData);
+			break;
+		case "Vua":
+			copyTable(figureTable, (TableView<Figure>) tableData);
+			break;
+		case "Di tích lịch sử":
+			copyTable(relicTable, (TableView<Relic>) tableData);
+			break;
+		case "Sự kiện lịch sử":
+			copyTable(eventTable, (TableView<HistoricalEvent>) tableData);
+			break;
+		case "Lễ hội":
+			copyTable(festivalTable, (TableView<Festival>) tableData);
+			break;
+		case "Triều đại":
+			copyTable(dynastyTable, (TableView<Dynasty>) tableData);
+			break;
+		default:
+			System.out.println("Loi");
+		}
     }
-
+    
     @FXML
     void pressEnter(KeyEvent event) {
 
@@ -141,27 +201,25 @@ public class ProfileController {
 				if (event.getClickCount() == 2 && (!row.isEmpty())) {
 					T rowData = (T) row.getItem();
 					try {
-						if (rowData instanceof HistoricalFigure) {
-							popupData((HistoricalFigure) rowData, historicalFigureTableFieldName,
-									historicalFigureTableFieldProperty, historicalFigureLinkFieldName,
-									historicalFigureLinkFieldProperty, "Nhân vật lịch sử");
+						if (rowData instanceof Figure) {
+							popupData((Figure) rowData, figureTableFieldName,
+									figureTableFieldProperty, "Nhân vật lịch sử");
 						}
-						if (rowData instanceof HistoricalSite) {
-							popupData((HistoricalSite) rowData, historicSiteTableFieldName,
-									historicSiteTableFieldProperty, historicSiteLinkFieldName,
-									historicSiteLinkFieldProperty, "Di tích lịch sử");
+						if (rowData instanceof Relic) {
+							popupData((Relic) rowData, relicTableFieldName,
+									relicTableFieldProperty, "Di tích lịch sử");
 						}
 						if (rowData instanceof HistoricalEvent) {
 							popupData((HistoricalEvent) rowData, eventTableFieldName, eventTableFieldProperty,
-									eventLinkFieldName, eventLinkFieldProperty, "Sự kiện lịch sử");
+									"Sự kiện lịch sử");
 						}
 						if (rowData instanceof Festival) {
 							popupData((Festival) rowData, festivalTableFieldName, festivalTableFieldProperty,
-									festivalLinkFieldName, festivalLinkFieldProperty, "Lễ hội văn hóa");
+									 "Lễ hội văn hóa");
 						}
-						if (rowData instanceof Era) {
-							popupData((Era) rowData, eraTableFieldName, eraTableFieldProperty, eraLinkFieldName,
-									eraLinkFieldProperty, "Triều đại lịch sử");
+						if (rowData instanceof Dynasty) {
+							popupData((Dynasty) rowData, dynastyTableFieldName, dynastyTableFieldProperty,
+									"Triều đại lịch sử");
 						}
 					} catch (IOException e) {
 						e.printStackTrace();
@@ -210,8 +268,7 @@ public class ProfileController {
 	}
     
 	@SuppressWarnings("unused")
-	private <T> void popupData(T data, List<String> fieldName, List<String> property, List<String> linkField,
-			List<String> linkProperty, String title) throws IOException {
+	private <T> void popupData(T data, List<String> fieldName, List<String> property, String title) throws IOException {
 		BorderPane root = FXMLLoader.load(getClass().getResource("profile.fxml"));
 		Stage stage = new Stage();
 		stage.setTitle("Thông tin chi tiết");
