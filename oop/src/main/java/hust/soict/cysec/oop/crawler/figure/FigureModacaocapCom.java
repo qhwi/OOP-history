@@ -1,4 +1,4 @@
-package hust.soict.cysec.oop.crawler.historicalfigure.figure;
+package hust.soict.cysec.oop.crawler.figure;
 
 import java.io.IOException;
 import java.util.ArrayList;
@@ -9,10 +9,11 @@ import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
+import hust.soict.cysec.oop.crawler.LeafCrawler;
 import hust.soict.cysec.oop.model.Figure;
 
-public class FigureModacaocapCom {
-	public static List<Figure> crawlAll() throws IOException {
+public class FigureModacaocapCom extends LeafCrawler<Figure> {
+	public List<Figure> crawl() throws IOException {
 		List<Figure> figures = new ArrayList<>();
 		
 		String url = "https://modacaocap.com/danh-sach-trang-nguyen-viet-nam/";
@@ -63,13 +64,5 @@ public class FigureModacaocapCom {
 		}
 		
 		return figures;
-	}
-	
-	public static void main(String[] args) throws IOException {
-		List<Figure> figures = crawlAll();
-		
-		for (Figure figure : figures) {
-			figure.print();
-		}
 	}
 }

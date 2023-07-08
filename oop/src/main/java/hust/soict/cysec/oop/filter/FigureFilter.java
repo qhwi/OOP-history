@@ -1,9 +1,6 @@
 package hust.soict.cysec.oop.filter;
 
-import java.io.File;
 import java.io.FileReader;
-import java.io.FileWriter;
-import java.io.IOException;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.LinkedList;
@@ -14,7 +11,8 @@ import com.google.gson.GsonBuilder;
 import com.google.gson.reflect.TypeToken;
 import com.google.gson.stream.JsonReader;
 
-import hust.soict.cysec.oop.crawler.historicalfigure.HistoricalFigureFinal;
+import hust.soict.cysec.oop.crawler.common.JSONUtility;
+import hust.soict.cysec.oop.crawler.figure.FigureFinal;
 import hust.soict.cysec.oop.model.Dynasty;
 import hust.soict.cysec.oop.model.Figure;
 
@@ -30,7 +28,7 @@ public class FigureFilter {
 		
 		figureFilter.filter();
 		
-		figureFilter.writeToJson();
+		JSONUtility.writeToJSON(FigureFinal.JSON_FIGURE_PATH, figureFilter.figuresFiltered);
 	}
 	
 	public void filter() {
@@ -89,7 +87,7 @@ public class FigureFilter {
 		Gson gson = new GsonBuilder().create();
 		
 		try {
-			JsonReader reader = new JsonReader(new FileReader(HistoricalFigureFinal.JSON_FIGURE_PATH));
+			JsonReader reader = new JsonReader(new FileReader(FigureFinal.JSON_FIGURE_PATH));
 
 			List<Figure> figuresInJson = gson.fromJson(reader, new TypeToken<List<Figure>>() {}.getType());
 
@@ -99,17 +97,6 @@ public class FigureFilter {
 			System.out.println("Cannot parse figure json file");
 		}
 		return null;
-	}
-	
-	public void writeToJson() {
-		Gson gson = new GsonBuilder().setPrettyPrinting().create();
-		try {
-			FileWriter writer = new FileWriter(new File(HistoricalFigureFinal.JSON_FIGURE_PATH));
-			gson.toJson(figuresFiltered, writer);
-			writer.close();
-		} catch (IOException e) {
-			e.printStackTrace();
-		}
 	}
 	
 	public void addFigure(Figure figure) {

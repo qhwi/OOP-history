@@ -16,7 +16,7 @@ public class FestivalCrawler {
 		String url = "https://vi.wikipedia.org/wiki/L%E1%BB%85_h%E1%BB%99i_Vi%E1%BB%87t_Nam";
 		Element table = Jsoup.connect(url).get().select("table").get(1);
 		Elements rows = table.select("tr");
-		OutputStream out = new FileOutputStream("src\\\\main\\\\json\\\\Festival.json");
+		OutputStream out = new FileOutputStream("src\\main\\json\\Festival.json");
 		JsonWriter writer = new JsonWriter(new OutputStreamWriter(out, "UTF-8"));
 		writer.setIndent("  ");
 		writer.beginArray();

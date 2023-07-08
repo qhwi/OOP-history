@@ -9,12 +9,14 @@ import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
+import hust.soict.cysec.oop.crawler.LeafCrawler;
 import hust.soict.cysec.oop.model.Relic;
 
-public class RelicCrawlDtlsvhxhCom {
+public class RelicDtlsvhxhCom extends LeafCrawler<Relic> {
 	public static final String JSON_RELIC_PATH_DTLSVHXH = "src\\main\\json\\relic_dtlsvhxh.json";
 	
-	public static List<Relic> crawlAll() throws IOException{
+	@Override
+	public List<Relic> crawl() throws IOException{
 		List<Relic> relics = new ArrayList<Relic>();
 		String pageCrawlUrl = "http://ditichlichsu-vanhoahanoi.com/category/2dtlsvh/page/";
 		List<String> pages = new ArrayList<String>();

@@ -8,8 +8,10 @@ import java.net.SocketTimeoutException;
 import java.util.ArrayList;
 import java.util.List;
 
-import hust.soict.cysec.oop.crawler.utils.TimeUtility;
 import com.google.gson.stream.JsonWriter;
+
+import hust.soict.cysec.oop.crawler.common.TimeUtility;
+
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;

@@ -1,4 +1,4 @@
-package hust.soict.cysec.oop.crawler.historicalfigure.king;
+package hust.soict.cysec.oop.crawler.king;
 
 import java.io.IOException;
 import java.util.ArrayList;
@@ -9,20 +9,12 @@ import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
+import hust.soict.cysec.oop.crawler.LeafCrawler;
 import hust.soict.cysec.oop.model.King;
 
-public class KingWiki {
-	public static final String JSON_KING_PATH_WIKI = "C:\\Users\\triet\\eclipse-workspace\\TestCrawler\\src\\crawler\\json\\kings_wiki.json";
-
-	public static void main(String[] args) throws IOException {
-		List<King> kings = crawlAll();
-
-		for (King king : kings) {
-			king.print();
-		}
-	}
-	
-	public static List<King> crawlAll() throws IOException {
+public class KingWiki extends LeafCrawler<King> {
+	@Override
+	public List<King> crawl() throws IOException {
 		List<King> kings = new ArrayList<>();
 		
 		String url = "https://vi.wikipedia.org/wiki/Vua_Vi%E1%BB%87t_Nam";

@@ -15,7 +15,7 @@ import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
-public class DynastyCrawler {
+public class DynastyWiki {
 	public static void main(String[] args) throws IOException {
 		String url = "https://vi.wikipedia.org/wiki/L%E1%BB%8Bch_s%E1%BB%AD_Vi%E1%BB%87t_Nam";
 		Document document = Jsoup.connect(url).get();

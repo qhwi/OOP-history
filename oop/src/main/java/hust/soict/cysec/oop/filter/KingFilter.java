@@ -1,19 +1,11 @@
 package hust.soict.cysec.oop.filter;
 
-import java.io.File;
-import java.io.FileReader;
-import java.io.FileWriter;
-import java.io.IOException;
 import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.List;
 
-import com.google.gson.Gson;
-import com.google.gson.GsonBuilder;
-import com.google.gson.reflect.TypeToken;
-import com.google.gson.stream.JsonReader;
-
-import hust.soict.cysec.oop.crawler.historicalfigure.king.KingFinal;
+import hust.soict.cysec.oop.crawler.common.JSONUtility;
+import hust.soict.cysec.oop.crawler.king.KingFinal;
 import hust.soict.cysec.oop.model.King;
 
 public class KingFilter {
@@ -28,11 +20,12 @@ public class KingFilter {
 		
 		kingFilter.filter();
 		
-		kingFilter.writeToJson();
+		JSONUtility.writeToJSON(KingFinal.JSON_KING_PATH, kingFilter.kingsFiltered);
 	}
 	
 	public void filter() {
-		List<King> kingsInJson = readData();
+		List<King> kingsInJson = JSONUtility.readJson(KingFinal.JSON_KING_PATH, King.class);
+		
 		HashMap<String, Integer> names = new HashMap<String, Integer>();
 
 		System.out.println("Size before: " + kingsInJson.size());
@@ -83,32 +76,7 @@ public class KingFilter {
 		System.out.println("Size after: " + kingsFiltered.size());
 	}
 	
-	public List<King> readData() {
-		Gson gson = new GsonBuilder().create();
-		
-		try {
-			JsonReader reader = new JsonReader(new FileReader(KingFinal.JSON_KING_PATH));
-
-			List<King> kingsInJson = gson.fromJson(reader, new TypeToken<List<King>>() {}.getType());
-
-			return kingsInJson;
-		} catch (Exception e) {
-			e.printStackTrace();
-			System.out.println("Cannot parse figure json file");
-		}
-		return null;
-	}
 	
-	public void writeToJson() {
-		Gson gson = new GsonBuilder().setPrettyPrinting().create();
-		try {
-			FileWriter writer = new FileWriter(new File(KingFinal.JSON_KING_PATH));
-			gson.toJson(kingsFiltered, writer);
-			writer.close();
-		} catch (IOException e) {
-			e.printStackTrace();
-		}
-	}
 	
 	public void addKing(King king) {
 		kingsFiltered.add(king);
