@@ -191,8 +191,78 @@ public class ProfileController {
     
     @FXML
     void pressEnter(KeyEvent event) {
-
+    	String searchName = searchInfo.getText();
+    	String type = selectedItem.getId();
+    	
+    	tableData.getColumns().clear();
+    	switch (type) {
+    	case "figureItem":
+    		searchingTable(figureList, figureTableFieldName, figureTableFieldProperty, searchName);
+    		break;
+    	case "kingItem":
+    		searchingTable(kingList, kingTableFieldName, kingTableFieldProperty, searchName);
+    		break;
+    	case "relicItem":
+    		searchingTable(relicList, relicTableFieldName, relicTableFieldProperty, searchName);
+    		break;
+    	case "eventItem":
+    		searchingTable(eventList, eventTableFieldName, eventTableFieldProperty, searchName);
+    		break;
+    	case "festivalItem":
+    		searchingTable(festivalList, festivalTableFieldName, festivalTableFieldProperty, searchName);
+    		break;
+    	case "dynastyItem":
+    		searchingTable(dynastyList, dynastyTableFieldName, dynastyTableFieldProperty, searchName);
+    		break;
+    	default:
+    		System.out.println("Error.");
+    	}
     }
+    
+    protected <T> void searchingTable(ObservableList<T> data, List<String> columnName, List<String> columnProperty, String searchName) {
+    	ObservableList<T> data2 = FXCollections.observableArrayList();
+    	TableView<T> view2 = new TableView<>();
+    	
+    	if (!data.isEmpty()) {
+    		for (int i = 0; i < data.size(); i++) {
+    			if (data.get(i) instanceof Dynasty) {
+    				Dynasty dynasty = (Dynasty) data.get(i);
+    				if (dynasty.checking(searchName)) {
+    					data2.add(data.get(i));
+    				}
+    			}
+    			if (data.get(i) instanceof Festival) {
+    				Festival festival = (Festival) data.get(i);
+    				if (festival.checking(searchName)) {
+    					data2.add(data.get(i));
+    				}
+    			}
+    			if (data.get(i) instanceof HistoricalEvent) {
+    				HistoricalEvent event = (HistoricalEvent) data.get(i);
+    				if (event.checking(searchName)) {
+    					data2.add(data.get(i));
+    				}
+    			}
+    			if (data.get(i) instanceof Relic) {
+    				Relic relic = (Relic) data.get(i);
+    				if (relic.checking(searchName)) {
+    					data2.add(data.get(i));
+    				}
+    			}
+    			if (data.get(i) instanceof HistoricalFigure) {
+    				HistoricalFigure fig = (HistoricalFigure) data.get(i);
+    				if (fig.checking(searchName)) {
+    					data2.add(data.get(i));
+    				}
+    			}
+    		}
+    	}
+    	
+    	settingTable(view2, data2, columnName, columnProperty);
+    	tableData.getColumns().clear();
+    	copyTable(view2, (TableView<T>) tableData);
+    }
+   
     
     private <T> void setEventClickOnRow(TableView<T> mainTable) {
 		mainTable.setRowFactory(tv -> {
