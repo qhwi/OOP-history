@@ -87,8 +87,8 @@ public class ProfileController {
     
     private List<String> figureTableFieldName = Arrays.asList("Tên", "Năm sinh", "Năm mất", "Bí danh", "Quê quán", "Ghi chú");
     private List<String> figureTableFieldProperty = Arrays.asList("name", "birth", "death", "alias", "hometown", "note");
-    private List<String> kingTableFieldName = Arrays.asList("Tên", "Năm sinh", "Năm mất", "Miếu hiệu", "Thụy hiệu", "Niên hiệu", "Tên húy", "Thế thứ", "Năm trị vì", "Tiền nhiệm", "Kế nhiệm");
-    private List<String> kingTableFieldProperty = Arrays.asList("name", "birth", "death", "templateName", "posthumousName", "eraName", "courtesyName", "successionOrder", "reignYear", "predecessor", "successor");
+    private List<String> kingTableFieldName = Arrays.asList("Tên", "Miếu hiệu", "Thụy hiệu", "Niên hiệu", "Tên húy", "Thế thứ", "Năm trị vì" );
+    private List<String> kingTableFieldProperty = Arrays.asList("name", "templateName", "posthumousName", "eraName", "courtesyName", "successionOrder", "reignYear");
     private List<String> relicTableFieldName = Arrays.asList("Tên", "Địa điểm", "Loại hình","Xếp hạng", "Mô tả");
     private List<String> relicTableFieldProperty = Arrays.asList("name", "location", "type", "rank", "desc");
     private List<String> eventTableFieldName = Arrays.asList("Tên", "Bắt đầu", "Kết thúc", "Mô tả");
@@ -97,6 +97,18 @@ public class ProfileController {
     private List<String> dynastyTableFieldProperty = Arrays.asList("name", "startYear", "endYear", "capital");
     private List<String> festivalTableFieldName = Arrays.asList("Tên", "Địa điểm", "Thời gian", "Mô tả");
     private List<String> festivalTableFieldProperty = Arrays.asList("name", "location", "time", "desc");
+    
+    private List<String> figureBonusName = Arrays.asList("Triều đại");
+    private List<String> figureTBonusProperty = Arrays.asList("dynasties");
+    private List<String> relicBonusName = Arrays.asList("Nhân vật");
+    private List<String> relicBonusProperty = Arrays.asList("relatedFigures");
+    private List<String> eventBonusName = Arrays.asList("Nhân vật");
+    private List<String> eventBonusProperty = Arrays.asList("figures");
+    private List<String> dynastyBonusName = Arrays.asList("Các vị vua");
+    private List<String> dynastyBonusProperty = Arrays.asList("kings");
+    private List<String> festivalBonusName = Arrays.asList("Nhân vật");
+    private List<String> festivalBonusProperty = Arrays.asList("figures");
+    
     
     @SuppressWarnings("unchecked")
     @FXML
@@ -120,7 +132,7 @@ public class ProfileController {
 
 		copyTable(figureTable, (TableView<Figure>) tableData);
 		
-		items = new VBox[] { figureItem, dynastyItem, eventItem, relicItem, festivalItem };
+		items = new VBox[] { figureItem, dynastyItem, eventItem, relicItem, festivalItem, kingItem };
 		selectedItem = figureItem;
 		for (VBox item : items) {
 			item.setStyle("-fx-cursor: hand");
@@ -170,7 +182,7 @@ public class ProfileController {
 			copyTable(figureTable, (TableView<Figure>) tableData);
 			break;
 		case "Vua":
-			copyTable(figureTable, (TableView<Figure>) tableData);
+			copyTable(kingTable, (TableView<King>) tableData);
 			break;
 		case "Di tích lịch sử":
 			copyTable(relicTable, (TableView<Relic>) tableData);
@@ -205,6 +217,10 @@ public class ProfileController {
 							popupData((Figure) rowData, figureTableFieldName,
 									figureTableFieldProperty, "Nhân vật lịch sử");
 						}
+						if (rowData instanceof King) {
+							popupData((King) rowData, kingTableFieldName,
+									kingTableFieldProperty, "Vua");
+						}
 						if (rowData instanceof Relic) {
 							popupData((Relic) rowData, relicTableFieldName,
 									relicTableFieldProperty, "Di tích lịch sử");
@@ -238,6 +254,10 @@ public class ProfileController {
 			e.printStackTrace();
 		}
 		ImageView image = (ImageView) (((HBox) (newVbox.getChildren().get(0))).getChildren().get(0));
+		if (Arrays.asList("Tên").contains(field)) {
+			File file = new File("src/main/iconProfile/name.png");
+			image.setImage(new Image(file.toURI().toString()));
+		}
 		if (Arrays.asList("Quê quán", "Địa điểm", "Thủ đô").contains(field)) {
 			File file = new File("src/main/iconProfile/address.png");
 			image.setImage(new Image(file.toURI().toString()));
@@ -279,7 +299,7 @@ public class ProfileController {
 
 		// set avatar
 		ImageView avatar = (ImageView) vBoxTop.getChildren().get(0);
-		if (data instanceof HistoricalFigure) {
+		if (data instanceof Figure) {
 			File file = new File("src/main/iconProfile/figure.png");
 			avatar.setImage(new Image(file.toURI().toString()));
 		}
@@ -308,16 +328,21 @@ public class ProfileController {
 		VBox vBoxCenter = (VBox) root.getCenter();
 
 		vBoxCenter.getChildren().clear();
-		
+
 		// set field element
-		for (int i = 0; i < fieldName.size(); ++i) {
+		for (int i = 0; i < fieldName.size(); i++) {
 			try {
 				Class<T> clazz = (Class<T>) data.getClass();
+				
 				Field field = clazz.getDeclaredField(property.get(i));
 				field.setAccessible(true);
 				Object propertyValue = field.get(data);
-				vBoxCenter.getChildren().add(createPopupElement(fieldName.get(i),
-						Arrays.asList(propertyValue.toString()), "itemProfile"));
+				if (propertyValue != null) {
+				    vBoxCenter.getChildren().add(createPopupElement(fieldName.get(i), Arrays.asList(propertyValue.toString()), "itemProfile"));
+				}
+				else {
+				    vBoxCenter.getChildren().add(createPopupElement(fieldName.get(i), Arrays.asList("Không rõ"), "itemProfile"));
+				}
 			} catch (NoSuchFieldException | IllegalAccessException e) {
 				e.printStackTrace();
 			}

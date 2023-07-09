@@ -7,9 +7,13 @@ public class King extends HistoricalFigure {
 	private String courtesyName; // Tên húy
 	private String successionOrder; // Thế thứ
 	private String reignYear; // Năm trị vì
+
 	private String predecessor; // Tiền nhiệm
 	private String successor; // Kế nhiệm
-	
+
+//	public String getName() {
+//		return name;
+//	}
 	public String getTemplateName() {
 		return templateName;
 	}
