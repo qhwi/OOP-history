@@ -27,27 +27,56 @@ public class MainCrawler {
 		listCrawlers.add(new DynastyFinal());
 	}
 	
+	public List<NodeCrawler<?>> getListCrawlers(){
+		return this.listCrawlers;
+	}
+	
+	// Execute only one crawler
 	public void envokeAllCrawlers() throws IOException {
 		for (NodeCrawler<?> nodeCrawler : listCrawlers) {
-			nodeCrawler.envokeAllCrawlers();
+			envokeCrawler(nodeCrawler);
 		}
 	}
 	
-	public void writeToJson() throws IOException {
+	// Execute all crawlers
+	public void envokeCrawler(NodeCrawler<?> nodeCrawler) throws IOException {
+		nodeCrawler.envokeAllCrawlers();
+	}
+	
+	// Write all objects
+	public void writeAllToJson() throws IOException {
 		for (NodeCrawler<?> nodeCrawler : listCrawlers) {
-			JSONUtility.writeToJSON(nodeCrawler.JSON_URL, nodeCrawler.getCrawledList());
+			writeToJson(nodeCrawler);
 		}
+	}
+	
+	// Write only one object
+	public void writeToJson(NodeCrawler<?> nodeCrawler) throws IOException {
+		JSONUtility.writeToJSON(nodeCrawler.JSON_URL, nodeCrawler.getCrawledList());
 	}
 
 	public static void main(String[] args) {
 		MainCrawler mainCrawler = new MainCrawler();
 		
+		// Crawl all
+//		for (NodeCrawler<?> nodeCrawler : mainCrawler.getListCrawlers()) {
+//			try {
+//				mainCrawler.envokeCrawler(nodeCrawler);
+//				mainCrawler.writeToJson(nodeCrawler);
+//			} catch (IOException e) {
+//				System.out.println("Error");
+//				e.printStackTrace();
+//			}
+//		}
+		
+		// Crawl one
 		try {
-			mainCrawler.envokeAllCrawlers();
-			
-			mainCrawler.writeToJson();
-		} catch (IOException e) {
-			System.out.println("Error while running crawlers");
+			NodeCrawler<?> relicCrawler = mainCrawler.getListCrawlers().get(4);
+			mainCrawler.envokeCrawler(relicCrawler);
+			mainCrawler.writeToJson(relicCrawler);
+		} catch(IOException e) {
+			System.out.println("Error");
+			e.printStackTrace();
 		}
 		
 	}

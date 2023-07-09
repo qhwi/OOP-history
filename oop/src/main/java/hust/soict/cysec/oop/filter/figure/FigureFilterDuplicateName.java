@@ -1,7 +1,6 @@
 package hust.soict.cysec.oop.filter.figure;
 
 import java.io.IOException;
-import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.List;
@@ -10,7 +9,6 @@ import hust.soict.cysec.oop.common.Constants;
 import hust.soict.cysec.oop.common.JSONUtility;
 import hust.soict.cysec.oop.common.StringUtility;
 import hust.soict.cysec.oop.filter.generic.LeafFilter;
-import hust.soict.cysec.oop.model.Dynasty;
 import hust.soict.cysec.oop.model.Figure;
 
 public class FigureFilterDuplicateName extends LeafFilter<Figure> {
@@ -37,33 +35,28 @@ public class FigureFilterDuplicateName extends LeafFilter<Figure> {
 				// Check for attributes and add to missing fields
 				Figure existedFigure = figuresFiltered.get(names.get(figure.getName()));
 				
-				if(StringUtility.checkEmptyString(existedFigure.getAlias()) && !StringUtility.checkEmptyString(figure.getAlias())) {
+				if(StringUtility.isEmptyString(existedFigure.getAlias()) && !StringUtility.isEmptyString(figure.getAlias())) {
 					existedFigure.setAlias(figure.getAlias());
 				}
-				if(StringUtility.checkEmptyString(existedFigure.getBirth()) && !StringUtility.checkEmptyString(figure.getBirth())) {
+				if(StringUtility.isEmptyString(existedFigure.getBirth()) && !StringUtility.isEmptyString(figure.getBirth())) {
 					existedFigure.setBirth(figure.getBirth());
 				}
-				if(StringUtility.checkEmptyString(existedFigure.getDeath()) && !StringUtility.checkEmptyString(figure.getDeath())) {
+				if(StringUtility.isEmptyString(existedFigure.getDeath()) && !StringUtility.isEmptyString(figure.getDeath())) {
 					existedFigure.setDeath(figure.getDeath());
 				}
-				if(StringUtility.checkEmptyString(existedFigure.getHometown()) && !StringUtility.checkEmptyString(figure.getHometown())) {
+				if(StringUtility.isEmptyString(existedFigure.getHometown()) && !StringUtility.isEmptyString(figure.getHometown())) {
 					existedFigure.setHometown(figure.getHometown());
 				}
-				if(StringUtility.checkEmptyString(existedFigure.getNote()) && !StringUtility.checkEmptyString(figure.getNote())) {
+				if(StringUtility.isEmptyString(existedFigure.getNote()) && !StringUtility.isEmptyString(figure.getNote())) {
 					existedFigure.setName(figure.getNote());
 				}
-				List<Dynasty> figureJsonDynasties = figure.getDynasties();
+				
+				List<String> figureJsonDynasties = figure.getDynasties();
 				if(figureJsonDynasties.size() != 0) {
-					List<String> existedDynastyNames = new ArrayList<>();
-					List<Dynasty> figureFilteredDynasties = existedFigure.getDynasties();
-					
-					for(Dynasty dynasty : figureFilteredDynasties) {
-						existedDynastyNames.add(dynasty.getName());
-					}
-					
-					for (Dynasty dynasty : figureJsonDynasties) {
-						if(!existedDynastyNames.contains(dynasty.getName())) {
-							existedDynastyNames.add(dynasty.getName());
+					List<String> figureFilteredDynasties = existedFigure.getDynasties();
+
+					for (String dynasty : figureJsonDynasties) {
+						if(!figureFilteredDynasties.contains(dynasty)) {
 							figureFilteredDynasties.add(dynasty);
 						}
 					}

@@ -83,9 +83,6 @@ public class EventThuVienLichSuVn extends LeafCrawler<HistoricalEvent> {
 		Elements figures = doc.select("h4.card-title");
 		for (Element figure : figures) {
 			event.getFigure().add(figure.text());
-//			Figure relatedFigure = new Figure();
-//			relatedFigure.setName(figure.text());
-//			event.addFigure(relatedFigure);
 		}
 		
 		return event;

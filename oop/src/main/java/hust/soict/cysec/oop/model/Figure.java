@@ -1,21 +1,29 @@
 package hust.soict.cysec.oop.model;
 
-import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.List;
+
+import hust.soict.cysec.oop.common.StringUtility;
 
 public class Figure extends HistoricalFigure {
 	private String alias;
 	private String hometown;
 	private String note;
-	private ArrayList<Dynasty> dynasties = new ArrayList<Dynasty>();
-	private ArrayList<HistoricalEvent> eventJoined;
+	private List<String> dynasties;
+	private List<String> eventJoined;
+	
+	public Figure() {
+		this.dynasties = new LinkedList<>();
+		this.eventJoined = new LinkedList<>();
+	}
 
 	public String getAlias() {
 		return alias;
 	}
 
 	public void setAlias(String alias) {
-		this.alias = alias;
+		if(!StringUtility.isEmptyString(alias))
+			this.alias = alias;
 	}
 
 	public String getHometown() {
@@ -23,7 +31,8 @@ public class Figure extends HistoricalFigure {
 	}
 
 	public void setHometown(String hometown) {
-		this.hometown = hometown;
+		if(!StringUtility.isEmptyString(hometown))
+			this.hometown = hometown;
 	}
 
 	public String getNote() {
@@ -31,23 +40,35 @@ public class Figure extends HistoricalFigure {
 	}
 
 	public void setNote(String note) {
-		this.note = note;
+		if(!StringUtility.isEmptyString(note))
+			this.note = note;
 	}
 	
-	public void setDynasties(List<Dynasty> dynasties) {
-		this.dynasties.addAll(dynasties);
+	public void setDynasties(List<String> dynasties) {
+		if(dynasties.size() != 0)
+			this.dynasties.addAll(dynasties);
 	}
 	
-	public List<Dynasty> getDynasties(){
+	public List<String> getDynasties(){
 		return this.dynasties;
 	}
 
-	public void addDynasty(Dynasty dynasty) {
-		this.dynasties.add(dynasty);
+	public List<String> getEventJoined() {
+		return eventJoined;
+	}
+
+	public void setEventJoined(List<String> eventJoined) {
+		this.eventJoined = eventJoined;
+	}
+
+	public void addDynasty(String dynasty) {
+		if(!StringUtility.isEmptyString(dynasty))
+			this.dynasties.add(dynasty);
 	}
 	
-	public void addEvent(HistoricalEvent event) {
-		this.eventJoined.add(event);
+	public void addEvent(String event) {
+		if(!StringUtility.isEmptyString(event))
+			this.eventJoined.add(event);
 	}
 	
 	public void print() {
@@ -56,8 +77,8 @@ public class Figure extends HistoricalFigure {
 		System.out.println("Năm sinh: " + getBirth() + " - " + getDeath());
 		System.out.println("Tỉnh thành: " + getHometown());
 		System.out.println("Triều đại: ");
-		for (Dynasty dynasty : dynasties) {
-			System.out.println("- " + dynasty.getName());
+		for (String dynasty : dynasties) {
+			System.out.println("- " + dynasty);
 		}
 		System.out.println("Ghi chú: " + getNote());
 	}

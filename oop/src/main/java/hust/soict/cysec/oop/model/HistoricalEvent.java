@@ -1,5 +1,6 @@
 package hust.soict.cysec.oop.model;
 
+import java.util.LinkedList;
 import java.util.List;
 
 public class HistoricalEvent {
@@ -9,6 +10,12 @@ public class HistoricalEvent {
 	private String desc;
 	private List<String> locations;
 	private List<String> figures;
+	
+	public HistoricalEvent() {
+		this.locations = new LinkedList<>();
+		this.figures = new LinkedList<>();
+	}
+	
 	public String getName() {
 		return name;
 	}

@@ -38,35 +38,35 @@ public class KingFilterDuplicateName extends LeafFilter<King> {
 				// Check for attributes and add to missing fields
 				King existedKing = kingsFiltered.get(names.get(king.getName()));
 
-				if (StringUtility.checkEmptyString(existedKing.getBirth()) && !StringUtility.checkEmptyString(king.getBirth())) {
+				if (StringUtility.isEmptyString(existedKing.getBirth()) && !StringUtility.isEmptyString(king.getBirth())) {
 					existedKing.setBirth(king.getBirth());
 				}
-				if (StringUtility.checkEmptyString(existedKing.getDeath()) && !StringUtility.checkEmptyString(king.getDeath())) {
+				if (StringUtility.isEmptyString(existedKing.getDeath()) && !StringUtility.isEmptyString(king.getDeath())) {
 					existedKing.setDeath(king.getDeath());
 				}
-				if (StringUtility.checkEmptyString(existedKing.getTemplateName()) && !StringUtility.checkEmptyString(king.getTemplateName())) {
+				if (StringUtility.isEmptyString(existedKing.getTemplateName()) && !StringUtility.isEmptyString(king.getTemplateName())) {
 					existedKing.setTemplateName(king.getTemplateName());
 				}
-				if (StringUtility.checkEmptyString(existedKing.getPosthumousName()) && !StringUtility.checkEmptyString(king.getPosthumousName())) {
+				if (StringUtility.isEmptyString(existedKing.getPosthumousName()) && !StringUtility.isEmptyString(king.getPosthumousName())) {
 					existedKing.setPosthumousName(king.getPosthumousName());
 				}
-				if (StringUtility.checkEmptyString(existedKing.getEraName()) && !StringUtility.checkEmptyString(king.getEraName())) {
+				if (StringUtility.isEmptyString(existedKing.getEraName()) && !StringUtility.isEmptyString(king.getEraName())) {
 					existedKing.setEraName(king.getEraName());
 				}
-				if (StringUtility.checkEmptyString(existedKing.getCourtesyName()) && !StringUtility.checkEmptyString(king.getCourtesyName())) {
+				if (StringUtility.isEmptyString(existedKing.getCourtesyName()) && !StringUtility.isEmptyString(king.getCourtesyName())) {
 					existedKing.setCourtesyName(king.getCourtesyName());
 				}
-				if (StringUtility.checkEmptyString(existedKing.getSuccessionOrder())
-						&& !StringUtility.checkEmptyString(king.getSuccessionOrder())) {
+				if (StringUtility.isEmptyString(existedKing.getSuccessionOrder())
+						&& !StringUtility.isEmptyString(king.getSuccessionOrder())) {
 					existedKing.setSuccessionOrder(king.getSuccessionOrder());
 				}
-				if (StringUtility.checkEmptyString(existedKing.getReignYear()) && !StringUtility.checkEmptyString(king.getReignYear())) {
+				if (StringUtility.isEmptyString(existedKing.getReignYear()) && !StringUtility.isEmptyString(king.getReignYear())) {
 					existedKing.setReignYear(king.getReignYear());
 				}
-				if (StringUtility.checkEmptyString(existedKing.getPredecessor()) && !StringUtility.checkEmptyString(king.getPredecessor())) {
+				if (StringUtility.isEmptyString(existedKing.getPredecessor()) && !StringUtility.isEmptyString(king.getPredecessor())) {
 					existedKing.setPredecessor(king.getPredecessor());
 				}
-				if (StringUtility.checkEmptyString(existedKing.getSuccessor()) && !StringUtility.checkEmptyString(king.getSuccessor())) {
+				if (StringUtility.isEmptyString(existedKing.getSuccessor()) && !StringUtility.isEmptyString(king.getSuccessor())) {
 					existedKing.setSuccessor(king.getSuccessor());
 				}
 			}

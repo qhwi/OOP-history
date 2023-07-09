@@ -12,7 +12,6 @@ import org.jsoup.select.Elements;
 import hust.soict.cysec.oop.common.Constants;
 import hust.soict.cysec.oop.crawler.generic.LeafCrawler;
 import hust.soict.cysec.oop.model.Festival;
-import hust.soict.cysec.oop.model.Figure;
 
 public class FestivalWiki extends LeafCrawler<Festival> {
 	public FestivalWiki() {
@@ -45,10 +44,11 @@ public class FestivalWiki extends LeafCrawler<Festival> {
 			
 			String[] figureNames = row.select("td").get(4).text().replaceAll("\\s*\\([^)]+\\)", "").split(", ");
 			for (String figureName : figureNames) {
-				Figure figure = new Figure();
-				figure.setName(figureName);
-
-				festival.addFigure(figure);
+//				Figure figure = new Figure();
+//				figure.setName(figureName);
+//
+//				festival.addFigure(figure);
+				festival.addFigure(figureName);
 			}
 			
 			String description = "Không rõ";

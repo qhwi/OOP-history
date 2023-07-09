@@ -1,48 +1,58 @@
 package hust.soict.cysec.oop.model;
 
-import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.List;
+
+import hust.soict.cysec.oop.common.StringUtility;
 
 public class Festival {
 	private String name;
 	private String location;
 	private String time;
 	private String desc;
-	private List<Figure> figure = new ArrayList<>();
+	private List<String> figures;
+	
+	public Festival() {
+		this.figures = new LinkedList<>();
+	}
 	
 	public String getName() {
 		return name;
 	}
 	public void setName(String name) {
-		this.name = name;
+		if(!StringUtility.isEmptyString(name))
+			this.name = name;
 	}
 	public String getLocation() {
 		return location;
 	}
 	public void setLocation(String location) {
-		this.location = location;
+		if(!StringUtility.isEmptyString(location))
+			this.location = location;
 	}
 	public String getTime() {
 		return time;
 	}
 	public void setTime(String time) {
-		this.time = time;
+		if(!StringUtility.isEmptyString(time))
+			this.time = time;
 	}
 	public String getDesc() {
 		return desc;
 	}
 	public void setDesc(String desc) {
-		this.desc = desc;
+		if(!StringUtility.isEmptyString(desc))
+			this.desc = desc;
 	}
-	public List<Figure> getFigures() {
-		return figure;
+	public List<String> getFigures() {
+		return figures;
 	}
-	public void addFigure(Figure figure) {
-		this.figure.add(figure);
+	public void addFigure(String figure) {
+		if(!StringUtility.isEmptyString(figure))
+			this.figures.add(figure);
 	}
 	
 	public boolean checking(Object obj) {
-
 		if (obj instanceof String) {
 			String a = (String) obj;
 			if (name != null && !name.isEmpty())
@@ -57,8 +67,8 @@ public class Festival {
 		System.out.println("Thời gian: " + this.getTime());
 		System.out.println("Mô tả: " + this.getDesc());
 		System.out.println("Nhân vật liên quan: ");
-		for (Figure figure : figure) {
-			System.out.println("- " + figure.getName());
+		for (String figure : figures) {
+			System.out.println("- " + figure);
 		}
 	}
 }
