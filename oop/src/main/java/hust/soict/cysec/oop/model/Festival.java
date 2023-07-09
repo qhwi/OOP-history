@@ -6,8 +6,8 @@ import java.util.List;
 public class Festival {
 	private String name;
 	private String location;
-	private String time;
-	private String desc;
+	private String date;
+	private String description;
 	private List<Figure> figure = new ArrayList<>();
 	
 	public String getName() {
@@ -22,18 +22,19 @@ public class Festival {
 	public void setLocation(String location) {
 		this.location = location;
 	}
-	public String getTime() {
-		return time;
+	public String getDate() {
+		return date;
 	}
-	public void setTime(String time) {
-		this.time = time;
+	public void setDate(String date) {
+		this.date = date;
 	}
-	public String getDesc() {
-		return desc;
+	public String getDescription() {
+		return description;
 	}
-	public void setDesc(String desc) {
-		this.desc = desc;
+	public void setDescription(String description) {
+		this.description = description;
 	}
+
 	public List<Figure> getFigures() {
 		return figure;
 	}
@@ -54,8 +55,8 @@ public class Festival {
 	public void print() {
 		System.out.println("Tên: " + this.getName());
 		System.out.println("Địa điểm: " + this.getLocation());
-		System.out.println("Thời gian: " + this.getTime());
-		System.out.println("Mô tả: " + this.getDesc());
+		System.out.println("Thời gian: " + this.getDate());
+		System.out.println("Mô tả: " + this.getDescription());
 		System.out.println("Nhân vật liên quan: ");
 		for (Figure figure : figure) {
 			System.out.println("- " + figure.getName());

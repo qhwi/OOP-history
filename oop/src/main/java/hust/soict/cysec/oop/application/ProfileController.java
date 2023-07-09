@@ -89,14 +89,14 @@ public class ProfileController {
     private List<String> figureTableFieldProperty = Arrays.asList("name", "birth", "death", "alias", "hometown", "note");
     private List<String> kingTableFieldName = Arrays.asList("Tên", "Miếu hiệu", "Thụy hiệu", "Niên hiệu", "Tên húy", "Thế thứ", "Năm trị vì" );
     private List<String> kingTableFieldProperty = Arrays.asList("name", "templateName", "posthumousName", "eraName", "courtesyName", "successionOrder", "reignYear");
-    private List<String> relicTableFieldName = Arrays.asList("Tên", "Địa điểm", "Loại hình","Xếp hạng", "Mô tả");
-    private List<String> relicTableFieldProperty = Arrays.asList("name", "location", "type", "rank", "desc");
+    private List<String> relicTableFieldName = Arrays.asList("Tên", "Địa điểm", "Loại hình","Xếp hạng");
+    private List<String> relicTableFieldProperty = Arrays.asList("name", "location", "type", "rank");
     private List<String> eventTableFieldName = Arrays.asList("Tên", "Bắt đầu", "Kết thúc", "Mô tả");
-    private List<String> eventTableFieldProperty = Arrays.asList("name", "startYear", "endYear", "desc");
+    private List<String> eventTableFieldProperty = Arrays.asList("name", "startYear", "endYear", "description");
     private List<String> dynastyTableFieldName = Arrays.asList("Tên", "Bắt đầu", "Kết thúc", "Thủ đô");
     private List<String> dynastyTableFieldProperty = Arrays.asList("name", "startYear", "endYear", "capital");
     private List<String> festivalTableFieldName = Arrays.asList("Tên", "Địa điểm", "Thời gian", "Mô tả");
-    private List<String> festivalTableFieldProperty = Arrays.asList("name", "location", "time", "desc");
+    private List<String> festivalTableFieldProperty = Arrays.asList("name", "location", "date", "description");
     
     private List<String> figureBonusName = Arrays.asList("Triều đại");
     private List<String> figureTBonusProperty = Arrays.asList("dynasties");
@@ -146,12 +146,13 @@ public class ProfileController {
     private <T> void settingTable(TableView<T> table, ObservableList<T> data, List<String> columnName, List<String> columnProperty) {
     	table.setItems(data);
     	for (int i = 0; i < columnName.size(); ++i) {
-    		TableColumn<T, String> column = new TableColumn<T, String>(columnName.get(i));
+    		TableColumn<T, ?> column = new TableColumn<>(columnName.get(i));
     		column.prefWidthProperty().bind(tableData.widthProperty().multiply((1 - 0.1) / (columnName.size() - 1)));
-    		column.setCellValueFactory(new PropertyValueFactory<T, String>(columnProperty.get(i)));
+    		column.setCellValueFactory(new PropertyValueFactory<>(columnProperty.get(i)));
     		table.getColumns().add(column);
     	}
     }
+    
     private <T> void copyTable(TableView<T> originalTable, TableView<T> newTable) {
 		newTable.setItems((ObservableList<T>) originalTable.getItems());
 		for (TableColumn<T, ?> column : originalTable.getColumns()) {
@@ -336,8 +337,7 @@ public class ProfileController {
 			File file = new File("src/main/iconProfile/person.png");
 			image.setImage(new Image(file.toURI().toString()));
 		}
-		if (Arrays.asList("Năm sinh", "Năm mất", "Năm trị vì","Bắt đầu", "Kết thúc","Thời gian")
-				.contains(field)) {
+		if (Arrays.asList("Năm sinh", "Năm mất", "Năm trị vì","Bắt đầu", "Kết thúc","Thời gian").contains(field)) {
 			File file = new File("src/main/iconProfile/time.png");
 			image.setImage(new Image(file.toURI().toString()));
 		}
