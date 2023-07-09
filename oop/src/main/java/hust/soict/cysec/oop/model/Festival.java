@@ -6,10 +6,11 @@ import java.util.List;
 public class Festival {
 	private String name;
 	private String location;
-	private String date;
-	private String description;
-	private List<Figure> figure = new ArrayList<>();
-	
+	private String time;
+	private String desc;
+	private List<String> figure;
+	private List<String> relatedId;
+
 	public String getName() {
 		return name;
 	}
@@ -22,26 +23,14 @@ public class Festival {
 	public void setLocation(String location) {
 		this.location = location;
 	}
-	public String getDate() {
-		return date;
-	}
-	public void setDate(String date) {
-		this.date = date;
-	}
-	public String getDescription() {
-		return description;
-	}
-	public void setDescription(String description) {
-		this.description = description;
-	}
-
-	public List<Figure> getFigures() {
-		return figure;
-	}
-	public void addFigure(Figure figure) {
-		this.figure.add(figure);
-	}
-	
+//
+//	public List<Figure> getFigures() {
+//		return figure;
+//	}
+//	public void addFigure(Figure figure) {
+//		this.figure.add(figure);
+//	}
+//	
 	public boolean checking(Object obj) {
 
 		if (obj instanceof String) {
@@ -55,11 +44,29 @@ public class Festival {
 	public void print() {
 		System.out.println("Tên: " + this.getName());
 		System.out.println("Địa điểm: " + this.getLocation());
-		System.out.println("Thời gian: " + this.getDate());
-		System.out.println("Mô tả: " + this.getDescription());
+		System.out.println("Thời gian: " + this.getTime());
+		System.out.println("Mô tả: " + this.getDesc());
 		System.out.println("Nhân vật liên quan: ");
-		for (Figure figure : figure) {
-			System.out.println("- " + figure.getName());
-		}
+//		for (Figure figure : figure) {
+//			System.out.println("- " + figure.getName());
+//		}
+	}
+	public String getTime() {
+		return time;
+	}
+	public void setTime(String time) {
+		this.time = time;
+	}
+	public String getDesc() {
+		return desc;
+	}
+	public void setDesc(String desc) {
+		this.desc = desc;
+	}
+	public List<String> getRelatedId() {
+		return relatedId;
+	}
+	public void setRelatedId(List<String> relatedId) {
+		this.relatedId = relatedId;
 	}
 }

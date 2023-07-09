@@ -92,11 +92,11 @@ public class ProfileController {
     private List<String> relicTableFieldName = Arrays.asList("Tên", "Địa điểm", "Loại hình","Xếp hạng");
     private List<String> relicTableFieldProperty = Arrays.asList("name", "location", "type", "rank");
     private List<String> eventTableFieldName = Arrays.asList("Tên", "Bắt đầu", "Kết thúc", "Mô tả");
-    private List<String> eventTableFieldProperty = Arrays.asList("name", "startYear", "endYear", "description");
+    private List<String> eventTableFieldProperty = Arrays.asList("name", "startYear", "endYear", "desc");
     private List<String> dynastyTableFieldName = Arrays.asList("Tên", "Bắt đầu", "Kết thúc", "Thủ đô");
     private List<String> dynastyTableFieldProperty = Arrays.asList("name", "startYear", "endYear", "capital");
     private List<String> festivalTableFieldName = Arrays.asList("Tên", "Địa điểm", "Thời gian", "Mô tả");
-    private List<String> festivalTableFieldProperty = Arrays.asList("name", "location", "date", "description");
+    private List<String> festivalTableFieldProperty = Arrays.asList("name", "location", "time", "desc");
     
     private List<String> figureBonusName = Arrays.asList("Triều đại");
     private List<String> figureTBonusProperty = Arrays.asList("dynasties");
@@ -398,7 +398,10 @@ public class ProfileController {
 		VBox vBoxCenter = (VBox) root.getCenter();
 
 		vBoxCenter.getChildren().clear();
-
+//		if (data instanceof HistoricalFigure) {
+//			vBoxCenter.getChildren()
+//		.add(createPopupElement("Tên", Arrays.asList(((HistoricalFigure) data).getName()), "ProfileItemField"));
+//		}
 		// set field element
 		for (int i = 0; i < fieldName.size(); i++) {
 			try {

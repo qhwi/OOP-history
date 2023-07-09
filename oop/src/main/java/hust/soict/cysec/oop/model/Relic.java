@@ -11,7 +11,7 @@ public class Relic {
 	private String desc;
 	private List<Figure> relatedFigures;
 	private List<Dynasty> dynasties;
-	
+
 	public Relic() {
 		relatedFigures = new ArrayList<Figure>();
 		dynasties = new ArrayList<Dynasty>();
