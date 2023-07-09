@@ -6,9 +6,10 @@ public class HistoricalEvent {
 	private String name;
 	private String startYear;
 	private String endYear;
-	private String description;
+	private String desc;
 	private List<String> locations;
 	private List<String> figures;
+	private List<String> relatedId;
 	public String getStartYear() {
 		return startYear;
 	}
@@ -22,18 +23,25 @@ public class HistoricalEvent {
 		this.endYear = endYear;
 	}
 
+	public String getDesc() {
+		return desc;
+	}
+	public void setDesc(String desc) {
+		this.desc = desc;
+	}
+	public List<String> getRelatedId() {
+		return relatedId;
+	}
+	public void setRelatedId(List<String> relatedId) {
+		this.relatedId = relatedId;
+	}
 	public String getName() {
 		return name;
 	}
 	public void setName(String name) {
 		this.name = name;
 	}
-	public String getDescription() {
-		return description;
-	}
-	public void setDescription(String description) {
-		this.description = description;
-	}
+
 	public List<String> getLocation() {
 		return locations;
 	}
