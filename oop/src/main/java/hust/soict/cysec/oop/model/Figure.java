@@ -11,12 +11,10 @@ public class Figure extends HistoricalFigure {
 	private String hometown;
 	private String note;
 	private List<String> dynasties;
-	private List<String> eventJoined;
 	private List<String> relatedId;
 	
 	public Figure() {
 		this.dynasties = new LinkedList<>();
-		this.eventJoined = new LinkedList<>();
 		this.relatedId = new LinkedList<>();
 	}
 	
@@ -67,22 +65,9 @@ public class Figure extends HistoricalFigure {
 			this.note = note;
 	}
 
-	public List<String> getEventJoined() {
-		return eventJoined;
-	}
-	
-	public void setEventJoined(List<String> eventJoined) {
-		this.eventJoined = eventJoined;
-	}
-
 	public void addDynasty(String dynasty) {
 		if(!StringUtility.isEmptyString(dynasty))
 			this.dynasties.add(dynasty);
-	}
-	
-	public void addEvent(String event) {
-		if(!StringUtility.isEmptyString(event))
-			this.eventJoined.add(event);
 	}
 	public void print() {
 		System.out.println("------" + getName() + "-------");
