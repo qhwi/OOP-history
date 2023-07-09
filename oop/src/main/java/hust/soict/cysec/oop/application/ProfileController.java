@@ -470,6 +470,45 @@ public class ProfileController {
 			}
 		}
 		
+		List<String> nameLink = new ArrayList<String>();
+		if (data instanceof Figure) {
+			List <String> relatedId =  ((Figure) data).getRelatedId();
+			for (int i = 0; i <relatedId.size(); i++) {
+				String relate = relatedId.get(i);
+				Dynasty dynasty = dynastyList.stream().filter(obj -> obj.getId().equals(relate)).findFirst().orElse(null);
+				nameLink.add(dynasty.getName());
+			}
+			
+		}
+		if (data instanceof Figure) {
+			List <String> relatedId =  ((Figure) data).getRelatedId();
+			for (int i = 0; i <relatedId.size(); i++) {
+				String relate = relatedId.get(i);
+				Dynasty dynasty = dynastyList.stream().filter(obj -> obj.getId().equals(relate)).findFirst().orElse(null);
+				nameLink.add(dynasty.getName());
+			}
+			
+		}
+		
+		if (data instanceof King) {
+			List <String> relatedId =  ((King) data).getRelatedId();
+			for (int i = 0; i <relatedId.size(); i++) {
+				String relate = relatedId.get(i);
+				Dynasty dynasty = dynastyList.stream().filter(obj -> obj.getId().equals(relate)).findFirst().orElse(null);
+				Figure figure = figureList.stream().filter(obj -> obj.getId().equals(relate)).findFirst().orElse(null);
+				if (dynasty != null) {
+					nameLink.add(dynasty.getName());
+				}
+				if (figure != null) {
+					nameLink.add(figure.getName());
+				}
+			}
+			
+		}
+		
+		
+	    vBoxCenter.getChildren().add(createPopupElement("Liên quan", Arrays.asList(nameLink.toString()), "itemProfile"));
+
 
 		stage.setScene(new Scene(root));
 		stage.show();
