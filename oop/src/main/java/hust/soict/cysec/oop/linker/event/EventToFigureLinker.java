@@ -17,6 +17,8 @@ public class EventToFigureLinker extends LeafLinker<HistoricalEvent> {
 
 	@Override
     public List<HistoricalEvent> link() throws IOException {
+		System.out.println("[LINK EVENT] LINK TO FIGURE");
+		
     	List<HistoricalEvent> events = JSONUtility.readJson(Constants.JSON_EVENT, HistoricalEvent.class);
     	List<Figure> figures = JSONUtility.readJson(Constants.JSON_FIGURE, Figure.class);
     	

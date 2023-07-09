@@ -17,6 +17,8 @@ public class FestivalToFigureLinker extends LeafLinker<Festival> {
 
 	@Override
 	public List<Festival> link() throws IOException {
+		System.out.println("[LINK FESTIVAL] LINK TO FIGURE");
+		
 		List<Festival> festivals = JSONUtility.readJson(Constants.JSON_FESTIVAL, Festival.class);
 		List<Figure> figures = JSONUtility.readJson(Constants.JSON_FIGURE, Figure.class);
 		

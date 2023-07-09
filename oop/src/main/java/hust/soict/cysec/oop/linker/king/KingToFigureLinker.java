@@ -16,6 +16,8 @@ public class KingToFigureLinker extends LeafLinker<King> {
 	}
 	
 	public List<King> link() throws IOException {
+		System.out.println("[LINK KING] LINK TO FIGURE");
+		
 		List<King> kings = JSONUtility.readJson(Constants.JSON_KING, King.class);
 		List<Figure> figures = JSONUtility.readJson(Constants.JSON_FIGURE, Figure.class);
 

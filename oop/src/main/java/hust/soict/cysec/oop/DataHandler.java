@@ -14,18 +14,16 @@ public class DataHandler {
 		
 		try {
 			mainCrawler.envokeAllCrawlers();
-			mainCrawler.writeAllToJson();
 			
 			mainFilter.envokeAllFilters();
-			mainFilter.writeAllToJson();
+			
+			mainLinker.assignIdAllLinkers();
 			
 			mainLinker.envokeAllLinkers();
-			mainLinker.writeAllToJson();
 			
 			System.out.println("Data is ready to use!");
 		} catch (IOException e) {
 			System.out.println("Error while handling data");
 		}
-		
 	}
 }

@@ -5,8 +5,6 @@ import java.util.LinkedList;
 import java.util.List;
 
 import hust.soict.cysec.oop.common.JSONUtility;
-import hust.soict.cysec.oop.filter.event.EventFilterFinal;
-import hust.soict.cysec.oop.filter.festival.FestivalFilterFinal;
 import hust.soict.cysec.oop.filter.figure.FigureFilterFinal;
 import hust.soict.cysec.oop.filter.generic.NodeFilter;
 import hust.soict.cysec.oop.filter.king.KingFilterFinal;
@@ -21,8 +19,6 @@ public class MainFilter {
 		listFilters.add(new KingFilterFinal());
 		listFilters.add(new FigureFilterFinal());
 		listFilters.add(new RelicFilterFinal());
-		listFilters.add(new EventFilterFinal());
-		listFilters.add(new FestivalFilterFinal());
 	}
 	
 	public void envokeAllFilters() throws IOException {
@@ -33,6 +29,7 @@ public class MainFilter {
 	
 	public void envokeFilter(NodeFilter<?> nodeFilter) throws IOException {
 		nodeFilter.envokeAllFilters();
+		writeToJson(nodeFilter);
 	}
 	
 	public void writeAllToJson() throws IOException {

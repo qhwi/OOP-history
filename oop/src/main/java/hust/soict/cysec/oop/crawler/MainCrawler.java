@@ -41,6 +41,7 @@ public class MainCrawler {
 	// Execute only one crawlers
 	public void envokeCrawler(NodeCrawler<?> nodeCrawler) throws IOException {
 		nodeCrawler.envokeAllCrawlers();
+		writeToJson(nodeCrawler);
 	}
 	
 	// Write all objects

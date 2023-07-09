@@ -23,6 +23,8 @@ public class FigureToDynastyLinker extends LeafLinker<Figure> {
 	
 	@Override
 	public List<Figure> link() throws IOException {
+		System.out.println("[LINK FIGURE] LINK TO DYNASTY");
+		
 		List<Figure> figures = JSONUtility.readJson(Constants.JSON_FIGURE, Figure.class);
 		List<Dynasty> dynasties = JSONUtility.readJson(Constants.JSON_DYNASTY, Dynasty.class);
 

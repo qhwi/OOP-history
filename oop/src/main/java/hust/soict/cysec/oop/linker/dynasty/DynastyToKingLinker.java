@@ -18,6 +18,7 @@ public class DynastyToKingLinker extends LeafLinker<Dynasty> {
 
 	@Override
 	public List<Dynasty> link() throws IOException {
+		System.out.println("[LINK DYNASTY] LINK TO KING");
 		List<Dynasty> dynasties = JSONUtility.readJson(Constants.JSON_DYNASTY, Dynasty.class);
 		List<King> kings = JSONUtility.readJson(Constants.JSON_KING, King.class);
 

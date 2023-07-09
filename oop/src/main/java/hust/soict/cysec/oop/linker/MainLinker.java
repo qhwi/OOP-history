@@ -46,6 +46,7 @@ public class MainLinker {
 	// Execute noly one linker
 	public void envokeLinker(NodeLinker<?> nodeLinker) throws IOException {
 		nodeLinker.envokeAllLinkers();
+		writeToJson(nodeLinker);
 	}
 	
 	// Write all objects
@@ -58,6 +59,13 @@ public class MainLinker {
 	// Write only one object
 	public void writeToJson(NodeLinker<?> nodeLinker) throws IOException {
 		JSONUtility.writeToJSON(nodeLinker.JSON_URL, nodeLinker.getLinkedList());
+	}
+	
+	public static void main(String[] args) throws IOException {
+		MainLinker mainLinker = new MainLinker();
+		
+		mainLinker.envokeAllLinkers();
+		mainLinker.writeAllToJson();
 	}
 	
 }
