@@ -2,7 +2,7 @@ package hust.soict.cysec.oop.application;
 
 import java.io.IOException;
 import java.util.Arrays;
-import java.util.List;
+import java.util.*;
 
 import hust.soict.cysec.oop.model.*;
 import javafx.collections.FXCollections;
@@ -14,18 +14,14 @@ import javafx.scene.input.KeyEvent;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.VBox;
 import java.io.File;
-import java.io.IOException;
 import java.lang.reflect.Field;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 import javax.swing.JOptionPane;
 
-import javafx.collections.FXCollections;
-import javafx.collections.ObservableList;
+
 import javafx.event.ActionEvent;
-import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Node;
 import javafx.scene.Scene;
@@ -34,13 +30,10 @@ import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableRow;
 import javafx.scene.control.TableView;
 import javafx.scene.control.TextField;
-import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
-import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.BorderPane;
 import javafx.scene.layout.HBox;
-import javafx.scene.layout.VBox;
 import javafx.scene.text.Text;
 import javafx.stage.Stage;
 
@@ -85,29 +78,32 @@ public class ProfileController {
     private TableView<Dynasty> dynastyTable = new TableView<>();
     private TableView<Festival> festivalTable = new TableView<>();
     
-    private List<String> figureTableFieldName = Arrays.asList("Tên", "Năm sinh", "Năm mất", "Bí danh", "Quê quán", "Ghi chú");
-    private List<String> figureTableFieldProperty = Arrays.asList("name", "birth", "death", "alias", "hometown", "note");
-    private List<String> kingTableFieldName = Arrays.asList("Tên", "Miếu hiệu", "Thụy hiệu", "Niên hiệu", "Tên húy", "Thế thứ", "Năm trị vì" );
-    private List<String> kingTableFieldProperty = Arrays.asList("name", "templateName", "posthumousName", "eraName", "courtesyName", "successionOrder", "reignYear");
+    private List<String> figureTableFieldName = Arrays.asList("ID","Tên", "Năm sinh", "Năm mất", "Bí danh", "Quê quán", "Ghi chú");
+    private List<String> figureTableFieldProperty = Arrays.asList("id", "name", "birth", "death", "alias", "hometown", "note");
+    private List<String> kingTableFieldName = Arrays.asList("ID","Tên", "Miếu hiệu", "Thụy hiệu", "Niên hiệu", "Tên húy", "Thế thứ", "Năm trị vì" );
+    private List<String> kingTableFieldProperty = Arrays.asList("id", "name", "templateName", "posthumousName", "eraName", "courtesyName", "successionOrder", "reignYear");
     private List<String> relicTableFieldName = Arrays.asList("Tên", "Địa điểm", "Loại hình","Xếp hạng");
     private List<String> relicTableFieldProperty = Arrays.asList("name", "location", "type", "rank");
     private List<String> eventTableFieldName = Arrays.asList("Tên", "Bắt đầu", "Kết thúc", "Mô tả");
     private List<String> eventTableFieldProperty = Arrays.asList("name", "startYear", "endYear", "desc");
-    private List<String> dynastyTableFieldName = Arrays.asList("Tên", "Bắt đầu", "Kết thúc", "Thủ đô");
-    private List<String> dynastyTableFieldProperty = Arrays.asList("name", "startYear", "endYear", "capital");
+    private List<String> dynastyTableFieldName = Arrays.asList("ID","Tên", "Bắt đầu", "Kết thúc", "Thủ đô");
+    private List<String> dynastyTableFieldProperty = Arrays.asList("id", "name", "startYear", "endYear", "capital");
     private List<String> festivalTableFieldName = Arrays.asList("Tên", "Địa điểm", "Thời gian", "Mô tả");
     private List<String> festivalTableFieldProperty = Arrays.asList("name", "location", "time", "desc");
     
-    private List<String> figureBonusName = Arrays.asList("Triều đại");
-    private List<String> figureTBonusProperty = Arrays.asList("dynasties");
-    private List<String> relicBonusName = Arrays.asList("Nhân vật");
-    private List<String> relicBonusProperty = Arrays.asList("relatedFigures");
-    private List<String> eventBonusName = Arrays.asList("Nhân vật");
-    private List<String> eventBonusProperty = Arrays.asList("figures");
-    private List<String> dynastyBonusName = Arrays.asList("Các vị vua");
-    private List<String> dynastyBonusProperty = Arrays.asList("kings");
-    private List<String> festivalBonusName = Arrays.asList("Nhân vật");
-    private List<String> festivalBonusProperty = Arrays.asList("figures");
+    private List<String> figureBonusName = Arrays.asList("Liên quan");
+    private List<String> figureBonusProperty = Arrays.asList("relatedId");
+    private List<String> relicBonusName = Arrays.asList("Liên quan");
+    private List<String> relicBonusProperty = Arrays.asList("relatedId");
+    private List<String> kingBonusProperty = Arrays.asList("relatedId");
+    private List<String> kingBonusName = Arrays.asList("Liên quan");
+
+    private List<String> eventBonusName = Arrays.asList("Liên quan");
+    private List<String> eventBonusProperty = Arrays.asList("relatedId");
+    private List<String> dynastyBonusName = Arrays.asList("Liên quan");
+    private List<String> dynastyBonusProperty = Arrays.asList("relatedId");
+    private List<String> festivalBonusName = Arrays.asList("Liên quan");
+    private List<String> festivalBonusProperty = Arrays.asList("relatedId");
     
     
     @SuppressWarnings("unchecked")
@@ -286,26 +282,26 @@ public class ProfileController {
 					try {
 						if (rowData instanceof Figure) {
 							popupData((Figure) rowData, figureTableFieldName,
-									figureTableFieldProperty, "Nhân vật lịch sử");
+									figureTableFieldProperty, figureBonusName, figureBonusProperty, "Nhân vật lịch sử");
 						}
 						if (rowData instanceof King) {
 							popupData((King) rowData, kingTableFieldName,
-									kingTableFieldProperty, "Vua");
+									kingTableFieldProperty,kingBonusName, kingBonusProperty, "Vua");
 						}
 						if (rowData instanceof Relic) {
 							popupData((Relic) rowData, relicTableFieldName,
-									relicTableFieldProperty, "Di tích lịch sử");
+									relicTableFieldProperty, relicBonusName, relicBonusProperty, "Di tích lịch sử");
 						}
 						if (rowData instanceof HistoricalEvent) {
-							popupData((HistoricalEvent) rowData, eventTableFieldName, eventTableFieldProperty,
+							popupData((HistoricalEvent) rowData, eventTableFieldName, eventTableFieldProperty, eventBonusName,  eventBonusProperty,
 									"Sự kiện lịch sử");
 						}
 						if (rowData instanceof Festival) {
-							popupData((Festival) rowData, festivalTableFieldName, festivalTableFieldProperty,
+							popupData((Festival) rowData, festivalTableFieldName, festivalTableFieldProperty, festivalBonusName, festivalBonusProperty,
 									 "Lễ hội văn hóa");
 						}
 						if (rowData instanceof Dynasty) {
-							popupData((Dynasty) rowData, dynastyTableFieldName, dynastyTableFieldProperty,
+							popupData((Dynasty) rowData, dynastyTableFieldName, dynastyTableFieldProperty, dynastyBonusName, dynastyBonusProperty,
 									"Triều đại lịch sử");
 						}
 					} catch (IOException e) {
@@ -357,8 +353,53 @@ public class ProfileController {
 		return newVbox;
 	}
     
+    private VBox createPopupElement(List<String> relatedId, String path) {
+		VBox newVbox = new VBox();
+		try {
+			newVbox = (VBox) FXMLLoader.load(getClass().getResource(path + ".fxml"));
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		ImageView image = (ImageView) (((HBox) (newVbox.getChildren().get(0))).getChildren().get(0));
+		File file = new File("src/main/iconProfile/other.png");
+		image.setImage(new Image(file.toURI().toString()));
+		
+		Label label = (Label) (((HBox) (newVbox.getChildren().get(0))).getChildren().get(1));		
+		Text text = (Text) (((HBox) (newVbox.getChildren().get(0))).getChildren().get(2));
+		List<String> info = new ArrayList<>();
+		label.setText("Liên quan");
+//		VBox info = (VBox) (((HBox) (newVbox.getChildren().get(0))).getChildren().get(2));
+		for (int i = 0; i< relatedId.size(); i++) {
+//			Text text = (Text) (info.getChildren().get(i));
+			int k = i;
+			System.out.println(relatedId.get(k));
+			if (relatedId.get(k).contains("#D")) {
+				Dynasty dynasty = dynastyList.stream().filter(obj -> obj.getId() == relatedId.get(k)).findFirst().orElse(null);
+				info.add(dynasty.getName());
+			}
+			if (relatedId.get(k).contains("#F")) {
+				Figure figure = figureList.stream().filter(obj -> obj.getId() == relatedId.get(k)).findFirst().orElse(null);
+				info.add(figure.getName());
+			}
+			if (relatedId.get(k).contains("#K")) {
+				King king = kingList.stream().filter(obj -> obj.getId() == relatedId.get(k)).findFirst().orElse(null);
+				info.add(king.getName());
+			}
+		}
+		StringBuilder sb = new StringBuilder();
+		for (String item : info) {
+		    sb.append(item);
+		    sb.append(", ");
+		}
+//		sb.setLength(sb.length() - 2);
+		String result = sb.toString();
+		text.setText(result);
+		return newVbox;
+	}
 	@SuppressWarnings("unused")
-	private <T> void popupData(T data, List<String> fieldName, List<String> property, String title) throws IOException {
+	private <T> void popupData(T data, List<String> fieldName, List<String> property, 
+			List<String> linkField, List<String> linkProperty, String title) throws IOException {
 		BorderPane root = FXMLLoader.load(getClass().getResource("profile.fxml"));
 		Stage stage = new Stage();
 		stage.setTitle("Thông tin chi tiết");
@@ -398,15 +439,22 @@ public class ProfileController {
 		VBox vBoxCenter = (VBox) root.getCenter();
 
 		vBoxCenter.getChildren().clear();
-//		if (data instanceof HistoricalFigure) {
-//			vBoxCenter.getChildren()
-//		.add(createPopupElement("Tên", Arrays.asList(((HistoricalFigure) data).getName()), "ProfileItemField"));
-//		}
+		if (data instanceof King) {
+			vBoxCenter.getChildren()
+		.add(createPopupElement("Tên", Arrays.asList(((HistoricalFigure) data).getName()), "itemProfile"));
+		} 
+		if (data instanceof Figure) {
+			vBoxCenter.getChildren()
+			.add(createPopupElement("Tên", Arrays.asList(((HistoricalFigure) data).getName()), "itemProfile"));
+			vBoxCenter.getChildren()
+		.add(createPopupElement("Năm sinh", Arrays.asList(((HistoricalFigure) data).getBirth()), "itemProfile"));
+			vBoxCenter.getChildren()
+		.add(createPopupElement("Năm mất", Arrays.asList(((HistoricalFigure) data).getDeath()), "itemProfile"));
+		}
 		// set field element
 		for (int i = 0; i < fieldName.size(); i++) {
 			try {
 				Class<T> clazz = (Class<T>) data.getClass();
-				
 				Field field = clazz.getDeclaredField(property.get(i));
 				field.setAccessible(true);
 				Object propertyValue = field.get(data);
@@ -416,10 +464,12 @@ public class ProfileController {
 				else {
 				    vBoxCenter.getChildren().add(createPopupElement(fieldName.get(i), Arrays.asList("Không rõ"), "itemProfile"));
 				}
+				
 			} catch (NoSuchFieldException | IllegalAccessException e) {
 				e.printStackTrace();
 			}
 		}
+		
 
 		stage.setScene(new Scene(root));
 		stage.show();
