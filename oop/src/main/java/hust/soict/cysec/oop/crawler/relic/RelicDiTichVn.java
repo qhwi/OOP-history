@@ -10,7 +10,6 @@ import org.jsoup.select.Elements;
 
 import hust.soict.cysec.oop.common.Constants;
 import hust.soict.cysec.oop.crawler.generic.LeafCrawler;
-import hust.soict.cysec.oop.model.Figure;
 import hust.soict.cysec.oop.model.Relic;
 
 /*
@@ -53,7 +52,6 @@ public class RelicDiTichVn extends LeafCrawler<Relic> {
 		
 		String name = doc.select("#block-harvard-content > article > div > section > div > div.hl__library-info__features > section > h2").text();
 		if(name.isEmpty()) {
-			System.out.println("EMPTYYYYYYYYYYYYYYYYYYYYYYYYYYY");
 			return null;
 		}
 		String location = doc.select("#block-harvard-content > article > div > section > div > div.hl__library-info__sidebar > div:nth-child(1) > section > div > div > div.hl__contact-info__address > span").text();
@@ -85,9 +83,7 @@ public class RelicDiTichVn extends LeafCrawler<Relic> {
 			relic.setRank(rank.toString().replace(RANK_IDENTIFIER, ""));
 		}
 		if(worshiped.length() != 0) {
-			Figure figure = new Figure();
-			figure.setName(worshiped.toString());
-			relic.addFigure(figure);
+			relic.addFigure(worshiped.toString());
 		}
 
 		// relic.print();

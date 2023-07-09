@@ -11,7 +11,6 @@ import org.jsoup.select.Elements;
 
 import hust.soict.cysec.oop.common.Constants;
 import hust.soict.cysec.oop.crawler.generic.LeafCrawler;
-import hust.soict.cysec.oop.model.Dynasty;
 import hust.soict.cysec.oop.model.Figure;
 
 /*
@@ -69,14 +68,10 @@ public class FigureVansuVn extends LeafCrawler<Figure> {
 						int openIndex = data.indexOf("(");
 						if (openIndex != -1) {
 							String dynastyName = data.substring(index + 2, openIndex).trim();
-							Dynasty dynasty = new Dynasty();
-							dynasty.setName(dynastyName);
-							figure.addDynasty(dynasty);
+							figure.addDynasty(dynastyName);
 						} else {
 							String dynastyName = data.substring(index + 1).trim();
-							Dynasty dynasty = new Dynasty();
-							dynasty.setName(dynastyName);
-							figure.addDynasty(dynasty);
+							figure.addDynasty(dynastyName);
 						}
 					}else { // nhieu thoi ki
 						String data = brs.get(1).html();
@@ -87,15 +82,11 @@ public class FigureVansuVn extends LeafCrawler<Figure> {
 							int index = d.indexOf("- ");
 							if (openIndex != -1) {
 								String dynastyName = d.substring(index + 1, openIndex).trim();
-								Dynasty dynasty = new Dynasty();
-								dynasty.setName(dynastyName);
-								figure.addDynasty(dynasty);
+								figure.addDynasty(dynastyName);
 							} 
 							else {
 								String dynastyName = d.substring(index + 1).trim();
-								Dynasty dynasty = new Dynasty();
-								dynasty.setName(dynastyName);
-								figure.addDynasty(dynasty);
+								figure.addDynasty(dynastyName);
 							}
 						}
 					}

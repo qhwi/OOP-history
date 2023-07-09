@@ -27,10 +27,18 @@ public class MainFilter {
 		}
 	}
 	
-	public void writeToJson() throws IOException {
+	public void envokeFilter(NodeFilter<?> nodeFilter) throws IOException {
+		nodeFilter.envokeAllFilters();
+	}
+	
+	public void writeAllToJson() throws IOException {
 		for (NodeFilter<?> nodeFilter : listFilters) {
-			JSONUtility.writeToJSON(nodeFilter.JSON_URL, nodeFilter.getFilteredList());
+			writeToJson(nodeFilter);
 		}
+	}
+	
+	public void writeToJson(NodeFilter<?> nodeFilter) throws IOException {
+		JSONUtility.writeToJSON(nodeFilter.JSON_URL, nodeFilter.getFilteredList());
 	}
 	
 	public static void main(String[] args) {
@@ -38,7 +46,7 @@ public class MainFilter {
 		
 		try {
 			mainFilter.envokeAllFilters();
-			mainFilter.writeToJson();
+			mainFilter.writeAllToJson();
 		} catch (IOException e) {
 			System.out.println("Error while running filter");
 		}

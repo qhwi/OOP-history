@@ -1,6 +1,6 @@
 package hust.soict.cysec.oop.model;
 
-import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.List;
 
 public class Dynasty {
@@ -14,8 +14,12 @@ public class Dynasty {
 	private String name;
 	private String startYear;
 	private String endYear;
-	private List<String> kings = new ArrayList<>();
+	private List<String> kings;
 	private String capital;
+	
+	public Dynasty() {
+		this.kings = new LinkedList<>();
+	}
 	
 	public String getName() {
 		return name;

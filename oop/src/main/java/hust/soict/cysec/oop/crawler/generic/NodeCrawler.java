@@ -5,32 +5,28 @@ import java.util.LinkedList;
 import java.util.List;
 
 public abstract class NodeCrawler<T> extends Crawler<T> {
-	private List<Crawler<T>> crawlers;
-	protected List<T> objList;
+	private List<T> crawledList;
+	private List<LeafCrawler<T>> crawlers;
 	
 	public NodeCrawler(String jsonURL) {
 		super(jsonURL);
 		
 		this.crawlers = new LinkedList<>();
-		this.objList = new LinkedList<>();
+		this.crawledList = new LinkedList<>();
 	}
 	
 	public List<T> getCrawledList(){
-		return this.objList;
+		return this.crawledList;
 	}
 	
 	public void envokeAllCrawlers() throws IOException {
-		for (Crawler<T> crawler : crawlers) {
-			if(crawler instanceof NodeCrawler) {
-				((NodeCrawler<T>) crawler).envokeAllCrawlers();
-			}else if(crawler instanceof LeafCrawler) {
-				List<T> objListFromLeaf = ((LeafCrawler<T>) crawler).crawl();
-				this.objList.addAll(objListFromLeaf);
-			}
+		for (LeafCrawler<T> crawler : crawlers) {
+			List<T> objListFromLeaf = crawler.crawl();
+			crawledList.addAll(objListFromLeaf);
 		}
 	}
 	
-	public void registerNewCrawler(Crawler<T> crawler) {
+	public void registerNewCrawler(LeafCrawler<T> crawler) {
 		crawlers.add(crawler);
 	}
 }

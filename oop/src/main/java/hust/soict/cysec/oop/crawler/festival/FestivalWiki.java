@@ -12,7 +12,6 @@ import org.jsoup.select.Elements;
 import hust.soict.cysec.oop.common.Constants;
 import hust.soict.cysec.oop.crawler.generic.LeafCrawler;
 import hust.soict.cysec.oop.model.Festival;
-import hust.soict.cysec.oop.model.Figure;
 
 public class FestivalWiki extends LeafCrawler<Festival> {
 	public FestivalWiki() {
@@ -35,7 +34,7 @@ public class FestivalWiki extends LeafCrawler<Festival> {
 			Element row = rows.get(i);  
 			
 			String date = row.select("td").get(0).text();
-			festival.setDate(date);
+			festival.setTime(date);
 			
 			String place = row.select("td").get(1).text();
 			festival.setLocation(place);
@@ -45,10 +44,11 @@ public class FestivalWiki extends LeafCrawler<Festival> {
 			
 			String[] figureNames = row.select("td").get(4).text().replaceAll("\\s*\\([^)]+\\)", "").split(", ");
 			for (String figureName : figureNames) {
-				Figure figure = new Figure();
-				figure.setName(figureName);
-
-				festival.addFigure(figure);
+//				Figure figure = new Figure();
+//				figure.setName(figureName);
+//
+//				festival.addFigure(figure);
+				festival.addFigure(figureName);
 			}
 			
 			String description = "Không rõ";
@@ -57,7 +57,7 @@ public class FestivalWiki extends LeafCrawler<Festival> {
 				if (!hyperlink.isBlank()) {
 					hyperlink = "https://vi.wikipedia.org" + hyperlink;
 					description = parseDescription(hyperlink);
-					festival.setDescription(description);
+					festival.setDesc(description);
 				}
 			} catch (Exception e) {
 				System.out.println("Cannot parse description");

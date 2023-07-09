@@ -1,27 +1,32 @@
 package hust.soict.cysec.oop.model;
 
+import hust.soict.cysec.oop.common.StringUtility;
+
 public abstract class HistoricalFigure {
-	protected String name;
-	protected String birth;
-	protected String death;
+	private String name;
+	private String birth;
+	private String death;
 	
 	public String getName() {
 		return name;
 	}
 	public void setName(String name) {
-		this.name = name;
+		if(!StringUtility.isEmptyString(name))
+			this.name = name;
 	}
 	public String getBirth() {
 		return birth;
 	}
 	public void setBirth(String birth) {
-		this.birth = birth;
+		if(!StringUtility.isEmptyString(birth))
+			this.birth = birth;
 	}
 	public String getDeath() {
 		return death;
 	}
 	public void setDeath(String death) {
-		this.death = death;
+		if(!StringUtility.isEmptyString(death))
+			this.death = death;
 	}
 	
 	public boolean checking(Object obj) {

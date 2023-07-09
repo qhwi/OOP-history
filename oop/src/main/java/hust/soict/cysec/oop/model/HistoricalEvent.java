@@ -1,5 +1,6 @@
 package hust.soict.cysec.oop.model;
 
+import java.util.LinkedList;
 import java.util.List;
 
 public class HistoricalEvent {
@@ -10,7 +11,19 @@ public class HistoricalEvent {
 	private List<String> locations;
 	private List<String> figures;
 	private List<String> relatedId;
-	public String getStartYear() {
+	
+	public HistoricalEvent() {
+		this.locations = new LinkedList<>();
+		this.figures = new LinkedList<>();
+	}
+	
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public String getStartTime() {
 		return startYear;
 	}
 	public void setStartYear(String startYear) {
@@ -35,12 +48,6 @@ public class HistoricalEvent {
 	public void setRelatedId(List<String> relatedId) {
 		this.relatedId = relatedId;
 	}
-	public String getName() {
-		return name;
-	}
-	public void setName(String name) {
-		this.name = name;
-	}
 
 	public List<String> getLocation() {
 		return locations;
@@ -51,9 +58,9 @@ public class HistoricalEvent {
 	public List<String> getFigure() {
 		return figures;
 	}
-//	public void addFigure(Figure figure) {
-//		this.figures.add(figure);
-//	}
+	public void addFigure(String figure) {
+		this.figures.add(figure);
+	}
 	
 	public boolean checking(Object obj) {
 
@@ -68,7 +75,7 @@ public class HistoricalEvent {
 	public void print() {
 		System.out.println("----- " + this.name + " ------");
 		System.out.println("Thời gian: " + this.startYear + " - " + this.endYear);
-		System.out.println("Mô tả: " + this.description);
+		System.out.println("Mô tả: " + this.desc);
 		System.out.println("Địa điểm: ");
 		for (String location : locations) {
 			System.out.println("- " + location);

@@ -1,7 +1,9 @@
 package hust.soict.cysec.oop.model;
 
-import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.List;
+
+import hust.soict.cysec.oop.common.StringUtility;
 
 public class Relic {
 	private String name;
@@ -9,12 +11,12 @@ public class Relic {
 	private String type;
 	private String rank;
 	private String desc;
-	private List<Figure> relatedFigures;
-	private List<Dynasty> dynasties;
-
+	private List<String> relatedFigures;
+	private List<String> dynasties;
+	
 	public Relic() {
-		relatedFigures = new ArrayList<Figure>();
-		dynasties = new ArrayList<Dynasty>();
+		relatedFigures = new LinkedList<String>();
+		dynasties = new LinkedList<String>();
 	}
 	
 	public String getName() {
@@ -39,37 +41,40 @@ public class Relic {
 		return rank;
 	}
 	public void setRank(String rank) {
-		this.rank = rank;
+		if(!StringUtility.isEmptyString(rank))
+			this.rank = rank;
 	}
 	public String getDesc() {
 		return desc;
 	}
 	public void setDesc(String desc) {
-		this.desc = desc;
+		if(!StringUtility.isEmptyString(desc))
+			this.desc = desc;
 	}
-	public List<Dynasty> getDynasties() {
+	public List<String> getDynasties() {
 		return dynasties;
 	}
-	public void setDynasties(List<Dynasty> dynasties) {
+	public void setDynasties(List<String> dynasties) {
 		this.dynasties = dynasties;
 	}
-	public List<Figure> getRelatedFigures(){
+	public List<String> getRelatedFigures(){
 		return relatedFigures;
 	}
-	public void setRelatedFigures(List<Figure> relatedFigures) {
+	public void setRelatedFigures(List<String> relatedFigures) {
 		this.relatedFigures = relatedFigures;
 	}
 	
-	public void addFigure(Figure figure) {
-		relatedFigures.add(figure);
+	public void addFigure(String figure) {
+		if(!StringUtility.isEmptyString(figure))
+			relatedFigures.add(figure);
 	}
 	
-	public void addDynasty(Dynasty dynasty) {
-		dynasties.add(dynasty);
+	public void addDynasty(String dynasty) {
+		if(!StringUtility.isEmptyString(dynasty))
+			dynasties.add(dynasty);
 	}
 	
 	public boolean checking(Object obj) {
-
 		if (obj instanceof String) {
 			String a = (String) obj;
 			if (name != null && !name.isEmpty())
@@ -84,8 +89,8 @@ public class Relic {
 		System.out.println("Loại hình di tích: " + this.getType());
 		System.out.println("Xếp hạng: " + this.getRank());
 		System.out.println("Đối tượng thờ: ");
-		for (Figure figure : relatedFigures) {
-			System.out.println("- " + figure.getName());
+		for (String figure : relatedFigures) {
+			System.out.println("- " + figure);
 		}
 	}
 	

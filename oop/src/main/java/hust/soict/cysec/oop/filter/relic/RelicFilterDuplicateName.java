@@ -1,7 +1,6 @@
 package hust.soict.cysec.oop.filter.relic;
 
 import java.io.IOException;
-import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.List;
@@ -10,8 +9,6 @@ import hust.soict.cysec.oop.common.Constants;
 import hust.soict.cysec.oop.common.JSONUtility;
 import hust.soict.cysec.oop.common.StringUtility;
 import hust.soict.cysec.oop.filter.generic.LeafFilter;
-import hust.soict.cysec.oop.model.Dynasty;
-import hust.soict.cysec.oop.model.Figure;
 import hust.soict.cysec.oop.model.Relic;
 
 public class RelicFilterDuplicateName extends LeafFilter<Relic> {
@@ -38,48 +35,36 @@ public class RelicFilterDuplicateName extends LeafFilter<Relic> {
 				// Check for attributes and add to missing fields
 				Relic existedRelic = relicsFiltered.get(names.get(relic.getName()));
 				
-				if(StringUtility.checkEmptyString(existedRelic.getLocation()) && !StringUtility.checkEmptyString(relic.getLocation())) {
+				if(StringUtility.isEmptyString(existedRelic.getLocation()) && !StringUtility.isEmptyString(relic.getLocation())) {
 					existedRelic.setLocation(relic.getLocation());
 				}
-				if(StringUtility.checkEmptyString(existedRelic.getType()) && !StringUtility.checkEmptyString(relic.getType())) {
+				if(StringUtility.isEmptyString(existedRelic.getType()) && !StringUtility.isEmptyString(relic.getType())) {
 					existedRelic.setType(relic.getType());
 				}
-				if(StringUtility.checkEmptyString(existedRelic.getRank()) && !StringUtility.checkEmptyString(relic.getRank())) {
+				if(StringUtility.isEmptyString(existedRelic.getRank()) && !StringUtility.isEmptyString(relic.getRank())) {
 					existedRelic.setRank(relic.getRank());
 				}
-				if(StringUtility.checkEmptyString(existedRelic.getDesc()) && !StringUtility.checkEmptyString(relic.getDesc())) {
+				if(StringUtility.isEmptyString(existedRelic.getDesc()) && !StringUtility.isEmptyString(relic.getDesc())) {
 					existedRelic.setDesc(relic.getDesc());
 				}
 				
-				List<Dynasty> relicJsonDynasties = relic.getDynasties();
+				List<String> relicJsonDynasties = relic.getDynasties();
 				if(relicJsonDynasties.size() != 0) {
-					List<String> existedDynastyNames = new ArrayList<>();
-					List<Dynasty> relicFilteredDynasties = existedRelic.getDynasties();
+					List<String> relicFilteredDynasties = existedRelic.getDynasties();
 					
-					for(Dynasty dynasty : relicFilteredDynasties) {
-						existedDynastyNames.add(dynasty.getName());
-					}
-					
-					for (Dynasty dynasty : relicFilteredDynasties) {
-						if(!existedDynastyNames.contains(dynasty.getName())) {
-							existedDynastyNames.add(dynasty.getName());
+					for (String dynasty : relicFilteredDynasties) {
+						if(!relicFilteredDynasties.contains(dynasty)) {
 							relicFilteredDynasties.add(dynasty);
 						}
 					}
 				}
 				
-				List<Figure> relicJsonFigures = relic.getRelatedFigures();
+				List<String> relicJsonFigures = relic.getRelatedFigures();
 				if(relicJsonFigures.size() != 0) {
-					List<String> existedFigureNames = new ArrayList<>();
-					List<Figure> relicFilteredFigures = existedRelic.getRelatedFigures();
+					List<String> relicFilteredFigures = existedRelic.getRelatedFigures();
 					
-					for(Figure figure : relicFilteredFigures) {
-						existedFigureNames.add(figure.getName());
-					}
-					
-					for (Figure figure : relicFilteredFigures) {
-						if(!existedFigureNames.contains(figure.getName())) {
-							existedFigureNames.add(figure.getName());
+					for (String figure : relicFilteredFigures) {
+						if(!relicFilteredFigures.contains(figure)) {
 							relicFilteredFigures.add(figure);
 						}
 					}
