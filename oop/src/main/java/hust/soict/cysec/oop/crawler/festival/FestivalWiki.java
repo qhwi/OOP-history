@@ -1,33 +1,55 @@
 package hust.soict.cysec.oop.crawler.festival;
 
-import java.io.OutputStream;
-import java.io.FileOutputStream;
 import java.io.IOException;
-import java.io.OutputStreamWriter;
+import java.util.LinkedList;
+import java.util.List;
 
-import com.google.gson.stream.JsonWriter;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
-public class FestivalCrawler {
-	public static void main(String[] args) throws IOException {
+import hust.soict.cysec.oop.common.Constants;
+import hust.soict.cysec.oop.crawler.generic.LeafCrawler;
+import hust.soict.cysec.oop.model.Festival;
+import hust.soict.cysec.oop.model.Figure;
+
+public class FestivalWiki extends LeafCrawler<Festival> {
+	public FestivalWiki() {
+		super(Constants.JSON_FESTIVAL);
+	}
+	
+	@Override
+	public List<Festival> crawl() throws IOException {
+		List<Festival> festivals = new LinkedList<>();
+		
 		String url = "https://vi.wikipedia.org/wiki/L%E1%BB%85_h%E1%BB%99i_Vi%E1%BB%87t_Nam";
-		Element table = Jsoup.connect(url).get().select("table").get(1);
+		Document doc = Jsoup.connect(url).get();
+		
+		Element table = doc.select("table").get(1);
 		Elements rows = table.select("tr");
-		OutputStream out = new FileOutputStream("src\\main\\json\\Festival.json");
-		JsonWriter writer = new JsonWriter(new OutputStreamWriter(out, "UTF-8"));
-		writer.setIndent("  ");
-		writer.beginArray();
+		
 		for (int i = 1; i < rows.size(); i++) {
+			Festival festival = new Festival();
+			
 			Element row = rows.get(i);  
 			
 			String date = row.select("td").get(0).text();
+			festival.setTime(date);
+			
 			String place = row.select("td").get(1).text();
+			festival.setLocation(place);
+			
 			String name = row.select("td").get(2).text();
-			String figure = row.select("td").get(4).text();
-			String[] figures = figure.replaceAll("\\s*\\([^)]+\\)", "").split(", ");
+			festival.setName(name);
+			
+			String[] figureNames = row.select("td").get(4).text().replaceAll("\\s*\\([^)]+\\)", "").split(", ");
+			for (String figureName : figureNames) {
+				Figure figure = new Figure();
+				figure.setName(figureName);
+
+				festival.addFigure(figure);
+			}
 			
 			String description = "Không rõ";
 			try {
@@ -35,26 +57,17 @@ public class FestivalCrawler {
 				if (!hyperlink.isBlank()) {
 					hyperlink = "https://vi.wikipedia.org" + hyperlink;
 					description = parseDescription(hyperlink);
+					festival.setDesc(description);
 				}
 			} catch (Exception e) {
+				System.out.println("Cannot parse description");
 				e.printStackTrace();
 			}
 			
-			//WRITE
-			writer.beginObject();
-			writer.name("name").value(name);
-			writer.name("date").value((date.isBlank()) ? "Không rõ" : date);
-			writer.name("location").value((place.contains("Nhiều")) ? "Cả nước" : place);
-			writer.name("description").value(description);
-			writer.name("figures");
-			writer.beginArray();
-			for (String f : figures)
-				writer.value(f);
-			writer.endArray();
-			writer.endObject();
+			festivals.add(festival);
 		}
-		writer.endArray();
-		writer.close();
+		
+		return festivals;
 	}
 		
 	

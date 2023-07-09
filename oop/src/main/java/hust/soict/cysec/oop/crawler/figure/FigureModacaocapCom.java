@@ -9,10 +9,15 @@ import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
-import hust.soict.cysec.oop.crawler.LeafCrawler;
+import hust.soict.cysec.oop.common.Constants;
+import hust.soict.cysec.oop.crawler.generic.LeafCrawler;
 import hust.soict.cysec.oop.model.Figure;
 
 public class FigureModacaocapCom extends LeafCrawler<Figure> {
+	public FigureModacaocapCom() {
+		super(Constants.JSON_FIGURE);
+	}
+	
 	public List<Figure> crawl() throws IOException {
 		List<Figure> figures = new ArrayList<>();
 		

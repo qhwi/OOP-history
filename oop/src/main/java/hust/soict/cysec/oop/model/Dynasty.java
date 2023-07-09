@@ -41,5 +41,15 @@ public class Dynasty {
 		this.kings.add(king);
 	}
 	
+	public void print() {
+		System.out.println("----- " + this.name + " ------");
+		System.out.println("Thời gian: " + this.startYear + " - " + this.endYear);
+		System.out.println("Đời vua: ");
+		for (King king : kings) {
+			System.out.println("- " + king.getName());
+		}
+		System.out.println("Thủ đô: " + capital);
+	}
+	
 	
 }

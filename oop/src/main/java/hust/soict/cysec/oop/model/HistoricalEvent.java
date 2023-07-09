@@ -1,5 +1,6 @@
 package hust.soict.cysec.oop.model;
 
+import java.util.LinkedList;
 import java.util.List;
 
 public class HistoricalEvent {
@@ -9,6 +10,12 @@ public class HistoricalEvent {
 	private String desc;
 	private List<String> locations;
 	private List<Figure> figures;
+	
+	public HistoricalEvent() {
+		locations = new LinkedList<>();
+		figures = new LinkedList<>();
+	}
+	
 	public String getName() {
 		return name;
 	}
@@ -44,6 +51,20 @@ public class HistoricalEvent {
 	}
 	public void addFigure(Figure figure) {
 		this.figures.add(figure);
+	}
+	
+	public void print() {
+		System.out.println("----- " + this.name + " ------");
+		System.out.println("Thời gian: " + this.startYear + " - " + this.endYear);
+		System.out.println("Mô tả: " + this.desc);
+		System.out.println("Địa điểm: ");
+		for (String location : locations) {
+			System.out.println("- " + location);
+		}
+		System.out.println("Nhân vật liên quan: ");
+		for (Figure figure : figures) {
+			System.out.println("- " + figure.getName());
+		}
 	}
 	
 	

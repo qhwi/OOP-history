@@ -1,34 +1,54 @@
 package hust.soict.cysec.oop.crawler;
 
 import java.io.IOException;
+import java.util.LinkedList;
+import java.util.List;
 
+import hust.soict.cysec.oop.common.JSONUtility;
+import hust.soict.cysec.oop.crawler.dynasty.DynastyFinal;
+import hust.soict.cysec.oop.crawler.event.EventFinal;
+import hust.soict.cysec.oop.crawler.festival.FestivalFinal;
 import hust.soict.cysec.oop.crawler.figure.FigureFinal;
+import hust.soict.cysec.oop.crawler.generic.NodeCrawler;
 import hust.soict.cysec.oop.crawler.king.KingFinal;
 import hust.soict.cysec.oop.crawler.relic.RelicFinal;
-import hust.soict.cysec.oop.model.Figure;
-import hust.soict.cysec.oop.model.King;
-import hust.soict.cysec.oop.model.Relic;
 
 public class MainCrawler {
+	private List<NodeCrawler<?>> listCrawlers;
+	
+	public MainCrawler() {
+		listCrawlers = new LinkedList<>();
+		
+		listCrawlers.add(new FigureFinal());
+		listCrawlers.add(new KingFinal());
+		listCrawlers.add(new RelicFinal());
+		listCrawlers.add(new FestivalFinal());
+		listCrawlers.add(new EventFinal());
+		listCrawlers.add(new DynastyFinal());
+	}
+	
+	public void envokeAllCrawlers() throws IOException {
+		for (NodeCrawler<?> nodeCrawler : listCrawlers) {
+			nodeCrawler.envokeAllCrawlers();
+		}
+	}
+	
+	public void writeToJson() throws IOException {
+		for (NodeCrawler<?> nodeCrawler : listCrawlers) {
+			JSONUtility.writeToJSON(nodeCrawler.JSON_URL, nodeCrawler.getCrawledList());
+		}
+	}
 
 	public static void main(String[] args) {
-		NodeCrawler<Figure> figureCrawler = new FigureFinal();
-		
-		NodeCrawler<King> kingCrawler = new KingFinal();
-		
-		NodeCrawler<Relic> relicCrawler = new RelicFinal();
+		MainCrawler mainCrawler = new MainCrawler();
 		
 		try {
-			figureCrawler.envokeAllCrawlers();
-			kingCrawler.envokeAllCrawlers();
-			relicCrawler.envokeAllCrawlers();
-
-			System.out.println("Figure size: " + figureCrawler.getCrawledList().size());
-			System.out.println("King size: " + kingCrawler.getCrawledList().size());
-			System.out.println("Relic size: " + relicCrawler.getCrawledList().size());
+			mainCrawler.envokeAllCrawlers();
+			
+			mainCrawler.writeToJson();
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
+			System.out.println("Error while running crawlers");
 		}
+		
 	}
 }

@@ -9,11 +9,14 @@ import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
-import hust.soict.cysec.oop.crawler.LeafCrawler;
+import hust.soict.cysec.oop.common.Constants;
+import hust.soict.cysec.oop.crawler.generic.LeafCrawler;
 import hust.soict.cysec.oop.model.Relic;
 
 public class RelicDtlsvhxhCom extends LeafCrawler<Relic> {
-	public static final String JSON_RELIC_PATH_DTLSVHXH = "src\\main\\json\\relic_dtlsvhxh.json";
+	public RelicDtlsvhxhCom() {
+		super(Constants.JSON_RELIC);
+	}
 	
 	@Override
 	public List<Relic> crawl() throws IOException{

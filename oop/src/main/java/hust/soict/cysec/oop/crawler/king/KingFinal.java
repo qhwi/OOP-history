@@ -1,8 +1,14 @@
 package hust.soict.cysec.oop.crawler.king;
 
-import hust.soict.cysec.oop.crawler.NodeCrawler;
+import hust.soict.cysec.oop.common.Constants;
+import hust.soict.cysec.oop.crawler.generic.NodeCrawler;
 import hust.soict.cysec.oop.model.King;
 
 public class KingFinal extends NodeCrawler<King> {
-	public static final String JSON_KING_PATH = "src\\main\\json\\Kings.json";
+	
+	public KingFinal() {
+		super(Constants.JSON_KING);
+		
+		registerNewCrawler(new KingWiki());
+	}
 }

@@ -9,7 +9,8 @@ import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
-import hust.soict.cysec.oop.crawler.LeafCrawler;
+import hust.soict.cysec.oop.common.Constants;
+import hust.soict.cysec.oop.crawler.generic.LeafCrawler;
 import hust.soict.cysec.oop.model.Dynasty;
 import hust.soict.cysec.oop.model.Figure;
 
@@ -17,6 +18,10 @@ import hust.soict.cysec.oop.model.Figure;
  * Crawl 2391 figures
  */
 public class FigureVansuVn extends LeafCrawler<Figure> {	
+	public FigureVansuVn() {
+		super(Constants.JSON_FIGURE);
+	}
+	
 	public static String ALIAS_IDENTIFIER = "Tên khác";
 	public static String DOB_IDENTIFIER = "Năm sinh";
 	public static String HOMETOWN_IDENTIFIER = "Tỉnh thành";

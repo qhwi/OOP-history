@@ -8,7 +8,8 @@ import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.select.Elements;
 
-import hust.soict.cysec.oop.crawler.LeafCrawler;
+import hust.soict.cysec.oop.common.Constants;
+import hust.soict.cysec.oop.crawler.generic.LeafCrawler;
 import hust.soict.cysec.oop.model.Figure;
 import hust.soict.cysec.oop.model.Relic;
 
@@ -16,6 +17,10 @@ import hust.soict.cysec.oop.model.Relic;
  * Crawl 4300 relics
  */
 public class RelicDiTichVn extends LeafCrawler<Relic> {	
+	public RelicDiTichVn() {
+		super(Constants.JSON_RELIC);
+	}
+	
 	public static String LOCATION_IDENTIFIER = "Vị trí: ";
 	public static String TYPE_IDENTIFIER = "Loại hình di tích: ";
 	public static String RANK_IDENTIFIER = "Xếp hạng: ";

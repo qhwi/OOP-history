@@ -9,10 +9,15 @@ import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
-import hust.soict.cysec.oop.crawler.LeafCrawler;
+import hust.soict.cysec.oop.common.Constants;
+import hust.soict.cysec.oop.crawler.generic.LeafCrawler;
 import hust.soict.cysec.oop.model.King;
 
 public class KingWiki extends LeafCrawler<King> {
+	public KingWiki() {
+		super(Constants.JSON_KING);
+	}
+	
 	@Override
 	public List<King> crawl() throws IOException {
 		List<King> kings = new ArrayList<>();

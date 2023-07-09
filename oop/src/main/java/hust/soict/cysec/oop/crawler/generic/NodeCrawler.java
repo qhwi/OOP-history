@@ -1,4 +1,4 @@
-package hust.soict.cysec.oop.crawler;
+package hust.soict.cysec.oop.crawler.generic;
 
 import java.io.IOException;
 import java.util.LinkedList;
@@ -8,7 +8,9 @@ public abstract class NodeCrawler<T> extends Crawler<T> {
 	private List<Crawler<T>> crawlers;
 	protected List<T> objList;
 	
-	public NodeCrawler() {
+	public NodeCrawler(String jsonURL) {
+		super(jsonURL);
+		
 		this.crawlers = new LinkedList<>();
 		this.objList = new LinkedList<>();
 	}
@@ -26,10 +28,6 @@ public abstract class NodeCrawler<T> extends Crawler<T> {
 				this.objList.addAll(objListFromLeaf);
 			}
 		}
-	}
-	
-	public void combineAllData() {
-		
 	}
 	
 	public void registerNewCrawler(Crawler<T> crawler) {
