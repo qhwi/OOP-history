@@ -398,7 +398,10 @@ public class ProfileController {
 		VBox vBoxCenter = (VBox) root.getCenter();
 
 		vBoxCenter.getChildren().clear();
-
+//		if (data instanceof HistoricalFigure) {
+//			vBoxCenter.getChildren()
+//		.add(createPopupElement("Tên", Arrays.asList(((HistoricalFigure) data).getName()), "ProfileItemField"));
+//		}
 		// set field element
 		for (int i = 0; i < fieldName.size(); i++) {
 			try {
