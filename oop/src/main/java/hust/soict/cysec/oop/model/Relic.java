@@ -23,19 +23,22 @@ public class Relic {
 		return name;
 	}
 	public void setName(String name) {
-		this.name = name;
+		if(!StringUtility.isEmptyString(name))
+			this.name = name;
 	}
 	public String getLocation() {
 		return location;
 	}
 	public void setLocation(String location) {
-		this.location = location;
+		if(!StringUtility.isEmptyString(location))
+			this.location = location;
 	}
 	public String getType() {
 		return this.type;
 	}
 	public void setType(String type) {
-		this.type = type;
+		if(!StringUtility.isEmptyString(type))
+			this.type = type;
 	}
 	public String getRank() {
 		return rank;

@@ -11,38 +11,38 @@ public class Figure extends HistoricalFigure {
 	private String note;
 	private List<String> dynasties;
 	private List<String> eventJoined;
+	private List<String> relatedId;
+	private String id;
 	
 	public Figure() {
 		this.dynasties = new LinkedList<>();
 		this.eventJoined = new LinkedList<>();
 	}
-
-
-
-	private List<String> relatedId;
-	private String id;
+	
 	public String getId() {
 		return id;
 	}
 	public void setId(String id) {
 		this.id = id;
 	}
+	
 	public List<String> getRelatedId() {
 		return relatedId;
 	}
 	public void setRelatedId(List<String> relatedId) {
 		this.relatedId = relatedId;
 	}
+	
 	public List<String> getDynasties() {
 		return dynasties;
 	}
 	public void setDynasties(List<String> dynasties) {
 		this.dynasties = dynasties;
 	}
+	
 	public String getAlias() {
 		return alias;
 	}
-
 	public void setAlias(String alias) {
 		if(!StringUtility.isEmptyString(alias))
 			this.alias = alias;

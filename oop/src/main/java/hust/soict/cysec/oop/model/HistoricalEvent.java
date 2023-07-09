@@ -3,6 +3,8 @@ package hust.soict.cysec.oop.model;
 import java.util.LinkedList;
 import java.util.List;
 
+import hust.soict.cysec.oop.common.StringUtility;
+
 public class HistoricalEvent {
 	private String name;
 	private String startYear;
@@ -21,19 +23,22 @@ public class HistoricalEvent {
 		return name;
 	}
 	public void setName(String name) {
-		this.name = name;
+		if(!StringUtility.isEmptyString(name))
+			this.name = name;
 	}
 	public String getStartTime() {
 		return startYear;
 	}
 	public void setStartYear(String startYear) {
-		this.startYear = startYear;
+		if(!StringUtility.isEmptyString(startYear))
+			this.startYear = startYear;
 	}
 	public String getEndYear() {
 		return endYear;
 	}
 	public void setEndYear(String endYear) {
-		this.endYear = endYear;
+		if(!StringUtility.isEmptyString(endYear))
+			this.endYear = endYear;
 	}
 
 	public String getDesc() {
@@ -53,13 +58,15 @@ public class HistoricalEvent {
 		return locations;
 	}
 	public void addLocation(String location) {
-		this.locations.add(location);
+		if(!StringUtility.isEmptyString(location))
+			this.locations.add(location);
 	}
 	public List<String> getFigure() {
 		return figures;
 	}
 	public void addFigure(String figure) {
-		this.figures.add(figure);
+		if(!StringUtility.isEmptyString(figure))
+			this.figures.add(figure);
 	}
 	
 	public boolean checking(Object obj) {

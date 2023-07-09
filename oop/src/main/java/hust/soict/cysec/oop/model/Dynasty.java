@@ -3,6 +3,8 @@ package hust.soict.cysec.oop.model;
 import java.util.LinkedList;
 import java.util.List;
 
+import hust.soict.cysec.oop.common.StringUtility;
+
 public class Dynasty {
 	private String id;
 	public String getId() {
@@ -25,32 +27,38 @@ public class Dynasty {
 		return name;
 	}
 	public void setName(String name) {
-		this.name = name;
+		if(StringUtility.isEmptyString(name))
+			this.name = name;
 	}
 	public String getStartYear() {
 		return startYear;
 	}
 	public void setStartYear(String startYear) {
-		this.startYear = startYear;
+		if(StringUtility.isEmptyString(startYear))
+			this.startYear = startYear;
 	}
 	public String getEndYear() {
 		return endYear;
 	}
 	public void setEndYear(String endYear) {
-		this.endYear = endYear;
+		if(StringUtility.isEmptyString(endYear))
+			this.endYear = endYear;
 	}
 	public String getCapital() {
 		return capital;
 	}
 	public void setCapital(String capital) {
-		this.capital = capital;
+		if(StringUtility.isEmptyString(capital))
+			this.capital = capital;
 	}
 	public List<String> getKings(){
 		return this.kings;
 	}
-//	public void addKing(King king) {
-//		this.kings.add(king);
-//	}
+	
+	public void addKing(String king) {
+		this.kings.add(king);
+	}
+	
 	public boolean checking(Object obj) {
 
 		if (obj instanceof String) {
