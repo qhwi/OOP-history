@@ -48,17 +48,6 @@ public class RelicFilterDuplicateName extends LeafFilter<Relic> {
 					existedRelic.setDesc(relic.getDesc());
 				}
 				
-				List<String> relicJsonDynasties = relic.getDynasties();
-				if(relicJsonDynasties.size() != 0) {
-					List<String> relicFilteredDynasties = existedRelic.getDynasties();
-					
-					for (String dynasty : relicFilteredDynasties) {
-						if(!relicFilteredDynasties.contains(dynasty)) {
-							relicFilteredDynasties.add(dynasty);
-						}
-					}
-				}
-				
 				List<String> relicJsonFigures = relic.getRelatedFigures();
 				if(relicJsonFigures.size() != 0) {
 					List<String> relicFilteredFigures = existedRelic.getRelatedFigures();

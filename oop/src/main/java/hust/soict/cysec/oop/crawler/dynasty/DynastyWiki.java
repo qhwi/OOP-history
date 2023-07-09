@@ -49,14 +49,18 @@ public class DynastyWiki extends LeafCrawler<Dynasty>{
 		// GET DYNASTY's INFO FROM URLs
 		for (String url : urls) {
 			Dynasty dynasty = crawlOnePage(url);
-			dynasties.add(dynasty);
+			if(dynasty != null) {
+				if(dynasty.getName() != null)
+					dynasties.add(dynasty);
+			}
+				
 		}
 		
 		return dynasties;
 	}
 	
 	public Dynasty crawlOnePage(String url) throws IOException {
-		System.out.println("[CRAWL DYNASTY] " + url);
+//		System.out.println("[CRAWL DYNASTY] " + url);
 		Dynasty dynasty = new Dynasty();
 
 		Document doc = Jsoup.connect(url).get();
@@ -70,7 +74,6 @@ public class DynastyWiki extends LeafCrawler<Dynasty>{
      
 		// GET NAME, TIME
 		if (texts.size() > 3) {
-			
 			String time = "";
 			if (texts.get(0).text().contains("–") || texts.get(0).text().contains("-"))
 				time = texts.get(0).text();
@@ -105,7 +108,7 @@ public class DynastyWiki extends LeafCrawler<Dynasty>{
 					}
 				} catch (java.lang.NumberFormatException e) {
 					// No start or end year found
-				}          
+				}
 				result += 3;
 			}
 		}
@@ -140,18 +143,20 @@ public class DynastyWiki extends LeafCrawler<Dynasty>{
 			}
 		}
 		
+		if(obj[0] == null) {
+			return null;
+		}
+		
 		if(result > 3) {
 			dynasty.setName(obj[0]);
 			dynasty.setStartYear(obj[1]);
 			dynasty.setEndYear(obj[2]);
 			dynasty.setCapital(obj[3]);
 			for (String kingName : kings) {
-//				King king = new King();
-//				king.setName(kingName);
-//				dynasty.addKing(king);
 				dynasty.getKings().add(kingName);
 			}
-			
+			System.out.println("Name: " + dynasty.getName());
+//			dynasty.print();
 		}
 		
 		return dynasty;

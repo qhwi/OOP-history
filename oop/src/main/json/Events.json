@@ -9,6 +9,10 @@
     ],
     "figures": [
       "Nguyễn Hữu Cảnh (1650 - 1700)"
+    ],
+    "relatedId": [
+      "#F1449",
+      "#F1449"
     ]
   },
   {
@@ -20,7 +24,8 @@
       "Tây Bắc",
       "Đông Bắc"
     ],
-    "figures": []
+    "figures": [],
+    "relatedId": []
   },
   {
     "name": "Ngô Quyền xưng vương, đóng đô ở Cổ Loa",
@@ -32,6 +37,10 @@
     ],
     "figures": [
       "Ngô Quyền (898 - 944)"
+    ],
+    "relatedId": [
+      "#F1246",
+      "#F1246"
     ]
   },
   {
@@ -44,6 +53,12 @@
       "Khúc Hạo (? - 917)",
       "Khúc Thừa Mĩ",
       "Dương Đình Nghệ (? - 937)"
+    ],
+    "relatedId": [
+      "#F855",
+      "#F306",
+      "#F855",
+      "#F306"
     ]
   },
   {
@@ -58,6 +73,16 @@
       "Ngô Xương Văn (? - 965)",
       "Ngô Xương Ngập (? - 954)",
       "Ngô Xương Xí"
+    ],
+    "relatedId": [
+      "#F1246",
+      "#F329",
+      "#F1284",
+      "#F1283",
+      "#F1246",
+      "#F329",
+      "#F1284",
+      "#F1283"
     ]
   },
   {
@@ -68,6 +93,10 @@
     "locations": [],
     "figures": [
       "Phùng Hưng (761 - 802)"
+    ],
+    "relatedId": [
+      "#F2004",
+      "#F2004"
     ]
   },
   {
@@ -78,7 +107,8 @@
     "locations": [],
     "figures": [
       "Mai Hắc Đế (? - 722)"
-    ]
+    ],
+    "relatedId": []
   },
   {
     "name": "Đinh Bộ Lĩnh dẹp loạn 12 sứ quân, thống nhất đất nước, lên ngôi vua",
@@ -93,6 +123,14 @@
       "Dương Tam Kha",
       "Đinh Tiên Hoàng (924 - 979)",
       "Đinh Công Trứ"
+    ],
+    "relatedId": [
+      "#F1246",
+      "#F329",
+      "#F473",
+      "#F1246",
+      "#F329",
+      "#F473"
     ]
   },
   {
@@ -103,6 +141,10 @@
     "locations": [],
     "figures": [
       "Lê Đại Hành (941 - 1005)"
+    ],
+    "relatedId": [
+      "#F924",
+      "#F924"
     ]
   },
   {
@@ -115,6 +157,10 @@
     ],
     "figures": [
       "Lê Đại Hành (941 - 1005)"
+    ],
+    "relatedId": [
+      "#F924",
+      "#F924"
     ]
   },
   {
@@ -129,6 +175,18 @@
       "Lý Thái Tổ (974 - 1028)",
       "Đào Cam Mộc (? - 1015)",
       "Vạn Hạnh (938 - 1018)"
+    ],
+    "relatedId": [
+      "#F924",
+      "#F970",
+      "#F1142",
+      "#F365",
+      "#F2304",
+      "#F924",
+      "#F970",
+      "#F1142",
+      "#F365",
+      "#F2304"
     ]
   },
   {
@@ -141,6 +199,10 @@
     ],
     "figures": [
       "Lý Thái Tổ (974 - 1028)"
+    ],
+    "relatedId": [
+      "#F1142",
+      "#F1142"
     ]
   },
   {
@@ -152,6 +214,12 @@
     "figures": [
       "Khúc Thừa Dụ (? - 907)",
       "Khúc Hạo (? - 917)"
+    ],
+    "relatedId": [
+      "#F856",
+      "#F855",
+      "#F856",
+      "#F855"
     ]
   },
   {
@@ -162,7 +230,8 @@
     "locations": [
       "Giao Châu"
     ],
-    "figures": []
+    "figures": [],
+    "relatedId": []
   },
   {
     "name": "Triệu Quang Phục giành lại độc lập",
@@ -173,7 +242,8 @@
     "figures": [
       "Lý Nam Đế (503 - 548)",
       "Triệu Việt Vương (? - 571)"
-    ]
+    ],
+    "relatedId": []
   },
   {
     "name": "Nước Vạn Xuân thành lập",
@@ -183,7 +253,8 @@
     "locations": [],
     "figures": [
       "Lý Nam Đế (503 - 548)"
-    ]
+    ],
+    "relatedId": []
   },
   {
     "name": "Khởi nghĩa Lý Bí bùng nổ",
@@ -193,7 +264,8 @@
     "locations": [],
     "figures": [
       "Lý Nam Đế (503 - 548)"
-    ]
+    ],
+    "relatedId": []
   },
   {
     "name": "Khởi nghĩa Bà Triệu",
@@ -205,7 +277,8 @@
     ],
     "figures": [
       "Bà Triệu (226 - 248)"
-    ]
+    ],
+    "relatedId": []
   },
   {
     "name": "Kháng chiến của nhân dân ta chống quân xâm lược Hán",
@@ -217,6 +290,10 @@
     ],
     "figures": [
       "Hai Bà Trưng (? - 43)"
+    ],
+    "relatedId": [
+      "#F2267",
+      "#F2267"
     ]
   },
   {
@@ -227,6 +304,10 @@
     "locations": [],
     "figures": [
       "Hai Bà Trưng (? - 43)"
+    ],
+    "relatedId": [
+      "#F2267",
+      "#F2267"
     ]
   },
   {
@@ -237,6 +318,10 @@
     "locations": [],
     "figures": [
       "An Dương Vương"
+    ],
+    "relatedId": [
+      "#F2087",
+      "#F2087"
     ]
   },
   {
@@ -250,6 +335,12 @@
     "figures": [
       "Hùng Vương",
       "An Dương Vương"
+    ],
+    "relatedId": [
+      "#F835",
+      "#F2087",
+      "#F835",
+      "#F2087"
     ]
   },
   {
@@ -260,6 +351,10 @@
     "locations": [],
     "figures": [
       "An Dương Vương"
+    ],
+    "relatedId": [
+      "#F2087",
+      "#F2087"
     ]
   },
   {
@@ -270,7 +365,8 @@
     "locations": [],
     "figures": [
       "Lý Thái Tông (1000 - 1054)"
-    ]
+    ],
+    "relatedId": []
   },
   {
     "name": "Nhà Lý đổi tên nước thành Đại Việt",
@@ -280,6 +376,10 @@
     "locations": [],
     "figures": [
       "Lý Thánh Tông (1023 - 1072)"
+    ],
+    "relatedId": [
+      "#F1147",
+      "#F1147"
     ]
   },
   {
@@ -292,6 +392,12 @@
       "Lý Thánh Tông (1023 - 1072)",
       "Lý Nhân Tông (1066 - 1127)",
       "Ỷ Lan (1044 - 1117)"
+    ],
+    "relatedId": [
+      "#F1147",
+      "#F2412",
+      "#F1147",
+      "#F2412"
     ]
   },
   {
@@ -303,6 +409,10 @@
     "figures": [
       "Lý Nhân Tông (1066 - 1127)",
       "Lê Văn Thịnh"
+    ],
+    "relatedId": [
+      "#F24",
+      "#F24"
     ]
   },
   {
@@ -314,6 +424,10 @@
     "figures": [
       "Lý Nhân Tông (1066 - 1127)",
       "Trần Thánh Tông (1240 - 1290)"
+    ],
+    "relatedId": [
+      "#F2123",
+      "#F2123"
     ]
   },
   {
@@ -327,6 +441,12 @@
     "figures": [
       "Lý Thường Kiệt (1019 - 1105)",
       "Lý Thánh Tông (1023 - 1072)"
+    ],
+    "relatedId": [
+      "#F1155",
+      "#F1147",
+      "#F1155",
+      "#F1147"
     ]
   },
   {
@@ -338,6 +458,12 @@
     "figures": [
       "Lý Chiêu Hoàng (1218 - 1278)",
       "Trần Thái Tông (1218 - 1277)"
+    ],
+    "relatedId": [
+      "#F1143",
+      "#F2095",
+      "#F1143",
+      "#F2095"
     ]
   },
   {
@@ -350,6 +476,14 @@
       "Trần Thái Tông (1218 - 1277)",
       "Trương Hán Siêu (? - 1354)",
       "Nguyễn Trung Ngạn (1289 - 1370)"
+    ],
+    "relatedId": [
+      "#F2095",
+      "#F2275",
+      "#F1711",
+      "#F2095",
+      "#F2275",
+      "#F1711"
     ]
   },
   {
@@ -360,6 +494,10 @@
     "locations": [],
     "figures": [
       "Trần Thái Tông (1218 - 1277)"
+    ],
+    "relatedId": [
+      "#F2095",
+      "#F2095"
     ]
   },
   {
@@ -373,6 +511,14 @@
       "Trần Thủ Độ (1194 - 1264)",
       "Trần Thái Tông (1218 - 1277)",
       "Lê Phụ Trần"
+    ],
+    "relatedId": [
+      "#F2201",
+      "#F2095",
+      "#F996",
+      "#F2201",
+      "#F2095",
+      "#F996"
     ]
   },
   {
@@ -389,6 +535,14 @@
       "Trần Quốc Toản (1267 - 1285)",
       "Trương Hán Siêu (? - 1354)",
       "Trần Quốc Tảng (1252 - 1313)"
+    ],
+    "relatedId": [
+      "#F2179",
+      "#F2275",
+      "#F2178",
+      "#F2179",
+      "#F2275",
+      "#F2178"
     ]
   },
   {
@@ -405,6 +559,14 @@
       "Trần Quang Khải (1241 - 1294)",
       "Trần Nhật Duật (1255 - 1330)",
       "Trần Quốc Toản (1267 - 1285)"
+    ],
+    "relatedId": [
+      "#F2170",
+      "#F2158",
+      "#F2179",
+      "#F2170",
+      "#F2158",
+      "#F2179"
     ]
   },
   {
@@ -421,6 +583,12 @@
       "Trần Hưng Đạo (1228 - 1300)",
       "Trần Khánh Dư (? - 1340)",
       "Trương Hán Siêu (? - 1354)"
+    ],
+    "relatedId": [
+      "#F2142",
+      "#F2275",
+      "#F2142",
+      "#F2275"
     ]
   },
   {
@@ -433,6 +601,10 @@
     ],
     "figures": [
       "Trần Khánh Dư (? - 1340)"
+    ],
+    "relatedId": [
+      "#F2142",
+      "#F2142"
     ]
   },
   {
@@ -448,6 +620,12 @@
       "Trần Hưng Đạo (1228 - 1300)",
       "Trần Thánh Tông (1240 - 1290)",
       "Trần Nhân Tông (1258 - 1308)"
+    ],
+    "relatedId": [
+      "#F2123",
+      "#F2145",
+      "#F2123",
+      "#F2145"
     ]
   },
   {
@@ -466,6 +644,14 @@
       "Trần Phế Đế (1361 - 1388)",
       "Trần Thuận Tông (1378 - 1399)",
       "Trần Thiếu Đế (1396 - ?)"
+    ],
+    "relatedId": [
+      "#F324",
+      "#F2161",
+      "#F2137",
+      "#F324",
+      "#F2161",
+      "#F2137"
     ]
   },
   {
@@ -476,7 +662,8 @@
     "locations": [],
     "figures": [
       "Hồ Quý Ly (1336 - 1407)"
-    ]
+    ],
+    "relatedId": []
   },
   {
     "name": "Định quan chế và hình luật của nước Đại Ngu",
@@ -488,6 +675,12 @@
       "Hồ Quý Ly (1336 - 1407)",
       "Hồ Hán Thương (? - 1407)",
       "Hồ Nguyên Trừng (1374 - 1446)"
+    ],
+    "relatedId": [
+      "#F764",
+      "#F775",
+      "#F764",
+      "#F775"
     ]
   },
   {
@@ -499,6 +692,10 @@
     "figures": [
       "Hồ Quý Ly (1336 - 1407)",
       "Hồ Hán Thương (? - 1407)"
+    ],
+    "relatedId": [
+      "#F764",
+      "#F764"
     ]
   },
   {
@@ -511,7 +708,8 @@
     ],
     "figures": [
       "Hồ Quý Ly (1336 - 1407)"
-    ]
+    ],
+    "relatedId": []
   },
   {
     "name": "Cuộc khởi nghĩa Trần Ngỗi",
@@ -525,6 +723,12 @@
       "Trần Nghệ Tông (1321 - 1394)",
       "Nguyễn cảnh Chân (1355 - 1409)",
       "Đặng Tất (? - 1409)"
+    ],
+    "relatedId": [
+      "#F2161",
+      "#F428",
+      "#F2161",
+      "#F428"
     ]
   },
   {
@@ -542,6 +746,12 @@
       "Đặng Tất (? - 1409)",
       "Trùng Quang Đế (? - 1414)",
       "Giản Định Đế (? - 1410)"
+    ],
+    "relatedId": [
+      "#F2161",
+      "#F428",
+      "#F2161",
+      "#F428"
     ]
   },
   {
@@ -561,6 +771,14 @@
       "Nguyễn Trãi (1380 - 1442)",
       "Lê Lai (? - 1418)",
       "Lê Thái Tổ (1385 - 1433)"
+    ],
+    "relatedId": [
+      "#F1694",
+      "#F964",
+      "#F974",
+      "#F1694",
+      "#F964",
+      "#F974"
     ]
   },
   {
@@ -576,6 +794,12 @@
     "figures": [
       "Lê Thái Tổ (1385 - 1433)",
       "Nguyễn Chích (1382 - 1448)"
+    ],
+    "relatedId": [
+      "#F974",
+      "#F1345",
+      "#F974",
+      "#F1345"
     ]
   },
   {
@@ -594,6 +818,14 @@
       "Lê Thái Tổ (1385 - 1433)",
       "Trần Nguyên Hãn (? - 1429)",
       "Lê Ngân (? - 1437)"
+    ],
+    "relatedId": [
+      "#F974",
+      "#F2157",
+      "#F980",
+      "#F974",
+      "#F2157",
+      "#F980"
     ]
   },
   {
@@ -611,6 +843,12 @@
     "figures": [
       "Nguyễn Trãi (1380 - 1442)",
       "Lê Thái Tổ (1385 - 1433)"
+    ],
+    "relatedId": [
+      "#F1694",
+      "#F974",
+      "#F1694",
+      "#F974"
     ]
   },
   {
@@ -631,6 +869,16 @@
       "Nguyễn Xí (1396 - 1465)",
       "Trần Nguyên Hãn (? - 1429)",
       "Đinh Liệt (? - 1471)"
+    ],
+    "relatedId": [
+      "#F1694",
+      "#F974",
+      "#F2157",
+      "#F490",
+      "#F1694",
+      "#F974",
+      "#F2157",
+      "#F490"
     ]
   },
   {
@@ -643,6 +891,10 @@
     ],
     "figures": [
       "Lê Thái Tổ (1385 - 1433)"
+    ],
+    "relatedId": [
+      "#F974",
+      "#F974"
     ]
   },
   {
@@ -655,6 +907,16 @@
       "Lê Thái Tổ (1385 - 1433)",
       "Lê Thái Tông (1423 - 1442)",
       "Lê Thánh Tông (1442 - 1497)"
+    ],
+    "relatedId": [
+      "#F974",
+      "#F904",
+      "#F986",
+      "#F1033",
+      "#F974",
+      "#F904",
+      "#F986",
+      "#F1033"
     ]
   },
   {
@@ -667,6 +929,10 @@
       "Trần Tuân (? - 1511)",
       "Lê Tương Dực (1495 - 1516)",
       "Trịnh Duy Sản (? - 1518)"
+    ],
+    "relatedId": [
+      "#F2246",
+      "#F2246"
     ]
   },
   {
@@ -682,6 +948,12 @@
       "Trần Cảo",
       "Lê Chiêu Tông (1506 - 1526)",
       "Mạc Đăng Dung (1483 - 1541)"
+    ],
+    "relatedId": [
+      "#F1104",
+      "#F1166",
+      "#F1104",
+      "#F1166"
     ]
   },
   {
@@ -694,6 +966,12 @@
       "Lê Thái Tổ (1385 - 1433)",
       "Mạc Đăng Dung (1483 - 1541)",
       "Mạc Thái Tông (? - 1540)"
+    ],
+    "relatedId": [
+      "#F974",
+      "#F1166",
+      "#F974",
+      "#F1166"
     ]
   },
   {
@@ -708,6 +986,12 @@
     "figures": [
       "Mạc Đăng Dung (1483 - 1541)",
       "Nguyễn Kim (1468 - 1545)"
+    ],
+    "relatedId": [
+      "#F1166",
+      "#F1461",
+      "#F1166",
+      "#F1461"
     ]
   },
   {
@@ -726,6 +1010,16 @@
       "Nguyễn Kim (1468 - 1545)",
       "Trịnh Kiểm (1503 - 1570)",
       "Trịnh Tùng (1550 - 1623)"
+    ],
+    "relatedId": [
+      "#F1166",
+      "#F1461",
+      "#F2253",
+      "#F2262",
+      "#F1166",
+      "#F1461",
+      "#F2253",
+      "#F2262"
     ]
   },
   {
@@ -746,6 +1040,28 @@
       "Nguyễn Bỉnh Khiêm (1491 - 1585)",
       "Trịnh Tráng (1577 - 1657)",
       "Trịnh Tùng (1550 - 1623)"
+    ],
+    "relatedId": [
+      "#F1104",
+      "#F1166",
+      "#F1461",
+      "#F2253",
+      "#F1569",
+      "#F1420",
+      "#F1421",
+      "#F63",
+      "#F2264",
+      "#F2262",
+      "#F1104",
+      "#F1166",
+      "#F1461",
+      "#F2253",
+      "#F1569",
+      "#F1420",
+      "#F1421",
+      "#F63",
+      "#F2264",
+      "#F2262"
     ]
   },
   {
@@ -758,6 +1074,10 @@
     ],
     "figures": [
       "Hoàng Công Chất (1706 - 1769)"
+    ],
+    "relatedId": [
+      "#F661",
+      "#F661"
     ]
   },
   {
@@ -770,7 +1090,8 @@
     ],
     "figures": [
       "Nguyễn Danh Phương (? - 1751)"
-    ]
+    ],
+    "relatedId": []
   },
   {
     "name": "Khởi nghĩa Nguyễn Hữu Cầu",
@@ -785,7 +1106,8 @@
     ],
     "figures": [
       "Nguyễn Hữu Cầu (? - 1751)"
-    ]
+    ],
+    "relatedId": []
   },
   {
     "name": "Khởi nghĩa nông dân Tây Sơn bùng nổ",
@@ -799,6 +1121,14 @@
       "Nguyễn Nhạc (? - 1793)",
       "Nguyễn Lữ (1754 - 1787)",
       "Nguyễn Huệ (1753 - 1792)"
+    ],
+    "relatedId": [
+      "#F1525",
+      "#F1488",
+      "#F1428",
+      "#F1525",
+      "#F1488",
+      "#F1428"
     ]
   },
   {
@@ -817,6 +1147,16 @@
       "Nguyễn Lữ (1754 - 1787)",
       "Nguyễn Huệ (1753 - 1792)",
       "Gia Long (1762 - 1820)"
+    ],
+    "relatedId": [
+      "#F1525",
+      "#F1488",
+      "#F1428",
+      "#F1544",
+      "#F1525",
+      "#F1488",
+      "#F1428",
+      "#F1544"
     ]
   },
   {
@@ -830,6 +1170,12 @@
     "figures": [
       "Nguyễn Huệ (1753 - 1792)",
       "Gia Long (1762 - 1820)"
+    ],
+    "relatedId": [
+      "#F1428",
+      "#F1544",
+      "#F1428",
+      "#F1544"
     ]
   },
   {
@@ -849,6 +1195,16 @@
       "Nguyễn Huệ (1753 - 1792)",
       "Gia Long (1762 - 1820)",
       "Nguyễn Hữu Chỉnh (1741 - 1788)"
+    ],
+    "relatedId": [
+      "#F1525",
+      "#F1428",
+      "#F1544",
+      "#F1442",
+      "#F1525",
+      "#F1428",
+      "#F1544",
+      "#F1442"
     ]
   },
   {
@@ -868,6 +1224,20 @@
       "Phan Huy Ích (1751 - 1822)",
       "Võ Huy Tấn (1749 - 1800)",
       "Đặng Tiến Đông (1738 - 1787)"
+    ],
+    "relatedId": [
+      "#F1428",
+      "#F1442",
+      "#F912",
+      "#F1264",
+      "#F1944",
+      "#F401",
+      "#F1428",
+      "#F1442",
+      "#F912",
+      "#F1264",
+      "#F1944",
+      "#F401"
     ]
   },
   {
@@ -888,6 +1258,14 @@
       "Lộc",
       "Lê Văn Hưng",
       "Võ Đình Tú (? - 1799)"
+    ],
+    "relatedId": [
+      "#F1428",
+      "#F912",
+      "#F2366",
+      "#F1428",
+      "#F912",
+      "#F2366"
     ]
   },
   {
@@ -898,6 +1276,10 @@
     "locations": [],
     "figures": [
       "Nguyễn Huệ (1753 - 1792)"
+    ],
+    "relatedId": [
+      "#F1428",
+      "#F1428"
     ]
   },
   {
@@ -912,6 +1294,12 @@
     "figures": [
       "Nguyễn Huệ (1753 - 1792)",
       "Gia Long (1762 - 1820)"
+    ],
+    "relatedId": [
+      "#F1428",
+      "#F1544",
+      "#F1428",
+      "#F1544"
     ]
   },
   {
@@ -922,6 +1310,10 @@
     "locations": [],
     "figures": [
       "Gia Long (1762 - 1820)"
+    ],
+    "relatedId": [
+      "#F1544",
+      "#F1544"
     ]
   },
   {
@@ -932,6 +1324,10 @@
     "locations": [],
     "figures": [
       "Gia Long (1762 - 1820)"
+    ],
+    "relatedId": [
+      "#F1544",
+      "#F1544"
     ]
   },
   {
@@ -942,6 +1338,10 @@
     "locations": [],
     "figures": [
       "Minh Mạng (1791 - 1841)"
+    ],
+    "relatedId": [
+      "#F1555",
+      "#F1555"
     ]
   },
   {
@@ -953,6 +1353,12 @@
     "figures": [
       "Gia Long (1762 - 1820)",
       "Minh Mạng (1791 - 1841)"
+    ],
+    "relatedId": [
+      "#F1544",
+      "#F1555",
+      "#F1544",
+      "#F1555"
     ]
   },
   {
@@ -965,6 +1371,20 @@
       "Minh Mạng (1791 - 1841)",
       "Nguyễn Công Trứ (1778 - 1858)",
       "Phan Bá Vành (? - 1827)"
+    ],
+    "relatedId": [
+      "#F1555",
+      "#F280",
+      "#F1322",
+      "#F1335",
+      "#F1922",
+      "#F2336",
+      "#F1555",
+      "#F280",
+      "#F1322",
+      "#F1335",
+      "#F1922",
+      "#F2336"
     ]
   },
   {
@@ -979,6 +1399,12 @@
     "figures": [
       "Gia Long (1762 - 1820)",
       "Minh Mạng (1791 - 1841)"
+    ],
+    "relatedId": [
+      "#F1544",
+      "#F1555",
+      "#F1544",
+      "#F1555"
     ]
   },
   {
@@ -992,6 +1418,12 @@
     "figures": [
       "Cao Bá Quát (1809 - 1855)",
       "Tự Đức (1829 - 1883)"
+    ],
+    "relatedId": [
+      "#F217",
+      "#F1558",
+      "#F217",
+      "#F1558"
     ]
   },
   {
@@ -1006,6 +1438,14 @@
       "Minh Mạng (1791 - 1841)",
       "Lê Văn Khôi (? - 1834)",
       "Lê văn Duyệt (1763 - 1832)"
+    ],
+    "relatedId": [
+      "#F1555",
+      "#F1075",
+      "#F1068",
+      "#F1555",
+      "#F1075",
+      "#F1068"
     ]
   },
   {
@@ -1020,6 +1460,10 @@
     ],
     "figures": [
       "Nguyễn Tri Phương (1800 - 1873)"
+    ],
+    "relatedId": [
+      "#F1696",
+      "#F1696"
     ]
   },
   {
@@ -1037,6 +1481,14 @@
     "figures": [
       "Phan Thanh Giản (1796 - 1867)",
       "Lâm Duy Hiệp (1806 - 1863)"
+    ],
+    "relatedId": [
+      "#F1971",
+      "#F1972",
+      "#F866",
+      "#F1971",
+      "#F1972",
+      "#F866"
     ]
   },
   {
@@ -1049,7 +1501,8 @@
       "Gia Định (1698 - ?)",
       "Bán đảo Sơn Trà"
     ],
-    "figures": []
+    "figures": [],
+    "relatedId": []
   },
   {
     "name": "Khởi nghĩa của Nguyễn Trung Trực",
@@ -1059,6 +1512,10 @@
     "locations": [],
     "figures": [
       "Nguyễn Trung Trực (1839 - 1868)"
+    ],
+    "relatedId": [
+      "#F1713",
+      "#F1713"
     ]
   },
   {
@@ -1072,6 +1529,12 @@
     "figures": [
       "Nguyễn Trung Trực (1839 - 1868)",
       "Trương Định (1820 - 1864)"
+    ],
+    "relatedId": [
+      "#F1713",
+      "#F2272",
+      "#F1713",
+      "#F2272"
     ]
   },
   {
@@ -1084,6 +1547,10 @@
     ],
     "figures": [
       "Phạm Thận Duật (1825 - 1885)"
+    ],
+    "relatedId": [
+      "#F1887",
+      "#F1887"
     ]
   },
   {
@@ -1096,6 +1563,14 @@
       "Tự Đức (1829 - 1883)",
       "Nguyễn Trọng Hợp (1834 - 1902)",
       "Trần Đình Túc (1818 - 1899)"
+    ],
+    "relatedId": [
+      "#F1558",
+      "#F1702",
+      "#F2115",
+      "#F1558",
+      "#F1702",
+      "#F2115"
     ]
   },
   {
@@ -1111,6 +1586,12 @@
       "Phan Châu Trinh (1872 - 1926)",
       "Hoàng Hoa Thám (1858 - 1913)",
       "Đề Nắm"
+    ],
+    "relatedId": [
+      "#F1924",
+      "#F1927",
+      "#F1924",
+      "#F1927"
     ]
   },
   {
@@ -1122,6 +1603,12 @@
     "figures": [
       "Tôn Thất Thuyết (1839 - 1913)",
       "Hàm Nghi (1871 - 1943)"
+    ],
+    "relatedId": [
+      "#F2055",
+      "#F1579",
+      "#F2055",
+      "#F1579"
     ]
   },
   {
@@ -1133,6 +1620,12 @@
     "figures": [
       "Tôn Thất Thuyết (1839 - 1913)",
       "Hàm Nghi (1871 - 1943)"
+    ],
+    "relatedId": [
+      "#F2055",
+      "#F1579",
+      "#F2055",
+      "#F1579"
     ]
   },
   {
@@ -1145,6 +1638,16 @@
       "Tôn Thất Thuyết (1839 - 1913)",
       "Hàm Nghi (1871 - 1943)",
       "Nguyễn Thiện Thuật (1844 - 1926)"
+    ],
+    "relatedId": [
+      "#F2055",
+      "#F1579",
+      "#F1678",
+      "#F1680",
+      "#F2055",
+      "#F1579",
+      "#F1678",
+      "#F1680"
     ]
   },
   {
@@ -1158,6 +1661,16 @@
       "Hàm Nghi (1871 - 1943)",
       "Đinh Công Tráng (1842 - 1887)",
       "Phạm Bành (1827 - 1887)"
+    ],
+    "relatedId": [
+      "#F2055",
+      "#F1579",
+      "#F472",
+      "#F1813",
+      "#F2055",
+      "#F1579",
+      "#F472",
+      "#F1813"
     ]
   },
   {
@@ -1168,6 +1681,12 @@
     "locations": [],
     "figures": [
       "Tống Duy Tân (1837 - 1892)"
+    ],
+    "relatedId": [
+      "#F1582",
+      "#F2056",
+      "#F1582",
+      "#F2056"
     ]
   },
   {
@@ -1181,6 +1700,12 @@
     "figures": [
       "Phan Đình Phùng (1847 - 1895)",
       "Cao Thắng (1864 - 1893)"
+    ],
+    "relatedId": [
+      "#F1935",
+      "#F234",
+      "#F1935",
+      "#F234"
     ]
   },
   {
@@ -1192,6 +1717,10 @@
     "figures": [
       "Lê Tuấn (? - 1884)",
       "Nguyễn Văn Tường (1824 - 1886)"
+    ],
+    "relatedId": [
+      "#F1029",
+      "#F1029"
     ]
   },
   {
@@ -1202,6 +1731,10 @@
     "locations": [],
     "figures": [
       "Phan Bội Châu (1867 - 1940)"
+    ],
+    "relatedId": [
+      "#F1924",
+      "#F1924"
     ]
   },
   {
@@ -1212,6 +1745,10 @@
     "locations": [],
     "figures": [
       "Phan Bội Châu (1867 - 1940)"
+    ],
+    "relatedId": [
+      "#F1924",
+      "#F1924"
     ]
   },
   {
@@ -1222,6 +1759,10 @@
     "locations": [],
     "figures": [
       "Phan Bội Châu (1867 - 1940)"
+    ],
+    "relatedId": [
+      "#F1924",
+      "#F1924"
     ]
   },
   {
@@ -1232,6 +1773,10 @@
     "locations": [],
     "figures": [
       "Lương Văn Can (1854 - 1927)"
+    ],
+    "relatedId": [
+      "#F1122",
+      "#F1122"
     ]
   },
   {
@@ -1246,6 +1791,14 @@
       "Hoàng Hoa Thám (1858 - 1913)",
       "Lương Văn Can (1854 - 1927)",
       "Chủ tịch Hồ Chí Minh (1890 - 1969)"
+    ],
+    "relatedId": [
+      "#F1924",
+      "#F1927",
+      "#F1122",
+      "#F1924",
+      "#F1927",
+      "#F1122"
     ]
   },
   {
@@ -1254,7 +1807,8 @@
     "endYear": "1918",
     "desc": "Chiến tranh thế giới thứ nhất, còn được gọi là Đại chiến thế giới lần thứ nhất, Thế chiến thứ nhất hay Đệ nhất thế chiến, diễn ra từ tháng 8 năm 1914 đến tháng 11 năm 1918, là một trong những cuộc chiến tranh quyết liệt, quy mô to lớn nhất trong lịch sử nhân loại. Đây là cuộc chiến giữa phe Entente (chủ yếu là Anh, Pháp, Nga, Ý và sau đó là Hoa Kỳ, Brasil) và phe Liên Minh trung tâm(chủ yếu là Đức, Thổ Ottoman, Áo-Hung và Bulgaria), cuộc chiến tranh này có chiến trường chính bao trùm khắp châu Âu và ảnh hưởng ra toàn thế giới. Có hơn 70 triệu quân nhân được huy động ra trận tiền, trong số đó có 60 triệu người Âu châu, số người chết trên 20 triệu người với sức tàn phá và ảnh hưởng về vật chất tinh thần cho nhân loại rất sâu sắc và lâu dài.",
     "locations": [],
-    "figures": []
+    "figures": [],
+    "relatedId": []
   },
   {
     "name": "Thành lập Quốc Tế Cộng Sản",
@@ -1262,7 +1816,8 @@
     "endYear": "?",
     "desc": "Sự phản bội của Quốc tế II đòi hỏi giai cấp công nhân thế giới phải thành lập tổ chức cách mạng của mình. Tháng 3-1919, tại Mátxcơva, Lênin và các tổ chức cách mạng của giai cấp công nhân các nước trên thế giới đã thành lập Quốc tế III (Quốc tế Cộng sản). Sự ra đời của tổ chức cách mạng này đã mang lại cho sự nghiệp cách mạng vô sản và giải phóng dân tộc trên thế giới sức mạnh với khẩu hiệu “Vô sản tất cả các nước và các dân tộc bị áp bức liên hiệp lại”. Quốc tế Cộng sản cũng đã trở thành hậu thuẩn vững chắc cho cách mạng Việt Nam dưới sự lãnh đạo trực tiếp của Đảng Cộng sản Đông Dương, một chi bộ của Quốc tế Cộng sản. Tháng 5-1943, Quốc tế Cộng sản tuyên bố tự giải tán sau khi đã hoàn thành sứ mệnh lịch sử của mình.",
     "locations": [],
-    "figures": []
+    "figures": [],
+    "relatedId": []
   },
   {
     "name": "Nguyến Ái Quốc gửi bản yêu sách của nhân dân Việt tới hội nghị Vecxay",
@@ -1272,7 +1827,8 @@
     "locations": [],
     "figures": [
       "Chủ tịch Hồ Chí Minh (1890 - 1969)"
-    ]
+    ],
+    "relatedId": []
   },
   {
     "name": "Nguyễn Ái Quốc tham dự Đại hội lần thứ 18 của Đảng Xã hội Pháp",
@@ -1282,7 +1838,8 @@
     "locations": [],
     "figures": [
       "Chủ tịch Hồ Chí Minh (1890 - 1969)"
-    ]
+    ],
+    "relatedId": []
   },
   {
     "name": "Tờ báo “Người cùng khổ” ra số đầu tiên tại Pari do Nguyễn Ái Quốc làm chủ nhiệm",
@@ -1292,7 +1849,8 @@
     "locations": [],
     "figures": [
       "Chủ tịch Hồ Chí Minh (1890 - 1969)"
-    ]
+    ],
+    "relatedId": []
   },
   {
     "name": "Ngày Quốc Tế Phụ Nữ",
@@ -1300,7 +1858,8 @@
     "endYear": "?",
     "desc": "Ngày Quốc tế Phụ nữ hay còn gọi là Ngày Liên Hiệp Quốc vì Nữ quyền và Hòa bình Quốc tế được Liên Hiệp Quốc, đây là thành quả đấu tranh lâu dài và lặng lẽ của hàng triệu phụ nữ trên thế giới.",
     "locations": [],
-    "figures": []
+    "figures": [],
+    "relatedId": []
   },
   {
     "name": "Nguyễn Ái Quốc sang Liên Xô dự hội nghị Quốc tế Nông dân",
@@ -1310,7 +1869,8 @@
     "locations": [],
     "figures": [
       "Chủ tịch Hồ Chí Minh (1890 - 1969)"
-    ]
+    ],
+    "relatedId": []
   },
   {
     "name": "Nguyễn Ái Quốc tham dự Đại hội II Đảng Cộng sản Pháp",
@@ -1320,7 +1880,8 @@
     "locations": [],
     "figures": [
       "Chủ tịch Hồ Chí Minh (1890 - 1969)"
-    ]
+    ],
+    "relatedId": []
   },
   {
     "name": "Nhà Hán đánh bại nhà Triệu, đô hộ Âu Lạc",
@@ -1334,7 +1895,8 @@
     ],
     "figures": [
       "Triệu Đà (-257 - -137)"
-    ]
+    ],
+    "relatedId": []
   },
   {
     "name": "Nhà Hán lập Giao Chỉ Bộ",
@@ -1344,7 +1906,8 @@
     "locations": [
       "Giao Chỉ"
     ],
-    "figures": []
+    "figures": [],
+    "relatedId": []
   },
   {
     "name": "Tô Định làm Thái thú Giao Chỉ",
@@ -1356,7 +1919,8 @@
     ],
     "figures": [
       "Tô Định"
-    ]
+    ],
+    "relatedId": []
   },
   {
     "name": "Hai Bà Trưng liên kết Thi Sách chiêu mộ nghĩa binh",
@@ -1370,6 +1934,12 @@
       "Hai Bà Trưng (? - 43)",
       "Tô Định",
       "Thi Sách (? - 39)"
+    ],
+    "relatedId": [
+      "#F2267",
+      "#F2082",
+      "#F2267",
+      "#F2082"
     ]
   },
   {
@@ -1384,6 +1954,14 @@
       "Hồ Tùng Mậu (1896 - 1951)",
       "Lê Hồng Phong (1902 - 1942)",
       "Lê Hồng Sơn (1899 - 1933)"
+    ],
+    "relatedId": [
+      "#F1847",
+      "#F787",
+      "#F943",
+      "#F1847",
+      "#F787",
+      "#F943"
     ]
   },
   {
@@ -1395,6 +1973,10 @@
     "figures": [
       "Phạm Hồng Thái (1896 - 1924)",
       "Lê Hồng Sơn (1899 - 1933)"
+    ],
+    "relatedId": [
+      "#F1847",
+      "#F1847"
     ]
   },
   {
@@ -1405,7 +1987,8 @@
     "locations": [],
     "figures": [
       "Chủ tịch Hồ Chí Minh (1890 - 1969)"
-    ]
+    ],
+    "relatedId": []
   },
   {
     "name": "Nhà Hán cử Mã Viện cùng với Đoàn Chí đem quân sang đánh Trưng Vương",
@@ -1418,6 +2001,10 @@
     "figures": [
       "Hai Bà Trưng (? - 43)",
       "Mã Viện (-14 - 49)"
+    ],
+    "relatedId": [
+      "#F2267",
+      "#F2267"
     ]
   },
   {
@@ -1430,6 +2017,10 @@
       "Chủ tịch Hồ Chí Minh (1890 - 1969)",
       "Hồ Tùng Mậu (1896 - 1951)",
       "Lê Hồng Sơn (1899 - 1933)"
+    ],
+    "relatedId": [
+      "#F787",
+      "#F787"
     ]
   },
   {
@@ -1442,7 +2033,8 @@
     ],
     "figures": [
       "Mã Viện (-14 - 49)"
-    ]
+    ],
+    "relatedId": []
   },
   {
     "name": "Hơn 2000 dân Tượng Lâm quận Nhật Nam khởi nghĩa chống chính quyền đô hộ nhà Hán",
@@ -1453,7 +2045,8 @@
       "Nhật Nam",
       "Tượng Lâm (592 - 710)"
     ],
-    "figures": []
+    "figures": [],
+    "relatedId": []
   },
   {
     "name": "Khởi nghĩa ở quận Nhật Nam",
@@ -1465,7 +2058,8 @@
       "Giao Chỉ",
       "Cửu Chân"
     ],
-    "figures": []
+    "figures": [],
+    "relatedId": []
   },
   {
     "name": "Nhà Hán suy yếu Nho giáo bắt đầu du nhập vào nước ta",
@@ -1477,7 +2071,8 @@
     ],
     "figures": [
       "Sĩ Tiếp (137 - 226)"
-    ]
+    ],
+    "relatedId": []
   },
   {
     "name": "Nhà nước Lâm Ấp được thành lập",
@@ -1488,7 +2083,8 @@
       "Nhật Nam",
       "Tượng Lâm (592 - 710)"
     ],
-    "figures": []
+    "figures": [],
+    "relatedId": []
   },
   {
     "name": "Nhà Hán đặt Giao Chỉ thành Giao Châu",
@@ -1501,7 +2097,8 @@
     ],
     "figures": [
       "Sĩ Tiếp (137 - 226)"
-    ]
+    ],
+    "relatedId": []
   },
   {
     "name": "Lưu Biểu chống lại nhà Hán",
@@ -1511,7 +2108,8 @@
     "locations": [
       "Giao Châu"
     ],
-    "figures": []
+    "figures": [],
+    "relatedId": []
   },
   {
     "name": "Nhà Ngô đô hộ nước Âu Lạc",
@@ -1521,7 +2119,8 @@
     "locations": [
       "Giao Châu"
     ],
-    "figures": []
+    "figures": [],
+    "relatedId": []
   },
   {
     "name": "Nhà Tấn đô hộ",
@@ -1533,7 +2132,8 @@
     ],
     "figures": [
       "Đào Hoàng (? - 300)"
-    ]
+    ],
+    "relatedId": []
   },
   {
     "name": "Nhà Tống đô hộ",
@@ -1543,7 +2143,8 @@
     "locations": [
       "Giao Châu"
     ],
-    "figures": []
+    "figures": [],
+    "relatedId": []
   },
   {
     "name": "Lý Trường Nhân nắm quyền tự trị ở Giao Châu",
@@ -1555,7 +2156,8 @@
     ],
     "figures": [
       "Lý Trường Nhân"
-    ]
+    ],
+    "relatedId": []
   },
   {
     "name": "Nhà Tề đô hộ",
@@ -1567,7 +2169,8 @@
     ],
     "figures": [
       "Lý Trường Nhân"
-    ]
+    ],
+    "relatedId": []
   },
   {
     "name": "Nhà Lương đô hộ",
@@ -1577,7 +2180,8 @@
     "locations": [
       "Giao Châu"
     ],
-    "figures": []
+    "figures": [],
+    "relatedId": []
   },
   {
     "name": "Khới nghĩa Lý Bí thắng lợi",
@@ -1590,6 +2194,10 @@
     "figures": [
       "Lý Nam Đế (503 - 548)",
       "Phạm Tu (476 - 545)"
+    ],
+    "relatedId": [
+      "#F1882",
+      "#F1882"
     ]
   },
   {
@@ -1603,7 +2211,8 @@
     ],
     "figures": [
       "Lý Nam Đế (503 - 548)"
-    ]
+    ],
+    "relatedId": []
   },
   {
     "name": "Lý Nam Đế giao binh quyền cho Triệu Quang Phục",
@@ -1616,7 +2225,8 @@
     "figures": [
       "Lý Nam Đế (503 - 548)",
       "Triệu Việt Vương (? - 571)"
-    ]
+    ],
+    "relatedId": []
   },
   {
     "name": "Triệu Quang Phục đóng quân ở đầm Dạ Trạch",
@@ -1629,7 +2239,8 @@
     "figures": [
       "Lý Nam Đế (503 - 548)",
       "Triệu Việt Vương (? - 571)"
-    ]
+    ],
+    "relatedId": []
   },
   {
     "name": "2500 công nhân nhà máy sợi Nam Định bãi công",
@@ -1639,7 +2250,8 @@
     "locations": [
       "Nam Định"
     ],
-    "figures": []
+    "figures": [],
+    "relatedId": []
   },
   {
     "name": "Lý Nam Đế mất tại động Khuất Lão",
@@ -1650,7 +2262,8 @@
     "figures": [
       "Lý Nam Đế (503 - 548)",
       "Triệu Việt Vương (? - 571)"
-    ]
+    ],
+    "relatedId": []
   },
   {
     "name": "Nguyễn Ái Quốc tham dự Đại hội lần thứ V Quốc tế Cộng sản họp tại Mátxcơva",
@@ -1660,7 +2273,8 @@
     "locations": [],
     "figures": [
       "Chủ tịch Hồ Chí Minh (1890 - 1969)"
-    ]
+    ],
+    "relatedId": []
   },
   {
     "name": "Thành lập Việt Nam nghĩa đoàn",
@@ -1673,6 +2287,12 @@
     "figures": [
       "Đặng Thai Mai (1902 - 1984)",
       "Tôn Quang Phiệt (1900 - 1973)"
+    ],
+    "relatedId": [
+      "#F441",
+      "#F2049",
+      "#F441",
+      "#F2049"
     ]
   },
   {
@@ -1686,6 +2306,16 @@
       "Đặng Thai Mai (1902 - 1984)",
       "Tôn Quang Phiệt (1900 - 1973)",
       "Lê Văn Huân (1876 - 1929)"
+    ],
+    "relatedId": [
+      "#F1924",
+      "#F441",
+      "#F2049",
+      "#F1073",
+      "#F1924",
+      "#F441",
+      "#F2049",
+      "#F1073"
     ]
   },
   {
@@ -1696,6 +2326,10 @@
     "locations": [],
     "figures": [
       "Phan Châu Trinh (1872 - 1926)"
+    ],
+    "relatedId": [
+      "#F1927",
+      "#F1927"
     ]
   },
   {
@@ -1706,7 +2340,8 @@
     "locations": [],
     "figures": [
       "Chủ tịch Hồ Chí Minh (1890 - 1969)"
-    ]
+    ],
+    "relatedId": []
   },
   {
     "name": "Việt Nam Quốc dân đảng ra đời",
@@ -1716,6 +2351,10 @@
     "locations": [],
     "figures": [
       "Nguyễn Thái Học (1902 - 1930)"
+    ],
+    "relatedId": [
+      "#F1637",
+      "#F1637"
     ]
   },
   {
@@ -1729,6 +2368,12 @@
     "figures": [
       "Nguyễn Thái Học (1902 - 1930)",
       "Phó Đức Chính (1907 - 1930)"
+    ],
+    "relatedId": [
+      "#F1637",
+      "#F2000",
+      "#F1637",
+      "#F2000"
     ]
   },
   {
@@ -1739,7 +2384,8 @@
     "locations": [],
     "figures": [
       "Chủ tịch Hồ Chí Minh (1890 - 1969)"
-    ]
+    ],
+    "relatedId": []
   },
   {
     "name": "Tân Việt cách mạng Đảng ra đời",
@@ -1754,6 +2400,16 @@
       "Tôn Quang Phiệt (1900 - 1973)",
       "Lê Văn Huân (1876 - 1929)",
       "Trần Phú (1904 - 1931)"
+    ],
+    "relatedId": [
+      "#F441",
+      "#F2049",
+      "#F1073",
+      "#F2162",
+      "#F441",
+      "#F2049",
+      "#F1073",
+      "#F2162"
     ]
   },
   {
@@ -1769,6 +2425,20 @@
       "Nguyễn Đức Cảnh (1908 - 1932)",
       "Trần Văn Cung (1906 - 1977)",
       "Nguyễn Phong Sắc (1902 - 1931)"
+    ],
+    "relatedId": [
+      "#F2247",
+      "#F1228",
+      "#F1388",
+      "#F1485",
+      "#F1541",
+      "#F1543",
+      "#F2247",
+      "#F1228",
+      "#F1388",
+      "#F1485",
+      "#F1541",
+      "#F1543"
     ]
   },
   {
@@ -1784,6 +2454,14 @@
       "Ngô Gia Tự (1908 - 1935)",
       "Nguyễn Đức Cảnh (1908 - 1932)",
       "Trần Văn Cung (1906 - 1977)"
+    ],
+    "relatedId": [
+      "#F2247",
+      "#F1228",
+      "#F1388",
+      "#F2247",
+      "#F1228",
+      "#F1388"
     ]
   },
   {
@@ -1797,6 +2475,12 @@
       "Hồ Tùng Mậu (1896 - 1951)",
       "Ngô Gia Tự (1908 - 1935)",
       "Trần Văn Cung (1906 - 1977)"
+    ],
+    "relatedId": [
+      "#F787",
+      "#F1228",
+      "#F787",
+      "#F1228"
     ]
   },
   {
@@ -1807,7 +2491,8 @@
     "locations": [],
     "figures": [
       "Chủ tịch Hồ Chí Minh (1890 - 1969)"
-    ]
+    ],
+    "relatedId": []
   },
   {
     "name": "An Nam cộng sản Đảng được thành lập",
@@ -1824,6 +2509,16 @@
       "Nguyễn Thiệu (1903 - 1989)",
       "Trần Não (1908 - 1933)",
       "Nguyễn Sĩ Sách (1907 - 1929)"
+    ],
+    "relatedId": [
+      "#F787",
+      "#F2247",
+      "#F273",
+      "#F2152",
+      "#F787",
+      "#F2247",
+      "#F273",
+      "#F2152"
     ]
   },
   {
@@ -1832,7 +2527,8 @@
     "endYear": "?",
     "desc": "Ban Chấp hành Quốc tế Cộng sản gửi thư cho các nhóm cộng sản ở Đông Dương về vấn đề thành lập một đảng cộng sản Đông Dương. Bức thư gồm 13 điểm, sau khi phân tích tình hình cách mạng thế giới và Đông Dương đã vạch rõ: “Không có một đảng cộng sản đồng nhất vận động quần chúng thợ thuyền và nông dân ngày càng phát triển, đó là một sự nguy hiểm rất lớn cho tương lai tối cận của cuộc cách mạng ở Đông Dương… nhiệm vụ quan trọng hơn hết và tuyệt đối cần kíp của tất cả những người Cộng sản Đông Dương là sáng lập một đảng cách mạng của giai cấp vô sản… Và ở Đông Dương chỉ có đảng ấy là tổ chức Cộng sản mà thôi”. Bức thư còn hướng dẫn cụ thể phương pháp thống nhất các tổ chức cộng sản, phương thức hoạt động…có tác dụng chuẩn bị trực tiếp cho sự kiện thành lập Đảng cộng sản Đông Dương vào mùa xuân năm 1930.",
     "locations": [],
-    "figures": []
+    "figures": [],
+    "relatedId": []
   },
   {
     "name": "Đông Dương cộng sản Liên Đoàn ra đời",
@@ -1851,6 +2547,24 @@
       "Nguyễn Văn Tạo (1908 - 1970)",
       "Phạm Hữu Lầu (1906 - 1959)",
       "Hoàng Quốc Việt (1905 - 1992)"
+    ],
+    "relatedId": [
+      "#F2049",
+      "#F2162",
+      "#F1228",
+      "#F273",
+      "#F371",
+      "#F1760",
+      "#F1850",
+      "#F630",
+      "#F2049",
+      "#F2162",
+      "#F1228",
+      "#F273",
+      "#F371",
+      "#F1760",
+      "#F1850",
+      "#F630"
     ]
   },
   {
@@ -1868,6 +2582,18 @@
       "Nguyễn Đức Cảnh (1908 - 1932)",
       "Châu Văn Liêm (1902 - 1930)",
       "Nguyễn Thiệu (1903 - 1989)"
+    ],
+    "relatedId": [
+      "#F787",
+      "#F2162",
+      "#F2247",
+      "#F1388",
+      "#F273",
+      "#F787",
+      "#F2162",
+      "#F2247",
+      "#F1388",
+      "#F273"
     ]
   },
   {
@@ -1881,7 +2607,8 @@
       "Thái Bình",
       "Chợ Lớn"
     ],
-    "figures": []
+    "figures": [],
+    "relatedId": []
   },
   {
     "name": "Cao trào Xô Viết Nghệ - Tĩnh bùng nổ",
@@ -1891,7 +2618,8 @@
     "locations": [],
     "figures": [
       "Chủ tịch Hồ Chí Minh (1890 - 1969)"
-    ]
+    ],
+    "relatedId": []
   },
   {
     "name": "Xô Viết-Nghệ Tĩnh",
@@ -1899,7 +2627,8 @@
     "endYear": "1931",
     "desc": "Xô Viết Nghệ Tĩnh là tên gọi chỉ phong trào đấu tranh của lực lượng công nhân và nông dân ở Nghệ An và Hà Tĩnh trong năm 1930-1931 chống lại đế quốc Pháp tại Việt Nam. Tên gọi Xô viết Nghệ Tĩnh xuất phát từ sự hình thành các \"xã bộ nông\" mà những người cộng sản gọi là \"Xô viết\"",
     "locations": [],
-    "figures": []
+    "figures": [],
+    "relatedId": []
   },
   {
     "name": "Hội nghị lần thứ nhất Ban Chấp hành Trung ương Đảng Cộng Sản Việt Nam",
@@ -1909,6 +2638,10 @@
     "locations": [],
     "figures": [
       "Trần Phú (1904 - 1931)"
+    ],
+    "relatedId": [
+      "#F2162",
+      "#F2162"
     ]
   },
   {
@@ -1919,7 +2652,8 @@
     "locations": [],
     "figures": [
       "Chủ tịch Hồ Chí Minh (1890 - 1969)"
-    ]
+    ],
+    "relatedId": []
   },
   {
     "name": "Ngày thành lập hội liên hiệp phụ nữ Việt Nam",
@@ -1929,7 +2663,8 @@
     "locations": [],
     "figures": [
       "Chủ tịch Hồ Chí Minh (1890 - 1969)"
-    ]
+    ],
+    "relatedId": []
   },
   {
     "name": "THÀNH LẬP ĐOÀN THANH NIÊN CỘNG SẢN HỒ CHÍ MINH",
@@ -1946,6 +2681,20 @@
       "Phan Đình Giót (1922 - 1954)",
       "Nguyễn Văn Trỗi (1940 - 1964)",
       "Nguyễn Viết Xuân (1934 - 1964)"
+    ],
+    "relatedId": [
+      "#F2227",
+      "#F1",
+      "#F2",
+      "#F4",
+      "#F1778",
+      "#F16",
+      "#F2227",
+      "#F1",
+      "#F2",
+      "#F4",
+      "#F1778",
+      "#F16"
     ]
   },
   {
@@ -1958,7 +2707,8 @@
       "Hà Nội",
       "Huế"
     ],
-    "figures": []
+    "figures": [],
+    "relatedId": []
   },
   {
     "name": "Đảng Cộng sản Đông Dương ra “Tuyên ngôn về tình hình chung và đường lối cách mạng”",
@@ -1966,7 +2716,8 @@
     "endYear": "?",
     "desc": "Sau khi phân tích tình hình thế giới và trong nước ngày càng nghiêm trọng, bản Tuyên ngôn kêu gọi toàn dân hãy thống nhất hành động, tham gia Mặt trận Dân chủ Đông Dương, đấu tranh đòi quyền tự do dân chủ, chống bọn đầu hàng, thân Nhật, bọn Tờrốtxkit. Cuối cùng, bản Tuyên ngôn kêu gọi các cử tri hãy dồn phiếu cho Mặt trận trong dịp bầu cử Hội đồng Quản hạt Nam Kỳ sắp tới.",
     "locations": [],
-    "figures": []
+    "figures": [],
+    "relatedId": []
   },
   {
     "name": "Chiến tranh thế giới thứ hai bùng nổ",
@@ -1974,7 +2725,8 @@
     "endYear": "?",
     "desc": "Ngày 1-1-1939, phát xít Đức tấn công Ba Lan. Ngày 3-9-1939, Anh-Pháp tuyên chiến với Đức, chiến tranh thế giới thứ hai bùng nổ. Đây là cuộc chiến tranh thế giới thảm khốc giữa các lực lượng Đồng Minh và Trục theo chủ nghĩa phát xít. Hầu hết mọi lục địa trên thế giới đều bị ảnh hưởng của cuộc chiến này, ngoại trừ châu Nam Cực và Nam Mĩ. Nó là cuộc chiến rộng lớn và tai hại nhất trong lịch sử nhân loại",
     "locations": [],
-    "figures": []
+    "figures": [],
+    "relatedId": []
   },
   {
     "name": "Hội nghị Ban chấp hành Trung ương Đảng Cộng sản Đông Dương",
@@ -1987,6 +2739,18 @@
       "Nguyễn Văn Cừ (1912 - 1941)",
       "Lê Duẩn (1907 - 1986)",
       "Võ Văn Tần (1894 - 1941)"
+    ],
+    "relatedId": [
+      "#F1929",
+      "#F1726",
+      "#F901",
+      "#F921",
+      "#F2367",
+      "#F1929",
+      "#F1726",
+      "#F901",
+      "#F921",
+      "#F2367"
     ]
   },
   {
@@ -1997,7 +2761,8 @@
     "locations": [
       "Liên bang Đông Dương"
     ],
-    "figures": []
+    "figures": [],
+    "relatedId": []
   },
   {
     "name": "Triều đình tổ chức hội nghị các triều thần để đưa ra phương lược chống giặc Pháp",
@@ -2005,7 +2770,8 @@
     "endYear": "?",
     "desc": "Tháng 6-1859, triều đình nhà Nguyễn tổ chức hội nghị các triều thần để đưa ra phương lược chống giặc Pháp. Có 5 loại ý kiến được đưa ra. 1- Lấy thế thủ làm chính, vì: có giữ vững thì sau mới có thể bàn đến chuyện hòa hay chiến được. 2- Lấy kế chống giữ lâu dài làm chính, vì: thuyền tàu, súng đạn là cái sở trường của giặc; giặc muốn đánh mau thắng mau; ta không nên chống lại cái sở trường của chúng, mà phải kiên trì chống và giữ để đợi khi chúng mệt mỏi, cần giảng hòa, lúc đó ta sẽ tùy cơ ứng phó.",
     "locations": [],
-    "figures": []
+    "figures": [],
+    "relatedId": []
   },
   {
     "name": "Pháp cử phái viên đến quân thứ Gia Định đưa ra bản dự thảo Hòa ước gồm 11 điều khoản",
@@ -2016,7 +2782,8 @@
       "Gia Định (1698 - ?)",
       "Huế"
     ],
-    "figures": []
+    "figures": [],
+    "relatedId": []
   },
   {
     "name": "Triều đình cử Nguyễn Tri Phương vào Nam chỉ huy quân thứ Gia Định, tổ chức đánh Pháp",
@@ -2028,6 +2795,10 @@
     ],
     "figures": [
       "Nguyễn Tri Phương (1800 - 1873)"
+    ],
+    "relatedId": [
+      "#F1696",
+      "#F1696"
     ]
   },
   {
@@ -2043,6 +2814,12 @@
     ],
     "figures": [
       "Phan Thanh Giản (1796 - 1867)"
+    ],
+    "relatedId": [
+      "#F1971",
+      "#F1972",
+      "#F1971",
+      "#F1972"
     ]
   },
   {
@@ -2055,6 +2832,12 @@
     ],
     "figures": [
       "Phan Thanh Giản (1796 - 1867)"
+    ],
+    "relatedId": [
+      "#F1971",
+      "#F1972",
+      "#F1971",
+      "#F1972"
     ]
   },
   {
@@ -2067,6 +2850,10 @@
     ],
     "figures": [
       "Tự Đức (1829 - 1883)"
+    ],
+    "relatedId": [
+      "#F1558",
+      "#F1558"
     ]
   },
   {
@@ -2080,6 +2867,12 @@
     ],
     "figures": [
       "Phan Thanh Giản (1796 - 1867)"
+    ],
+    "relatedId": [
+      "#F1971",
+      "#F1972",
+      "#F1971",
+      "#F1972"
     ]
   },
   {
@@ -2090,6 +2883,12 @@
     "locations": [],
     "figures": [
       "Phan Thanh Giản (1796 - 1867)"
+    ],
+    "relatedId": [
+      "#F1971",
+      "#F1972",
+      "#F1971",
+      "#F1972"
     ]
   },
   {
@@ -2098,7 +2897,8 @@
     "endYear": "?",
     "desc": "Triều đình ra lệnh cho các nơi, nhất là ở các cửa biển, phải theo doõi, giám sát chặt chẽ các giáo sĩ phương Tây mới sang, cấm không được để cho bọn này lẻn trốn đến ẩn nấu ở các làng. Ai không làm tròn trách nhiệm, sẽ tùy mức sử phạt như: phạt đánh trượng; giảm bậc; giáng cấp; cách chức. có thể bị mấy hình thức sử phạt cùng một lúc.",
     "locations": [],
-    "figures": []
+    "figures": [],
+    "relatedId": []
   },
   {
     "name": "Ngày sinh của VILê-nin",
@@ -2106,7 +2906,8 @@
     "endYear": "?",
     "desc": "Via-đi-mia I-lích Lê-nin sinh ngày 24-4-1870 tại thành phố Xim-biếc (ngày nay là U-li-a-nốp-xcơ), Lê-nin sinh ra và lớn lên trong một gia đình trí thức Nga tiến bộ. Cha của Lê-nin là ông I-lia Ni-cô-lai ê-vích là một nhà hoạt động giáo dục tận tụy với nghề nghiệp, gần gũi với nhân dân lao động. Anh cả của Lê-nin là A-lếch-xan U-li-a-nốp tham gia hoạt động cách mạng ngay khi còn là sinh viên và đã bị kết án xử tử vì mưu sát vua Nga. Hoàn cảnh và sự giáo dục của gia đình đã có ảnh hưởng to lớn trong việc hình thành nên những tính cách và phẩm chất tốt đẹp của cậu bé Vô-lô-đi-a.",
     "locations": [],
-    "figures": []
+    "figures": [],
+    "relatedId": []
   },
   {
     "name": "Triều đình Huế gởi thư cho Soái phủ Pháp ở Gia Định xin Pháp trả lại 6 tỉnh Nam Kỳ",
@@ -2117,7 +2918,8 @@
       "Gia Định (1698 - ?)",
       "Huế"
     ],
-    "figures": []
+    "figures": [],
+    "relatedId": []
   },
   {
     "name": "Nguyễn Trường Tộ đề cử hai phương sách chống Pháp",
@@ -2129,6 +2931,10 @@
     ],
     "figures": [
       "Nguyễn Trường Tộ (1830 - 1871)"
+    ],
+    "relatedId": [
+      "#F1714",
+      "#F1714"
     ]
   },
   {
@@ -2141,6 +2947,10 @@
     ],
     "figures": [
       "Nguyễn Tri Phương (1800 - 1873)"
+    ],
+    "relatedId": [
+      "#F1696",
+      "#F1696"
     ]
   },
   {
@@ -2155,6 +2965,12 @@
     "figures": [
       "Tôn Thất Thuyết (1839 - 1913)",
       "Trần Đình Túc (1818 - 1899)"
+    ],
+    "relatedId": [
+      "#F2055",
+      "#F2115",
+      "#F2055",
+      "#F2115"
     ]
   },
   {
@@ -2165,7 +2981,8 @@
     "locations": [
       "Hồ Chí Minh"
     ],
-    "figures": []
+    "figures": [],
+    "relatedId": []
   },
   {
     "name": "Tổng thống Pháp ký Sắc lệnh thành lập Hội đồng thuộc địa Nam Kỳ",
@@ -2173,7 +2990,8 @@
     "endYear": "?",
     "desc": "Ngày 8 tháng 2 năm 1880, Tổng thống Pháp ký sắc lệnh thành lập Hội đồng thuộc địa Nam Kỳ. Chức năng của Hội đồng: Hội đồng thuộc địa Nam Kỳ chỉ có chức năng “Tư Vấn”. Hội đồng có thể làm mọi vấn đề như thuế má, chi thu của Ngân sách, phân chia khu vực hành chính v.v…, nhưng tuyệt đối không được đề cập tới vấn đề chính trị.",
     "locations": [],
-    "figures": []
+    "figures": [],
+    "relatedId": []
   },
   {
     "name": "HRiver đánh thành Hà Nội lần thứ hai, Hoàng Diệu tuẫn tiết",
@@ -2183,7 +3001,8 @@
     "locations": [
       "Hà Nội"
     ],
-    "figures": []
+    "figures": [],
+    "relatedId": []
   },
   {
     "name": "Trung Quốc điều quân chuẩn bị tranh chấp Việt Nam với Pháp",
@@ -2193,6 +3012,10 @@
     "locations": [],
     "figures": [
       "Tự Đức (1829 - 1883)"
+    ],
+    "relatedId": [
+      "#F1558",
+      "#F1558"
     ]
   },
   {
@@ -2204,7 +3027,8 @@
       "Hà Nội",
       "Quảng yên (1831 - 1955)"
     ],
-    "figures": []
+    "figures": [],
+    "relatedId": []
   },
   {
     "name": "Tôn Thất Thuyết đem quân tấn công tòa Khâm sứ Pháp ở Huế, mở đầu phong trào Cần Vương",
@@ -2219,6 +3043,14 @@
       "Hàm Nghi (1871 - 1943)",
       "Nguyễn Văn Tường (1824 - 1886)",
       "Trần Xuân Soạn (1849 - 1923)"
+    ],
+    "relatedId": [
+      "#F2055",
+      "#F1579",
+      "#F2237",
+      "#F2055",
+      "#F1579",
+      "#F2237"
     ]
   },
   {
@@ -2227,7 +3059,8 @@
     "endYear": "?",
     "desc": "Tháng 01/1884, tại thành phố công nghiệp lớn Chicago (Mỹ), Đại Hội liên đoàn lao động Mỹ thông qua nghị quyết: từ ngày 01/05/1886, ngày lao động của tất cả công nhân sẽ là 8h, hằng năm chọn ngày ấy để làm hợp đồng mới giữa chủ và thợ. Ngày 1/5/1886 khắp nơi công nhân đều mang biểu ngữ : \"Từ nay trở đi không người thợ nào làm việc quá 8 giời 1 ngày”. Phải thực hiện 8 giờ làm việc, 8 giờ nghỉ ngơi và 8 giờ học tập. 5.000 cuộc bãi công của công nhân với khoảng 340.000 người tham gia khắp nước Mỹ, sau đó 12 vạn rưỡi công nhân đã giành được quyền ngày làm việc 8 giờ.",
     "locations": [],
-    "figures": []
+    "figures": [],
+    "relatedId": []
   },
   {
     "name": "Vua Hàm Nghi bị Pháp bắt",
@@ -2237,6 +3070,10 @@
     "locations": [],
     "figures": [
       "Hàm Nghi (1871 - 1943)"
+    ],
+    "relatedId": [
+      "#F1579",
+      "#F1579"
     ]
   },
   {
@@ -2249,6 +3086,14 @@
       "Phan Bội Châu (1867 - 1940)",
       "Tăng Bạt Hổ (1858 - 1906)",
       "Đặng Tử Kính (1875 - 1928)"
+    ],
+    "relatedId": [
+      "#F1924",
+      "#F2037",
+      "#F434",
+      "#F1924",
+      "#F2037",
+      "#F434"
     ]
   },
   {
@@ -2257,7 +3102,8 @@
     "endYear": "?",
     "desc": "Chiến tranh thế giới thứ nhất bùng nổ ngày 1-8-1914 và kết thúc, sau 4 năm 3 tháng 10 ngày. Trong suốt thời gian chiến tranh, thực dân Pháp đã ra sức vơ vét sức người, sức của của nhân dân Đông Dương để tung vào chiến trường châu Âu.",
     "locations": [],
-    "figures": []
+    "figures": [],
+    "relatedId": []
   },
   {
     "name": "Ngày Sinh Chủ Tịch Hồ Chí Minh",
@@ -2270,7 +3116,8 @@
     ],
     "figures": [
       "Chủ tịch Hồ Chí Minh (1890 - 1969)"
-    ]
+    ],
+    "relatedId": []
   },
   {
     "name": "Mở đầu phong trào Đông du của Duy Tân hội",
@@ -2282,6 +3129,14 @@
       "Phan Bội Châu (1867 - 1940)",
       "Đặng Tử Kính (1875 - 1928)",
       "Cường Để (1882 - 1951)"
+    ],
+    "relatedId": [
+      "#F1924",
+      "#F434",
+      "#F1553",
+      "#F1924",
+      "#F434",
+      "#F1553"
     ]
   },
   {
@@ -2294,6 +3149,14 @@
     ],
     "figures": [
       "Trần Đăng Ninh (1910 - 1955)"
+    ],
+    "relatedId": [
+      "#F15",
+      "#F453",
+      "#F1622",
+      "#F15",
+      "#F453",
+      "#F1622"
     ]
   },
   {
@@ -2302,7 +3165,8 @@
     "endYear": "?",
     "desc": "Tháng 6 năm 1940, nước Pháp bị quân đội Đức Quốc xã xâm lược và chiếm đóng. Nhân cơ hội này, tháng 9 năm đó, đế quốc Nhật Bản xâm lược bán đảo Đông Dương từ tay Pháp. Từ đây, Việt Nam bị hai thế lực cùng thống trị là thực dân Pháp và phát xít Nhật. Sẵn tinh thần chống Pháp-Nhật và noi gương cuộc khởi nghĩa Bắc Sơn, người dân nhiều tỉnh miền Nam Việt Nam đã nổi dậy đấu tranh chống Pháp-Nhật.",
     "locations": [],
-    "figures": []
+    "figures": [],
+    "relatedId": []
   },
   {
     "name": "Cuộc nổi dậy của binh lính Đô Lương",
@@ -2314,6 +3178,10 @@
     ],
     "figures": [
       "Đội Cung (1903 - 1941)"
+    ],
+    "relatedId": [
+      "#F609",
+      "#F609"
     ]
   },
   {
@@ -2330,6 +3198,14 @@
       "Phạm Văn Đồng (1906 - 2000)",
       "Võ Nguyên Giáp (1911 - 2013)",
       "Hoàng Văn Thụ (1909 - 1944)"
+    ],
+    "relatedId": [
+      "#F1908",
+      "#F2347",
+      "#F749",
+      "#F1908",
+      "#F2347",
+      "#F749"
     ]
   },
   {
@@ -2346,6 +3222,14 @@
       "Chu Văn Tấn (1909 - 1984)",
       "Lương Văn Tri (1910 - 1941)",
       "Phùng Chí Kiên (1901 - 1941)"
+    ],
+    "relatedId": [
+      "#F749",
+      "#F277",
+      "#F20",
+      "#F749",
+      "#F277",
+      "#F20"
     ]
   },
   {
@@ -2356,7 +3240,8 @@
     "locations": [],
     "figures": [
       "Chủ tịch Hồ Chí Minh (1890 - 1969)"
-    ]
+    ],
+    "relatedId": []
   },
   {
     "name": "Mặt trận Việt Minh được thành lập",
@@ -2369,7 +3254,8 @@
     ],
     "figures": [
       "Chủ tịch Hồ Chí Minh (1890 - 1969)"
-    ]
+    ],
+    "relatedId": []
   },
   {
     "name": "Hồ Chí Minh bị chính quyền Tưởng Giới Thạch bắt giữ Tác phẩm \"Nhật kí trong tù ra đời\"",
@@ -2379,7 +3265,8 @@
     "locations": [],
     "figures": [
       "Chủ tịch Hồ Chí Minh (1890 - 1969)"
-    ]
+    ],
+    "relatedId": []
   },
   {
     "name": "Thành lập Hội Văn hóa cứu quốc",
@@ -2391,7 +3278,8 @@
       "Hà Nội",
       "Huế"
     ],
-    "figures": []
+    "figures": [],
+    "relatedId": []
   },
   {
     "name": "Đội Việt Nam tuyên truyền giải phóng quân thành lập",
@@ -2404,6 +3292,10 @@
     "figures": [
       "Chủ tịch Hồ Chí Minh (1890 - 1969)",
       "Võ Nguyên Giáp (1911 - 2013)"
+    ],
+    "relatedId": [
+      "#F2347",
+      "#F2347"
     ]
   },
   {
@@ -2415,6 +3307,10 @@
     "figures": [
       "Chủ tịch Hồ Chí Minh (1890 - 1969)",
       "Võ Nguyên Giáp (1911 - 2013)"
+    ],
+    "relatedId": [
+      "#F2347",
+      "#F2347"
     ]
   },
   {
@@ -2428,6 +3324,10 @@
     "figures": [
       "Chủ tịch Hồ Chí Minh (1890 - 1969)",
       "Võ Nguyên Giáp (1911 - 2013)"
+    ],
+    "relatedId": [
+      "#F2347",
+      "#F2347"
     ]
   },
   {
@@ -2441,7 +3341,8 @@
       "Huế",
       "Liên bang Đông Dương"
     ],
-    "figures": []
+    "figures": [],
+    "relatedId": []
   },
   {
     "name": "Khởi nghĩa Ba Tơ",
@@ -2456,6 +3357,12 @@
       "Nguyễn Chánh (1914 - 1957)",
       "Phạm Kiệt (1910 - 1975)",
       "Nguyễn Đôn (1918 - ?)"
+    ],
+    "relatedId": [
+      "#F1339",
+      "#F1877",
+      "#F1339",
+      "#F1877"
     ]
   },
   {
@@ -2469,6 +3376,10 @@
     ],
     "figures": [
       "Trường Chinh (1907 - 1988)"
+    ],
+    "relatedId": [
+      "#F465",
+      "#F465"
     ]
   },
   {
@@ -2482,6 +3393,20 @@
       "Võ Nguyên Giáp (1911 - 2013)",
       "Trường Chinh (1907 - 1988)",
       "Văn Tiến Dũng (1917 - 2002)"
+    ],
+    "relatedId": [
+      "#F15",
+      "#F453",
+      "#F1622",
+      "#F2347",
+      "#F465",
+      "#F2308",
+      "#F15",
+      "#F453",
+      "#F1622",
+      "#F2347",
+      "#F465",
+      "#F2308"
     ]
   },
   {
@@ -2494,7 +3419,8 @@
     ],
     "figures": [
       "Chủ tịch Hồ Chí Minh (1890 - 1969)"
-    ]
+    ],
+    "relatedId": []
   },
   {
     "name": "Ủy ban Chỉ huy lâm thời Khu Giải phóng ra mệnh lệnh khởi nghĩa",
@@ -2502,7 +3428,8 @@
     "endYear": "?",
     "desc": "Bản mệnh lệnh gồm 10 điểm quy quy định phương án tác chiến cho lực lượng vũ trang như tấn công địch ở các đô thị, chính sách đối với quân ngụy, tù binh và hàng binh Nhật, những người thuộc phái Đờ Gôn, vấn đề vũ khí, thông tin liên lạc, phối hợp với các lực lượng nhân dân và cuối cùng nhấn mạnh: “Lúc này quân sự hành động, kỷ luật phải nghiêm”.",
     "locations": [],
-    "figures": []
+    "figures": [],
+    "relatedId": []
   },
   {
     "name": "Ủy ban khởi nghĩa toàn quốc ra “Quân lệnh số 1” phát lệnh khởi nghĩa",
@@ -2512,6 +3439,10 @@
     "locations": [],
     "figures": [
       "Trường Chinh (1907 - 1988)"
+    ],
+    "relatedId": [
+      "#F465",
+      "#F465"
     ]
   },
   {
@@ -2520,7 +3451,8 @@
     "endYear": "?",
     "desc": "Ngày 8-8-1945, Liên Xô tuyên chiến với Nhật. Ngày 9-8, quân đội Xô viết mở màn chiến dịch tổng công kích đạo quân Quang Đông của Nhật ở chiến trường Mông Cổ và Đông Bắc Trung Quốc. Chiến dịch kéo dài đến 28-8, tiêu diệt 1 triệu quân của lực lượng chiến lược trụ cột của Nhật vào giai đoạn kết thúc cuộc Chiến tranh thế giới thức hai. Cũng trong thời gian này, Mỹ ném hai quả bom nguyên tử xuống Hirôsima (6-8) và Nagadaki (9-8).",
     "locations": [],
-    "figures": []
+    "figures": [],
+    "relatedId": []
   },
   {
     "name": "Hội nghị Toàn quốc của Đảng Cộng sản Đông Dương họp tại Tân Trào",
@@ -2533,6 +3465,10 @@
     "figures": [
       "Chủ tịch Hồ Chí Minh (1890 - 1969)",
       "Nguyễn Chí Thanh (1914 - 1967)"
+    ],
+    "relatedId": [
+      "#F10",
+      "#F10"
     ]
   },
   {
@@ -2541,7 +3477,8 @@
     "endYear": "1945",
     "desc": "Đại hội diễn ra trong bối cảnh cao trào kháng Nhật cứu quốc đang diễn ra sôi sục từ Bắc chí Nam, tạo tiền đề mạnh mẽ cho cuộc Tổng khởi nghĩa giải phóng dân tộc, giành độc lập, tự do. Căn cứ vào tình hình đó, Chủ tịch Hồ Chí Minh đã chỉ thị phải gấp rút triệu tập Đại hội đại biểu quốc dân để thành lập Chính phủ lâm thời cách mạng Việt Nam. Chiều ngày 16-8-1945, tại đình Tân Trào (huyện Sơn Dương, tỉnh Tuyên Quang), Đại hội đại biểu quốc dân (nay gọi là Quốc dân Đại hội Tân Trào) chính thức khai mạc.",
     "locations": [],
-    "figures": []
+    "figures": [],
+    "relatedId": []
   },
   {
     "name": "Khởi nghĩa giành chính quyền ở Hà Nội và các vùng lân cận",
@@ -2551,7 +3488,8 @@
     "locations": [
       "Hà Nội"
     ],
-    "figures": []
+    "figures": [],
+    "relatedId": []
   },
   {
     "name": "Tổng khởi nghĩa tháng 8 năm 1945",
@@ -2564,6 +3502,10 @@
     "figures": [
       "Chủ tịch Hồ Chí Minh (1890 - 1969)",
       "Võ Nguyên Giáp (1911 - 2013)"
+    ],
+    "relatedId": [
+      "#F2347",
+      "#F2347"
     ]
   },
   {
@@ -2574,6 +3516,10 @@
     "locations": [],
     "figures": [
       "Bảo Đại (1913 - 1997)"
+    ],
+    "relatedId": [
+      "#F1583",
+      "#F1583"
     ]
   },
   {
@@ -2582,7 +3528,8 @@
     "endYear": "?",
     "desc": "Tại Thừa Thiên Huế, lệnh khởi nghĩa được ban hành ngày 15-8. Ngày 18-8, các huyện lỵ Phong Điền, Phú Lộc khởi nghĩa thắng lợi, tiếp đó là huyện lỵ Hương Thủy (22-8), Hương Trà, Phú Vang, Quảng Điền…. Từ ngày 21-8, lực lượng vũ trang cách mạng đã hoạt động trong nội thành Huế và ngày 23-8, lực lượng cách mạng đã biến cuộc biểu tình của ngụy quyền tổ chức thành cuộc tuần hành thị uy giành chính quyền trong toàn thành phố (30-8-1945).",
     "locations": [],
-    "figures": []
+    "figures": [],
+    "relatedId": []
   },
   {
     "name": "Khởi nghĩa giành chính quyền thắng lợi ở Sài Gòn",
@@ -2592,7 +3539,8 @@
     "locations": [
       "Hồ Chí Minh"
     ],
-    "figures": []
+    "figures": [],
+    "relatedId": []
   },
   {
     "name": "Chủ tịch Hồ Chí Minh đọc bản “Tuyên ngôn Độc lập”",
@@ -2607,6 +3555,14 @@
       "Võ Nguyên Giáp (1911 - 2013)",
       "Trần Huy Liệu (1901 - 1969)",
       "Nguyễn Lương Bằng (1904 - 1979)"
+    ],
+    "relatedId": [
+      "#F2347",
+      "#F2125",
+      "#F1489",
+      "#F2347",
+      "#F2125",
+      "#F1489"
     ]
   },
   {
@@ -2619,7 +3575,8 @@
     ],
     "figures": [
       "Chủ tịch Hồ Chí Minh (1890 - 1969)"
-    ]
+    ],
+    "relatedId": []
   },
   {
     "name": "Thực dân Pháp đánh chiếm Sài Gòn Nhân dân Nam Bộ đứng lên chống thực dân Pháp trở lại xâm lược",
@@ -2630,7 +3587,8 @@
       "Hồ Chí Minh",
       "Chợ Lớn"
     ],
-    "figures": []
+    "figures": [],
+    "relatedId": []
   },
   {
     "name": "Ngày Nam Bộ Kháng chiến",
@@ -2638,7 +3596,8 @@
     "endYear": "?",
     "desc": "Nam Bộ kháng chiến là một hoạt động quân sự trong chiến tranh Đông Dương. Được lấy mốc là ngày 23/9/1945, khi quân Pháp đánh Nam Bộ. Chiến sự ban đầu diễn ra trên chiến trường Nam Bộ, sau đó phát triển ra Tây Nguyên và Nam Trung Bộ.",
     "locations": [],
-    "figures": []
+    "figures": [],
+    "relatedId": []
   },
   {
     "name": "Chủ tịch Hồ Chí Minh kêu gọi đồng bào Nam Bộ kháng chiến",
@@ -2648,7 +3607,8 @@
     "locations": [],
     "figures": [
       "Chủ tịch Hồ Chí Minh (1890 - 1969)"
-    ]
+    ],
+    "relatedId": []
   },
   {
     "name": "Ban Chấp hành Trung ương Đảng ra Chỉ thị “Kháng chiến kiến quốc”",
@@ -2656,7 +3616,8 @@
     "endYear": "?",
     "desc": "Chỉ thị xác định một số vấn đề cơ bản về đường lối và nhiệm vụ của toàn Đảng, toàn dân trong giai đoạn vẫn phải hăng hái kiên quyết hoàn thành nhiệm vụ thiêng liêng ấy. Khẩu hiệu vẫn là Dân tộc trên hết – Tổ quốc trên hết”.",
     "locations": [],
-    "figures": []
+    "figures": [],
+    "relatedId": []
   },
   {
     "name": "Tổng tuyển cử bầu cử Quốc hội đầu tiên sau thắng lợi Cách mạng tháng Tám 1945",
@@ -2666,7 +3627,8 @@
     "locations": [],
     "figures": [
       "Chủ tịch Hồ Chí Minh (1890 - 1969)"
-    ]
+    ],
+    "relatedId": []
   },
   {
     "name": "Tổng tuyển cử bầu quốc hội đầu tiên của nước Việt Nam dân chủ cộng hòa",
@@ -2676,7 +3638,8 @@
     "locations": [],
     "figures": [
       "Chủ tịch Hồ Chí Minh (1890 - 1969)"
-    ]
+    ],
+    "relatedId": []
   },
   {
     "name": "Quốc hội khóa I họp kỳ đầu tiên",
@@ -2686,7 +3649,8 @@
     "locations": [],
     "figures": [
       "Chủ tịch Hồ Chí Minh (1890 - 1969)"
-    ]
+    ],
+    "relatedId": []
   },
   {
     "name": "Ký Hiệp định sơ bộ Việt – Pháp",
@@ -2698,7 +3662,8 @@
     ],
     "figures": [
       "Chủ tịch Hồ Chí Minh (1890 - 1969)"
-    ]
+    ],
+    "relatedId": []
   },
   {
     "name": "Đàm phán Việt – Pháp ở Phôngtennơblô",
@@ -2708,6 +3673,10 @@
     "locations": [],
     "figures": [
       "Phạm Văn Đồng (1906 - 2000)"
+    ],
+    "relatedId": [
+      "#F1908",
+      "#F1908"
     ]
   },
   {
@@ -2716,7 +3685,8 @@
     "endYear": "?",
     "desc": "Tổng Liên đoàn Lao động Việt Nam là cơ quan lãnh đạo của các cấp Công đoàn và thay mặt cho công nhân, viên chức và lao động tham gia quản lý kinh tế, quản lý Nhà nước, tham gia xây dựng pháp luật, chế độ chính sách liên quan đến quyền lợi, nghĩa vụ của công nhân, viên chức và lao động. Tổng Liên đoàn Lao động Việt Nam chính thức tuyên bố thành lập vào ngày 20-7-1946, tại thủ đô Hà Nội, đánh dấu bước ngoặt của phong trào công đoàn Việt Nam với một tổ chức thống nhất và ổn định thực sự trong cả nước.",
     "locations": [],
-    "figures": []
+    "figures": [],
+    "relatedId": []
   },
   {
     "name": "Hồ Chí Minh ký Tạm ước Việt - Pháp",
@@ -2726,7 +3696,8 @@
     "locations": [],
     "figures": [
       "Chủ tịch Hồ Chí Minh (1890 - 1969)"
-    ]
+    ],
+    "relatedId": []
   },
   {
     "name": "Quốc hội khóa I kỳ họp thứ hai thông qua Hiến pháp nuớc Việt Nam dân chủ cộng hòa",
@@ -2736,7 +3707,8 @@
     "locations": [],
     "figures": [
       "Chủ tịch Hồ Chí Minh (1890 - 1969)"
-    ]
+    ],
+    "relatedId": []
   },
   {
     "name": "Toàn quốc kháng chiến",
@@ -2748,6 +3720,10 @@
     ],
     "figures": [
       "Võ Nguyên Giáp (1911 - 2013)"
+    ],
+    "relatedId": [
+      "#F2347",
+      "#F2347"
     ]
   },
   {
@@ -2758,7 +3734,8 @@
     "locations": [],
     "figures": [
       "Chủ tịch Hồ Chí Minh (1890 - 1969)"
-    ]
+    ],
+    "relatedId": []
   },
   {
     "name": "Chủ tịch Hồ Chí Minh đọc “Lời kêu gọi toàn quốc kháng chiến”",
@@ -2768,7 +3745,8 @@
     "locations": [],
     "figures": [
       "Chủ tịch Hồ Chí Minh (1890 - 1969)"
-    ]
+    ],
+    "relatedId": []
   },
   {
     "name": "Ban thường vụ Trung ương Đảng ra chỉ thị “Toàn dân kháng chiến”",
@@ -2776,7 +3754,8 @@
     "endYear": "?",
     "desc": "Bản chỉ thị vạch rõ: Mục đích: đánh phản động thực dân Pháp xâm lược, giành thống nhất và độc lập; Tính chất: trường kỳ kháng chiến, toàn diện kháng chiến; Chính sách: đoàn kết chặt chẽ toàn dân, thực hiện toàn dân kháng chiến, đoàn kết với Miên, Lào và thân thiện với các dân tộc yêu chuộng hòa bình, liên hợp với nhân dân Pháp chống phản động thực dân Pháp; Cách đánh: triệt để dùng du kích, vận động chiến, bảo toàn thực lực, kháng chiến lâu dài, phá hoại nhiều hơn bắn, triệt để làm cho địch đói khát, què, mù, điếc, câm, tiêu hao, mỏi mệt, chán nản. Vừa đánh vừa vũ trang thêm, vừa đánh vừa đào tạo thêm cán bộ.",
     "locations": [],
-    "figures": []
+    "figures": [],
+    "relatedId": []
   },
   {
     "name": "Ngày thương binh liệt sĩ",
@@ -2786,7 +3765,8 @@
     "locations": [],
     "figures": [
       "Chủ tịch Hồ Chí Minh (1890 - 1969)"
-    ]
+    ],
+    "relatedId": []
   },
   {
     "name": "Chiến dịch Việt Bắc",
@@ -2799,6 +3779,10 @@
     "figures": [
       "Chủ tịch Hồ Chí Minh (1890 - 1969)",
       "Võ Nguyên Giáp (1911 - 2013)"
+    ],
+    "relatedId": [
+      "#F2347",
+      "#F2347"
     ]
   },
   {
@@ -2809,7 +3793,8 @@
     "locations": [],
     "figures": [
       "Chủ tịch Hồ Chí Minh (1890 - 1969)"
-    ]
+    ],
+    "relatedId": []
   },
   {
     "name": "Ngày truyền thống sinh viên học sinh Việt Nam",
@@ -2821,6 +3806,10 @@
     ],
     "figures": [
       "Trần Văn Ơn (1931 - 1950)"
+    ],
+    "relatedId": [
+      "#F2227",
+      "#F2227"
     ]
   },
   {
@@ -2834,6 +3823,10 @@
     "figures": [
       "Chủ tịch Hồ Chí Minh (1890 - 1969)",
       "Bảo Đại (1913 - 1997)"
+    ],
+    "relatedId": [
+      "#F1583",
+      "#F1583"
     ]
   },
   {
@@ -2844,7 +3837,8 @@
     "locations": [],
     "figures": [
       "Chủ tịch Hồ Chí Minh (1890 - 1969)"
-    ]
+    ],
+    "relatedId": []
   },
   {
     "name": "Chiến dịch Biên giới",
@@ -2854,6 +3848,10 @@
     "locations": [],
     "figures": [
       "Võ Nguyên Giáp (1911 - 2013)"
+    ],
+    "relatedId": [
+      "#F2347",
+      "#F2347"
     ]
   },
   {
@@ -2868,6 +3866,12 @@
       "Chủ tịch Hồ Chí Minh (1890 - 1969)",
       "Trường Chinh (1907 - 1988)",
       "Tôn Đức Thắng (1888 - 1980)"
+    ],
+    "relatedId": [
+      "#F465",
+      "#F2047",
+      "#F465",
+      "#F2047"
     ]
   },
   {
@@ -2876,7 +3880,8 @@
     "endYear": "1951",
     "desc": "Đại hội toàn quốc thống nhất Việt Minh- Liên Việt được tổ chức từ ngày 3 đến ngày 7- 3-1951 tại xã Vinh Quang, huyện Chiêm Hóa, tỉnh Tuyên Quang. Đại hội đã thông qua Nghị quyết thống nhất hai tổ chức Việt Nam độc lập đồng minh (Việt Minh) và Hội Liên hiệp quốc dân Việt Nam (Liên Việt) thành Mặt trận Liên- Việt nhằm củng cố và mở rộng khối đại đoàn kết toàn dân, đáp ứng yêu cầu mới của cuộc kháng chiến chống thực dân Pháp đang bước vào thời kỳ quyết liệt. Mặt trận Liên Việt bao gồm tất cả các đoàn thể, tôn giáo, đảng phái, các cá nhân yêu nước nhằm kết chặt khối đại đoàn kết toàn dân để kháng chiến kiến quốc.",
     "locations": [],
-    "figures": []
+    "figures": [],
+    "relatedId": []
   },
   {
     "name": "Chiến dịch Tây Bắc",
@@ -2891,6 +3896,20 @@
       "Võ Nguyên Giáp (1911 - 2013)",
       "Nguyễn Chí Thanh (1914 - 1967)",
       "Hoàng Văn Thái (1915 - 1986)"
+    ],
+    "relatedId": [
+      "#F15",
+      "#F453",
+      "#F1622",
+      "#F2347",
+      "#F10",
+      "#F11",
+      "#F15",
+      "#F453",
+      "#F1622",
+      "#F2347",
+      "#F10",
+      "#F11"
     ]
   },
   {
@@ -2899,7 +3918,8 @@
     "endYear": "?",
     "desc": "Nhằm tiêu diệt sinh lực địch, giải phóng một bộ phận đất đai, phối hợp với các chiến trường, Bộ Tổng tư lệnh chỉ đạo sử dụng các trung đoàn bộ binh 66, 101, 18, 280 và 120 bộ đội tình nguyện và một số đơn vị binh chủng phối hợp với một bộ phận giải phóng Phathét Lào, mở chiến dịch tấn công địch.",
     "locations": [],
-    "figures": []
+    "figures": [],
+    "relatedId": []
   },
   {
     "name": "Chiến dịch Bắc Tây Nguyên",
@@ -2912,6 +3932,10 @@
     "figures": [
       "Nguyễn Chánh (1914 - 1957)",
       "Nguyễn Bá Phát (1921 - 1993)"
+    ],
+    "relatedId": [
+      "#F1339",
+      "#F1339"
     ]
   },
   {
@@ -2920,7 +3944,8 @@
     "endYear": "1954",
     "desc": "Trong kế hoạch Đông Xuân 1953-1954, QĐNDVN chủ trương đưa một trung đoàn của Đại đoàn 325 thọc sâu xuống Hạ Lào, tạo thêm cho Pháp một bất ngờ nữa, đồng thời mở ra một địa bàn cho chủ lực phát triển xuống phía nam. Một khó khăn rất lớn ở hướng này là đường tiếp tế quá xa và hầu như không có dân. Từ vùng Thanh Hóa, Nghệ An đến Hạ Lào, bộ đội phải vượt 1.200 km đường rừng hiểm trở dọc Trường Sơn, cuộc hành quân phải kéo dài khoảng hai tháng. Trong chiến dịch nếu tiêu thụ hết số đạn mang theo, chỉ còn cách duy nhất là cướp súng đạn của Pháp để tiếp tục chiến đấu.",
     "locations": [],
-    "figures": []
+    "figures": [],
+    "relatedId": []
   },
   {
     "name": "Chiến dịch lịch sử Điện Biên Phủ",
@@ -2932,6 +3957,12 @@
       "Chủ tịch Hồ Chí Minh (1890 - 1969)",
       "Phạm Văn Đồng (1906 - 2000)",
       "Võ Nguyên Giáp (1911 - 2013)"
+    ],
+    "relatedId": [
+      "#F1908",
+      "#F2347",
+      "#F1908",
+      "#F2347"
     ]
   },
   {
@@ -2944,6 +3975,10 @@
     ],
     "figures": [
       "Phạm Văn Đồng (1906 - 2000)"
+    ],
+    "relatedId": [
+      "#F1908",
+      "#F1908"
     ]
   },
   {
@@ -2959,6 +3994,14 @@
       "Võ Nguyên Giáp (1911 - 2013)",
       "Lê Trọng Tấn (1914 - 1986)",
       "Hoàng Cầm (1920 - 2013)"
+    ],
+    "relatedId": [
+      "#F4",
+      "#F2347",
+      "#F12",
+      "#F4",
+      "#F2347",
+      "#F12"
     ]
   },
   {
@@ -2969,7 +4012,8 @@
     "locations": [
       "Di tích đồi Độc lập"
     ],
-    "figures": []
+    "figures": [],
+    "relatedId": []
   },
   {
     "name": "Trận Bản Kéo",
@@ -2979,7 +4023,8 @@
     "locations": [
       "Bản kéo"
     ],
-    "figures": []
+    "figures": [],
+    "relatedId": []
   },
   {
     "name": "Trận đồi A1",
@@ -2991,6 +4036,10 @@
     ],
     "figures": [
       "Nguyễn Hữu An (1926 - 1995)"
+    ],
+    "relatedId": [
+      "#F1437",
+      "#F1437"
     ]
   },
   {
@@ -3003,7 +4052,8 @@
     ],
     "figures": [
       "Vũ Lăng (1921 - 1988)"
-    ]
+    ],
+    "relatedId": []
   },
   {
     "name": "Trận Hồng Cúm",
@@ -3013,7 +4063,8 @@
     "locations": [
       "Hồng Cúm"
     ],
-    "figures": []
+    "figures": [],
+    "relatedId": []
   },
   {
     "name": "Hội nghị Giơnevơ về Đông Dương",
@@ -3023,6 +4074,10 @@
     "locations": [],
     "figures": [
       "Phạm Văn Đồng (1906 - 2000)"
+    ],
+    "relatedId": [
+      "#F1908",
+      "#F1908"
     ]
   },
   {
@@ -3031,7 +4086,8 @@
     "endYear": "?",
     "desc": "Di cư năm 1954 là sự kiện xảy ra sau Hiệp định Genève tại Việt Nam, bao gồm gần một triệu người \"di cư vào Nam\" (đa số là người Công giáo) và khoảng 150.000 người \"tập kết ra Bắc\" (đa số là cán bộ, binh sĩ Việt Minh từng tham gia chiến tranh chống Pháp). Mục đích của thực dân Pháp, đế quốc Mỹ và chính quyền tay sai Ngô Đình Diệm là tìm mọi cách phá hoại Hiệp định Giơnevơ hòng chia cắt lâu dài đất nước ta, biến miền Nam Việt Nam trở thành thuộc địa kiểu mới, một tiền đồn chống cộng lý tưởng của chúng ở Đông Nam Á.",
     "locations": [],
-    "figures": []
+    "figures": [],
+    "relatedId": []
   },
   {
     "name": "Chiến tranh Tống - Việt",
@@ -3044,6 +4100,12 @@
       "Lý Nhân Tông (1066 - 1127)",
       "Ỷ Lan (1044 - 1117)",
       "Lý Đạo Thành (1053 - 1081)"
+    ],
+    "relatedId": [
+      "#F1155",
+      "#F2412",
+      "#F1155",
+      "#F2412"
     ]
   },
   {
@@ -3054,7 +4116,8 @@
     "locations": [
       "Đà Nẵng"
     ],
-    "figures": []
+    "figures": [],
+    "relatedId": []
   },
   {
     "name": "1833-1835: Cuộc khởi nghĩa Nông Văn Vân chống Nguyễn",
@@ -3069,6 +4132,10 @@
     ],
     "figures": [
       "Nông Văn Vân (? - 1835)"
+    ],
+    "relatedId": [
+      "#F1806",
+      "#F1806"
     ]
   },
   {
@@ -3079,7 +4146,8 @@
     "locations": [
       "Nghệ An"
     ],
-    "figures": []
+    "figures": [],
+    "relatedId": []
   },
   {
     "name": "Khoảng 10 vạn năm trước: Có sự sinh sống của Người khôn ngoan đầu tiên ở Việt Nam",
@@ -3090,7 +4158,8 @@
       "Yên Bái",
       "Ninh Bình"
     ],
-    "figures": []
+    "figures": [],
+    "relatedId": []
   },
   {
     "name": "Khoảng 2 vạn 8 nghìn năm trước: Có đồ đá của Người nguyên thủy",
@@ -3100,7 +4169,8 @@
     "locations": [
       "Lai Châu"
     ],
-    "figures": []
+    "figures": [],
+    "relatedId": []
   },
   {
     "name": "Khoảng 2 vạn 3 nghìn năm trước: Có dấu tích hậu kỳ đồ đá cũ",
@@ -3110,7 +4180,8 @@
     "locations": [
       "Thái Nguyên"
     ],
-    "figures": []
+    "figures": [],
+    "relatedId": []
   },
   {
     "name": "Khoảng 2 vạn 1 nghìn năm trước: Có văn hóa Sơn Vi",
@@ -3122,7 +4193,8 @@
       "Phú Thọ",
       "Lâm Ðồng"
     ],
-    "figures": []
+    "figures": [],
+    "relatedId": []
   },
   {
     "name": "Khoảng 1 vạn năm trước: Có văn hóa Hòa Bình",
@@ -3130,7 +4202,8 @@
     "endYear": "?",
     "desc": "Văn hóa Hòa Bình thuộc sơ kỳ thời đại đồ đá mới được phát hiện ở tỉnh Hòa Bình, Thanh Hóa, Lai Châu, Sơn La, Hà Giang, Ninh Bình, Nghệ An, Quảng Bình, Quảng Trị, trong đó tập trung nhiều nhất tại Hòa Bình và Thanh Hóa. Văn hóa Hòa Bình còn được phát hiện ở nhiều nước khác thuộc khu vực Đông Nam Á. Các bộ lạc nguyên thủy, chủ nhân của văn hóa Hòa Bình đã biết trồng các loại rau củ, cây ăn quả và đặc biệt là đã biết trồng lúa.",
     "locations": [],
-    "figures": []
+    "figures": [],
+    "relatedId": []
   },
   {
     "name": "Khoảng 8000 năm trước: Có văn hóa Bắc Sơn",
@@ -3140,7 +4213,8 @@
     "locations": [
       "Lạng Sơn"
     ],
-    "figures": []
+    "figures": [],
+    "relatedId": []
   },
   {
     "name": "Khoảng 6000 năm trước: Phát hiện di chỉ Đa Bút – Quỳnh Văn",
@@ -3150,7 +4224,8 @@
     "locations": [
       "Thanh Hóa"
     ],
-    "figures": []
+    "figures": [],
+    "relatedId": []
   },
   {
     "name": "Khoảng hơn 4000 năm trước: Có văn hóa hậu kỳ đá mới",
@@ -3162,7 +4237,8 @@
       "Quảng Bình",
       "Lạng Sơn"
     ],
-    "figures": []
+    "figures": [],
+    "relatedId": []
   },
   {
     "name": "Khoảng 4000 năm trước :Có văn hóa Phùng Nguyên, đồ đồng xuất hiện",
@@ -3177,7 +4253,8 @@
       "Vĩnh Phúc",
       "Phú Thọ"
     ],
-    "figures": []
+    "figures": [],
+    "relatedId": []
   },
   {
     "name": "Khoảng 3045 năm trước: Có văn hóa Gò Mun, thuộc Hậu kỳ thời đại đồng thau",
@@ -3189,7 +4266,8 @@
       "Bắc Giang",
       "Bắc Ninh"
     ],
-    "figures": []
+    "figures": [],
+    "relatedId": []
   },
   {
     "name": "Khoảng 3045 năm trước :Có văn hóa Gò Mun, thuộc Hậu kỳ thời đại đồng thau",
@@ -3199,7 +4277,8 @@
     "locations": [
       "Phú Thọ"
     ],
-    "figures": []
+    "figures": [],
+    "relatedId": []
   },
   {
     "name": "Khoảng 2820 năm trước: Có văn hóa Đông Sơn Đồ đồng phát triển rực rỡ",
@@ -3209,7 +4288,8 @@
     "locations": [
       "Thanh Hóa"
     ],
-    "figures": []
+    "figures": [],
+    "relatedId": []
   },
   {
     "name": "Khoảng 2500 năm trước - Có văn hóa Sa Huỳnh thuộc sơ kỳ đồ sắt",
@@ -3219,7 +4299,8 @@
     "locations": [
       "Nam Trung Bộ"
     ],
-    "figures": []
+    "figures": [],
+    "relatedId": []
   },
   {
     "name": "Hội Nghị Diên Hồng",
@@ -3229,6 +4310,10 @@
     "locations": [],
     "figures": [
       "Lê Thánh Tông (1442 - 1497)"
+    ],
+    "relatedId": [
+      "#F1033",
+      "#F1033"
     ]
   },
   {
@@ -3239,7 +4324,8 @@
     "locations": [
       "Sông Bạch Đằng"
     ],
-    "figures": []
+    "figures": [],
+    "relatedId": []
   },
   {
     "name": "Thánh Gióng đánh giặc ngoại xâm",
@@ -3247,7 +4333,8 @@
     "endYear": "258 TCN",
     "desc": "Thời bắt đầu dựng nước, thời Hùng Vương, nước ta đã bị các thế lực ngoại bang xâm lấn. Truyền thuyết dân gian còn lưu truyền về cuộc kháng chiến của nhân dân dưới sự chỉ huy của người anh hùng thần thoại Thánh Gióng.",
     "locations": [],
-    "figures": []
+    "figures": [],
+    "relatedId": []
   },
   {
     "name": "Cuộc kháng chiến chống quân Lương của nước Vạn Xuân",
@@ -3259,7 +4346,8 @@
     ],
     "figures": [
       "Lý Nam Đế (503 - 548)"
-    ]
+    ],
+    "relatedId": []
   },
   {
     "name": "Cuộc kháng chiến chống Triệu Đà",
@@ -3272,6 +4360,12 @@
     "figures": [
       "An Dương Vương",
       "Cao Lỗ (? - 179)"
+    ],
+    "relatedId": [
+      "#F2087",
+      "#F235",
+      "#F2087",
+      "#F235"
     ]
   },
   {
@@ -3285,6 +4379,12 @@
     "figures": [
       "Nguyễn Huệ (1753 - 1792)",
       "Gia Long (1762 - 1820)"
+    ],
+    "relatedId": [
+      "#F1428",
+      "#F1544",
+      "#F1428",
+      "#F1544"
     ]
   },
   {
@@ -3293,7 +4393,8 @@
     "endYear": "?",
     "desc": "Nay là Bảo tàng Lịch sử và Cách mạng tỉnh Thừa Thiên Huế. Quốc Tử Giám là di tích trường đại học duy nhất thời phong kiến còn tồn tại ở Việt Nam, và là một di tích lịch sử, văn hóa có giá trị cao. Ngày 11 tháng 12 năm 1993, Quốc Tử Giám cùng với hệ thống di tích cung đình triều Nguyễn đã được ghi tên vào danh mục Di sản thế giới.",
     "locations": [],
-    "figures": []
+    "figures": [],
+    "relatedId": []
   },
   {
     "name": "Chiến dịch Phú Xuân 1786",
@@ -3301,7 +4402,8 @@
     "endYear": "1786",
     "desc": "Chiến dịch Phú Xuân 1786 là loạt trận đánh giữa quân Tây Sơn và chúa Trịnh trong cuộc nội chiến nước Đại Việt cuối thế kỷ 18. Chiến dịch này là một phần của Chiến tranh chúa Trịnh-Tây Sơn, mở đầu cho cuộc bắc tiến thắng lợi của quân Tây Sơn trong quá trình tiêu diệt thế lực họ Trịnh tại Bắc Hà. Chiến dịch Phú Xuân bao gồm việc đánh chiếm toàn bộ lãnh thổ từ sông Gianh trở vào nam tới Thuận Hóa, mà trọng điểm là thành Phú Xuân.",
     "locations": [],
-    "figures": []
+    "figures": [],
+    "relatedId": []
   },
   {
     "name": "Cuộc khởi nghĩa Hai Bà Trưng bùng nổ",
@@ -3313,6 +4415,10 @@
     ],
     "figures": [
       "Hai Bà Trưng (? - 43)"
+    ],
+    "relatedId": [
+      "#F2267",
+      "#F2267"
     ]
   },
   {
@@ -3323,7 +4429,8 @@
     "locations": [
       "Tây Vinh"
     ],
-    "figures": []
+    "figures": [],
+    "relatedId": []
   },
   {
     "name": "Chiến thắng Đèo Nhông - Dương Liễu",
@@ -3333,7 +4440,8 @@
     "locations": [
       "Mỹ Phong"
     ],
-    "figures": []
+    "figures": [],
+    "relatedId": []
   },
   {
     "name": "Khởi nghĩa chàng Lía",
@@ -3343,7 +4451,8 @@
     "locations": [
       "Ân Ðức"
     ],
-    "figures": []
+    "figures": [],
+    "relatedId": []
   },
   {
     "name": "Chiến thắng An Lão",
@@ -3353,7 +4462,8 @@
     "locations": [
       "An Lão"
     ],
-    "figures": []
+    "figures": [],
+    "relatedId": []
   },
   {
     "name": "Chiến thắng Đồi 10",
@@ -3363,7 +4473,8 @@
     "locations": [
       "Hoài Châu Bắc"
     ],
-    "figures": []
+    "figures": [],
+    "relatedId": []
   },
   {
     "name": "Cuộc bãi công của công nhân Ba Son",
@@ -3373,6 +4484,10 @@
     "locations": [],
     "figures": [
       "Tôn Đức Thắng (1888 - 1980)"
+    ],
+    "relatedId": [
+      "#F2047",
+      "#F2047"
     ]
   },
   {
@@ -3383,6 +4498,10 @@
     "locations": [],
     "figures": [
       "Đội Cung (1903 - 1941)"
+    ],
+    "relatedId": [
+      "#F609",
+      "#F609"
     ]
   },
   {
@@ -3391,7 +4510,8 @@
     "endYear": "?",
     "desc": "Năm 938, Ngô Quyền chiến thắng quân Nam Hán trên sông Bạch Đằng, giành độc lập cho người Việt. Từ năm 982, vua Lê Hoàn của Đại Cồ Việt mở cuộc Nam chinh đầu tiên, mở rộng bờ cõi. Từ cuộc Nam chinh đầu tiên của vua Lê Hoàn đến thời nhà Lê, giữa Đại Việt và Chăm pa luôn xảy ra các cuộc chiến tranh.",
     "locations": [],
-    "figures": []
+    "figures": [],
+    "relatedId": []
   },
   {
     "name": "Cuộc chiến cuối cùng giữa nhà Trịnh và nhà Nguyễn",
@@ -3399,7 +4519,8 @@
     "endYear": "1775",
     "desc": "Trịnh-Nguyễn phân tranh, 1774-1775 là cuộc chiến lần thứ 8 và là cuộc chiến cuối cùng giữa chúa Trịnh và chúa Nguyễn trong lịch sử chia cắt Đàng Ngoài-Đàng Trong hơn 200 năm của nước Đại Việt.",
     "locations": [],
-    "figures": []
+    "figures": [],
+    "relatedId": []
   },
   {
     "name": "Hải Chiến Hoàng Sa",
@@ -3409,7 +4530,8 @@
     "locations": [
       "Hoàng Sa"
     ],
-    "figures": []
+    "figures": [],
+    "relatedId": []
   },
   {
     "name": "Hải chiến Trường Sa",
@@ -3417,7 +4539,8 @@
     "endYear": "?",
     "desc": "Hải chiến Trường Sa là tên gọi của cuộc chiến trên biển Đông năm 1988 khi Hải quân Quân giải phóng Nhân dân Trung Hoa đưa quân chiếm đóng bãi đá Cô Lin, bãi đá Len Đao và bãi đá Gạc Ma thuộc quần đảo Trường Sa, do ba bãi đá này không có quân đội đồn trú nên Hải quân Nhân dân Việt Nam phải đưa quân ra bảo vệ, đánh trả và cuộc chiến nổ ra vào ngày 14 tháng 3 năm 1988. Phía Việt Nam mất ba tàu vận tải của hải quân Việt Nam, 64 thủy binh Việt Nam đã hi sinh. Trung Quốc bị hư hại tàu chiến, thương vong 24 thủy binh. Kể từ đó Trung Quốc đã chiếm đóng bãi đá Gạc Ma và hai nước cùng cho hải quân ra đóng giữ một số đá ngầm khác mà hai bên cùng tuyên bố chủ quyền. Trong các tài liệu của Hải Quân Việt Nam, sự kiện này được biết đến với tên gọi CQ-88 (Chủ quyền-88).",
     "locations": [],
-    "figures": []
+    "figures": [],
+    "relatedId": []
   },
   {
     "name": "Chiến tranh biên giới Việt - Trung 1979",
@@ -3429,7 +4552,8 @@
       "Lạng Sơn",
       "Cao Bằng"
     ],
-    "figures": []
+    "figures": [],
+    "relatedId": []
   },
   {
     "name": "Trận chiến Vị Xuyên",
@@ -3439,7 +4563,8 @@
     "locations": [
       "Vị Xuyên"
     ],
-    "figures": []
+    "figures": [],
+    "relatedId": []
   },
   {
     "name": "Kinh Dương Vương lên ngôi",
@@ -3449,7 +4574,8 @@
     "locations": [
       "Thuận Thành"
     ],
-    "figures": []
+    "figures": [],
+    "relatedId": []
   },
   {
     "name": "Lữ Gia giết Ai Vương, Cù Thị và sứ giả nhà Hán",
@@ -3461,6 +4587,10 @@
       "Lữ Gia (-181 - -111)",
       "Ai Vương (-117 - 112)",
       "Thuật Dương Vương"
+    ],
+    "relatedId": [
+      "#F1108",
+      "#F1108"
     ]
   },
   {
@@ -3471,6 +4601,10 @@
     "locations": [],
     "figures": [
       "Dương Đình Nghệ (? - 937)"
+    ],
+    "relatedId": [
+      "#F306",
+      "#F306"
     ]
   },
   {
@@ -3482,6 +4616,12 @@
     "figures": [
       "Dương Tam Kha",
       "Ngô Xương Ngập (? - 954)"
+    ],
+    "relatedId": [
+      "#F329",
+      "#F1283",
+      "#F329",
+      "#F1283"
     ]
   },
   {
@@ -3493,6 +4633,12 @@
     "figures": [
       "Ngô Xương Văn (? - 965)",
       "Ngô Xương Ngập (? - 954)"
+    ],
+    "relatedId": [
+      "#F1284",
+      "#F1283",
+      "#F1284",
+      "#F1283"
     ]
   },
   {
@@ -3506,6 +4652,10 @@
     "figures": [
       "Đinh Liễn (? - 979)",
       "Đinh Hạng Lang (? - 979)"
+    ],
+    "relatedId": [
+      "#F489",
+      "#F489"
     ]
   },
   {
@@ -3518,6 +4668,10 @@
     ],
     "figures": [
       "Hai Bà Trưng (? - 43)"
+    ],
+    "relatedId": [
+      "#F2267",
+      "#F2267"
     ]
   },
   {
@@ -3529,7 +4683,8 @@
     "figures": [
       "Triệu Việt Vương (? - 571)",
       "Hậu Lý Nam Đế (? - 602)"
-    ]
+    ],
+    "relatedId": []
   },
   {
     "name": "Lý Phật Tử không chống được cuộc xâm lược của giặc, nước ta lại rơi vào tay nhà Tùy",
@@ -3539,7 +4694,8 @@
     "locations": [],
     "figures": [
       "Hậu Lý Nam Đế (? - 602)"
-    ]
+    ],
+    "relatedId": []
   },
   {
     "name": "Nước ta rơi vào tay nhà Đường",
@@ -3549,7 +4705,8 @@
     "locations": [
       "Giao Châu"
     ],
-    "figures": []
+    "figures": [],
+    "relatedId": []
   },
   {
     "name": "Đinh Kiến – Lý Tự Tiên lãnh đạo nhân dân chống nhà Đường đô hộ",
@@ -3559,7 +4716,8 @@
     "locations": [],
     "figures": [
       "Lý Tự Tiên (? - 687)"
-    ]
+    ],
+    "relatedId": []
   },
   {
     "name": "Dương Thanh phát động cuộc khởi nghĩa",
@@ -3569,6 +4727,10 @@
     "locations": [],
     "figures": [
       "Dương Thanh (? - 820)"
+    ],
+    "relatedId": [
+      "#F338",
+      "#F338"
     ]
   },
   {
@@ -3580,6 +4742,12 @@
     "figures": [
       "Nguyễn Trãi (1380 - 1442)",
       "Nguyễn Thị Lộ (1400 - 1442)"
+    ],
+    "relatedId": [
+      "#F1694",
+      "#F1665",
+      "#F1694",
+      "#F1665"
     ]
   },
   {
@@ -3592,6 +4760,10 @@
       "Lý Thường Kiệt (1019 - 1105)",
       "Hoằng Chân (? - 1077)",
       "Chiêu Văn"
+    ],
+    "relatedId": [
+      "#F1155",
+      "#F1155"
     ]
   },
   {
@@ -3602,7 +4774,8 @@
     "locations": [
       "Bà Rịa - Vung Tàu"
     ],
-    "figures": []
+    "figures": [],
+    "relatedId": []
   },
   {
     "name": "Trận đánh Đa Căng",
@@ -3614,6 +4787,10 @@
     ],
     "figures": [
       "Lê Thái Tổ (1385 - 1433)"
+    ],
+    "relatedId": [
+      "#F974",
+      "#F974"
     ]
   },
   {
@@ -3628,6 +4805,12 @@
       "Trịnh Tráng (1577 - 1657)",
       "Nguyễn Thần Tông (1601 - 31648)",
       "Nguyễn Phúc Tần (1620 - 1687)"
+    ],
+    "relatedId": [
+      "#F2264",
+      "#F1570",
+      "#F2264",
+      "#F1570"
     ]
   },
   {
@@ -3641,6 +4824,12 @@
     "figures": [
       "Nguyễn Thiện Thuật (1844 - 1926)",
       "Huy Quang (1846 - 1888)"
+    ],
+    "relatedId": [
+      "#F1678",
+      "#F1680",
+      "#F1678",
+      "#F1680"
     ]
   },
   {
@@ -3654,6 +4843,10 @@
     ],
     "figures": [
       "Đào Duy Từ (1572 - 1634)"
+    ],
+    "relatedId": [
+      "#F373",
+      "#F373"
     ]
   },
   {
@@ -3664,7 +4857,8 @@
     "locations": [
       "Nhà Mạc"
     ],
-    "figures": []
+    "figures": [],
+    "relatedId": []
   },
   {
     "name": "Tấn công thành Hưng Hóa",
@@ -3674,7 +4868,8 @@
     "locations": [
       "Hưng Hóa"
     ],
-    "figures": []
+    "figures": [],
+    "relatedId": []
   },
   {
     "name": "Pháp đánh thành Bắc Ninh",
@@ -3684,7 +4879,8 @@
     "locations": [
       "Bắc Ninh"
     ],
-    "figures": []
+    "figures": [],
+    "relatedId": []
   },
   {
     "name": "Trận đánh Cẩm Sa giữa quân Trịnh và quân Tây Sơn",
@@ -3696,6 +4892,10 @@
     ],
     "figures": [
       "Nguyễn Nhạc (? - 1793)"
+    ],
+    "relatedId": [
+      "#F1525",
+      "#F1525"
     ]
   },
   {
@@ -3710,6 +4910,14 @@
       "Gia Long (1762 - 1820)",
       "Trần Quang Diệu (? - 1802)",
       "Bùi Thị Xuân (? - 1802)"
+    ],
+    "relatedId": [
+      "#F1544",
+      "#F2168",
+      "#F187",
+      "#F1544",
+      "#F2168",
+      "#F187"
     ]
   },
   {
@@ -3725,6 +4933,14 @@
       "Gia Long (1762 - 1820)",
       "Minh Mạng (1791 - 1841)",
       "Tự Đức (1829 - 1883)"
+    ],
+    "relatedId": [
+      "#F1544",
+      "#F1555",
+      "#F1558",
+      "#F1544",
+      "#F1555",
+      "#F1558"
     ]
   },
   {
@@ -3737,6 +4953,10 @@
     ],
     "figures": [
       "Nguyễn Tri Phương (1800 - 1873)"
+    ],
+    "relatedId": [
+      "#F1696",
+      "#F1696"
     ]
   },
   {
@@ -3750,6 +4970,14 @@
     "figures": [
       "Huỳnh Mẫn Đạt (1807 - 1883)",
       "Nguyễn Công Nhàn"
+    ],
+    "relatedId": [
+      "#F816",
+      "#F280",
+      "#F1322",
+      "#F816",
+      "#F280",
+      "#F1322"
     ]
   },
   {
@@ -3760,7 +4988,8 @@
     "locations": [
       "Gia Định (1698 - ?)"
     ],
-    "figures": []
+    "figures": [],
+    "relatedId": []
   },
   {
     "name": "Pháp chiếm thành Vĩnh Long",
@@ -3772,6 +5001,12 @@
     ],
     "figures": [
       "Phan Thanh Giản (1796 - 1867)"
+    ],
+    "relatedId": [
+      "#F1971",
+      "#F1972",
+      "#F1971",
+      "#F1972"
     ]
   },
   {
@@ -3784,6 +5019,10 @@
     ],
     "figures": [
       "Trần Văn Thành (1818 - 1873)"
+    ],
+    "relatedId": [
+      "#F2230",
+      "#F2230"
     ]
   },
   {
@@ -3796,7 +5035,8 @@
       "Bạc Liêu (1997 - ?)",
       "Cà Mau (1997 - ?)"
     ],
-    "figures": []
+    "figures": [],
+    "relatedId": []
   },
   {
     "name": "Cuộc nổi dậy Lâm Sâm đời vua Thiệu Trị",
@@ -3808,6 +5048,18 @@
       "Nguyễn Công Trứ (1778 - 1858)",
       "Thiệu trị (1807 - 1847)",
       "Nguyễn Tri Phương (1800 - 1873)"
+    ],
+    "relatedId": [
+      "#F280",
+      "#F1322",
+      "#F1335",
+      "#F1565",
+      "#F1696",
+      "#F280",
+      "#F1322",
+      "#F1335",
+      "#F1565",
+      "#F1696"
     ]
   },
   {
@@ -3818,7 +5070,8 @@
     "locations": [
       "Sóc Trăng"
     ],
-    "figures": []
+    "figures": [],
+    "relatedId": []
   },
   {
     "name": "Cuộc nổi dậy chống nhà Nguyễn của Ba Nhàn và Tiền Bột",
@@ -3829,7 +5082,8 @@
       "Vĩnh Phúc",
       "Phú Thọ"
     ],
-    "figures": []
+    "figures": [],
+    "relatedId": []
   },
   {
     "name": "Cuộc nổi dậy chống nhà Nguyễn ở Đá Vách Quảng Ngãi",
@@ -3841,6 +5095,10 @@
     ],
     "figures": [
       "Lê văn Duyệt (1763 - 1832)"
+    ],
+    "relatedId": [
+      "#F1068",
+      "#F1068"
     ]
   },
   {
@@ -3851,7 +5109,8 @@
     "locations": [],
     "figures": [
       "Tạ Văn Phụng (? - 1865)"
-    ]
+    ],
+    "relatedId": []
   },
   {
     "name": "Lê Duy Lương nổi dậy phò Lê diệt Nguyễn",
@@ -3861,6 +5120,10 @@
     "locations": [],
     "figures": [
       "Lê Duy Lương (1814 - 1833)"
+    ],
+    "relatedId": [
+      "#F921",
+      "#F921"
     ]
   },
   {
@@ -3871,7 +5134,8 @@
     "locations": [],
     "figures": [
       "Đoàn Hữu Trưng (1844 - 1866)"
-    ]
+    ],
+    "relatedId": []
   },
   {
     "name": "Cuộc nổi dậy chống nhà Nguyễn của Nông Văn Vân",
@@ -3881,6 +5145,10 @@
     "locations": [],
     "figures": [
       "Nông Văn Vân (? - 1835)"
+    ],
+    "relatedId": [
+      "#F1806",
+      "#F1806"
     ]
   },
   {
@@ -3892,6 +5160,12 @@
     "figures": [
       "Thiệu trị (1807 - 1847)",
       "Nguyễn Tri Phương (1800 - 1873)"
+    ],
+    "relatedId": [
+      "#F1565",
+      "#F1696",
+      "#F1565",
+      "#F1696"
     ]
   },
   {
@@ -3900,7 +5174,8 @@
     "endYear": "1834",
     "desc": "Xiêm La tấn công Đại Nam 1833-1834 là một cuộc chiến gồm hai đợt tấn công của quân Xiêm vào lãnh thổ Đại Nam. Thắng lợi của cuộc chiến này đem lại cơ hội cho Đại Nam dưới thời vua Minh Mạng, được quyền bảo hộ phần lớn đất đai của Cao Miên như trước. Sau chiến thắng này, Minh Mạng quyết định nhập toàn bộ vùng đất Cao Miên nằm trong quyền bảo hộ của Đại Nam vào lãnh thổ Đại Nam và đổi tên là Trấn Tây thành, khi Ang Chan II mất, mà không có người nối dõi.",
     "locations": [],
-    "figures": []
+    "figures": [],
+    "relatedId": []
   },
   {
     "name": "Nạn đói năm Ất Dậu",
@@ -3908,7 +5183,8 @@
     "endYear": "1945",
     "desc": "Trong ký ức người Việt Nam, \"nạn đói năm Ất Dậu\" vẫn là một cơn ác mộng, nỗi nhức nhối khó quên. Thảm họa ấy bắt đầu từ tháng 10/1944 kéo dài đến giữa năm 1945.",
     "locations": [],
-    "figures": []
+    "figures": [],
+    "relatedId": []
   },
   {
     "name": "Hiệp định Vịnh Hạ Long",
@@ -3916,7 +5192,8 @@
     "endYear": "?",
     "desc": "Cho phép thành lập Quốc gia Việt Nam gồm cả ba miền Bắc Trung Nam, nằm trong Liên hiệp Pháp",
     "locations": [],
-    "figures": []
+    "figures": [],
+    "relatedId": []
   },
   {
     "name": "Hiệp định Pháp-Việt",
@@ -3924,7 +5201,8 @@
     "endYear": "?",
     "desc": "Một văn kiện được ký kết ngày 8 tháng 3 năm 1949 giữa Quốc trưởng Quốc gia Việt Nam Bảo Đại và Tổng thống Pháp, theo đó công nhận Quốc gia Việt Nam là một nước độc lập nằm trong Liên hiệp Pháp.",
     "locations": [],
-    "figures": []
+    "figures": [],
+    "relatedId": []
   },
   {
     "name": "Lý Cao Tông được nhà Tống phong \"An Nam quốc vương\"",
@@ -3934,6 +5212,10 @@
     "locations": [],
     "figures": [
       "Lý Cao Tông (1173 - 1210)"
+    ],
+    "relatedId": [
+      "#F1146",
+      "#F1146"
     ]
   },
   {
@@ -3946,7 +5228,8 @@
     ],
     "figures": [
       "Lý Thái Tông (1000 - 1054)"
-    ]
+    ],
+    "relatedId": []
   },
   {
     "name": "Trận đánh thung lũng Ia Drăng",
@@ -3959,6 +5242,10 @@
     "figures": [
       "Nguyễn Hữu An (1926 - 1995)",
       "Đặng Vũ Hiệp (1928 - 2008)"
+    ],
+    "relatedId": [
+      "#F1437",
+      "#F1437"
     ]
   },
   {
@@ -3976,6 +5263,16 @@
       "Lê Trọng Tấn (1914 - 1986)",
       "Hoàng Cầm (1920 - 2013)",
       "Vũ Lăng (1921 - 1988)"
+    ],
+    "relatedId": [
+      "#F2347",
+      "#F2308",
+      "#F11",
+      "#F12",
+      "#F2347",
+      "#F2308",
+      "#F11",
+      "#F12"
     ]
   },
   {
@@ -3986,7 +5283,8 @@
     "locations": [
       "Cai Lậy"
     ],
-    "figures": []
+    "figures": [],
+    "relatedId": []
   },
   {
     "name": "Chiến thắng Ba Gia",
@@ -3996,7 +5294,8 @@
     "locations": [
       "Sơn Tịnh"
     ],
-    "figures": []
+    "figures": [],
+    "relatedId": []
   },
   {
     "name": "Chiến dịch Đồng Xoài",
@@ -4008,6 +5307,10 @@
     ],
     "figures": [
       "Lê Trọng Tấn (1914 - 1986)"
+    ],
+    "relatedId": [
+      "#F12",
+      "#F12"
     ]
   },
   {
@@ -4018,7 +5321,8 @@
     "locations": [
       "Bình Sơn"
     ],
-    "figures": []
+    "figures": [],
+    "relatedId": []
   },
   {
     "name": "Chiến dịch tiến công Đường 9-Khe Sanh",
@@ -4028,7 +5332,8 @@
     "locations": [
       "Khe Sanh"
     ],
-    "figures": []
+    "figures": [],
+    "relatedId": []
   },
   {
     "name": "Mỹ thất bại trong cuộc hành quân Junction City của quân Mỹ",
@@ -4038,7 +5343,8 @@
     "locations": [
       "Lò Gò - Xa Mát"
     ],
-    "figures": []
+    "figures": [],
+    "relatedId": []
   },
   {
     "name": "Tổng tiến công và nổi dậy Mậu Thân",
@@ -4050,7 +5356,8 @@
       "Quảng Trị",
       "Thừa Thiên-Huế"
     ],
-    "figures": []
+    "figures": [],
+    "relatedId": []
   },
   {
     "name": "Chiến dịch Đường 9 - Nam Lào",
@@ -4060,7 +5367,8 @@
     "locations": [
       "Quảng Trị"
     ],
-    "figures": []
+    "figures": [],
+    "relatedId": []
   },
   {
     "name": "Chiến dịch Bắc Tây Nguyên trong kháng chiến chống Mỹ",
@@ -4071,7 +5379,8 @@
       "Gia Lai",
       "Kon Tum"
     ],
-    "figures": []
+    "figures": [],
+    "relatedId": []
   },
   {
     "name": "Chiến dịch \"Điện Biên Phủ trên không\"",
@@ -4081,7 +5390,8 @@
     "locations": [
       "Hà Nội"
     ],
-    "figures": []
+    "figures": [],
+    "relatedId": []
   },
   {
     "name": "Chiến dịch Tây Nguyên giải phóng Buôn Mê Thuột",
@@ -4089,7 +5399,8 @@
     "endYear": "1975",
     "desc": "Chiến dịch Tây Nguyên (từ 4.3 đến 24.3.1975), mật danh Chiến dịch 275, là chiến dịch mở đầu cuộc Tổng tấn công mùa Xuân năm 1975 do Quân đội Nhân dân Việt Nam phát động tấn công. Chiến dịch Tây Nguyên, mở đầu Cuộc tổng tiến công và nổi dậy mùa Xuân 1975 thắng lợi vang dội có ý nghĩa to lớn cả về chính trị và quân sự đối với Việt Nam.",
     "locations": [],
-    "figures": []
+    "figures": [],
+    "relatedId": []
   },
   {
     "name": "Chiến dịch Trị - Thiên",
@@ -4099,7 +5410,8 @@
     "locations": [
       "Quảng Trị"
     ],
-    "figures": []
+    "figures": [],
+    "relatedId": []
   },
   {
     "name": "Chiến dịch Nguyễn Huệ",
@@ -4112,6 +5424,12 @@
     "figures": [
       "Hoàng Văn Thái (1915 - 1986)",
       "Trần Văn Trà (1919 - 1996)"
+    ],
+    "relatedId": [
+      "#F11",
+      "#F1341",
+      "#F11",
+      "#F1341"
     ]
   },
   {
@@ -4122,7 +5440,8 @@
     "locations": [
       "đồng bằng sông Cửu Long"
     ],
-    "figures": []
+    "figures": [],
+    "relatedId": []
   },
   {
     "name": "Chiến dịch phòng ngự Quảng Trị",
@@ -4132,7 +5451,8 @@
     "locations": [
       "Quảng Trị"
     ],
-    "figures": []
+    "figures": [],
+    "relatedId": []
   },
   {
     "name": "Chiến dịch Đường 14-Phước Long",
@@ -4145,7 +5465,8 @@
     ],
     "figures": [
       "Hoàng Cầm (1920 - 2013)"
-    ]
+    ],
+    "relatedId": []
   },
   {
     "name": "Chiến dịch giải phóng Đà Nẵng",
@@ -4157,6 +5478,10 @@
     ],
     "figures": [
       "Lê Trọng Tấn (1914 - 1986)"
+    ],
+    "relatedId": [
+      "#F12",
+      "#F12"
     ]
   },
   {
@@ -4169,7 +5494,8 @@
     ],
     "figures": [
       "Hoàng Cầm (1920 - 2013)"
-    ]
+    ],
+    "relatedId": []
   },
   {
     "name": "Trận Tà Mây - Làng Vây",
@@ -4179,7 +5505,8 @@
     "locations": [
       "Làng Vây"
     ],
-    "figures": []
+    "figures": [],
+    "relatedId": []
   },
   {
     "name": "Trận Cửa Việt",
@@ -4191,6 +5518,10 @@
     ],
     "figures": [
       "Lê Trọng Tấn (1914 - 1986)"
+    ],
+    "relatedId": [
+      "#F12",
+      "#F12"
     ]
   },
   {
@@ -4201,6 +5532,10 @@
     "locations": [],
     "figures": [
       "Lê Trọng Tấn (1914 - 1986)"
+    ],
+    "relatedId": [
+      "#F12",
+      "#F12"
     ]
   },
   {
@@ -4209,7 +5544,8 @@
     "endYear": "?",
     "desc": "Dù có khá nhiều tư liệu lịch sử đề cập đến thời khắc quyết định công cuộc giải phóng vùng đất sau cùng của Bình Thuận ngày nay cũng là phần đất cực Nam Trung bộ. Lúc ấy La Gi là địa bàn “thủ phủ” tỉnh Bình Tuy nên càng về sau này có nhiều căn cứ từ các phía để hình dung phần nào tình thế đầy kịch tính diễn ra trong bối cảnh căng thẳng ở La Gi - Hàm Tân vào những ngày cuối tháng tư năm 1975.",
     "locations": [],
-    "figures": []
+    "figures": [],
+    "relatedId": []
   },
   {
     "name": "Giải phóng thị xã Phan Thiết và toàn tỉnh Bình Thuận",
@@ -4217,7 +5553,8 @@
     "endYear": "1975",
     "desc": "Ngày 18-4-1975, Bộ Chính trị điện khẩn cho Bộ Chỉ huy Chiến dịch Hồ Chí Minh nhấn mạnh: Thời cơ quân sự, chính trị để mở cuộc tiến công vào Sài Gòn-Gia Định đã chín muồi. Ta cần tranh thủ từng ngày kịp thời phát động tiến công địch trên các hướng, không thể để chậm. Nếu để chậm sẽ không có lợi cả về chính trị và quân sự. Kịp thời hành động lúc này là bảo đảm chắc thắng. Nắm vững thời cơ lớn, chúng ta nhất định toàn thắng.",
     "locations": [],
-    "figures": []
+    "figures": [],
+    "relatedId": []
   },
   {
     "name": "12 ngày đêm phá “cánh cửa thép” Xuân Lộc, tiến vào giải phóng Sài Gòn",
@@ -4225,7 +5562,8 @@
     "endYear": "1975",
     "desc": "Cuối tháng 3/1975, khi quân địch thất thủ ở Tây Nguyên và các chiến trường Phan Rang, Phan Thiết rồi Chi khu Dầu Tiếng, Chơn Thành, Di Linh được giải phóng, đã hình thành nên vòng cung siết chặt, buộc quân địch phải co cụm lại và chúng quyết “tử thủ” tại cửa ngõ Xuân Lộc (tỉnh Long Khánh cũ) để bảo vệ Sài Gòn. Tuy nhiên, với khí thế “tiến công ào ào như thác đổ,” sau 12 ngày đêm chiến đấu vô cùng anh dũng của quân và dân ta, “cánh cửa thép” Xuân Lộc đã được mở tung, mở đường cho quân ta tiến vào giải phóng Sài Gòn, thống nhất đất nước.",
     "locations": [],
-    "figures": []
+    "figures": [],
+    "relatedId": []
   },
   {
     "name": "Chiến dịch giải phóng Hoài Đức",
@@ -4233,7 +5571,8 @@
     "endYear": "1975",
     "desc": "Chiến dịch Hoài Đức bắt đầu từ đêm ngày 9 rạng ngày 10 tháng 12 năm 1974. Trung đoàn 812 và các đơn vị trực thuộc Quân khu 6 tập trung đánh đồi Lồ Ồ, chi khu Tánh Linh. Sư đoàn 6 Quân khu 7 phối hợp với bộ đội địa phương đánh chốt núi Dinh, đồi Bảo Đại và chi khu Hoài Đức. Đợt 1 của chiến dịch kéo dài đến 10-1-1975 thì kết thúc, ta giải phóng toàn bộ huyện Tánh Linh và một phần nông thôn Hoài Đức, chiếm giữ được núi Dinh (do Đại đội 20 trinh sát Sư đoàn 6 Quân khu 7 đánh chiếm đêm 9-12-1974). Đúng 23 giờ đêm 16-3-1975, đợt 2 chiến dịch bắt đầu. Các đơn vị đặc công và bộ binh Trung đoàn 812 đồng loạt tấn công đồi Bảo Đại, các đồn dân vệ thôn 2, thôn 9 Võ Đắt chiếm các ngã tư đường Tây Bắc và Tây Nam vào chi khu, các đơn vị 88, 81, 431 và Đội công tác ở các xã xung quanh chiến đấu ngăn chặn không cho địch chi viện cho chi khu. Đại đội 3 Tiểu đoàn 840 chốt chặn lộ 3 ở phía Bắc cầu Nín thở chặn địch từ Gia Huynh và Trà Tân lên chi viện. Bộ chỉ huy chiến dịch quyết định dùng cách đánh bóc vỏ, với tư tưởng tiến công tích cực, vận dụng phương châm vây lấn. Trong 3 ngày đầu ta đánh bóc gỡ các cứ điểm ngoại vi và xuyên qua Võ Đắt, đưa lực lượng vào áp sát đồn chi khu. Ngày 17-3-1975 Tiểu đoàn 186 và Tiểu đoàn 15 Trung đoàn 812 đã đánh chiếm được 2 ngã tư đường vào chi khu. Ngày 18-3-1975 tiếp tục đánh chiếm các thôn 4, 5, 6, 9 Võ Đắt tạo bàn đạp vây lấn kiểm soát ép địch trong chi khu, buộc địch điều Tiểu đoàn bảo an 369 từ Võ Xu về để án ngữ hướng tây nam chi khu cùng Tiểu đoàn bảo an 344 giữ hướng Tây Bắc làm thế ứng cứu lẫn nhau nhưng đều bị quân ta đẩy lùi, nên chúng không liên lạc được với nhau mà chỉ nằm yên tại chỗ. Trưa ngày 19-3 pháo binh ta bắn trúng kho đạn pháo 105 ly trong chi khu gây nổ dữ dội đến 15 giờ mới dứt. Địch trong chi khu hoảng loạn. 2 giờ sáng ngày 20-3 pháo binh ta bắn cấp tập trùm lên chi khu, đạn pháo trúng nhà tên chi khu phó và khu kho bị sập, 2 giờ30 Tiểu đoàn 15 bắt đầu xuất kích đánh vào phân khu và chợ Võ Đắt. Pháo 105 ly của địch ở đồi Su phản pháo dữ dội, đạn pháo đã rơi trúng cửa mở của các đơn vị Tiểu đoàn đặc công 200C và Tiểu đoàn 15. Địch dựa vào công sự chống cự quyết liệt làm chậm sức đột phá các mũi. Đến 4 giờ 45 Tiểu đoàn 200C vượt qua được cửa mở, thọc sâu đánh vào nhà chỉ huy, khu cảnh sát quốc gia; đến 5 giờ đánh chiếm khu vực nhà thông tin, các nhà lính, liên lạc. Cùng lúc tiểu đoàn 2 đại đội 200C đánh chiếm nhà cảnh sát dã chiến và nhà chi đội xe bọc thép 909. Địch chống cự quyết liệt làm cho tốc độ tấn công của ta chậm lại.",
     "locations": [],
-    "figures": []
+    "figures": [],
+    "relatedId": []
   },
   {
     "name": "Giải phóng Phan Thiết",
@@ -4241,7 +5580,8 @@
     "endYear": "19",
     "desc": "Bình Thuận là tỉnh cực Nam của Nam Trung bộ, giáp với Ninh Thuận từ phía Bắc, Long Khánh từ phía Nam. Trong kháng chiến chống Mỹ, Bình Thuận chia làm hai tỉnh là Bình Thuận và Bình Tuy. Tại thị xã Phan Thiết - tỉnh lỵ Bình Thuận - quân đội ngụy quyền Sài Gòn xây dựng hệ thống cứ điểm quân sự mạnh nằm trong tuyến phòng thủ Phan Rang - Phan Thiết - Xuân Lộc. Sau khi Phan Rang thất thủ, Phan Thiết trở thành chốt chặn tiền tiêu của chính quyền Sài Gòn từ hướng Đông.",
     "locations": [],
-    "figures": []
+    "figures": [],
+    "relatedId": []
   },
   {
     "name": "Giải phóng Long Khánh, Nguyễn Văn Thiệu từ chức",
@@ -4249,7 +5589,8 @@
     "endYear": "1975",
     "desc": "Ngày 21/4/1975: Giải phóng tỉnh Long Khánh; Tại Sài Gòn, Nguyễn Văn Thiệu từ chức Tổng thống Chính quyền Sài Gòn.",
     "locations": [],
-    "figures": []
+    "figures": [],
+    "relatedId": []
   },
   {
     "name": "Trận Xuân Lộc",
@@ -4257,6 +5598,7 @@
     "endYear": "1975",
     "desc": "Chiến dịch Xuân Lộc hay Trận Xuân Lộc, tên đầy đủ là Chiến dịch tiến công tuyến phòng thủ Xuân Lộc - Long Khánh, là một chiến dịch trong Chiến tranh Việt Nam. Chiến dịch diễn ra trong khoảng 9 tháng 4 - 20 tháng 4 năm 1975 giữa Quân Giải phóng miền Nam Việt Nam đối đầu Quân lực Việt Nam Cộng hòa (QLVNCH) với sự hỗ trợ của Bộ chỉ huy Viện trợ Quân sự Mỹ tại Việt Nam. Trận này là một mốc quan trọng của quá trình tiến tới sự kiện 30 tháng 4 năm 1975, vì Xuân Lộc là khu vực phòng thủ trọng yếu trong tuyến phòng thủ cơ bản (Biên Hòa - Xuân Lộc - Bà Rịa - Vũng Tàu) của QLVNCH để phòng thủ cửa ngõ phía đông của Sài Gòn.",
     "locations": [],
-    "figures": []
+    "figures": [],
+    "relatedId": []
   }
 ]

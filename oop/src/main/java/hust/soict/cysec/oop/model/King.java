@@ -1,5 +1,6 @@
 package hust.soict.cysec.oop.model;
 
+import java.util.LinkedList;
 import java.util.List;
 import hust.soict.cysec.oop.common.StringUtility;
 
@@ -15,6 +16,10 @@ public class King extends HistoricalFigure {
 	private String successor; // Kế nhiệm
 	private String id;
 	private List<String> relatedId;
+	
+	public King() {
+		this.relatedId = new LinkedList<>();
+	}
 	
 	public List<String> getRelatedId() {
 		return relatedId;

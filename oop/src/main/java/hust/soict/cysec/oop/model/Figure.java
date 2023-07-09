@@ -17,6 +17,7 @@ public class Figure extends HistoricalFigure {
 	public Figure() {
 		this.dynasties = new LinkedList<>();
 		this.eventJoined = new LinkedList<>();
+		this.relatedId = new LinkedList<>();
 	}
 	
 	public String getId() {
@@ -69,7 +70,7 @@ public class Figure extends HistoricalFigure {
 	public List<String> getEventJoined() {
 		return eventJoined;
 	}
-
+	
 	public void setEventJoined(List<String> eventJoined) {
 		this.eventJoined = eventJoined;
 	}

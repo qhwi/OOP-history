@@ -25,7 +25,7 @@ public class FigureGiaoducNet extends LeafCrawler<Figure> {
 		String url = "https://giaoduc.net.vn/nhung-duong-pho-mang-name-cac-vi-tuong-linh-va-si-quan-quan-doi-post173227.gd";
 		Document doc = Jsoup.connect(url).get();
 		
-		System.out.println("Crawl: " + url);
+		System.out.println("[CRAWL FIGURE] " + url);
 		Element mainBody = doc.getElementsByClass("details__content cms-body ").first();
 		Elements paragraphs = mainBody.select("p");
 

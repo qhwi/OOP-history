@@ -15,6 +15,7 @@ public class Festival {
 
 	public Festival() {
 		this.figures = new LinkedList<>();
+		this.relatedId = new LinkedList<>();
 	}
 
 	public String getName() {

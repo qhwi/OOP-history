@@ -17,6 +17,7 @@ public class HistoricalEvent {
 	public HistoricalEvent() {
 		this.locations = new LinkedList<>();
 		this.figures = new LinkedList<>();
+		this.relatedId = new LinkedList<>();
 	}
 	
 	public String getName() {

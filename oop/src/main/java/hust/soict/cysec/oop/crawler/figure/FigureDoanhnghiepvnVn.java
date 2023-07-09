@@ -23,7 +23,7 @@ public class FigureDoanhnghiepvnVn extends LeafCrawler<Figure> {
 		List<Figure> figures = new LinkedList<>();
 		
 		String url = "https://doanhnghiepvn.vn/kham-pha/chan-dung-10-anh-hung-trong-khang-chien-chong-phap/20200130024940748";
-		System.out.println("Crawl " + url);
+		System.out.println("[CRAWL FIGURE] " + url);
 		Document doc = Jsoup.connect(url).get();
 		
 		Element mainBody = doc.getElementById("abody");

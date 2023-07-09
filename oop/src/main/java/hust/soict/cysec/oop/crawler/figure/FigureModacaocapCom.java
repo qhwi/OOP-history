@@ -22,7 +22,7 @@ public class FigureModacaocapCom extends LeafCrawler<Figure> {
 		List<Figure> figures = new ArrayList<>();
 		
 		String url = "https://modacaocap.com/danh-sach-trang-nguyen-viet-nam/";
-		System.out.println("Crawl: " + url);
+		System.out.println("[CRAWL FIGURE] " + url);
 		Document doc = Jsoup.connect(url).get();
 		
 		Element mainBody = doc.getElementsByClass("entry-content single-page").first();

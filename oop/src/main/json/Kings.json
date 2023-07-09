@@ -6,6 +6,14 @@
     "courtesyName": "Lộc Tục",
     "successionOrder": "Khai sáng triều đại, con thứ Đế Minh, em Đế Nghi",
     "reignYear": "2879 TCN - 2794 TCN",
+    "id": "#K0",
+    "relatedId": [
+      "#F846",
+      "#F846",
+      "#F846",
+      "#F846",
+      "#F846"
+    ],
     "name": "Kinh Dương Vương"
   },
   {
@@ -15,6 +23,14 @@
     "courtesyName": "Sùng Lãm",
     "successionOrder": "Con Kinh Dương Vương",
     "reignYear": "2525 TCN - 2253 TCN",
+    "id": "#K1",
+    "relatedId": [
+      "#F2023",
+      "#F2023",
+      "#F2023",
+      "#F2023",
+      "#F2023"
+    ],
     "name": "Lạc Long Quân"
   },
   {
@@ -24,6 +40,14 @@
     "courtesyName": "không rõ",
     "successionOrder": "Con trưởng Lạc Long Quân",
     "reignYear": "?",
+    "id": "#K2",
+    "relatedId": [
+      "#F835",
+      "#F835",
+      "#F835",
+      "#F835",
+      "#F835"
+    ],
     "name": "Hùng Vương thứ nhất"
   },
   {
@@ -32,6 +56,14 @@
     "eraName": "không có",
     "courtesyName": "không rõ",
     "reignYear": "? - ?",
+    "id": "#K3",
+    "relatedId": [
+      "#F835",
+      "#F835",
+      "#F835",
+      "#F835",
+      "#F835"
+    ],
     "name": "Hùng Vương thứ hai"
   },
   {
@@ -40,6 +72,14 @@
     "eraName": "không có",
     "courtesyName": "không rõ",
     "reignYear": "? - ?",
+    "id": "#K4",
+    "relatedId": [
+      "#F835",
+      "#F835",
+      "#F835",
+      "#F835",
+      "#F835"
+    ],
     "name": "Hùng Vương thứ ba"
   },
   {
@@ -48,6 +88,14 @@
     "eraName": "không có",
     "courtesyName": "không rõ",
     "reignYear": "? - ?",
+    "id": "#K5",
+    "relatedId": [
+      "#F835",
+      "#F835",
+      "#F835",
+      "#F835",
+      "#F835"
+    ],
     "name": "Hùng Vương thứ tư"
   },
   {
@@ -56,6 +104,14 @@
     "eraName": "không có",
     "courtesyName": "không rõ",
     "reignYear": "? - ?",
+    "id": "#K6",
+    "relatedId": [
+      "#F835",
+      "#F835",
+      "#F835",
+      "#F835",
+      "#F835"
+    ],
     "name": "Hùng Vương thứ năm"
   },
   {
@@ -64,6 +120,14 @@
     "eraName": "không có",
     "courtesyName": "không rõ",
     "reignYear": "? - ?",
+    "id": "#K7",
+    "relatedId": [
+      "#F835",
+      "#F835",
+      "#F835",
+      "#F835",
+      "#F835"
+    ],
     "name": "Hùng Vương thứ sáu"
   },
   {
@@ -72,6 +136,14 @@
     "eraName": "không có",
     "courtesyName": "Lang Liêu",
     "reignYear": "? - ?",
+    "id": "#K8",
+    "relatedId": [
+      "#F835",
+      "#F835",
+      "#F835",
+      "#F835",
+      "#F835"
+    ],
     "name": "Hùng Vương thứ bảy"
   },
   {
@@ -80,6 +152,14 @@
     "eraName": "không có",
     "courtesyName": "Thừa Vân Lang",
     "reignYear": "? - ?",
+    "id": "#K9",
+    "relatedId": [
+      "#F835",
+      "#F835",
+      "#F835",
+      "#F835",
+      "#F835"
+    ],
     "name": "Hùng Vương thứ tám"
   },
   {
@@ -88,6 +168,14 @@
     "eraName": "không có",
     "courtesyName": "Quân Lang",
     "reignYear": "? - ?",
+    "id": "#K10",
+    "relatedId": [
+      "#F835",
+      "#F835",
+      "#F835",
+      "#F835",
+      "#F835"
+    ],
     "name": "Hùng Vương thứ chín"
   },
   {
@@ -96,6 +184,14 @@
     "eraName": "không có",
     "courtesyName": "Hùng Hải Lang",
     "reignYear": "? - ?",
+    "id": "#K11",
+    "relatedId": [
+      "#F835",
+      "#F835",
+      "#F835",
+      "#F835",
+      "#F835"
+    ],
     "name": "Hùng Vương thứ mười"
   },
   {
@@ -104,6 +200,14 @@
     "eraName": "không có",
     "courtesyName": "Hưng Đức Lang",
     "reignYear": "? - ?",
+    "id": "#K12",
+    "relatedId": [
+      "#F835",
+      "#F835",
+      "#F835",
+      "#F835",
+      "#F835"
+    ],
     "name": "Hùng Vương thứ 11"
   },
   {
@@ -112,6 +216,14 @@
     "eraName": "không có",
     "courtesyName": "không rõ",
     "reignYear": "? - ?",
+    "id": "#K13",
+    "relatedId": [
+      "#F835",
+      "#F835",
+      "#F835",
+      "#F835",
+      "#F835"
+    ],
     "name": "Hùng Vương thứ 12"
   },
   {
@@ -120,6 +232,14 @@
     "eraName": "không có",
     "courtesyName": "Tuấn Lang",
     "reignYear": "? - ?",
+    "id": "#K14",
+    "relatedId": [
+      "#F835",
+      "#F835",
+      "#F835",
+      "#F835",
+      "#F835"
+    ],
     "name": "Hùng Vương thứ 13"
   },
   {
@@ -128,6 +248,14 @@
     "eraName": "không có",
     "courtesyName": "Chân Nhân Lang",
     "reignYear": "? - ?",
+    "id": "#K15",
+    "relatedId": [
+      "#F835",
+      "#F835",
+      "#F835",
+      "#F835",
+      "#F835"
+    ],
     "name": "Hùng Vương thứ 14"
   },
   {
@@ -136,6 +264,14 @@
     "eraName": "không có",
     "courtesyName": "Cảnh Chiêu Lang",
     "reignYear": "? - ?",
+    "id": "#K16",
+    "relatedId": [
+      "#F835",
+      "#F835",
+      "#F835",
+      "#F835",
+      "#F835"
+    ],
     "name": "Hùng Vương thứ 15"
   },
   {
@@ -144,6 +280,14 @@
     "eraName": "không có",
     "courtesyName": "Đức Quân Lang",
     "reignYear": "? - ?",
+    "id": "#K17",
+    "relatedId": [
+      "#F835",
+      "#F835",
+      "#F835",
+      "#F835",
+      "#F835"
+    ],
     "name": "Hùng Vương thứ 16"
   },
   {
@@ -152,6 +296,14 @@
     "eraName": "không có",
     "courtesyName": "không rõ",
     "reignYear": "? - ?",
+    "id": "#K18",
+    "relatedId": [
+      "#F835",
+      "#F835",
+      "#F835",
+      "#F835",
+      "#F835"
+    ],
     "name": "Hùng Vương thứ 17"
   },
   {
@@ -160,6 +312,14 @@
     "eraName": "không có",
     "courtesyName": "không rõ",
     "reignYear": "? - 258 TCN",
+    "id": "#K19",
+    "relatedId": [
+      "#F835",
+      "#F835",
+      "#F835",
+      "#F835",
+      "#F835"
+    ],
     "name": "Hùng Vương thứ 18"
   },
   {
@@ -168,6 +328,14 @@
     "eraName": "không có",
     "courtesyName": "Huệ Lang",
     "reignYear": "? - 6 năm",
+    "id": "#K20",
+    "relatedId": [
+      "#F835",
+      "#F835",
+      "#F835",
+      "#F835",
+      "#F835"
+    ],
     "name": "Hùng Vương thứ 19"
   },
   {
@@ -177,6 +345,8 @@
     "courtesyName": "Triệu Đà",
     "successionOrder": "Dòng dõi nước Triệu thời Chiến Quốc, khai sáng triều đại.",
     "reignYear": "204 - 137TCN",
+    "id": "#K21",
+    "relatedId": [],
     "name": "Triệu Vũ Vương"
   },
   {
@@ -186,6 +356,8 @@
     "courtesyName": "Triệu Hồ Triệu Muội",
     "successionOrder": "Cháu nội Triệu Đà, con Triệu Trọng Thủy.",
     "reignYear": "137 - 125TCN",
+    "id": "#K22",
+    "relatedId": [],
     "name": "Triệu Văn Vương"
   },
   {
@@ -195,6 +367,14 @@
     "courtesyName": "Triệu Anh Tề",
     "successionOrder": "Con Triệu Hồ",
     "reignYear": "125 - 113TCN",
+    "id": "#K23",
+    "relatedId": [
+      "#F1554",
+      "#F1554",
+      "#F1554",
+      "#F1554",
+      "#F1554"
+    ],
     "name": "Triệu Minh Vương"
   },
   {
@@ -204,6 +384,8 @@
     "courtesyName": "Triệu Hưng",
     "successionOrder": "Con thứ Triệu Anh Tề",
     "reignYear": "113 - 112TCN",
+    "id": "#K24",
+    "relatedId": [],
     "name": "Triệu Ai Vương"
   },
   {
@@ -213,6 +395,8 @@
     "courtesyName": "Triệu Kiến Đức",
     "successionOrder": "Con trưởng Triệu Anh Tề, anh Triệu Hưng.",
     "reignYear": "112 - 111TCN",
+    "id": "#K25",
+    "relatedId": [],
     "name": "Triệu Dương Vương"
   },
   {
@@ -222,6 +406,8 @@
     "courtesyName": "Trưng Trắc (徵側) Lạc Trắc",
     "successionOrder": "Vợ Thi Sách, sáng lập triều đại",
     "reignYear": "40 - 43",
+    "id": "#K26",
+    "relatedId": [],
     "name": "Trưng Vương"
   },
   {
@@ -231,6 +417,14 @@
     "courtesyName": "Lý Bí Lý Bôn (李賁)",
     "successionOrder": "Nổi dậy tự lập, khai sáng triều đại",
     "reignYear": "544 - 548",
+    "id": "#K27",
+    "relatedId": [
+      "#F1141",
+      "#F1141",
+      "#F1141",
+      "#F1141",
+      "#F1141"
+    ],
     "name": "Lý Nam Đế"
   },
   {
@@ -240,6 +434,14 @@
     "courtesyName": "Triệu Quang Phục (趙光復)",
     "successionOrder": "Con Thái phó Triệu Túc, được Lý Nam Đế giao toàn bộ quyền hành.",
     "reignYear": "548 - 571",
+    "id": "#K28",
+    "relatedId": [
+      "#F2238",
+      "#F2238",
+      "#F2238",
+      "#F2238",
+      "#F2238"
+    ],
     "name": "Triệu Việt Vương"
   },
   {
@@ -249,6 +451,8 @@
     "courtesyName": "Lý Thiên Bảo",
     "successionOrder": "Anh trai Lý Nam Đế",
     "reignYear": "549 - 555",
+    "id": "#K29",
+    "relatedId": [],
     "name": "Đào Lang Vương"
   },
   {
@@ -258,6 +462,8 @@
     "courtesyName": "Lý Phật Tử (李佛子)",
     "successionOrder": "Người trong họ Lý Nam Đế",
     "reignYear": "555 - 602",
+    "id": "#K30",
+    "relatedId": [],
     "name": "Hậu Lý Nam Đế"
   },
   {
@@ -267,6 +473,8 @@
     "courtesyName": "Lý Sư Lợi",
     "successionOrder": "con Hậu Lý Nam Đế",
     "reignYear": "602 - 603",
+    "id": "#K31",
+    "relatedId": [],
     "name": "Lý Sư Lợi"
   },
   {
@@ -276,6 +484,14 @@
     "courtesyName": "Mai Thúc Loan, (梅叔鸞) Mai Huyền Thành, Mai Lập Thành, Mai Thúc Yên, Mai Phượng.",
     "successionOrder": "Con Mai Hoàn, sáng lập triều đại.",
     "reignYear": "713 - 722",
+    "id": "#K32",
+    "relatedId": [
+      "#F1193",
+      "#F1193",
+      "#F1193",
+      "#F1193",
+      "#F1193"
+    ],
     "name": "Mai Hắc Đế"
   },
   {
@@ -285,6 +501,14 @@
     "courtesyName": "Mai Thúc Huy, Mai Bảo Sơn",
     "successionOrder": "Con út Mai Hắc Đế, em song sinh với Bạch Đầu Đế.",
     "reignYear": "722 - 723",
+    "id": "#K33",
+    "relatedId": [
+      "#F1192",
+      "#F1192",
+      "#F1192",
+      "#F1192",
+      "#F1192"
+    ],
     "name": "Mai Thiếu Đế"
   },
   {
@@ -294,6 +518,8 @@
     "courtesyName": "Mai Kỳ Sơn",
     "successionOrder": "Con thứ hai Mai Hắc Đế, anh song sinh với Mai Thiếu Đế.",
     "reignYear": "723 - 723",
+    "id": "#K34",
+    "relatedId": [],
     "name": "Bạch Đầu Đế"
   },
   {
@@ -303,6 +529,14 @@
     "courtesyName": "Phùng Hưng (馮興), Phùng Cự Lão",
     "successionOrder": "con Phùng Hạp Khanh, thế tập Biên Khố Di Tù Trưởng",
     "reignYear": "766 - 791",
+    "id": "#K35",
+    "relatedId": [
+      "#F2004",
+      "#F2004",
+      "#F2004",
+      "#F2004",
+      "#F2004"
+    ],
     "name": "Phùng Hưng"
   },
   {
@@ -312,6 +546,8 @@
     "courtesyName": "Phùng An",
     "successionOrder": "con Phùng Hưng",
     "reignYear": "791 - 791",
+    "id": "#K36",
+    "relatedId": [],
     "name": "Phùng An"
   },
   {
@@ -321,6 +557,14 @@
     "courtesyName": "Khúc Thừa Dụ (曲承裕)",
     "successionOrder": "Mở màn nền tự chủ",
     "reignYear": "905 - 907",
+    "id": "#K37",
+    "relatedId": [
+      "#F856",
+      "#F856",
+      "#F856",
+      "#F856",
+      "#F856"
+    ],
     "name": "Khúc Tiên Chủ"
   },
   {
@@ -330,6 +574,14 @@
     "courtesyName": "Khúc Hạo, (曲顥) Khúc Thừa Hạo",
     "successionOrder": "Con Khúc Thừa Dụ",
     "reignYear": "907 - 917",
+    "id": "#K38",
+    "relatedId": [
+      "#F855",
+      "#F855",
+      "#F855",
+      "#F855",
+      "#F855"
+    ],
     "name": "Khúc Trung Chủ"
   },
   {
@@ -339,6 +591,14 @@
     "courtesyName": "Khúc Thừa Mỹ (曲承美) Khúc Toàn Mỹ",
     "successionOrder": "Con Khúc Hạo",
     "reignYear": "917 - 923",
+    "id": "#K39",
+    "relatedId": [
+      "#F857",
+      "#F857",
+      "#F857",
+      "#F857",
+      "#F857"
+    ],
     "name": "Khúc Hậu Chủ"
   },
   {
@@ -348,6 +608,14 @@
     "courtesyName": "Dương Đình Nghệ, (楊廷藝) Dương Diên Nghệ (楊筵藝)",
     "successionOrder": "Khôi phục nền tự chủ; nha tướng của Khúc Hạo",
     "reignYear": "931 - 937",
+    "id": "#K40",
+    "relatedId": [
+      "#F306",
+      "#F306",
+      "#F306",
+      "#F306",
+      "#F306"
+    ],
     "name": "Dương Chính Công"
   },
   {
@@ -357,6 +625,14 @@
     "courtesyName": "Kiều Công Tiễn, (矯公羨) Kiểu Công Tiễn, Kiểu Công Hạo,",
     "successionOrder": "Con nuôi và nha tướng của Dương Đình Nghệ",
     "reignYear": "937 - 938",
+    "id": "#K41",
+    "relatedId": [
+      "#F838",
+      "#F838",
+      "#F838",
+      "#F838",
+      "#F838"
+    ],
     "name": "Kiều Công Tiễn"
   },
   {
@@ -366,6 +642,14 @@
     "courtesyName": "Ngô Quyền",
     "successionOrder": "Sáng lập triều đại; con rể Dương Đình Nghệ",
     "reignYear": "939 - 944",
+    "id": "#K42",
+    "relatedId": [
+      "#F1246",
+      "#F1246",
+      "#F1246",
+      "#F1246",
+      "#F1246"
+    ],
     "name": "Tiền Ngô Vương"
   },
   {
@@ -375,6 +659,14 @@
     "courtesyName": "Dương Tam Kha, Dương Chủ Tướng, Dương Thiệu Hồng",
     "successionOrder": "Con trai Dương Đình Nghệ",
     "reignYear": "944 - 950",
+    "id": "#K43",
+    "relatedId": [
+      "#F329",
+      "#F329",
+      "#F329",
+      "#F329",
+      "#F329"
+    ],
     "name": "Dương Bình Vương"
   },
   {
@@ -384,6 +676,14 @@
     "courtesyName": "Ngô Xương Ngập",
     "successionOrder": "Con trưởng Ngô Quyền",
     "reignYear": "951 - 954",
+    "id": "#K44",
+    "relatedId": [
+      "#F1283",
+      "#F1283",
+      "#F1283",
+      "#F1283",
+      "#F1283"
+    ],
     "name": "Thiên Sách Vương"
   },
   {
@@ -393,6 +693,14 @@
     "courtesyName": "Ngô Xương Tấn, Ngô Xương Văn",
     "successionOrder": "Con thứ Ngô Quyền",
     "reignYear": "950 - 965",
+    "id": "#K45",
+    "relatedId": [
+      "#F1284",
+      "#F1284",
+      "#F1284",
+      "#F1284",
+      "#F1284"
+    ],
     "name": "Nam Tấn Vương"
   },
   {
@@ -402,6 +710,8 @@
     "courtesyName": "Ngô Xương Xí",
     "successionOrder": "Con Ngô Xương Ngập",
     "reignYear": "965 - 966",
+    "id": "#K46",
+    "relatedId": [],
     "name": "Ngô Sứ Quân"
   },
   {
@@ -411,6 +721,14 @@
     "courtesyName": "Đinh Bộ Lĩnh, Đinh Hoàn",
     "successionOrder": "Sáng lập triều đại; con nuôi Sứ quân Trần Minh Công",
     "reignYear": "968 - 979",
+    "id": "#K47",
+    "relatedId": [
+      "#F470",
+      "#F470",
+      "#F470",
+      "#F470",
+      "#F470"
+    ],
     "name": "Đinh Tiên Hoàng"
   },
   {
@@ -420,6 +738,8 @@
     "courtesyName": "Đinh Toàn, Đinh Tuệ",
     "successionOrder": "Con trai thứ 2 Đinh Tiên Hoàng",
     "reignYear": "979 - 980",
+    "id": "#K48",
+    "relatedId": [],
     "name": "Đinh Phế Đế"
   },
   {
@@ -429,6 +749,14 @@
     "courtesyName": "Lê Hoàn",
     "successionOrder": "Sáng lập triều đại, Phó vương nhiếp chính thời Đinh Phế Đế",
     "reignYear": "980 - 1005",
+    "id": "#K49",
+    "relatedId": [
+      "#F924",
+      "#F924",
+      "#F924",
+      "#F924",
+      "#F924"
+    ],
     "name": "Lê Đại Hành"
   },
   {
@@ -438,6 +766,14 @@
     "courtesyName": "Lê Long Việt",
     "successionOrder": "Con thứ Lê Đại Hành",
     "reignYear": "1005 - 1005",
+    "id": "#K50",
+    "relatedId": [
+      "#F909",
+      "#F909",
+      "#F909",
+      "#F909",
+      "#F909"
+    ],
     "name": "Lê Trung Tông"
   },
   {
@@ -447,6 +783,14 @@
     "courtesyName": "Lê Long Đĩnh,",
     "successionOrder": "Con thứ năm Lê Đại Hành",
     "reignYear": "1005 - 1009",
+    "id": "#K51",
+    "relatedId": [
+      "#F970",
+      "#F970",
+      "#F970",
+      "#F970",
+      "#F970"
+    ],
     "name": "Lê Ngọa Triều"
   },
   {
@@ -456,6 +800,14 @@
     "courtesyName": "Lý Công Uẩn",
     "successionOrder": "Sáng lập triều đại. Nguyên là Điện tiền Chỉ huy sứ và là Phò mã trưởng Lê Đại Hành",
     "reignYear": "1009 - 1028",
+    "id": "#K52",
+    "relatedId": [
+      "#F1142",
+      "#F1142",
+      "#F1142",
+      "#F1142",
+      "#F1142"
+    ],
     "name": "Lý Thái Tổ"
   },
   {
@@ -465,6 +817,14 @@
     "courtesyName": "Lý Phật Mã, Lý Đức Chính",
     "successionOrder": "Con trưởng Lý Thái Tổ",
     "reignYear": "1028 - 1054",
+    "id": "#K53",
+    "relatedId": [
+      "#F1149",
+      "#F1149",
+      "#F1149",
+      "#F1149",
+      "#F1149"
+    ],
     "name": "Lý Thái Tông"
   },
   {
@@ -474,6 +834,14 @@
     "courtesyName": "Lý Nhật Tôn",
     "successionOrder": "Con trưởng Lý Thái Tông",
     "reignYear": "1054 - 1072",
+    "id": "#K54",
+    "relatedId": [
+      "#F1147",
+      "#F1147",
+      "#F1147",
+      "#F1147",
+      "#F1147"
+    ],
     "name": "Lý Thánh Tông"
   },
   {
@@ -483,6 +851,8 @@
     "courtesyName": "Lý Càn Đức",
     "successionOrder": "Con trưởng Lý Thánh Tông",
     "reignYear": "1072 - 1127",
+    "id": "#K55",
+    "relatedId": [],
     "name": "Lý Nhân Tông"
   },
   {
@@ -492,6 +862,8 @@
     "courtesyName": "Lý Dương Hoán",
     "successionOrder": "con Sùng Hiền Hầu, cháu nội Lý Thánh Tông",
     "reignYear": "1127 - 1138",
+    "id": "#K56",
+    "relatedId": [],
     "name": "Lý Thần Tông"
   },
   {
@@ -501,6 +873,14 @@
     "courtesyName": "Lý Thiên Tộ",
     "successionOrder": "Con thứ Lý Thần Tông",
     "reignYear": "1138 - 1175",
+    "id": "#K57",
+    "relatedId": [
+      "#F1153",
+      "#F1153",
+      "#F1153",
+      "#F1153",
+      "#F1153"
+    ],
     "name": "Lý Anh Tông"
   },
   {
@@ -510,6 +890,14 @@
     "courtesyName": "Lý Long Cán Lý Long Trát",
     "successionOrder": "Con thứ 6 Lý Anh Tông",
     "reignYear": "1176 - 1204",
+    "id": "#K58",
+    "relatedId": [
+      "#F1146",
+      "#F1146",
+      "#F1146",
+      "#F1146",
+      "#F1146"
+    ],
     "name": "Lý Cao Tông"
   },
   {
@@ -519,6 +907,8 @@
     "courtesyName": "Lý Thẩm",
     "successionOrder": "Con thứ Lý Cao Tông",
     "reignYear": "1209 - 1209",
+    "id": "#K59",
+    "relatedId": [],
     "name": "Lý Thẩm"
   },
   {
@@ -528,6 +918,14 @@
     "courtesyName": "Lý Sảm, Lý Hạo Sảm",
     "successionOrder": "Con trưởng Lý Cao Tông",
     "reignYear": "1211 - 1224",
+    "id": "#K60",
+    "relatedId": [
+      "#F1145",
+      "#F1145",
+      "#F1145",
+      "#F1145",
+      "#F1145"
+    ],
     "name": "Lý Huệ Tông"
   },
   {
@@ -537,6 +935,8 @@
     "courtesyName": "không rõ",
     "successionOrder": "Con thứ Lý Anh Tông",
     "reignYear": "1214 - 1216",
+    "id": "#K61",
+    "relatedId": [],
     "name": "Lý Nguyên Vương"
   },
   {
@@ -546,6 +946,14 @@
     "courtesyName": "Lý Phật Kim, Lý Thiên Hinh",
     "successionOrder": "Con gái Lý Huệ Tông, vợ Trần Thái Tông",
     "reignYear": "1224 - 1225",
+    "id": "#K62",
+    "relatedId": [
+      "#F1143",
+      "#F1143",
+      "#F1143",
+      "#F1143",
+      "#F1143"
+    ],
     "name": "Lý Chiêu Hoàng"
   },
   {
@@ -555,6 +963,14 @@
     "courtesyName": "Trần Cảnh Trần Bồ Trần Quang Bỉnh Trần Nhật Cảnh",
     "successionOrder": "Sáng lập triều đại, chồng và anh họ Lý Chiêu Hoàng",
     "reignYear": "1225 - 1258",
+    "id": "#K63",
+    "relatedId": [
+      "#F2095",
+      "#F2095",
+      "#F2095",
+      "#F2095",
+      "#F2095"
+    ],
     "name": "Trần Thái Tông"
   },
   {
@@ -564,6 +980,14 @@
     "courtesyName": "Trần Hoảng Trần Uy Hoảng Trần Quang Bính Trần Nhật Huyên",
     "successionOrder": "Con thứ hai Trần Thái Tông",
     "reignYear": "1258 - 1279",
+    "id": "#K64",
+    "relatedId": [
+      "#F2123",
+      "#F2123",
+      "#F2123",
+      "#F2123",
+      "#F2123"
+    ],
     "name": "Trần Thánh Tông"
   },
   {
@@ -573,6 +997,14 @@
     "courtesyName": "Trần Khâm Trần Nhật Tuấn",
     "successionOrder": "Con trưởng Trần Thánh Tông",
     "reignYear": "1278 - 1293",
+    "id": "#K65",
+    "relatedId": [
+      "#F2145",
+      "#F2145",
+      "#F2145",
+      "#F2145",
+      "#F2145"
+    ],
     "name": "Trần Nhân Tông"
   },
   {
@@ -582,6 +1014,14 @@
     "courtesyName": "Trần Thuyên Trần Nhật 㷃 Trần Nhật 𤊞",
     "successionOrder": "Con trưởng Trần Nhân Tông",
     "reignYear": "1293 - 1314",
+    "id": "#K66",
+    "relatedId": [
+      "#F2088",
+      "#F2088",
+      "#F2088",
+      "#F2088",
+      "#F2088"
+    ],
     "name": "Trần Anh Tông"
   },
   {
@@ -591,6 +1031,14 @@
     "courtesyName": "Trần Mạnh Trần Thánh Sinh Trần Nhật Khoáng",
     "successionOrder": "Con thứ tư Trần Anh Tông",
     "reignYear": "1314 - 1329",
+    "id": "#K67",
+    "relatedId": [
+      "#F2150",
+      "#F2150",
+      "#F2150",
+      "#F2150",
+      "#F2150"
+    ],
     "name": "Trần Minh Tông"
   },
   {
@@ -600,6 +1048,14 @@
     "courtesyName": "Trần Vượng Trần Thiên Kiến  Trần Nhật 㷆",
     "successionOrder": "Con trưởng Trần Minh Tông",
     "reignYear": "1329 - 1341",
+    "id": "#K68",
+    "relatedId": [
+      "#F2234",
+      "#F2234",
+      "#F2234",
+      "#F2234",
+      "#F2234"
+    ],
     "name": "Trần Hiến Tông"
   },
   {
@@ -609,6 +1065,14 @@
     "courtesyName": "Trần Hạo Trần Nhật Khuê",
     "successionOrder": "Con thứ mười Trần Minh Tông, dòng hoàng đích tử",
     "reignYear": "1341 - 1369",
+    "id": "#K69",
+    "relatedId": [
+      "#F2121",
+      "#F2121",
+      "#F2121",
+      "#F2121",
+      "#F2121"
+    ],
     "name": "Trần Dụ Tông"
   },
   {
@@ -618,6 +1082,14 @@
     "courtesyName": "Trần Nhật Lễ Dương Nhật Lễ Trần Nhật Kiên",
     "successionOrder": "Con riêng của chị dâu Trần Dụ Tông",
     "reignYear": "1369 - 1370",
+    "id": "#K70",
+    "relatedId": [
+      "#F324",
+      "#F324",
+      "#F324",
+      "#F324",
+      "#F324"
+    ],
     "name": "Đại Định Đế"
   },
   {
@@ -627,6 +1099,14 @@
     "courtesyName": "Trần Phủ Trần Thúc Minh",
     "successionOrder": "Con thứ ba Trần Minh Tông",
     "reignYear": "1370 - 1372",
+    "id": "#K71",
+    "relatedId": [
+      "#F2161",
+      "#F2161",
+      "#F2161",
+      "#F2161",
+      "#F2161"
+    ],
     "name": "Trần Nghệ Tông"
   },
   {
@@ -636,6 +1116,14 @@
     "courtesyName": "Trần Kính Trần Nhật Đoan",
     "successionOrder": "Con thứ 11 Trần Minh Tông",
     "reignYear": "1372 - 1377",
+    "id": "#K72",
+    "relatedId": [
+      "#F2137",
+      "#F2137",
+      "#F2137",
+      "#F2137",
+      "#F2137"
+    ],
     "name": "Trần Duệ Tông"
   },
   {
@@ -645,6 +1133,8 @@
     "courtesyName": "Trần Hiện Trần Nhật Vĩ",
     "successionOrder": "Con thứ Trần Duệ Tông",
     "reignYear": "1377 - 1388",
+    "id": "#K73",
+    "relatedId": [],
     "name": "Trần Phế Đế"
   },
   {
@@ -654,6 +1144,8 @@
     "courtesyName": "Trần Ngung Trần Nhật Hỗn",
     "successionOrder": "Con thứ của Trần Nghệ Tông",
     "reignYear": "1388 - 1398",
+    "id": "#K74",
+    "relatedId": [],
     "name": "Trần Thuận Tông"
   },
   {
@@ -663,6 +1155,8 @@
     "courtesyName": "Trần An",
     "successionOrder": "Con trưởng Trần Thuận Tông, cháu ngoại Hồ Quý Ly",
     "reignYear": "1398 - 1400",
+    "id": "#K75",
+    "relatedId": [],
     "name": "Trần Thiếu Đế"
   },
   {
@@ -672,6 +1166,8 @@
     "courtesyName": "Hồ Quý Ly Hồ Nhất Nguyên Lê Quý Ly Lê Nhất Nguyên",
     "successionOrder": "Sáng lập triều đại, phò mã Trần Minh Tông, ông ngoại Trần Thiếu Đế",
     "reignYear": "1400 - 1400",
+    "id": "#K76",
+    "relatedId": [],
     "name": "Hồ Quý Ly"
   },
   {
@@ -681,6 +1177,14 @@
     "courtesyName": "Hồ Hán Thương Lê Hán Thương Hồ Hỏa",
     "successionOrder": "Con thứ Hồ Quý Ly",
     "reignYear": "1400 - 1407",
+    "id": "#K77",
+    "relatedId": [
+      "#F764",
+      "#F764",
+      "#F764",
+      "#F764",
+      "#F764"
+    ],
     "name": "Hồ Hán Thương"
   },
   {
@@ -690,6 +1194,8 @@
     "courtesyName": "Trần Nguyệt Hồ",
     "successionOrder": "không rõ",
     "reignYear": "1407 - 1407",
+    "id": "#K78",
+    "relatedId": [],
     "name": "Trần Nguyệt Hồ"
   },
   {
@@ -699,6 +1205,8 @@
     "courtesyName": "Trần Ngỗi, Trần Quỹ",
     "successionOrder": "Con trai thứ Trần Nghệ Tông",
     "reignYear": "1407 - 1409",
+    "id": "#K79",
+    "relatedId": [],
     "name": "Giản Định Đế"
   },
   {
@@ -708,6 +1216,14 @@
     "courtesyName": "Trần Quý Khoáng, Trần Quý Khoách",
     "successionOrder": "Cháu nội Trần Nghệ Tông",
     "reignYear": "1409 - 1414",
+    "id": "#K80",
+    "relatedId": [
+      "#F2181",
+      "#F2181",
+      "#F2181",
+      "#F2181",
+      "#F2181"
+    ],
     "name": "Trùng Quang Đế"
   },
   {
@@ -717,6 +1233,14 @@
     "courtesyName": "Lê Lợi",
     "successionOrder": "Sáng lập triểu đại",
     "reignYear": "1428 - 1433",
+    "id": "#K81",
+    "relatedId": [
+      "#F974",
+      "#F974",
+      "#F974",
+      "#F974",
+      "#F974"
+    ],
     "name": "Lê Thái Tổ"
   },
   {
@@ -726,6 +1250,14 @@
     "courtesyName": "Lê Nguyên Long Lê Lân",
     "successionOrder": "Con thứ hai Lê Thái Tổ",
     "reignYear": "1433 - 1442",
+    "id": "#K82",
+    "relatedId": [
+      "#F904",
+      "#F904",
+      "#F904",
+      "#F904",
+      "#F904"
+    ],
     "name": "Lê Thái Tông"
   },
   {
@@ -735,6 +1267,14 @@
     "courtesyName": "Lê Bang Cơ Lê Cơ Long Lê Tuấn",
     "successionOrder": "Con thứ ba Lê Thái Tông",
     "reignYear": "1442 - 1459",
+    "id": "#K83",
+    "relatedId": [
+      "#F883",
+      "#F883",
+      "#F883",
+      "#F883",
+      "#F883"
+    ],
     "name": "Lê Nhân Tông"
   },
   {
@@ -744,6 +1284,14 @@
     "courtesyName": "Lê Nghi Dân Lê Tông",
     "successionOrder": "Con trưởng Lê Thái Tông",
     "reignYear": "1459 - 1460",
+    "id": "#K84",
+    "relatedId": [
+      "#F940",
+      "#F940",
+      "#F940",
+      "#F940",
+      "#F940"
+    ],
     "name": "Lạng Sơn Vương"
   },
   {
@@ -753,6 +1301,14 @@
     "courtesyName": "Lê Tư Thành Lê Hạo",
     "successionOrder": "Con thứ tư Lê Thái Tông",
     "reignYear": "1460 - 1497",
+    "id": "#K85",
+    "relatedId": [
+      "#F1033",
+      "#F1033",
+      "#F1033",
+      "#F1033",
+      "#F1033"
+    ],
     "name": "Lê Thánh Tông"
   },
   {
@@ -762,6 +1318,14 @@
     "courtesyName": "Lê Tranh Lê Sanh Lê Huy Lê Tăng",
     "successionOrder": "Con trưởng Lê Thánh Tông",
     "reignYear": "1497 - 1504",
+    "id": "#K86",
+    "relatedId": [
+      "#F936",
+      "#F936",
+      "#F936",
+      "#F936",
+      "#F936"
+    ],
     "name": "Lê Hiến Tông"
   },
   {
@@ -771,6 +1335,14 @@
     "courtesyName": "Lê Thuần",
     "successionOrder": "Con thứ ba Lê Hiến Tông",
     "reignYear": "1504 - 1504",
+    "id": "#K87",
+    "relatedId": [
+      "#F1053",
+      "#F1053",
+      "#F1053",
+      "#F1053",
+      "#F1053"
+    ],
     "name": "Lê Túc Tông"
   },
   {
@@ -780,6 +1352,14 @@
     "courtesyName": "Lê Tuấn Lê Huyên",
     "successionOrder": "Con thứ hai Lê Hiến Tông",
     "reignYear": "1504 - 1509",
+    "id": "#K88",
+    "relatedId": [
+      "#F1029",
+      "#F1029",
+      "#F1029",
+      "#F1029",
+      "#F1029"
+    ],
     "name": "Lê Uy Mục"
   },
   {
@@ -789,6 +1369,14 @@
     "courtesyName": "Lê Oánh Lê Oanh Lê Dinh Lê Trừu",
     "successionOrder": "Con Lê Đức Tông, cháu nội Lê Thánh Tông",
     "reignYear": "1509 - 1516",
+    "id": "#K89",
+    "relatedId": [
+      "#F992",
+      "#F992",
+      "#F992",
+      "#F992",
+      "#F992"
+    ],
     "name": "Lê Tương Dực"
   },
   {
@@ -798,6 +1386,8 @@
     "courtesyName": "Lê Quang Trị",
     "successionOrder": "Con Lê Doanh, cháu nội Lê Đức Tông, cháu gọi Lê Tương Dực bằng bác",
     "reignYear": "1516 - 1516",
+    "id": "#K90",
+    "relatedId": [],
     "name": "Lê Quang Trị"
   },
   {
@@ -807,6 +1397,14 @@
     "courtesyName": "Lê Y Lê Huệ",
     "successionOrder": "Anh họ Lê Quang Trị, chắt Lê Thánh Tông",
     "reignYear": "1516 - 1525",
+    "id": "#K91",
+    "relatedId": [
+      "#F1104",
+      "#F1104",
+      "#F1104",
+      "#F1104",
+      "#F1104"
+    ],
     "name": "Lê Chiêu Tông"
   },
   {
@@ -816,6 +1414,14 @@
     "courtesyName": "Lê Bảng",
     "successionOrder": "Con Lê Lộc, Lộc là cháu nội Lê Khắc Xương, Khắc Xương là anh của Lê Thánh Tông",
     "reignYear": "1518 - 1519",
+    "id": "#K92",
+    "relatedId": [
+      "#F884",
+      "#F884",
+      "#F884",
+      "#F884",
+      "#F884"
+    ],
     "name": "Lê Bảng"
   },
   {
@@ -825,6 +1431,8 @@
     "courtesyName": "Lê Do Lê Dữu",
     "successionOrder": "Em cùng mẹ với Lê Bảng",
     "reignYear": "1519 - 1519",
+    "id": "#K93",
+    "relatedId": [],
     "name": "Lê Do"
   },
   {
@@ -834,6 +1442,8 @@
     "courtesyName": "Lê Xuân Lê Lự Lê Khánh",
     "successionOrder": "Em Lê Chiêu Tông",
     "reignYear": "1522 - 1527",
+    "id": "#K94",
+    "relatedId": [],
     "name": "Lê Cung Hoàng"
   },
   {
@@ -843,6 +1453,14 @@
     "courtesyName": "Mạc Đăng Dung",
     "successionOrder": "Cháu 7 đời Mạc Đĩnh Chi, sáng lập triều đại",
     "reignYear": "1527 - 1530",
+    "id": "#K95",
+    "relatedId": [
+      "#F1166",
+      "#F1166",
+      "#F1166",
+      "#F1166",
+      "#F1166"
+    ],
     "name": "Mạc Thái Tổ"
   },
   {
@@ -852,6 +1470,14 @@
     "courtesyName": "Mạc Đăng Doanh Mạc Phương Doanh",
     "successionOrder": "Con trưởng Mạc Thái Tổ",
     "reignYear": "1530 - 1540",
+    "id": "#K96",
+    "relatedId": [
+      "#F1165",
+      "#F1165",
+      "#F1165",
+      "#F1165",
+      "#F1165"
+    ],
     "name": "Mạc Thái Tông"
   },
   {
@@ -861,6 +1487,14 @@
     "courtesyName": "Mạc Phúc Hải Mạc Đức Nguyên",
     "successionOrder": "Con trưởng Mạc Thái Tông",
     "reignYear": "1540 - 1546",
+    "id": "#K97",
+    "relatedId": [
+      "#F1177",
+      "#F1177",
+      "#F1177",
+      "#F1177",
+      "#F1177"
+    ],
     "name": "Mạc Hiến Tông"
   },
   {
@@ -870,6 +1504,14 @@
     "courtesyName": "Mạc Chính Trung",
     "successionOrder": "Em Mạc Thái Tông",
     "reignYear": "1546 - 1547",
+    "id": "#K98",
+    "relatedId": [
+      "#F1164",
+      "#F1164",
+      "#F1164",
+      "#F1164",
+      "#F1164"
+    ],
     "name": "Mạc Chính Trung"
   },
   {
@@ -879,6 +1521,14 @@
     "courtesyName": "Mạc Phúc Nguyên",
     "successionOrder": "Con Mạc Hiến Tông",
     "reignYear": "1546 - 1561",
+    "id": "#K99",
+    "relatedId": [
+      "#F1178",
+      "#F1178",
+      "#F1178",
+      "#F1178",
+      "#F1178"
+    ],
     "name": "Mạc Tuyên Tông"
   },
   {
@@ -888,6 +1538,14 @@
     "courtesyName": "Mạc Mậu Hợp",
     "successionOrder": "Con trai Mạc Tuyên Tông",
     "reignYear": "1561 - 1592",
+    "id": "#K100",
+    "relatedId": [
+      "#F1174",
+      "#F1174",
+      "#F1174",
+      "#F1174",
+      "#F1174"
+    ],
     "name": "Mạc Mục Tông Mạc Anh Tổ"
   },
   {
@@ -897,6 +1555,8 @@
     "courtesyName": "Mạc Toàn",
     "successionOrder": "Con thứ Mạc Mậu Hợp",
     "reignYear": "1592 - 1592",
+    "id": "#K101",
+    "relatedId": [],
     "name": "Mạc Cảnh Tông"
   },
   {
@@ -906,6 +1566,14 @@
     "courtesyName": "Mạc Kính Chỉ Mạc Kính Bang",
     "successionOrder": "Con trưởng Mạc Kính Điển, cháu nội Mạc Thái Tông",
     "reignYear": "1592 - 1593",
+    "id": "#K102",
+    "relatedId": [
+      "#F1169",
+      "#F1169",
+      "#F1169",
+      "#F1169",
+      "#F1169"
+    ],
     "name": "Mạc Mẫn Tông"
   },
   {
@@ -915,6 +1583,14 @@
     "courtesyName": "Mạc Kính Cung",
     "successionOrder": "Con thứ 7 Mạc Kính Điển",
     "reignYear": "1592 - 1625",
+    "id": "#K103",
+    "relatedId": [
+      "#F1168",
+      "#F1168",
+      "#F1168",
+      "#F1168",
+      "#F1168"
+    ],
     "name": "Mạc Đại Tông"
   },
   {
@@ -924,6 +1600,14 @@
     "courtesyName": "Mạc Kính Khoan",
     "successionOrder": "Cháu nội Mạc Kính Điển",
     "reignYear": "1623 - 1638",
+    "id": "#K104",
+    "relatedId": [
+      "#F1171",
+      "#F1171",
+      "#F1171",
+      "#F1171",
+      "#F1171"
+    ],
     "name": "Mạc Quang Tổ"
   },
   {
@@ -933,6 +1617,14 @@
     "courtesyName": "Mạc Kính Vũ Mạc Kính Hoàn Mạc Kính Diệu",
     "successionOrder": "Con Mạc Kính Khoan",
     "reignYear": "1638 - 1677",
+    "id": "#K105",
+    "relatedId": [
+      "#F1172",
+      "#F1172",
+      "#F1172",
+      "#F1172",
+      "#F1172"
+    ],
     "name": "Mạc Minh Tông"
   },
   {
@@ -942,6 +1634,8 @@
     "courtesyName": "Mạc Kính Hẻ Mạc Kính Thụy Mạc Nguyên Thanh",
     "successionOrder": "Con Mạc Kính Vũ",
     "reignYear": "1677 - 1681",
+    "id": "#K106",
+    "relatedId": [],
     "name": "Mạc Quý Tông"
   },
   {
@@ -951,6 +1645,8 @@
     "courtesyName": "Mạc Kính Quang Mạc Kính Tiêu Mạc Kính Hoảng",
     "successionOrder": "Con Mạc Kính Vũ, em Mạc Nguyên Thanh",
     "reignYear": "1681 - 1683",
+    "id": "#K107",
+    "relatedId": [],
     "name": "Mạc Đức Tông"
   },
   {
@@ -960,7 +1656,32 @@
     "courtesyName": "Lê Ninh Lê Huyến Lê Duy Ninh",
     "successionOrder": "Được cho là con Lê Chiêu Tông",
     "reignYear": "1533 - 1548",
+    "id": "#K108",
+    "relatedId": [
+      "#F914",
+      "#F914",
+      "#F914",
+      "#F914",
+      "#F914"
+    ],
     "name": "Lê Trang Tông"
+  },
+  {
+    "templateName": "Trung Tông",
+    "posthumousName": "Vũ Hoàng Đế",
+    "eraName": "Thuận Bình (1548–1556)",
+    "courtesyName": "Lê Huyên Lê Duy Huyên",
+    "successionOrder": "Con Lê Trang Tông",
+    "reignYear": "1548 - 1556",
+    "id": "#K109",
+    "relatedId": [
+      "#F909",
+      "#F909",
+      "#F909",
+      "#F909",
+      "#F909"
+    ],
+    "name": "Lê Trung Tông"
   },
   {
     "templateName": "Anh Tông",
@@ -969,6 +1690,14 @@
     "courtesyName": "Lê Duy Bang",
     "successionOrder": "Cháu 6 đời của Lê Trừ, anh Lê Thái Tổ",
     "reignYear": "1556 - 1573",
+    "id": "#K110",
+    "relatedId": [
+      "#F902",
+      "#F902",
+      "#F902",
+      "#F902",
+      "#F902"
+    ],
     "name": "Lê Anh Tông"
   },
   {
@@ -978,6 +1707,14 @@
     "courtesyName": "Lê Đàm Lê Duy Đàm",
     "successionOrder": "Con thứ năm Lê Anh Tông",
     "reignYear": "1573 - 1599",
+    "id": "#K111",
+    "relatedId": [
+      "#F904",
+      "#F904",
+      "#F904",
+      "#F904",
+      "#F904"
+    ],
     "name": "Lê Thế Tông"
   },
   {
@@ -987,6 +1724,14 @@
     "courtesyName": "Lê Duy Tân",
     "successionOrder": "Con thứ Lê Thế Tông",
     "reignYear": "1599 - 1619",
+    "id": "#K112",
+    "relatedId": [
+      "#F917",
+      "#F917",
+      "#F917",
+      "#F917",
+      "#F917"
+    ],
     "name": "Lê Kính Tông"
   },
   {
@@ -996,6 +1741,14 @@
     "courtesyName": "Lê Duy Kỳ",
     "successionOrder": "Con trưởng Lê Kính Tông",
     "reignYear": "1619 - 1643",
+    "id": "#K113",
+    "relatedId": [
+      "#F911",
+      "#F911",
+      "#F911",
+      "#F911",
+      "#F911"
+    ],
     "name": "Lê Thần Tông"
   },
   {
@@ -1005,7 +1758,32 @@
     "courtesyName": "Lê Duy Hựu Lê Duy Đề",
     "successionOrder": "Con trưởng Lê Thần Tông",
     "reignYear": "1643 - 1649",
+    "id": "#K114",
+    "relatedId": [
+      "#F898",
+      "#F898",
+      "#F898",
+      "#F898",
+      "#F898"
+    ],
     "name": "Lê Chân Tông"
+  },
+  {
+    "templateName": "Thần Tông",
+    "posthumousName": "Uyên Hoàng Đế",
+    "eraName": "Khánh Đức (1649–1652) Thịnh Đức (1653–1657) Vĩnh Thọ (1658–1661) Vạn Khánh (1662)",
+    "courtesyName": "Lê Duy Kỳ",
+    "successionOrder": "Làm vua lần 2",
+    "reignYear": "1649 - 1662",
+    "id": "#K115",
+    "relatedId": [
+      "#F911",
+      "#F911",
+      "#F911",
+      "#F911",
+      "#F911"
+    ],
+    "name": "Lê Thần Tông"
   },
   {
     "templateName": "Huyền Tông",
@@ -1014,6 +1792,14 @@
     "courtesyName": "Lê Duy Vũ Lê Duy Hy",
     "successionOrder": "Con thứ Lê Thần Tông",
     "reignYear": "1663 - 1671",
+    "id": "#K116",
+    "relatedId": [
+      "#F920",
+      "#F920",
+      "#F920",
+      "#F920",
+      "#F920"
+    ],
     "name": "Lê Huyền Tông"
   },
   {
@@ -1023,6 +1809,14 @@
     "courtesyName": "Lê Duy Cối Lê Duy Khoái",
     "successionOrder": "Con thứ Lê Thần Tông",
     "reignYear": "1671 - 1675",
+    "id": "#K117",
+    "relatedId": [
+      "#F907",
+      "#F907",
+      "#F907",
+      "#F907",
+      "#F907"
+    ],
     "name": "Lê Gia Tông"
   },
   {
@@ -1032,6 +1826,14 @@
     "courtesyName": "Lê Duy Hợp Lê Duy Hiệp Lê Duy Cáp",
     "successionOrder": "con thứ tư Lê Thần Tông",
     "reignYear": "1675 - 1705",
+    "id": "#K118",
+    "relatedId": [
+      "#F908",
+      "#F908",
+      "#F908",
+      "#F908",
+      "#F908"
+    ],
     "name": "Lê Hy Tông"
   },
   {
@@ -1041,6 +1843,14 @@
     "courtesyName": "Lê Duy Đường Lê Duy Tạo",
     "successionOrder": "con trưởng Lê Hy Tông",
     "reignYear": "1705 - 1729",
+    "id": "#K119",
+    "relatedId": [
+      "#F906",
+      "#F906",
+      "#F906",
+      "#F906",
+      "#F906"
+    ],
     "name": "Lê Dụ Tông"
   },
   {
@@ -1050,6 +1860,14 @@
     "courtesyName": "Lê Duy Phường",
     "successionOrder": "con thứ Lê Dụ Tông",
     "reignYear": "1729 - 1732",
+    "id": "#K120",
+    "relatedId": [
+      "#F921",
+      "#F921",
+      "#F921",
+      "#F921",
+      "#F921"
+    ],
     "name": "Lê Duy Phường"
   },
   {
@@ -1059,6 +1877,14 @@
     "courtesyName": "Lê Duy Tường Lê Duy Hỗ",
     "successionOrder": "con trưởng Lê Dụ Tông",
     "reignYear": "1732 - 1735",
+    "id": "#K121",
+    "relatedId": [
+      "#F918",
+      "#F918",
+      "#F918",
+      "#F918",
+      "#F918"
+    ],
     "name": "Lê Thuần Tông"
   },
   {
@@ -1068,6 +1894,14 @@
     "courtesyName": "Lê Duy Thận Lê Duy Chấn Lê Duy Hỗ",
     "successionOrder": "con thứ 11 Lê Dụ Tông",
     "reignYear": "1735 - 1740",
+    "id": "#K122",
+    "relatedId": [
+      "#F919",
+      "#F919",
+      "#F919",
+      "#F919",
+      "#F919"
+    ],
     "name": "Lê Ý Tông"
   },
   {
@@ -1077,6 +1911,14 @@
     "courtesyName": "Lê Duy Diêu Lê Duy Đào",
     "successionOrder": "con trưởng Lê Thuần Tông",
     "reignYear": "1740 - 1786",
+    "id": "#K123",
+    "relatedId": [
+      "#F905",
+      "#F905",
+      "#F905",
+      "#F905",
+      "#F905"
+    ],
     "name": "Lê Hiển Tông"
   },
   {
@@ -1086,6 +1928,14 @@
     "courtesyName": "Lê Duy Kỳ Lê Duy Khiêm Lê Tư Khiêm",
     "successionOrder": "con Lê Duy Vỹ, cháu đích tôn Lê Hiển Tông",
     "reignYear": "1786 - 1789",
+    "id": "#K124",
+    "relatedId": [
+      "#F911",
+      "#F911",
+      "#F911",
+      "#F911",
+      "#F911"
+    ],
     "name": "Lê Chiêu Thống"
   },
   {
@@ -1095,6 +1945,14 @@
     "courtesyName": "Trịnh Kiểm",
     "successionOrder": "con rể Nguyễn Kim",
     "reignYear": "1545 - 1570",
+    "id": "#K125",
+    "relatedId": [
+      "#F2253",
+      "#F2253",
+      "#F2253",
+      "#F2253",
+      "#F2253"
+    ],
     "name": "Trịnh Kiểm"
   },
   {
@@ -1104,6 +1962,8 @@
     "courtesyName": "Trịnh Cối",
     "successionOrder": "con cả Trịnh Kiểm",
     "reignYear": "1570 - 1570",
+    "id": "#K126",
+    "relatedId": [],
     "name": "Trịnh Cối"
   },
   {
@@ -1113,6 +1973,14 @@
     "courtesyName": "Trịnh Tùng",
     "successionOrder": "con thứ Trịnh Kiểm, chúa Trịnh đầu tiên",
     "reignYear": "1570 - 1623",
+    "id": "#K127",
+    "relatedId": [
+      "#F2262",
+      "#F2262",
+      "#F2262",
+      "#F2262",
+      "#F2262"
+    ],
     "name": "Bình An Vương"
   },
   {
@@ -1122,6 +1990,14 @@
     "courtesyName": "Trịnh Tráng",
     "successionOrder": "con thứ hai Trịnh Tùng",
     "reignYear": "1623 - 1657",
+    "id": "#K128",
+    "relatedId": [
+      "#F2264",
+      "#F2264",
+      "#F2264",
+      "#F2264",
+      "#F2264"
+    ],
     "name": "Thanh Đô Vương"
   },
   {
@@ -1131,6 +2007,14 @@
     "courtesyName": "Trịnh Tạc",
     "successionOrder": "con thứ hai Trịnh Tráng",
     "reignYear": "1657 - 1682",
+    "id": "#K129",
+    "relatedId": [
+      "#F1572",
+      "#F1572",
+      "#F1572",
+      "#F1572",
+      "#F1572"
+    ],
     "name": "Tây Định Vương"
   },
   {
@@ -1140,6 +2024,14 @@
     "courtesyName": "Trịnh Căn",
     "successionOrder": "con trưởng Trịnh Tạc",
     "reignYear": "1682 - 1709",
+    "id": "#K130",
+    "relatedId": [
+      "#F2241",
+      "#F2241",
+      "#F2241",
+      "#F2241",
+      "#F2241"
+    ],
     "name": "Định Nam Vương"
   },
   {
@@ -1149,6 +2041,14 @@
     "courtesyName": "Trịnh Cương",
     "successionOrder": "chắt của Trịnh Căn, cháu Trịnh Vịnh, con Trịnh Bính",
     "reignYear": "1709 - 1729",
+    "id": "#K131",
+    "relatedId": [
+      "#F2243",
+      "#F2243",
+      "#F2243",
+      "#F2243",
+      "#F2243"
+    ],
     "name": "An Đô Vương"
   },
   {
@@ -1158,6 +2058,14 @@
     "courtesyName": "Trịnh Giang Trịnh Khương Trịnh 𣞪",
     "successionOrder": "con trưởng Trịnh Cương",
     "reignYear": "1729 - 1740",
+    "id": "#K132",
+    "relatedId": [
+      "#F2251",
+      "#F2251",
+      "#F2251",
+      "#F2251",
+      "#F2251"
+    ],
     "name": "Uy Nam Vương"
   },
   {
@@ -1167,6 +2075,14 @@
     "courtesyName": "Trịnh Doanh",
     "successionOrder": "con thứ Trịnh Cương, em Trịnh Giang",
     "reignYear": "1740 - 1767",
+    "id": "#K133",
+    "relatedId": [
+      "#F2244",
+      "#F2244",
+      "#F2244",
+      "#F2244",
+      "#F2244"
+    ],
     "name": "Minh Đô Vương"
   },
   {
@@ -1176,6 +2092,14 @@
     "courtesyName": "Trịnh Sâm",
     "successionOrder": "con trưởng Trịnh Doanh",
     "reignYear": "1767 - 1782",
+    "id": "#K134",
+    "relatedId": [
+      "#F2259",
+      "#F2259",
+      "#F2259",
+      "#F2259",
+      "#F2259"
+    ],
     "name": "Tĩnh Đô Vương"
   },
   {
@@ -1185,6 +2109,8 @@
     "courtesyName": "Trịnh Cán",
     "successionOrder": "con thứ Trịnh Sâm",
     "reignYear": "1782 - 1782",
+    "id": "#K135",
+    "relatedId": [],
     "name": "Điện Đô Vương"
   },
   {
@@ -1194,6 +2120,14 @@
     "courtesyName": "Trịnh Khải Trịnh Tông",
     "successionOrder": "con trưởng Trịnh Sâm",
     "reignYear": "1782 - 1786",
+    "id": "#K136",
+    "relatedId": [
+      "#F2254",
+      "#F2254",
+      "#F2254",
+      "#F2254",
+      "#F2254"
+    ],
     "name": "Đoan Nam Vương"
   },
   {
@@ -1203,6 +2137,14 @@
     "courtesyName": "Trịnh Bồng",
     "successionOrder": "con Trịnh Giang, anh họ Trịnh Sâm",
     "reignYear": "1786 - 1787",
+    "id": "#K137",
+    "relatedId": [
+      "#F2240",
+      "#F2240",
+      "#F2240",
+      "#F2240",
+      "#F2240"
+    ],
     "name": "Án Đô Vương"
   },
   {
@@ -1212,6 +2154,14 @@
     "courtesyName": "Nguyễn Hoàng",
     "successionOrder": "con út Nguyễn Kim",
     "reignYear": "1558 - 1613",
+    "id": "#K138",
+    "relatedId": [
+      "#F1420",
+      "#F1420",
+      "#F1420",
+      "#F1420",
+      "#F1420"
+    ],
     "name": "Tiên Vương"
   },
   {
@@ -1221,6 +2171,14 @@
     "courtesyName": "Nguyễn Phúc Nguyên",
     "successionOrder": "con trai thứ sáu Chúa Tiên",
     "reignYear": "1613 - 1635",
+    "id": "#K139",
+    "relatedId": [
+      "#F1569",
+      "#F1569",
+      "#F1569",
+      "#F1569",
+      "#F1569"
+    ],
     "name": "Sãi Vương Phật Vương"
   },
   {
@@ -1230,6 +2188,14 @@
     "courtesyName": "Nguyễn Phúc Lan",
     "successionOrder": "con trai thứ hai Chúa Sãi",
     "reignYear": "1635 - 1648",
+    "id": "#K140",
+    "relatedId": [
+      "#F1562",
+      "#F1562",
+      "#F1562",
+      "#F1562",
+      "#F1562"
+    ],
     "name": "Thượng Vương"
   },
   {
@@ -1239,6 +2205,14 @@
     "courtesyName": "Nguyễn Phúc Tần Nguyễn Phúc Cần",
     "successionOrder": "con trai thứ hai Chúa Thượng",
     "reignYear": "1648 - 1687",
+    "id": "#K141",
+    "relatedId": [
+      "#F1570",
+      "#F1570",
+      "#F1570",
+      "#F1570",
+      "#F1570"
+    ],
     "name": "Hiền Vương"
   },
   {
@@ -1248,6 +2222,14 @@
     "courtesyName": "Nguyễn Phúc Thái Nguyễn Phúc Trăn Nguyễn Phúc Ngàn",
     "successionOrder": "con trai thứ hai Chúa Hiền",
     "reignYear": "1687 - 1691",
+    "id": "#K142",
+    "relatedId": [
+      "#F1573",
+      "#F1573",
+      "#F1573",
+      "#F1573",
+      "#F1573"
+    ],
     "name": "Nghĩa Vương"
   },
   {
@@ -1257,6 +2239,14 @@
     "courtesyName": "Nguyễn Phúc Chu Nguyễn Phúc Tùng",
     "successionOrder": "con trưởng Chúa Nghĩa",
     "reignYear": "1691 - 1725",
+    "id": "#K143",
+    "relatedId": [
+      "#F1554",
+      "#F1554",
+      "#F1554",
+      "#F1554",
+      "#F1554"
+    ],
     "name": "Minh Vương Quốc Chúa"
   },
   {
@@ -1266,6 +2256,14 @@
     "courtesyName": "Nguyễn Phúc Chú Nguyễn Phúc Trú Nguyễn Phúc Thụ Nguyễn Phúc Vượng",
     "successionOrder": "con trưởng Chúa Minh",
     "reignYear": "1725 - 1738",
+    "id": "#K144",
+    "relatedId": [
+      "#F1574",
+      "#F1574",
+      "#F1574",
+      "#F1574",
+      "#F1574"
+    ],
     "name": "Ninh Vương"
   },
   {
@@ -1275,6 +2273,14 @@
     "courtesyName": "Nguyễn Phúc Khoát Nguyễn Phúc Hiểu",
     "successionOrder": "con trưởng Chúa Ninh",
     "reignYear": "1738 - 1765",
+    "id": "#K145",
+    "relatedId": [
+      "#F1561",
+      "#F1561",
+      "#F1561",
+      "#F1561",
+      "#F1561"
+    ],
     "name": "Vũ Vương"
   },
   {
@@ -1284,6 +2290,14 @@
     "courtesyName": "Nguyễn Phúc Thuần Nguyễn Phúc Hân",
     "successionOrder": "con trai thứ 16 Chúa Vũ",
     "reignYear": "1765 - 1776",
+    "id": "#K146",
+    "relatedId": [
+      "#F1572",
+      "#F1572",
+      "#F1572",
+      "#F1572",
+      "#F1572"
+    ],
     "name": "Định Vương"
   },
   {
@@ -1293,6 +2307,8 @@
     "courtesyName": "Nguyễn Phúc Dương",
     "successionOrder": "con Nguyễn Phúc Hiệu, cháu nội Chúa Vũ, em con chú với vua Gia Long",
     "reignYear": "1776 - 1777",
+    "id": "#K147",
+    "relatedId": [],
     "name": "Tân Chính Vương"
   },
   {
@@ -1302,6 +2318,14 @@
     "courtesyName": "Hồ Nhạc Nguyễn Nhạc Nguyễn Văn Nhạc",
     "successionOrder": "con trưởng Hồ Phi Phúc, sáng lập triều đại",
     "reignYear": "1778 - 1788",
+    "id": "#K148",
+    "relatedId": [
+      "#F1525",
+      "#F1525",
+      "#F1525",
+      "#F1525",
+      "#F1525"
+    ],
     "name": "Thái Đức"
   },
   {
@@ -1311,6 +2335,14 @@
     "courtesyName": "Nguyễn Huệ Nguyễn Quang Bình Nguyễn Văn Huệ Hồ Thơm",
     "successionOrder": "con thứ Hồ Phi Phúc, em Nguyễn Nhạc, con rể Lê Hiển Tông",
     "reignYear": "1788 - 1792",
+    "id": "#K149",
+    "relatedId": [
+      "#F1428",
+      "#F1428",
+      "#F1428",
+      "#F1428",
+      "#F1428"
+    ],
     "name": "Quang Trung"
   },
   {
@@ -1320,6 +2352,14 @@
     "courtesyName": "Nguyễn Quang Toản Nguyễn Trát",
     "successionOrder": "con thứ Quang Trung, con rể Lê Hiển Tông",
     "reignYear": "1792 - 1802",
+    "id": "#K150",
+    "relatedId": [
+      "#F1595",
+      "#F1595",
+      "#F1595",
+      "#F1595",
+      "#F1595"
+    ],
     "name": "Nguyễn Quang Toản"
   },
   {
@@ -1329,6 +2369,14 @@
     "courtesyName": "Nguyễn Phúc Ánh Nguyễn Phúc Chủng Nguyễn Phúc Noãn",
     "successionOrder": "Sáng lập triều đại. Con thứ ba của Nguyễn Phúc Luân, cháu nội Nguyễn Phúc Khoát, con rể Lê Hiển Tông",
     "reignYear": "1802 - 1820",
+    "id": "#K151",
+    "relatedId": [
+      "#F1544",
+      "#F1544",
+      "#F1544",
+      "#F1544",
+      "#F1544"
+    ],
     "name": "Gia Long"
   },
   {
@@ -1338,6 +2386,14 @@
     "courtesyName": "Nguyễn Phúc Đảm Nguyễn Phúc Kiểu",
     "successionOrder": "Con thứ tư Gia Long",
     "reignYear": "1820 - 1841",
+    "id": "#K152",
+    "relatedId": [
+      "#F1555",
+      "#F1555",
+      "#F1555",
+      "#F1555",
+      "#F1555"
+    ],
     "name": "Minh Mạng"
   },
   {
@@ -1347,6 +2403,14 @@
     "courtesyName": "Nguyễn Phúc Miên Tông Nguyễn Phúc Tuyền Nguyễn Phúc Dung",
     "successionOrder": "Con trưởng Minh Mạng",
     "reignYear": "1841 - 1847",
+    "id": "#K153",
+    "relatedId": [
+      "#F1565",
+      "#F1565",
+      "#F1565",
+      "#F1565",
+      "#F1565"
+    ],
     "name": "Thiệu Trị"
   },
   {
@@ -1356,6 +2420,14 @@
     "courtesyName": "Nguyễn Phúc Hồng Nhậm Nguyễn Phúc Thì",
     "successionOrder": "Con thứ Thiệu Trị",
     "reignYear": "1847 - 1883",
+    "id": "#K154",
+    "relatedId": [
+      "#F1558",
+      "#F1558",
+      "#F1558",
+      "#F1558",
+      "#F1558"
+    ],
     "name": "Tự Đức"
   },
   {
@@ -1365,6 +2437,14 @@
     "courtesyName": "Nguyễn Phúc Ưng Chân Nguyễn Phúc Ưng Ái",
     "successionOrder": "Con thứ Nguyễn Phúc Hồng Y, cháu nội Thiệu Trị, con nuôi Tự Đức",
     "reignYear": "1883 - 1883",
+    "id": "#K155",
+    "relatedId": [
+      "#F1576",
+      "#F1576",
+      "#F1576",
+      "#F1576",
+      "#F1576"
+    ],
     "name": "Dục Đức"
   },
   {
@@ -1374,6 +2454,14 @@
     "courtesyName": "Nguyễn Phúc Hồng Dật Nguyễn Phúc Thăng",
     "successionOrder": "Con thứ 29 Thiệu Trị",
     "reignYear": "1883 - 1883",
+    "id": "#K156",
+    "relatedId": [
+      "#F1557",
+      "#F1557",
+      "#F1557",
+      "#F1557",
+      "#F1557"
+    ],
     "name": "Hiệp Hòa"
   },
   {
@@ -1383,6 +2471,14 @@
     "courtesyName": "Nguyễn Phúc Ưng Đăng",
     "successionOrder": "Con thứ Nguyễn Phúc Hồng Cai, cháu nội Thiệu Trị",
     "reignYear": "1883 - 1884",
+    "id": "#K157",
+    "relatedId": [
+      "#F1577",
+      "#F1577",
+      "#F1577",
+      "#F1577",
+      "#F1577"
+    ],
     "name": "Kiến Phúc"
   },
   {
@@ -1392,6 +2488,14 @@
     "courtesyName": "Nguyễn Phúc Ưng Lịch Nguyễn Phúc Minh",
     "successionOrder": "Em trai Kiến Phúc",
     "reignYear": "1884 - 1885",
+    "id": "#K158",
+    "relatedId": [
+      "#F1579",
+      "#F1579",
+      "#F1579",
+      "#F1579",
+      "#F1579"
+    ],
     "name": "Hàm Nghi"
   },
   {
@@ -1401,6 +2505,14 @@
     "courtesyName": "Nguyễn Phúc Ưng Kỷ Nguyễn Phúc Ưng Đường Nguyễn Phúc Ưng Thị Nguyễn Phúc Biện Chánh Mông",
     "successionOrder": "Con trưởng Nguyễn Phúc Hồng Cai, anh Kiến Phúc và Hàm Nghi",
     "reignYear": "1885 - 1889",
+    "id": "#K159",
+    "relatedId": [
+      "#F1578",
+      "#F1578",
+      "#F1578",
+      "#F1578",
+      "#F1578"
+    ],
     "name": "Đồng Khánh"
   },
   {
@@ -1410,6 +2522,14 @@
     "courtesyName": "Nguyễn Phúc Bửu Lân Nguyễn Phúc Chiêu",
     "successionOrder": "Con Dục Đức",
     "reignYear": "1889 - 1907",
+    "id": "#K160",
+    "relatedId": [
+      "#F1550",
+      "#F1550",
+      "#F1550",
+      "#F1550",
+      "#F1550"
+    ],
     "name": "Thành Thái"
   },
   {
@@ -1419,6 +2539,14 @@
     "courtesyName": "Nguyễn Phúc Vĩnh San Nguyễn Phúc Hoảng",
     "successionOrder": "Con thứ Thành Thái",
     "reignYear": "1907 - 1916",
+    "id": "#K161",
+    "relatedId": [
+      "#F1582",
+      "#F1582",
+      "#F1582",
+      "#F1582",
+      "#F1582"
+    ],
     "name": "Duy Tân"
   },
   {
@@ -1428,6 +2556,14 @@
     "courtesyName": "Nguyễn Phúc Bửu Đảo",
     "successionOrder": "Con trưởng Đồng Khánh",
     "reignYear": "1916 - 1925",
+    "id": "#K162",
+    "relatedId": [
+      "#F1546",
+      "#F1546",
+      "#F1546",
+      "#F1546",
+      "#F1546"
+    ],
     "name": "Khải Định"
   },
   {
@@ -1437,6 +2573,14 @@
     "courtesyName": "Nguyễn Phúc Vĩnh Thụy Nguyễn Phúc Thiển",
     "successionOrder": "Con Khải Định",
     "reignYear": "1925 - 1945",
+    "id": "#K163",
+    "relatedId": [
+      "#F1583",
+      "#F1583",
+      "#F1583",
+      "#F1583",
+      "#F1583"
+    ],
     "name": "Bảo Đại"
   }
 ]

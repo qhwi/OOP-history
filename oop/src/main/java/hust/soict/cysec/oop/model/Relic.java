@@ -12,11 +12,9 @@ public class Relic {
 	private String rank;
 	private String desc;
 	private List<String> relatedFigures;
-	private List<String> dynasties;
 	
 	public Relic() {
 		relatedFigures = new LinkedList<String>();
-		dynasties = new LinkedList<String>();
 	}
 	
 	public String getName() {
@@ -54,12 +52,6 @@ public class Relic {
 		if(!StringUtility.isEmptyString(desc))
 			this.desc = desc;
 	}
-	public List<String> getDynasties() {
-		return dynasties;
-	}
-	public void setDynasties(List<String> dynasties) {
-		this.dynasties = dynasties;
-	}
 	public List<String> getRelatedFigures(){
 		return relatedFigures;
 	}
@@ -70,11 +62,6 @@ public class Relic {
 	public void addFigure(String figure) {
 		if(!StringUtility.isEmptyString(figure))
 			relatedFigures.add(figure);
-	}
-	
-	public void addDynasty(String dynasty) {
-		if(!StringUtility.isEmptyString(dynasty))
-			dynasties.add(dynasty);
 	}
 	
 	public boolean checking(Object obj) {

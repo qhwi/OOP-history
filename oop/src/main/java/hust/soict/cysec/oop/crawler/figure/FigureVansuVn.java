@@ -38,7 +38,7 @@ public class FigureVansuVn extends LeafCrawler<Figure> {
 	}
 	
 	public static Figure crawlOnePage(String url) throws IOException {
-		System.out.println("Crawl: " + url);
+		System.out.println("[CRAWL FIGURE] " + url);
 		Document doc = Jsoup.connect(url).get();
 		Figure figure = new Figure();
 		

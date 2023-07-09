@@ -7,48 +7,51 @@ import hust.soict.cysec.oop.common.StringUtility;
 
 public class Dynasty {
 	private String id;
+	private String name;
+	private String startYear;
+	private String endYear;
+	private List<String> kings;
+	private String capital;
+	private List<String> relatedId;
+	
+	public Dynasty() {
+		this.kings = new LinkedList<>();
+		this.relatedId = new LinkedList<>();
+	}
+	
 	public String getId() {
 		return id;
 	}
 	public void setId(String id) {
 		this.id = id;
 	}
-	private String name;
-	private String startYear;
-	private String endYear;
-	private List<String> kings;
-	private String capital;
-	
-	public Dynasty() {
-		this.kings = new LinkedList<>();
-	}
 	
 	public String getName() {
 		return name;
 	}
 	public void setName(String name) {
-		if(StringUtility.isEmptyString(name))
+		if(!StringUtility.isEmptyString(name))
 			this.name = name;
 	}
 	public String getStartYear() {
 		return startYear;
 	}
 	public void setStartYear(String startYear) {
-		if(StringUtility.isEmptyString(startYear))
+		if(!StringUtility.isEmptyString(startYear))
 			this.startYear = startYear;
 	}
 	public String getEndYear() {
 		return endYear;
 	}
 	public void setEndYear(String endYear) {
-		if(StringUtility.isEmptyString(endYear))
+		if(!StringUtility.isEmptyString(endYear))
 			this.endYear = endYear;
 	}
 	public String getCapital() {
 		return capital;
 	}
 	public void setCapital(String capital) {
-		if(StringUtility.isEmptyString(capital))
+		if(!StringUtility.isEmptyString(capital))
 			this.capital = capital;
 	}
 	public List<String> getKings(){
@@ -56,11 +59,15 @@ public class Dynasty {
 	}
 	
 	public void addKing(String king) {
-		this.kings.add(king);
+		if(!StringUtility.isEmptyString(king))
+			this.kings.add(king);
+	}
+	
+	public List<String> getRelatedId() {
+		return this.relatedId;
 	}
 	
 	public boolean checking(Object obj) {
-
 		if (obj instanceof String) {
 			String a = (String) obj;
 			if (name != null && !name.isEmpty())

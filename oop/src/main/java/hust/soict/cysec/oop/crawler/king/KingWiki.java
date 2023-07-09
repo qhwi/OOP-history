@@ -23,7 +23,7 @@ public class KingWiki extends LeafCrawler<King> {
 		List<King> kings = new ArrayList<>();
 		
 		String url = "https://vi.wikipedia.org/wiki/Vua_Vi%E1%BB%87t_Nam";
-		System.out.println("Crawl: " + url);
+		System.out.println("[CRAWL KING] " + url);
 		Document doc = Jsoup.connect(url).get();
 		
 		Elements firstTable = doc.select("table.toccolours");

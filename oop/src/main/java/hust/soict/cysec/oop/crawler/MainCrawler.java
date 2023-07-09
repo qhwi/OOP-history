@@ -31,14 +31,14 @@ public class MainCrawler {
 		return this.listCrawlers;
 	}
 	
-	// Execute only one crawler
+	// Execute all crawler
 	public void envokeAllCrawlers() throws IOException {
 		for (NodeCrawler<?> nodeCrawler : listCrawlers) {
 			envokeCrawler(nodeCrawler);
 		}
 	}
 	
-	// Execute all crawlers
+	// Execute only one crawlers
 	public void envokeCrawler(NodeCrawler<?> nodeCrawler) throws IOException {
 		nodeCrawler.envokeAllCrawlers();
 	}
@@ -71,7 +71,7 @@ public class MainCrawler {
 		
 		// Crawl one
 		try {
-			NodeCrawler<?> relicCrawler = mainCrawler.getListCrawlers().get(4);
+			NodeCrawler<?> relicCrawler = mainCrawler.getListCrawlers().get(3);
 			mainCrawler.envokeCrawler(relicCrawler);
 			mainCrawler.writeToJson(relicCrawler);
 		} catch(IOException e) {
