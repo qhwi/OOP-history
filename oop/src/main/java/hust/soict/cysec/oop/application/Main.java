@@ -12,7 +12,8 @@ public class Main extends Application {
 		try {
 			Parent root = FXMLLoader.load(getClass().getResource("main.fxml"));
 			primaryStage.setTitle("Project OOP");
-			primaryStage.setScene(new Scene(root, 1024, 768));
+			Scene scene = new Scene(root, 1024, 768);
+			primaryStage.setScene(scene);
 			primaryStage.show();
 		} catch (Exception e) {
 			e.printStackTrace();

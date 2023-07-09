@@ -1,0 +1,315 @@
+[
+   {
+      "name": "Hồng Bàng",
+      "startYear": "2879 TCN",
+      "endYear": "258 TCN",
+      "capital": "Ngàn Hống (~2879 TCN – ?) Nghĩa Lĩnh (Thế kỷ XXIX TCN) Phong Châu (Tới 258 TCN)",
+      "kings": [
+         "2879–2794 TCN Hùng Vương I",
+         "408–258 TCN Hùng Vương XVIII"
+      ],
+      "id": "#D1",
+      "relatedId": []
+   },
+   {
+      "name": "Thời kỳ Bắc thuộc lần thứ nhất",
+      "startYear": "179 TCN",
+      "endYear": "40",
+      "capital": "Giao Chỉ",
+      "kings": [
+         "111-87 TCN Hán Vũ Đế",
+         "87-74 TCN Hán Chiêu Đế",
+         "40 Hán Quang Vũ Đế"
+      ],
+      "id": "#D2",
+      "relatedId": []
+   },
+   {
+      "name": "Nhà Triệu",
+      "startYear": "204 TCN",
+      "endYear": "111 TCN",
+      "capital": "Phiên Ngung",
+      "kings": [
+         "204–137 TCN Vũ đế",
+         "137–125 TCN Văn đế",
+         "125–113 TCN Minh đế",
+         "113–112 TCN Ai đế",
+         "112–111 TCN Dương đế",
+         "Thừa tướng"
+      ],
+      "id": "#D3",
+      "relatedId": []
+   },
+   {
+      "name": "Thời kỳ Bắc thuộc lần thứ hai",
+      "startYear": "43",
+      "endYear": "544",
+      "capital": "Long Biên",
+      "kings": [
+         "43-57 Hán Quang Vũ Đế",
+         "229-252 Tôn Quyền của Đông Ngô",
+         "266-290 Tấn Vũ Đế",
+         "420-422 Lưu Tống Vũ Đế",
+         "479-482 Nam Tề Cao Đế",
+         "502–544 Lương Vũ Đế"
+      ],
+      "id": "#D4",
+      "relatedId": []
+   },
+   {
+      "name": "Nhà Tiền Lý",
+      "startYear": "544",
+      "endYear": "602",
+      "capital": "Long Biên",
+      "kings": [
+         "544–548 Lý Nam Đế",
+         "548–571 Triệu Việt Vương",
+         "571-602 Lý Phật Tử"
+      ],
+      "id": "#D5",
+      "relatedId": [
+         "#K28",
+         "#K29"
+      ]
+   },
+   {
+      "name": "Thời kỳ Bắc thuộc lần thứ ba",
+      "startYear": "603",
+      "endYear": "905",
+      "capital": "Đại La",
+      "kings": [
+         "602–604 Tùy Văn Đế",
+         "618–626 Đường Cao Tổ",
+         "917–938 Lưu Nham",
+         "Tiết độ sứ"
+      ],
+      "id": "#D6",
+      "relatedId": []
+   },
+   {
+      "name": "Nhà Ngô",
+      "startYear": "939",
+      "endYear": "965",
+      "capital": "Cổ Loa",
+      "kings": [
+         "939-944 Ngô Quyền",
+         "944-950 Dương Tam Kha",
+         "950-965 Ngô Xương Văn, Ngô Xương Ngập"
+      ],
+      "id": "#D7",
+      "relatedId": [
+         "#K43",
+         "#K45"
+      ]
+   },
+   {
+      "name": "Nhà Đinh",
+      "startYear": "968",
+      "endYear": "980",
+      "capital": "Hoa Lư",
+      "kings": [
+         "968-979 Đinh Tiên Hoàng",
+         "979-980 Đinh Phế Đế"
+      ],
+      "id": "#D8",
+      "relatedId": [
+         "#K48",
+         "#K49"
+      ]
+   },
+   {
+      "name": "Nhà Tiền Lê",
+      "startYear": "980",
+      "endYear": "1009",
+      "capital": "Hoa Lư",
+      "kings": [
+         "980-1005 Lê Đại Hành",
+         "1005 Lê Trung Tông",
+         "1005-1009 Lê Ngọa Triều"
+      ],
+      "id": "#D9",
+      "relatedId": [
+         "#K50",
+         "#K51",
+         "#K52"
+      ]
+   },
+   {
+      "name": "Nhà Lý",
+      "startYear": "1009",
+      "endYear": "1225",
+      "capital": "Hoa Lư (1009 - 1010) Thăng Long (1010 - 1225)",
+      "kings": [
+         "1009-1028 Lý Thái Tổ",
+         "1224-1225 Lý Chiêu Hoàng"
+      ],
+      "id": "#D10",
+      "relatedId": [
+         "#K53",
+         "#K63"
+      ]
+   },
+   {
+      "name": "Nhà Trần",
+      "startYear": "1225",
+      "endYear": "1400",
+      "capital": "Thăng Long Thiên Trường[1] Thanh Hoá (tạm thời)",
+      "kings": [
+         "1225-1258 Trần Thái Tông",
+         "1398-1400 Trần Thiếu Đế"
+      ],
+      "id": "#D11",
+      "relatedId": [
+         "#K54",
+         "#K76"
+      ]
+   },
+   {
+      "name": "Nhà Hồ",
+      "startYear": "1400",
+      "endYear": "1407",
+      "capital": "Tây Đô 20°4′B 105°36′Đ﻿ / ﻿20,067°B 105,6°Đ﻿ / 20.067; 105.600",
+      "kings": [
+         "1400-1401 Hồ Quý Ly",
+         "1401-1407 Hồ Hán Thương"
+      ],
+      "id": "#D12",
+      "relatedId": [
+         "#K77",
+         "#K78"
+      ]
+   },
+   {
+      "name": "Nhà Hậu Trần",
+      "startYear": "1407",
+      "endYear": "1414",
+      "capital": "Mô Độ (1407 - 1409) Bình Than (1409 - 1414)",
+      "kings": [
+         "Giản Định Đế lên ngôi tại Mộ Độ 1407",
+         "Trùng Quang Đế bị bắt tại Hóa Châu 1414"
+      ],
+      "id": "#D13",
+      "relatedId": [
+         "#K80",
+         "#K81"
+      ]
+   },
+   {
+      "name": "Nhà Lê sơ",
+      "startYear": "1428",
+      "endYear": "1527",
+      "capital": "Đông Kinh (東京 1428 - 1527)",
+      "kings": [
+         "1428-1433 Lê Thái Tổ",
+         "1460-1497 Lê Thánh Tông"
+      ],
+      "id": "#D14",
+      "relatedId": [
+         "#K53",
+         "#K55"
+      ]
+   },
+   {
+      "name": "Nhà Lê trung hưng",
+      "startYear": "1533",
+      "endYear": "1789",
+      "capital": "Vạn Lại (tạm thời) (1533–1597) Đông Kinh (1597–1789)",
+      "kings": [
+         "1533–1548 Lê Trang Tông",
+         "1556–1570 Lê Anh Tông",
+         "1787–1789 Lê Chiêu Thống"
+      ],
+      "id": "#D15",
+      "relatedId": [
+         "#K109",
+         "#K58",
+         "#K123"
+      ]
+   },
+   {
+      "name": "Nhà Mạc",
+      "startYear": "1527",
+      "endYear": "1677",
+      "capital": "Đông Kinh",
+      "kings": [
+         "1527-1529 Mạc Thái Tổ",
+         "1562-1592 Mạc Mậu Hợp",
+         "1592-1593 Mạc Toàn",
+         "1593-1625 Mạc Kính Cung",
+         "1638-1677 Mạc Kính Vũ"
+      ],
+      "id": "#D16",
+      "relatedId": [
+         "#K53",
+         "#K101",
+         "#K102",
+         "#K104"
+      ]
+   },
+   {
+      "name": "Chúa Trịnh",
+      "startYear": "1545",
+      "endYear": "1787",
+      "capital": "Đông Kinh",
+      "kings": [
+         "Trịnh Kiểm xưng Thái sư Lạng Quốc công 1545",
+         "Trịnh Tùng chính thức xưng vương 1570",
+         "Trịnh Bồng mất ngôi 1787"
+      ],
+      "id": "#D17",
+      "relatedId": [
+         "#K124",
+         "#K126",
+         "#K136"
+      ]
+   },
+   {
+      "name": "Chúa Nguyễn",
+      "startYear": "1558",
+      "endYear": "1777",
+      "capital": "Ái Tử-Trà Bát (1558-1626) Phước Yên-Bác Vọng (1626-1636, 1712-1738) Kim Long-Phú Xuân (1636-1712, 1738-1775) Hội An (1775-1777) Gia Định (1777, 1780-1783, 1788-1802)",
+      "kings": [
+         "Nguyễn Hoàng vào trấn thủ vùng Thuận Hóa 1558",
+         "Nguyễn Phúc Khoát chính thức xưng vương 1744",
+         "Khởi nghĩa Tây Sơn bùng nổ 1771",
+         "Nguyễn Phúc Dương bị quân Tây Sơn giết 1777"
+      ],
+      "id": "#D18",
+      "relatedId": [
+         "#K137",
+         "#K146"
+      ]
+   },
+   {
+      "name": "Nhà Tây Sơn",
+      "startYear": "1778",
+      "endYear": "1802",
+      "capital": "Quy Nhơn (1778-1788) Phú Xuân (1788-1802) Phượng Hoàng Trung Đô (1788-1802)",
+      "kings": [
+         "1778-1788 Nguyễn Nhạc",
+         "1788-1792 Nguyễn Huệ",
+         "1792-1802 Nguyễn Quang Toản"
+      ],
+      "id": "#D19",
+      "relatedId": [
+         "#K149"
+      ]
+   },
+   {
+      "name": "Nhà Nguyễn",
+      "startYear": "1802",
+      "endYear": "1945",
+      "capital": "Phú Xuân (nay là Huế) 16°28′B 107°36′Đ﻿ / ﻿16,467°B 107,6°Đ﻿ / 16.467; 107.600",
+      "kings": [
+         "1802–1820 Gia Long",
+         "1884–1885 Hàm Nghi",
+         "1926–1945 Bảo Đại"
+      ],
+      "id": "#D20",
+      "relatedId": [
+         "#K150",
+         "#K157",
+         "#K162"
+      ]
+   }
+]

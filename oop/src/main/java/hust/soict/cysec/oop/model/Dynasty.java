@@ -4,10 +4,18 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Dynasty {
+	private String id;
+	public String getId() {
+		return id;
+	}
+	public void setId(String id) {
+		this.id = id;
+	}
 	private String name;
 	private String startYear;
 	private String endYear;
 	private List<String> kings = new ArrayList<>();
+	private List<String> relatedId;
 	private String capital;
 	
 	public String getName() {
@@ -36,6 +44,10 @@ public class Dynasty {
 	}
 	public List<String> getKings(){
 		return this.kings;
+	}
+	
+	public List<String> getRelatedId(){
+		return this.relatedId;
 	}
 //	public void addKing(King king) {
 //		this.kings.add(king);

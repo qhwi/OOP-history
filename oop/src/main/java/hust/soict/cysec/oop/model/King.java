@@ -1,5 +1,7 @@
 package hust.soict.cysec.oop.model;
 
+import java.util.List;
+
 public class King extends HistoricalFigure {
 	private String templateName; // Miến hiệu
 	private String posthumousName; // Thụy hiệu
@@ -7,9 +9,27 @@ public class King extends HistoricalFigure {
 	private String courtesyName; // Tên húy
 	private String successionOrder; // Thế thứ
 	private String reignYear; // Năm trị vì
+
 	private String predecessor; // Tiền nhiệm
 	private String successor; // Kế nhiệm
+	private String id;
+	private List<String> relatedId;
 	
+	public List<String> getRelatedId() {
+		return relatedId;
+	}
+	public void setRelatedId(List<String> relatedId) {
+		this.relatedId = relatedId;
+	}
+	public String getId() {
+		return id;
+	}
+	public void setId(String id) {
+		this.id = id;
+	}
+//	public String getName() {
+//		return name;
+//	}
 	public String getTemplateName() {
 		return templateName;
 	}

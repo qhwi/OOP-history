@@ -7,9 +7,31 @@ public class Figure extends HistoricalFigure {
 	private String alias;
 	private String hometown;
 	private String note;
-	private ArrayList<Dynasty> dynasties = new ArrayList<Dynasty>();
-	private ArrayList<HistoricalEvent> eventJoined;
+	private ArrayList<String> dynasties;
+//	private ArrayList<Dynasty> dynasties;
 
+
+
+	private ArrayList<String> relatedId;
+	private String id;
+	public String getId() {
+		return id;
+	}
+	public void setId(String id) {
+		this.id = id;
+	}
+	public ArrayList<String> getRelatedId() {
+		return relatedId;
+	}
+	public void setRelatedId(ArrayList<String> relatedId) {
+		this.relatedId = relatedId;
+	}
+	public ArrayList<String> getDynasties() {
+		return dynasties;
+	}
+	public void setDynasties(ArrayList<String> dynasties) {
+		this.dynasties = dynasties;
+	}
 	public String getAlias() {
 		return alias;
 	}
@@ -34,21 +56,9 @@ public class Figure extends HistoricalFigure {
 		this.note = note;
 	}
 	
-	public void setDynasties(List<Dynasty> dynasties) {
-		this.dynasties.addAll(dynasties);
-	}
-	
-	public List<Dynasty> getDynasties(){
-		return this.dynasties;
-	}
-
-	public void addDynasty(Dynasty dynasty) {
-		this.dynasties.add(dynasty);
-	}
-	
-	public void addEvent(HistoricalEvent event) {
-		this.eventJoined.add(event);
-	}
+//	public void addDynasty(Dynasty dynasty) {
+//		this.dynasties.add(dynasty);
+//	}
 	
 	public void print() {
 		System.out.println("------" + getName() + "-------");
@@ -56,9 +66,9 @@ public class Figure extends HistoricalFigure {
 		System.out.println("Năm sinh: " + getBirth() + " - " + getDeath());
 		System.out.println("Tỉnh thành: " + getHometown());
 		System.out.println("Triều đại: ");
-		for (Dynasty dynasty : dynasties) {
-			System.out.println("- " + dynasty.getName());
-		}
+//		for (Dynasty dynasty : dynasties) {
+//			System.out.println("- " + dynasty.getName());
+//		}
 		System.out.println("Ghi chú: " + getNote());
 	}
 }

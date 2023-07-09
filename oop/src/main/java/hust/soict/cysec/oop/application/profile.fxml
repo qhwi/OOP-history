@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
 <?import javafx.geometry.Insets?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.Separator?>
@@ -13,8 +21,7 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-
-<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1">
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="742.0" prefWidth="1119.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
    <top>
       <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER">
          <children>
@@ -32,7 +39,7 @@
                <effect>
                   <Shadow>
                      <color>
-                        <Color red="0.043040934950113297" green="0.5554970502853394" blue="0.7263157963752747" />
+                        <Color blue="0.7263157963752747" green="0.5554970502853394" red="0.043040934950113297" />
                      </color>
                   </Shadow>
                </effect>
@@ -41,23 +48,23 @@
       </VBox>
    </top>
    <center>
-      <VBox prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER">
+      <VBox prefHeight="540.0" prefWidth="1204.0" BorderPane.alignment="CENTER">
          <children>
-            <VBox prefHeight="200.0" prefWidth="100.0">
+            <VBox prefHeight="104.0" prefWidth="1119.0">
                <children>
                   <HBox alignment="CENTER" prefHeight="52.0" prefWidth="600.0">
                      <children>
-                        <ImageView fitHeight="60.0" fitWidth="71.0" pickOnBounds="true" preserveRatio="true">
+                        <ImageView fitHeight="60.0" fitWidth="58.0" pickOnBounds="true" preserveRatio="true">
                            <image>
                               <Image url="@../../../../../../../../../iconProfile/name.png" />
                            </image>
                         </ImageView>
-                        <Label contentDisplay="CENTER" prefHeight="89.0" prefWidth="105.0" text="   Tên">
+                        <Label contentDisplay="CENTER" prefHeight="60.0" prefWidth="279.0" text="   Tên">
                            <font>
                               <Font name="System Bold Italic" size="20.0" />
                            </font>
                         </Label>
-                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Text" wrappingWidth="402.1366424560547">
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Text" wrappingWidth="576.1366424560547">
                            <font>
                               <Font size="20.0" />
                            </font>
@@ -67,28 +74,28 @@
                   <Separator prefHeight="19.0" prefWidth="600.0" />
                </children>
             </VBox>
-            <VBox layoutX="10.0" layoutY="10.0" prefHeight="200.0" prefWidth="100.0">
+            <VBox layoutX="10.0" layoutY="10.0" prefHeight="104.0" prefWidth="1119.0">
                <children>
                   <HBox alignment="CENTER" prefHeight="52.0" prefWidth="600.0">
                      <children>
-                        <ImageView fitHeight="60.0" fitWidth="71.0" pickOnBounds="true" preserveRatio="true">
+                        <ImageView fitHeight="60.0" fitWidth="58.0" pickOnBounds="true" preserveRatio="true">
                            <image>
                               <Image url="@../../../../../../../../../iconProfile/name.png" />
                            </image>
                         </ImageView>
-                        <Label contentDisplay="CENTER" prefHeight="89.0" prefWidth="105.0" text="   Tên">
+                        <Label contentDisplay="CENTER" prefHeight="60.0" prefWidth="279.0" text="   Tên">
                            <font>
                               <Font name="System Bold Italic" size="20.0" />
                            </font>
                         </Label>
-                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Text" wrappingWidth="402.1366424560547">
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Text" wrappingWidth="576.1366424560547">
                            <font>
                               <Font size="20.0" />
                            </font>
                         </Text>
                      </children>
                   </HBox>
-                  <Separator prefWidth="200.0" />
+                  <Separator prefHeight="19.0" prefWidth="600.0" />
                </children>
             </VBox>
          </children>
