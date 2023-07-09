@@ -64,14 +64,14 @@ public class EventThuVienLichSuVn extends LeafCrawler<HistoricalEvent> {
 		event.setName(name);
 		
 		String start = eventInfo.get(1);
-		event.setStartTime(start);
+		event.setStartYear(start);
 		
 		String end = eventInfo.get(2);
-		event.setEndTime(end);
+		event.setEndYear(end);
 		
 		// Event Desc
 		String desc = doc.select("div.card-body").get(1).text();
-		event.setDesc(desc);
+		event.setDescription(desc);
 		
 		// Event Locations
 		Elements locations = doc.select("h3.card-title");

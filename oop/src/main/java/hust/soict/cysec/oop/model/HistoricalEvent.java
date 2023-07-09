@@ -60,7 +60,7 @@ public class HistoricalEvent {
 	public void print() {
 		System.out.println("----- " + this.name + " ------");
 		System.out.println("Thời gian: " + this.startYear + " - " + this.endYear);
-		System.out.println("Mô tả: " + this.desc);
+		System.out.println("Mô tả: " + this.description);
 		System.out.println("Địa điểm: ");
 		for (String location : locations) {
 			System.out.println("- " + location);

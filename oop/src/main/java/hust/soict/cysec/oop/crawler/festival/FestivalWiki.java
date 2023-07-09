@@ -35,7 +35,7 @@ public class FestivalWiki extends LeafCrawler<Festival> {
 			Element row = rows.get(i);  
 			
 			String date = row.select("td").get(0).text();
-			festival.setTime(date);
+			festival.setDate(date);
 			
 			String place = row.select("td").get(1).text();
 			festival.setLocation(place);
@@ -57,7 +57,7 @@ public class FestivalWiki extends LeafCrawler<Festival> {
 				if (!hyperlink.isBlank()) {
 					hyperlink = "https://vi.wikipedia.org" + hyperlink;
 					description = parseDescription(hyperlink);
-					festival.setDesc(description);
+					festival.setDescription(description);
 				}
 			} catch (Exception e) {
 				System.out.println("Cannot parse description");
