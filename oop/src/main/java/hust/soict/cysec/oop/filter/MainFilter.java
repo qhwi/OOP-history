@@ -45,16 +45,4 @@ public class MainFilter {
 		JSONUtility.writeToJSON(nodeFilter.JSON_URL, nodeFilter.getFilteredList());
 	}
 	
-	public static void main(String[] args) {
-		MainFilter mainFilter = new MainFilter();
-		
-		try {
-			mainFilter.envokeAllFilters();
-			mainFilter.writeAllToJson();
-		} catch (IOException e) {
-			System.out.println("Error while running filter");
-		}
-		
-	}
-	
 }

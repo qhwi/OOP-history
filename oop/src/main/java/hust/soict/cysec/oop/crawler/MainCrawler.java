@@ -54,30 +54,4 @@ public class MainCrawler {
 	public void writeToJson(NodeCrawler<?> nodeCrawler) throws IOException {
 		JSONUtility.writeToJSON(nodeCrawler.JSON_URL, nodeCrawler.getCrawledList());
 	}
-
-	public static void main(String[] args) {
-		MainCrawler mainCrawler = new MainCrawler();
-		
-		// Crawl all
-//		for (NodeCrawler<?> nodeCrawler : mainCrawler.getListCrawlers()) {
-//			try {
-//				mainCrawler.envokeCrawler(nodeCrawler);
-//				mainCrawler.writeToJson(nodeCrawler);
-//			} catch (IOException e) {
-//				System.out.println("Error");
-//				e.printStackTrace();
-//			}
-//		}
-		
-		// Crawl one
-		try {
-			NodeCrawler<?> relicCrawler = mainCrawler.getListCrawlers().get(3);
-			mainCrawler.envokeCrawler(relicCrawler);
-			mainCrawler.writeToJson(relicCrawler);
-		} catch(IOException e) {
-			System.out.println("Error");
-			e.printStackTrace();
-		}
-		
-	}
 }

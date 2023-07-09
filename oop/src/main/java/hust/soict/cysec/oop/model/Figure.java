@@ -6,13 +6,13 @@ import java.util.List;
 import hust.soict.cysec.oop.common.StringUtility;
 
 public class Figure extends HistoricalFigure {
+	private String id;
 	private String alias;
 	private String hometown;
 	private String note;
 	private List<String> dynasties;
 	private List<String> eventJoined;
 	private List<String> relatedId;
-	private String id;
 	
 	public Figure() {
 		this.dynasties = new LinkedList<>();

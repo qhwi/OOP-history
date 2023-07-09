@@ -5,16 +5,15 @@ import java.util.List;
 import hust.soict.cysec.oop.common.StringUtility;
 
 public class King extends HistoricalFigure {
+	private String id;
 	private String templateName; // Miến hiệu
 	private String posthumousName; // Thụy hiệu
 	private String eraName; // Niên hiệu
 	private String courtesyName; // Tên húy
 	private String successionOrder; // Thế thứ
 	private String reignYear; // Năm trị vì
-
 	private String predecessor; // Tiền nhiệm
 	private String successor; // Kế nhiệm
-	private String id;
 	private List<String> relatedId;
 	
 	public King() {

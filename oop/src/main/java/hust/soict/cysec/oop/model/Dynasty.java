@@ -10,8 +10,8 @@ public class Dynasty {
 	private String name;
 	private String startYear;
 	private String endYear;
-	private List<String> kings;
 	private String capital;
+	private List<String> kings;
 	private List<String> relatedId;
 	
 	public Dynasty() {
