@@ -6,32 +6,33 @@ public class HistoricalEvent {
 	private String name;
 	private String startYear;
 	private String endYear;
-	private String desc;
+	private String description;
 	private List<String> locations;
 	private List<String> figures;
+	public String getStartYear() {
+		return startYear;
+	}
+	public void setStartYear(String startYear) {
+		this.startYear = startYear;
+	}
+	public String getEndYear() {
+		return endYear;
+	}
+	public void setEndYear(String endYear) {
+		this.endYear = endYear;
+	}
+
 	public String getName() {
 		return name;
 	}
 	public void setName(String name) {
 		this.name = name;
 	}
-	public String getStartTime() {
-		return startYear;
+	public String getDescription() {
+		return description;
 	}
-	public void setStartTime(String startTime) {
-		this.startYear = startTime;
-	}
-	public String getEndTime() {
-		return endYear;
-	}
-	public void setEndTime(String endTime) {
-		this.endYear = endTime;
-	}
-	public String getDesc() {
-		return desc;
-	}
-	public void setDesc(String desc) {
-		this.desc = desc;
+	public void setDescription(String description) {
+		this.description = description;
 	}
 	public List<String> getLocation() {
 		return locations;
