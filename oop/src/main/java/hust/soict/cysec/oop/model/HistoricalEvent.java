@@ -46,5 +46,15 @@ public class HistoricalEvent {
 //		this.figures.add(figure);
 //	}
 	
+	public boolean checking(Object obj) {
+
+		if (obj instanceof String) {
+			String a = (String) obj;
+			if (name != null && !name.isEmpty())
+				return name.contains(a);
+		}
+		return false;
+	}
+	
 	
 }
