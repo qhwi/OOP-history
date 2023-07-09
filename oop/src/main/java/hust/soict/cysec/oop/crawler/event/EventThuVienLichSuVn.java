@@ -13,7 +13,6 @@ import org.jsoup.select.Elements;
 import hust.soict.cysec.oop.common.Constants;
 import hust.soict.cysec.oop.common.TimeUtility;
 import hust.soict.cysec.oop.crawler.generic.LeafCrawler;
-import hust.soict.cysec.oop.model.Figure;
 import hust.soict.cysec.oop.model.HistoricalEvent;
 
 public class EventThuVienLichSuVn extends LeafCrawler<HistoricalEvent> {
@@ -83,9 +82,10 @@ public class EventThuVienLichSuVn extends LeafCrawler<HistoricalEvent> {
 		// Event Related Figures
 		Elements figures = doc.select("h4.card-title");
 		for (Element figure : figures) {
-			Figure relatedFigure = new Figure();
-			relatedFigure.setName(figure.text());
-			event.addFigure(relatedFigure);
+			event.getFigure().add(figure.text());
+//			Figure relatedFigure = new Figure();
+//			relatedFigure.setName(figure.text());
+//			event.addFigure(relatedFigure);
 		}
 		
 		return event;

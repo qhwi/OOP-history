@@ -1,6 +1,5 @@
 package hust.soict.cysec.oop.model;
 
-import java.util.LinkedList;
 import java.util.List;
 
 public class HistoricalEvent {

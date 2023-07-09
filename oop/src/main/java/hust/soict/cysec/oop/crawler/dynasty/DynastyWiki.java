@@ -15,7 +15,6 @@ import org.jsoup.select.Elements;
 import hust.soict.cysec.oop.common.Constants;
 import hust.soict.cysec.oop.crawler.generic.LeafCrawler;
 import hust.soict.cysec.oop.model.Dynasty;
-import hust.soict.cysec.oop.model.King;
 
 public class DynastyWiki extends LeafCrawler<Dynasty>{
 	public DynastyWiki() {
@@ -147,9 +146,10 @@ public class DynastyWiki extends LeafCrawler<Dynasty>{
 			dynasty.setEndYear(obj[2]);
 			dynasty.setCapital(obj[3]);
 			for (String kingName : kings) {
-				King king = new King();
-				king.setName(kingName);
-				dynasty.addKing(king);
+//				King king = new King();
+//				king.setName(kingName);
+//				dynasty.addKing(king);
+				dynasty.getKings().add(kingName);
 			}
 			
 		}
