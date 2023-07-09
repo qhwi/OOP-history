@@ -7,7 +7,7 @@ public class Dynasty {
 	private String name;
 	private String startYear;
 	private String endYear;
-	private List<King> kings = new ArrayList<>();
+	private List<String> kings = new ArrayList<>();
 	private String capital;
 	
 	public String getName() {
@@ -34,12 +34,12 @@ public class Dynasty {
 	public void setCapital(String capital) {
 		this.capital = capital;
 	}
-	public List<King> getKings(){
+	public List<String> getKings(){
 		return this.kings;
 	}
-	public void addKing(King king) {
-		this.kings.add(king);
-	}
+//	public void addKing(King king) {
+//		this.kings.add(king);
+//	}
 	
 	
 }
