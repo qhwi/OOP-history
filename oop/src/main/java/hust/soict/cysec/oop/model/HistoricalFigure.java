@@ -24,5 +24,15 @@ public abstract class HistoricalFigure {
 		this.death = death;
 	}
 	
+	public boolean checking(Object obj) {
+
+		if (obj instanceof String) {
+			String a = (String) obj;
+			if (name != null && !name.isEmpty())
+				return name.contains(a);
+		}
+		return false;
+	}
+	
 	
 }

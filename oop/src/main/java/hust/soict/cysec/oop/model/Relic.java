@@ -68,6 +68,16 @@ public class Relic {
 		dynasties.add(dynasty);
 	}
 	
+	public boolean checking(Object obj) {
+
+		if (obj instanceof String) {
+			String a = (String) obj;
+			if (name != null && !name.isEmpty())
+				return name.contains(a);
+		}
+		return false;
+	}
+	
 	public void print() {
 		System.out.println("Tên: " + this.getName());
 		System.out.println("Địa điểm: " + this.getLocation());
