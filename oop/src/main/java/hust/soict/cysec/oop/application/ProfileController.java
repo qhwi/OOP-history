@@ -128,7 +128,7 @@ public class ProfileController {
 		selectedItem.setStyle("-fx-background-color: #ccc");
 
 		// Pop up
-		setEventClickOnRow((TableView<HistoricalFigure>) tableData);
+		setEventClickOnRow((TableView<Figure>) tableData);
     }
     
     private <T> void settingTable(TableView<T> table, ObservableList<T> data, List<String> columnName, List<String> columnProperty) {
@@ -170,7 +170,7 @@ public class ProfileController {
 			copyTable(figureTable, (TableView<Figure>) tableData);
 			break;
 		case "Vua":
-			copyTable(figureTable, (TableView<Figure>) tableData);
+			copyTable(kingTable, (TableView<King>) tableData);
 			break;
 		case "Di tích lịch sử":
 			copyTable(relicTable, (TableView<Relic>) tableData);
@@ -204,6 +204,10 @@ public class ProfileController {
 						if (rowData instanceof Figure) {
 							popupData((Figure) rowData, figureTableFieldName,
 									figureTableFieldProperty, "Nhân vật lịch sử");
+						}
+						if (rowData instanceof King) {
+							popupData((King) rowData, kingTableFieldName,
+									kingTableFieldProperty, "Vua");
 						}
 						if (rowData instanceof Relic) {
 							popupData((Relic) rowData, relicTableFieldName,
