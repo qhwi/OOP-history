@@ -1,9 +1,9 @@
 package hust.soict.cysec.oop.model;
 
 public abstract class HistoricalFigure {
-	private String name;
-	private String birth;
-	private String death;
+	protected String name;
+	protected String birth;
+	protected String death;
 	
 	public String getName() {
 		return name;

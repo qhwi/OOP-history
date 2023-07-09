@@ -8,7 +8,7 @@ public class HistoricalEvent {
 	private String endYear;
 	private String desc;
 	private List<String> locations;
-	private List<Figure> figures;
+	private List<String> figures;
 	public String getName() {
 		return name;
 	}
@@ -39,12 +39,12 @@ public class HistoricalEvent {
 	public void addLocation(String location) {
 		this.locations.add(location);
 	}
-	public List<Figure> getFigure() {
+	public List<String> getFigure() {
 		return figures;
 	}
-	public void addFigure(Figure figure) {
-		this.figures.add(figure);
-	}
+//	public void addFigure(Figure figure) {
+//		this.figures.add(figure);
+//	}
 	
 	
 }
