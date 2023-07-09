@@ -1,4 +1,4 @@
-package hust.soict.cysec.oop.crawler.historicalfigure.figure;
+package hust.soict.cysec.oop.crawler.figure;
 
 import java.io.IOException;
 import java.util.ArrayList;
@@ -9,10 +9,17 @@ import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
+import hust.soict.cysec.oop.common.Constants;
+import hust.soict.cysec.oop.crawler.generic.LeafCrawler;
 import hust.soict.cysec.oop.model.Figure;
 
-public class FigureGiaoducNet {
-	public static List<Figure> crawlAll() throws IOException {
+public class FigureGiaoducNet extends LeafCrawler<Figure> {
+	public FigureGiaoducNet() {
+		super(Constants.JSON_FIGURE);
+	}
+	
+	@Override
+	public List<Figure> crawl() throws IOException {
 		List<Figure> figures = new ArrayList<>();
 		
 		String url = "https://giaoduc.net.vn/nhung-duong-pho-mang-name-cac-vi-tuong-linh-va-si-quan-quan-doi-post173227.gd";

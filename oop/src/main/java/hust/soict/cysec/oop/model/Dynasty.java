@@ -50,4 +50,13 @@ public class Dynasty {
 		return false;
 	}
 	
+	public void print() {
+		System.out.println("----- " + this.name + " ------");
+		System.out.println("Thời gian: " + this.startYear + " - " + this.endYear);
+		System.out.println("Đời vua: ");
+		for (String king : kings) {
+			System.out.println("- " + king);
+		}
+		System.out.println("Thủ đô: " + capital);
+	}
 }

@@ -1,4 +1,4 @@
-package hust.soict.cysec.oop.crawler.utils;
+package hust.soict.cysec.oop.common;
 
 import java.util.ArrayList;
 import java.util.regex.Matcher;

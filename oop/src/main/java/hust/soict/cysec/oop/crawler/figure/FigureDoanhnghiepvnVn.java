@@ -1,7 +1,7 @@
-package hust.soict.cysec.oop.crawler.historicalfigure.figure;
+package hust.soict.cysec.oop.crawler.figure;
 
 import java.io.IOException;
-import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.List;
 
 import org.jsoup.Jsoup;
@@ -9,11 +9,18 @@ import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
+import hust.soict.cysec.oop.common.Constants;
+import hust.soict.cysec.oop.crawler.generic.LeafCrawler;
 import hust.soict.cysec.oop.model.Figure;
 
-public class FigureDoanhnghiepvnVn {
-	public static List<Figure> crawlAll() throws IOException{
-		List<Figure> figures = new ArrayList<>();
+public class FigureDoanhnghiepvnVn extends LeafCrawler<Figure> {
+	public FigureDoanhnghiepvnVn() {
+		super(Constants.JSON_FIGURE);
+	}
+	
+	@Override
+	public List<Figure> crawl() throws IOException{
+		List<Figure> figures = new LinkedList<>();
 		
 		String url = "https://doanhnghiepvn.vn/kham-pha/chan-dung-10-anh-hung-trong-khang-chien-chong-phap/20200130024940748";
 		System.out.println("Crawl " + url);
@@ -55,13 +62,5 @@ public class FigureDoanhnghiepvnVn {
 		}
 		
 		return figures;
-	}
-	
-	public static void main(String[] args) throws IOException {
-		List<Figure> figures = crawlAll();
-		
-		for (Figure figure : figures) {
-			figure.print();
-		}
 	}
 }

@@ -8,23 +8,26 @@ import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.select.Elements;
 
+import hust.soict.cysec.oop.common.Constants;
+import hust.soict.cysec.oop.crawler.generic.LeafCrawler;
 import hust.soict.cysec.oop.model.Figure;
 import hust.soict.cysec.oop.model.Relic;
 
 /*
  * Crawl 4300 relics
  */
-public class RelicCrawlDiTichVn {	
-	public static final String JSON_RELIC_PATH_DITICHVN = "src\\main\\json\\relic_ditichvn.json";
+public class RelicDiTichVn extends LeafCrawler<Relic> {	
+	public RelicDiTichVn() {
+		super(Constants.JSON_RELIC);
+	}
 	
 	public static String LOCATION_IDENTIFIER = "Vị trí: ";
 	public static String TYPE_IDENTIFIER = "Loại hình di tích: ";
 	public static String RANK_IDENTIFIER = "Xếp hạng: ";
 	public static String WORSHIPED_IDENTIFIER = "Đối tượng thờ: ";
 	
-	private RelicCrawlDiTichVn() {};
-	
-	public static List<Relic> crawAll() throws IOException{
+	@Override
+	public List<Relic> crawl() throws IOException{
 		String url = "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=";
 		List<Relic> relics = new ArrayList<>();
 		
