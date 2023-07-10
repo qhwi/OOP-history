@@ -78,16 +78,16 @@ public class ProfileController {
     private TableView<Dynasty> dynastyTable = new TableView<>();
     private TableView<Festival> festivalTable = new TableView<>();
     
-    private List<String> figureTableFieldName = Arrays.asList("ID","Tên", "Năm sinh", "Năm mất", "Bí danh", "Quê quán", "Ghi chú");
-    private List<String> figureTableFieldProperty = Arrays.asList("id", "name", "birth", "death", "alias", "hometown", "note");
-    private List<String> kingTableFieldName = Arrays.asList("ID","Tên", "Miếu hiệu", "Thụy hiệu", "Niên hiệu", "Tên húy", "Thế thứ", "Năm trị vì" );
-    private List<String> kingTableFieldProperty = Arrays.asList("id", "name", "templateName", "posthumousName", "eraName", "courtesyName", "successionOrder", "reignYear");
+    private List<String> figureTableFieldName = Arrays.asList("Tên", "Năm sinh", "Năm mất", "Bí danh", "Quê quán", "Ghi chú");
+    private List<String> figureTableFieldProperty = Arrays.asList("name", "birth", "death", "alias", "hometown", "note");
+    private List<String> kingTableFieldName = Arrays.asList("Tên", "Miếu hiệu", "Thụy hiệu", "Niên hiệu", "Tên húy", "Thế thứ", "Năm trị vì" );
+    private List<String> kingTableFieldProperty = Arrays.asList("name", "templateName", "posthumousName", "eraName", "courtesyName", "successionOrder", "reignYear");
     private List<String> relicTableFieldName = Arrays.asList("Tên", "Địa điểm", "Loại hình","Xếp hạng");
     private List<String> relicTableFieldProperty = Arrays.asList("name", "location", "type", "rank");
     private List<String> eventTableFieldName = Arrays.asList("Tên", "Bắt đầu", "Kết thúc", "Mô tả");
     private List<String> eventTableFieldProperty = Arrays.asList("name", "startYear", "endYear", "desc");
-    private List<String> dynastyTableFieldName = Arrays.asList("ID","Tên", "Bắt đầu", "Kết thúc", "Thủ đô");
-    private List<String> dynastyTableFieldProperty = Arrays.asList("id", "name", "startYear", "endYear", "capital");
+    private List<String> dynastyTableFieldName = Arrays.asList("Tên", "Bắt đầu", "Kết thúc", "Thủ đô");
+    private List<String> dynastyTableFieldProperty = Arrays.asList("name", "startYear", "endYear", "capital");
     private List<String> festivalTableFieldName = Arrays.asList("Tên", "Địa điểm", "Thời gian", "Mô tả");
     private List<String> festivalTableFieldProperty = Arrays.asList("name", "location", "time", "desc");
     
@@ -506,6 +506,34 @@ public class ProfileController {
 			
 		}
 		
+		if (data instanceof Festival) {
+			List <String> relatedId =  ((Festival) data).getRelatedId();
+			for (int i = 0; i <relatedId.size(); i++) {
+				String relate = relatedId.get(i);
+				Figure figure = figureList.stream().filter(obj -> obj.getId().equals(relate)).findFirst().orElse(null);
+					nameLink.add(figure.getName());
+			}
+		}
+		
+		if (data instanceof HistoricalEvent) {
+			List <String> relatedId =  ((HistoricalEvent) data).getRelatedId();
+			for (int i = 0; i <relatedId.size(); i++) {
+				String relate = relatedId.get(i);
+				Figure figure = figureList.stream().filter(obj -> obj.getId().equals(relate)).findFirst().orElse(null);
+					nameLink.add(figure.getName());
+			}
+		}
+		
+		if (data instanceof Dynasty) {
+			List <String> relatedId = ((Dynasty) data).getRelatedId();
+			System.out.println(relatedId);
+			for (int i = 0; i <relatedId.size(); i++) {
+				String relate = relatedId.get(i);
+				King king = kingList.stream().filter(obj -> obj.getId().equals(relate)).findFirst().orElse(null);
+				nameLink.add(king.getName());
+				
+			}
+		}
 		
 	    vBoxCenter.getChildren().add(createPopupElement("Liên quan", Arrays.asList(nameLink.toString()), "itemProfile"));
 

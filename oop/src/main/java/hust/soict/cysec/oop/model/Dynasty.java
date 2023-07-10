@@ -5,8 +5,15 @@ import java.util.List;
 
 public class Dynasty {
 	private String id;
+	private List<String> relatedId;
 	public String getId() {
 		return id;
+	}
+	public List<String> getRelatedId() {
+		return relatedId;
+	}
+	public void setRelatedId(List<String> relatedId) {
+		this.relatedId = relatedId;
 	}
 	public void setId(String id) {
 		this.id = id;
