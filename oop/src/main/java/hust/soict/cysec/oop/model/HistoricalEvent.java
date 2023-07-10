@@ -27,7 +27,7 @@ public class HistoricalEvent {
 		if(!StringUtility.isEmptyString(name))
 			this.name = name;
 	}
-	public String getStartTime() {
+	public String getStartYear() {
 		return startYear;
 	}
 	public void setStartYear(String startYear) {

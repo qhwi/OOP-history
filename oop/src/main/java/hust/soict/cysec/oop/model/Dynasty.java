@@ -4,7 +4,8 @@ import java.util.LinkedList;
 import java.util.List;
 
 import hust.soict.cysec.oop.common.StringUtility;
-	private List<String> relatedId;
+
+
 public class Dynasty {
 	private String id;
 	private String name;
@@ -13,7 +14,6 @@ public class Dynasty {
 	private String capital;
 	private List<String> kings;
 	private List<String> relatedId;
-	
 	public Dynasty() {
 		this.kings = new LinkedList<>();
 		this.relatedId = new LinkedList<>();
@@ -22,9 +22,7 @@ public class Dynasty {
 	public String getId() {
 		return id;
 	}
-	public List<String> getRelatedId() {
-		return relatedId;
-	}
+
 	public void setRelatedId(List<String> relatedId) {
 		this.relatedId = relatedId;
 	}
