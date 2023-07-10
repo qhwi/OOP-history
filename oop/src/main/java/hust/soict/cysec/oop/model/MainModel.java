@@ -23,7 +23,6 @@ public class MainModel {
 			dynastyTemp = gson.fromJson(readerDynasty, Dynasty[].class);
 			for (Dynasty dynasty : dynastyTemp) {
 				dynasties.add(dynasty);
-				System.out.println(dynasty);
 			}
 			
 			Festival festivalTemp[] = null;
