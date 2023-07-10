@@ -1,43 +1,50 @@
 package hust.soict.cysec.oop.model;
 
-import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.List;
 
+import hust.soict.cysec.oop.common.StringUtility;
+
 public class Figure extends HistoricalFigure {
+	private String id;
 	private String alias;
 	private String hometown;
 	private String note;
-	private ArrayList<String> dynasties;
-//	private ArrayList<Dynasty> dynasties;
-
-
-
-	private ArrayList<String> relatedId;
-	private String id;
+	private List<String> dynasties;
+	private List<String> relatedId;
+	
+	public Figure() {
+		this.dynasties = new LinkedList<>();
+		this.relatedId = new LinkedList<>();
+	}
+	
 	public String getId() {
 		return id;
 	}
 	public void setId(String id) {
 		this.id = id;
 	}
-	public ArrayList<String> getRelatedId() {
+	
+	public List<String> getRelatedId() {
 		return relatedId;
 	}
-	public void setRelatedId(ArrayList<String> relatedId) {
+	public void setRelatedId(List<String> relatedId) {
 		this.relatedId = relatedId;
 	}
-	public ArrayList<String> getDynasties() {
+	
+	public List<String> getDynasties() {
 		return dynasties;
 	}
-	public void setDynasties(ArrayList<String> dynasties) {
+	public void setDynasties(List<String> dynasties) {
 		this.dynasties = dynasties;
 	}
+	
 	public String getAlias() {
 		return alias;
 	}
-
 	public void setAlias(String alias) {
-		this.alias = alias;
+		if(!StringUtility.isEmptyString(alias))
+			this.alias = alias;
 	}
 
 	public String getHometown() {
@@ -45,7 +52,8 @@ public class Figure extends HistoricalFigure {
 	}
 
 	public void setHometown(String hometown) {
-		this.hometown = hometown;
+		if(!StringUtility.isEmptyString(hometown))
+			this.hometown = hometown;
 	}
 
 	public String getNote() {
@@ -53,22 +61,23 @@ public class Figure extends HistoricalFigure {
 	}
 
 	public void setNote(String note) {
-		this.note = note;
+		if(!StringUtility.isEmptyString(note))
+			this.note = note;
 	}
-	
-//	public void addDynasty(Dynasty dynasty) {
-//		this.dynasties.add(dynasty);
-//	}
-	
+
+	public void addDynasty(String dynasty) {
+		if(!StringUtility.isEmptyString(dynasty))
+			this.dynasties.add(dynasty);
+	}
 	public void print() {
 		System.out.println("------" + getName() + "-------");
 		System.out.println("Tên khác: " + getAlias());
 		System.out.println("Năm sinh: " + getBirth() + " - " + getDeath());
 		System.out.println("Tỉnh thành: " + getHometown());
 		System.out.println("Triều đại: ");
-//		for (Dynasty dynasty : dynasties) {
-//			System.out.println("- " + dynasty.getName());
-//		}
+		for (String dynasty : dynasties) {
+			System.out.println("- " + dynasty);
+		}
 		System.out.println("Ghi chú: " + getNote());
 	}
 }

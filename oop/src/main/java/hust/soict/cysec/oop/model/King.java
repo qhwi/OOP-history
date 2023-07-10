@@ -1,19 +1,24 @@
 package hust.soict.cysec.oop.model;
 
+import java.util.LinkedList;
 import java.util.List;
+import hust.soict.cysec.oop.common.StringUtility;
 
 public class King extends HistoricalFigure {
+	private String id;
 	private String templateName; // Miến hiệu
 	private String posthumousName; // Thụy hiệu
 	private String eraName; // Niên hiệu
 	private String courtesyName; // Tên húy
 	private String successionOrder; // Thế thứ
 	private String reignYear; // Năm trị vì
-
 	private String predecessor; // Tiền nhiệm
 	private String successor; // Kế nhiệm
-	private String id;
 	private List<String> relatedId;
+	
+	public King() {
+		this.relatedId = new LinkedList<>();
+	}
 	
 	public List<String> getRelatedId() {
 		return relatedId;
@@ -27,56 +32,61 @@ public class King extends HistoricalFigure {
 	public void setId(String id) {
 		this.id = id;
 	}
-//	public String getName() {
-//		return name;
-//	}
 	public String getTemplateName() {
 		return templateName;
 	}
 	public void setTemplateName(String templateName) {
-		this.templateName = templateName;
+		if(!StringUtility.isEmptyString(templateName))
+			this.templateName = templateName;
 	}
 	public String getPosthumousName() {
 		return posthumousName;
 	}
 	public void setPosthumousName(String posthumousName) {
-		this.posthumousName = posthumousName;
+		if(!StringUtility.isEmptyString(posthumousName))
+			this.posthumousName = posthumousName;
 	}
 	public String getEraName() {
 		return eraName;
 	}
 	public void setEraName(String eraName) {
-		this.eraName = eraName;
+		if(!StringUtility.isEmptyString(eraName))
+			this.eraName = eraName;
 	}
 	public String getCourtesyName() {
 		return courtesyName;
 	}
 	public void setCourtesyName(String courtesyName) {
-		this.courtesyName = courtesyName;
+		if(!StringUtility.isEmptyString(courtesyName))
+			this.courtesyName = courtesyName;
 	}
 	public String getSuccessionOrder() {
 		return successionOrder;
 	}
 	public void setSuccessionOrder(String successionOrder) {
-		this.successionOrder = successionOrder;
+		if(!StringUtility.isEmptyString(successionOrder))
+			this.successionOrder = successionOrder;
 	}
 	public String getReignYear() {
 		return reignYear;
 	}
 	public void setReignYear(String reignYear) {
-		this.reignYear = reignYear;
+		if(!StringUtility.isEmptyString(reignYear))
+			this.reignYear = reignYear;
 	}
 	public String getPredecessor() {
 		return predecessor;
 	}
 	public void setPredecessor(String predecessor) {
-		this.predecessor = predecessor;
+		if(!StringUtility.isEmptyString(predecessor))
+			this.predecessor = predecessor;
 	}
 	public String getSuccessor() {
 		return successor;
 	}
 	public void setSuccessor(String successor) {
-		this.successor = successor;
+		if(!StringUtility.isEmptyString(successor))
+			this.successor = successor;
 	}
 	
 	public void print() {

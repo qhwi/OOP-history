@@ -1,7 +1,9 @@
 package hust.soict.cysec.oop.model;
 
-import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.List;
+
+import hust.soict.cysec.oop.common.StringUtility;
 
 public class Relic {
 	private String name;
@@ -9,67 +11,60 @@ public class Relic {
 	private String type;
 	private String rank;
 	private String desc;
-	private List<Figure> relatedFigures;
-	private List<Dynasty> dynasties;
-
+	private List<String> relatedFigures;
+	
 	public Relic() {
-		relatedFigures = new ArrayList<Figure>();
-		dynasties = new ArrayList<Dynasty>();
+		relatedFigures = new LinkedList<String>();
 	}
 	
 	public String getName() {
 		return name;
 	}
 	public void setName(String name) {
-		this.name = name;
+		if(!StringUtility.isEmptyString(name))
+			this.name = name;
 	}
 	public String getLocation() {
 		return location;
 	}
 	public void setLocation(String location) {
-		this.location = location;
+		if(!StringUtility.isEmptyString(location))
+			this.location = location;
 	}
 	public String getType() {
 		return this.type;
 	}
 	public void setType(String type) {
-		this.type = type;
+		if(!StringUtility.isEmptyString(type))
+			this.type = type;
 	}
 	public String getRank() {
 		return rank;
 	}
 	public void setRank(String rank) {
-		this.rank = rank;
+		if(!StringUtility.isEmptyString(rank))
+			this.rank = rank;
 	}
 	public String getDesc() {
 		return desc;
 	}
 	public void setDesc(String desc) {
-		this.desc = desc;
+		if(!StringUtility.isEmptyString(desc))
+			this.desc = desc;
 	}
-	public List<Dynasty> getDynasties() {
-		return dynasties;
-	}
-	public void setDynasties(List<Dynasty> dynasties) {
-		this.dynasties = dynasties;
-	}
-	public List<Figure> getRelatedFigures(){
+	public List<String> getRelatedFigures(){
 		return relatedFigures;
 	}
-	public void setRelatedFigures(List<Figure> relatedFigures) {
+	public void setRelatedFigures(List<String> relatedFigures) {
 		this.relatedFigures = relatedFigures;
 	}
 	
-	public void addFigure(Figure figure) {
-		relatedFigures.add(figure);
-	}
-	
-	public void addDynasty(Dynasty dynasty) {
-		dynasties.add(dynasty);
+	public void addFigure(String figure) {
+		if(!StringUtility.isEmptyString(figure))
+			relatedFigures.add(figure);
 	}
 	
 	public boolean checking(Object obj) {
-
 		if (obj instanceof String) {
 			String a = (String) obj;
 			if (name != null && !name.isEmpty())
@@ -84,8 +79,8 @@ public class Relic {
 		System.out.println("Loại hình di tích: " + this.getType());
 		System.out.println("Xếp hạng: " + this.getRank());
 		System.out.println("Đối tượng thờ: ");
-		for (Figure figure : relatedFigures) {
-			System.out.println("- " + figure.getName());
+		for (String figure : relatedFigures) {
+			System.out.println("- " + figure);
 		}
 	}
 	
